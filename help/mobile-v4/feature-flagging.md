@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -35,7 +35,9 @@ ht-degree: 1%
 
 在先前課程的示範應用程式中，我們會在「首頁活動」的預回遷請求中新增名為「wetravel_feature_flag_recs」的新位置，並使用新的Java方法將它載入畫面。
 
->[!NOTE] 使用預回遷請求的好處之一是，添加新請求不會增加任何額外的網路開銷或導致額外的負載工作，因為請求被打包在預回遷請求中
+>[!NOTE]
+>
+>使用預回遷請求的好處之一是，添加新請求不會增加任何額外的網路開銷或導致額外的負載工作，因為請求被打包在預回遷請求中
 
 首先，驗證wetravel_feature_flag_recs常數是否已新增至Constant.java檔案：
 
