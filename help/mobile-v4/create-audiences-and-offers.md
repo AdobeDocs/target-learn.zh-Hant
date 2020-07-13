@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -78,13 +78,17 @@ Adobe Target觀眾可用來識別特定訪客群組。 然後，選件可以定�
 
    ![建立舊版使用者對象](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] 在行動 [!DNL Target] SDK中收集的所有生命週期度量和維度都會前置&quot;a&quot;（例如a.Launches），並可在下拉式選單的&quot;Custom&quot;選項中使用，可用來建立觀眾。
+>[!NOTE]
+>
+>在行動 [!DNL Target] SDK中收集的所有生命週期度量和維度都會前置&quot;a&quot;（例如a.Launches），並可在下拉式選單的&quot;Custom&quot;選項中使用，可用來建立觀眾。
 
 ### 為預訂聖地亞哥之行的用戶建立觀眾
 
 接下來，我們將為We.Travel應用程式提供的部分目的地建立一些觀眾。 在上堂課中，我們在wetravel_context_dest位置請求中將目的地作為位置參數傳遞。 該參數可在下拉式功能表的「自訂」選項中使用。
 
->[!NOTE] 如果您預期在「自訂」下拉式清單中看到的參數未出現在介面中，請 [!DNL Target] 連按兩下確認該參數確實傳入請求中。 如果您已驗證是在請求中，但未延遲載入介面，則只需輸入參數名稱並按下 [!DNL Target] enter鍵，即可繼續定義您的觀眾
+>[!NOTE]
+>
+>如果您預期在「自訂」下拉式清單中看到的參數未出現在介面中，請 [!DNL Target] 連按兩下確認該參數確實傳入請求中。 如果您已驗證是在請求中，但未延遲載入介面，則只需輸入參數名稱並按下 [!DNL Target] enter鍵，即可繼續定義您的觀眾
 
 1. 為對象命名 _目標： 聖地牙哥_。
 1. 使用此定義的自訂規則： _locationDest包含San Diego_。
