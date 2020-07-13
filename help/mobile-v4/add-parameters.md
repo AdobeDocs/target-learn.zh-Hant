@@ -7,7 +7,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -47,7 +47,9 @@ ht-degree: 0%
 
 Adobe Target屬性是在介面中定義， [!DNL Target] 用來建立個人化應用程式和網站的界限。 at_property參數可識別存取和維護選件和活動的特定屬性。 我們將向預回遷和即時位置請求添加屬性。
 
->[!NOTE] 視您的授權而定，您可能會或不會在介面中看 [!DNL Target] 到「屬性」選項。 如果您沒有這些選項，或者您的公司中未使用「屬性」，請跳至本課的下一節。
+>[!NOTE]
+>
+>視您的授權而定，您可能會或不會在介面中看 [!DNL Target] 到「屬性」選項。 如果您沒有這些選項，或者您的公司中未使用「屬性」，請跳至本課的下一節。
 
 您可以在「設定」>「屬性」下的介面中 [!DNL Target] 擷取at_property [!UICONTROL 值] 。 您可以  將滑鼠指標暫留在屬性上，選取程式碼片段圖示並複製 `at_property` 值：
 
@@ -140,9 +142,13 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 運行模擬器並開啟日誌。 篩選其中一個參數，以驗證請求是否包含所需的參數：
 ![驗證即時位置請求中的自訂參數](assets/parameters_live_location_validation.jpg)
 
->[!NOTE] 訂單確認請求和參數： 雖然此示範專案中未使用訂單詳細資訊，但訂單詳細資訊通常會在實際實作中擷取， [!DNL Target] 因此可以將訂單詳細資訊當做度量／維度。 請參閱檔案以取得如何實作訂 [單確認要求和參數的指示](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html)。
+>[!NOTE]
+>
+>訂單確認請求和參數： 雖然此示範專案中未使用訂單詳細資訊，但訂單詳細資訊通常會在實際實作中擷取， [!DNL Target] 因此可以將訂單詳細資訊當做度量／維度。 請參閱檔案以取得如何實作訂 [單確認要求和參數的指示](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html)。
 
->[!NOTE] Analytics for Target(A4T): Adobe Analytics可以設定為的報表來源 [!DNL Target]。 這可讓Target SDK收集的所有量度／維度在Adobe Analytics中檢視。 如需詳細 [資訊，請參閱A4T概觀](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) 。
+>[!NOTE]
+>
+>Analytics for Target(A4T): Adobe Analytics可以設定為的報表來源 [!DNL Target]。 這可讓Target SDK收集的所有量度／維度在Adobe Analytics中檢視。 如需詳細 [資訊，請參閱A4T概觀](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) 。
 
 幹得好！ 現在已有參數可供使用，我們已準備好使用這些參數在Adobe Target中建立觀眾和選件。
 
