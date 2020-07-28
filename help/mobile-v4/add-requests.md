@@ -232,7 +232,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 因此，我們在「感謝」畫面上新增即時要求。 在ThankYouActivity檔案中，我們將進行以紅色顯示的變更：
 ![在「感謝」畫面上新增即時位置](assets/thankyou.jpg)
 
-捲動至ThankYouActivity檔案的結尾。 注釋函式中的三行 `getRecommandations()` 並添加函式調用 `targetLoadRequest()` :
+捲動至ThankYouActivity檔案的結尾。 注釋函式中的三行， `getRecommandations()` 並添加函式調用 `targetLoadRequest()` :
 
 ```java
 // AppDialogs.dialogLoaderHide();
