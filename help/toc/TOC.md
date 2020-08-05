@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9b9b03e8c3ea837f345a8535e7147450bf55b6ad
+source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '304'
 ht-degree: 8%
 
 ---
@@ -65,3 +65,7 @@ ht-degree: 8%
 + 疑難排解{#troubleshooting}
    + [使用Experience Cloud除錯程式進行疑難排解](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [使用目標跟蹤進行故障排除](../troubleshooting/troubleshoot-with-target-traces.md)
++ API{#apis}
+   + [瞭解Target API](../apis/api-overview.md)
+   + [設定Adobe API驗證](../apis/configure-io-target-integration.md)
+   + [使用Recommendations API](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
