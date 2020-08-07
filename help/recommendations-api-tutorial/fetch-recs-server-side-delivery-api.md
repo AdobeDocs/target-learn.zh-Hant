@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 18a9b664fe935fd5c52682b2bd798cafd75b6591
+source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -23,7 +23,8 @@ ht-degree: 0%
 
 Adobe Target和Adobe Target [!DNL Recommendations] API可用來傳遞網頁回應，但也可用於非HTML型的體驗，包括應用程式、螢幕、控制台、電子郵件、資訊站和其他顯示裝置。 換言之，當無法 [!DNL Target] 使用程式庫和JavaScript時， **[!DNL Target]Delivery API **(傳送API[!DNL Target])仍可讓我們存取各種功能，以提供個人化的體驗。
 
-> [!NOTE]
+>[!NOTE]
+>
 > 請求包含實際建議（建議產品或項目）的內容時，請使用 [!DNL Target] 傳送API。
 
 若要擷取建議，請傳送含有適當內容資訊的Adobe Target傳送API POST呼叫，其中可能包含使用者ID（以用於特定描述檔的建議，例如使用者最近檢視的項目）、相關mbox名稱、mbox參數、描述檔參數或其他屬性。 回應將包含JSON或HTML格式的建議entity.ids（且可能包含其他實體資料），然後會顯示在裝置中。
