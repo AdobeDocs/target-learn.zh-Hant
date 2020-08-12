@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
+source-git-commit: 51c9942aba45fbe7a28dec18ae6cd2a6979bacfc
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '368'
 ht-degree: 8%
 
 ---
@@ -15,14 +15,39 @@ ht-degree: 8%
 # Adobe Target 教學課程 {#tutorials}
 
 + [概述](../overview.md)
++ 管理{#administration}
+   + [實施戰略與制度治理](../dev101/1.1-implementation-strategy-sys-governance.md)
+   + [設定帳戶偏好設定](../administration/set-up-account-preferences.md)
+   + [瞭解企業使用者權限](../administration/understanding-enterprise-user-permissions.md)
+   + [設定企業使用者權限](../dev101/1.2-configure-ent-user-permissions.md)
+   + [設定工作區](../administration/set-up-workspaces.md)
+   + [管理設定簡介](../dev101/1.3-intro-to-admin-setup.md)
+   + [設定屬性](../administration/set-up-properties.md)
 + 實施{#implementation}
+   + [Target實作簡介](../dev101/2.1-intro-to-target-implementation.md)
+   + [將Target與Launch整合](../dev101/3.1-target-launch.md)
    + [在Launch網站中實作](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
-   + [在iOS Swift應用程式中實作](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
-   + [在iOS Objective-C應用程式中實作](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-   + [在Android應用程式中實作](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
-   + [在單頁應用程式(SPA)中實作at.js 2.0](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [使用位置的優點](../dev101/2.2-benefits-of-locations.md)
+   + [Target請求簡介](../dev101/2.3-intro-to-target-requests.md)
+   + [目標參數簡介](../dev101/2.4-intro-to-target-params.md)
    + [瞭解at.js 2.0的運作方式](../implementation/understanding-how-atjs-20-works.md)
+   + [在單頁應用程式(SPA)中實作at.js 2.0](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [設計目標實作](../dev101/2.5-design-target-implementation.md)
+   + [設計目標實作的後續步驟](../dev101/2.6-next-steps-design-target-implementation.md)
    + [根據使用者同意，使用選擇加入來控制Experience Cloud解決方案](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
++ 整合{#integrations}
+   + [將Target與Analytics整合](../dev101/3.2-target-analytics.md)
+   + [使用Analytics做為Target的資料來源(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [將Target與Audience Manager整合](../dev101/3.3-target-dmp.md)
+   + [將Target與Experience Cloud受眾整合](../dev101/3.4-target-exc-audiences.md)
+   + [將 Target 與 Campaign 整合](../dev101/3.6-target-campaign.md)
+   + [將Target與Adobe I/O整合](../dev101/3.7-target-io.md)
+   + [將Target與Scene7整合](../dev101/3.8-target-scene7.md)
+   + [將Target與Adobe Experience Manager整合](../dev101/3.5-target-aem.md)
+   + [在Adobe Target中使用AEM體驗片段](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [資料輸入：使用資料提供者整合協力廠商資料](../integrations/use-data-providers-to-integrate-third-party-data.md)
+   + [資料輸入：實作資料提供者以整合協力廠商資料](../integrations/implement-data-providers-to-integrate-third-party-data.md)
+   + [資料輸出：使用回應Token和at.js自訂事件](../integrations/use-response-tokens-and-atjs-custom-events.md)
 + 活動{#activities}
    + [瞭解活動類型](../activities/understanding-the-types-of-activities.md)
    + [使用人工智慧和自動化功能來應對個人化的挑戰](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
@@ -43,17 +68,6 @@ ht-degree: 8%
    + [在Adobe Target中使用AEM體驗片段](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + 報表{#reports}
    + [使用個人化見解報表](../reports/use-the-personalization-insights-reports.md)
-+ 整合{#integrations}
-   + [使用Analytics做為Target的資料來源(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
-   + [資料輸入： 使用資料提供者整合協力廠商資料](../integrations/use-data-providers-to-integrate-third-party-data.md)
-   + [資料輸入： 實作資料提供者以整合協力廠商資料](../integrations/implement-data-providers-to-integrate-third-party-data.md)
-   + [資料輸出： 使用回應Token和at.js自訂事件](../integrations/use-response-tokens-and-atjs-custom-events.md)
-   + [在Adobe Target中使用AEM體驗片段](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
-+ 管理{#administration}
-   + [設定帳戶偏好設定](../administration/set-up-account-preferences.md)
-   + [瞭解企業使用者權限](../administration/understanding-enterprise-user-permissions.md)
-   + [設定工作區](../administration/set-up-workspaces.md)
-   + [設定屬性](../administration/set-up-properties.md)
 + 建議{#recommendations}
    + [建立 Recommendations 活動](../recommendations/create-a-recommendations-activity.md)
    + [使用建議選件](../recommendations/use-recommendations-offers.md)
@@ -65,6 +79,11 @@ ht-degree: 8%
 + 疑難排解{#troubleshooting}
    + [使用Experience Cloud除錯程式進行疑難排解](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [使用目標跟蹤進行故障排除](../troubleshooting/troubleshoot-with-target-traces.md)
+   + [疑難排解mbox錯誤](../dev101/4.1-troubleshoot-mbox-errors.md)
+   + [疑難排解活動錯誤](../dev101/4.2-troubleshoot-activity-errors.md)
+   + [疑難排解A4T整合錯誤](../dev101/4.3-troubleshoot-integration-errors.md)
++ 行動{#mobile}
+   + [使用Adobe Mobile Services SDK v4 for Android實作Adobe Target](../mobile-v4/overview.md)
 + API{#apis}
    + [瞭解Target API](../apis/api-overview.md)
    + [設定Adobe API驗證](../apis/configure-io-target-integration.md)
