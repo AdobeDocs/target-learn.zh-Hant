@@ -3,10 +3,10 @@ title: Adobe Target教學課程總覽
 seo-title: Adobe Target教學課程總覽
 description: Adobe Target的使用說明影片和教學課程，讓您成為Adobe Target的強大使用者
 translation-type: tm+mt
-source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
+source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 18%
+source-wordcount: '242'
+ht-degree: 16%
 
 ---
 
@@ -17,14 +17,19 @@ Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具�
 
 ## 新功能
 
+* **[使用Recommendations API（教學課程）](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+   *針對開發人員：使用API來設定和管理型錄[!DNL Recommendations]和自訂准則等[!DNL Recommendations]進行實際操作。*
+
+* **[使用Adobe Mobile Services SDK v4 for Android實作Adobe Target（教學課程）](mobile-v4/overview.md)**   <br>
+   *對於已使用Adobe Mobile Services SDK v4的開發人員：瞭解如何開始使用Adobe Target個人化應用程式體驗。 這些步驟是舊版使用者支援。<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[使用建議選件（影片）](recommendations/use-recommendations-offers.md)**   <br>
-   *在A/B測試和體驗定位活動中使用產品建議。*
+   *對於所有Target使用者：瞭解如何在A/B和體驗定位活動中使用產品建議。*
 
-* **[在Android™應用程式中實作Target的Visual Experience Composer（教學課程）](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
-   *在原生Android應用程式中實作Target適合行銷人員的視覺體驗撰寫器(VEC)。*
-
-* **[建立建議活動（視訊）](recommendations/create-a-recommendations-activity.md)**   <br>
-   *透過此Premium功能，向客戶大規模推薦產品。*
+<!--
+* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
+    <br>
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## 員工挑選
 
