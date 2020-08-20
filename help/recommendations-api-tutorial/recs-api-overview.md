@@ -1,7 +1,7 @@
 ---
 title: Adobe Recommendations API概觀
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄； 管理您的建議演算法和宣傳活動； 並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
+description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄；管理您的建議演算法和宣傳活動；並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
 kt: 3815
 audience: developer
 doc-type: tutorial
@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: b0e36ff68732f79c61797181da781ec7401f3f84
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 1%
 
 # Adobe Recommendations API概觀
 
-與包含管理 [!DNL Recommendations] API [相關的API](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) ，可讓您：
+與包含管理 [!DNL Recommendations] API [相關的API](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) ，可讓您：
 
 * 管理建議產品或內容的目錄
 * 管理演 [!DNL Recommendations] 算法和活動
 
-搭配使 [!DNL Target] 用 [傳送API](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) 和Recommendations，您也可以：
+搭配使 [!DNL Target] 用 [傳送API](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) 和Recommendations，您也可以：
 
 * 在JSON、HTML或XML物件中擷取建議，以便在網頁、行動裝置、電子郵件、物聯網(IOT)和其他通道中顯示。
 
