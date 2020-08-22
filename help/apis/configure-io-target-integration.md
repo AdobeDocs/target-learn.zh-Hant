@@ -1,7 +1,7 @@
 ---
 title: 配置驗證
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄； 管理您的建議演算法和宣傳活動； 並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
+description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄；管理您的建議演算法和宣傳活動；並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
 kt: null
 audience: developer
 doc-type: tutorial
@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1877'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ Adobe Target管理API(包括管 [!DNL Recommendations] 理API)會透過驗證加
 
    ![configure-io-target-createproject5](assets/configure-io-target-createproject5.png)
 
-6. 選擇一個選項，可將公用和私密金鑰與您為Target建立的服務帳戶整合建立關聯。 在本教學課程中，請選 **[!UICONTROL 擇選項1: 生成密鑰對]** ，然後按一下 **[!UICONTROL 生成密鑰對]**。
+6. 選擇一個選項，可將公用和私密金鑰與您為Target建立的服務帳戶整合建立關聯。 在本教學課程中，請選 **[!UICONTROL 擇選項1:生成密鑰對]** ，然後按一下 **[!UICONTROL 生成密鑰對]**。
    ![configure-io-target-createproject6](assets/configure-io-target-createproject6.png)
 
 7. 注意結果！ 請依照指示記下自動下載的設定檔(`config`)，其中包含您的私密金鑰。 按&#x200B;**[!UICONTROL 「下一步」]**。
@@ -115,12 +115,14 @@ Adobe Target管理API(包括管 [!DNL Recommendations] 理API)會透過驗證加
 7. 注意 `CLIENT_SECRET` 事項 `API_KEY` 和（以及其他變數）的值已預先填入，取自您在Adobe Developer Console中定義的整合。 (Postman變 `CLIENT_SECRET` 數應符合Developer Console中顯示的 `CLIENT SECRET` Adobe憑證，而 `API_KEY` Postman中也應符合Developer Console中 `CLIENT ID` 的憑證)。 相反，附註 `PRIVATE_KEY`、 `JWT_TOKEN`和 `ACCESS_TOKEN` 空白。 首先，我們提供值 `PRIVATE_KEY` 吧。
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**驚喜！**
    >
    >快來測驗！ 你記得你的私鑰在哪嗎？
    >沒錯，它就在之前從Adobe Developer Console `config` 下載的檔案中！
 
-8. 從您的檔案系統中，開 `config` 啟您的檔案，並開啟 `private` 金鑰檔案。
+8. 從您的檔案系統開啟您 `config` 的檔案，然後開啟 `private` 金鑰檔案。
    ![JWT8](assets/configure-io-target-jwt8.png)
 9. 選擇並複製密鑰檔案的整 `private` 個內容。
    ![JWT9](assets/configure-io-target-jwt9.png)
@@ -139,9 +141,9 @@ Adobe Target管理API(包括管 [!DNL Recommendations] 理API)會透過驗證加
    ![token2](assets/configure-io-target-generatetoken2.png)
 3. 按一下「原始」 ****，然後將產生的JSON複製至剪貼簿，即可取得此系列的原始JSON。 （或者，您也可以將原始JSON儲存為。json檔案。）
    ![token3](assets/configure-io-target-generatetoken3.png)
-4. 在Postman中，從剪貼簿貼上和送出原始JSON以匯入系列。 （或者，您也可以上傳您儲存的。json檔案。） 按一下&#x200B;**「繼續」**。
+4. 在Postman中，從剪貼簿貼上並送出原始JSON，以匯入系列。 （或者，您也可以上傳您儲存的。json檔案。） 按一下&#x200B;**「繼續」**。
    ![token4](assets/configure-io-target-generatetoken4.png)
-5. 選取 **[!UICONTROL IMS: JWT在Adobe I/O存取Token Generation Postman集合中透過使用者Token]** 請求產生+驗證，請確定您的環境已選取，然後按一下 **Send** 以產生Token。
+5. 選取 **[!UICONTROL IMS:JWT在Adobe I/O存取Token Generation Postman集合中透過使用者Token]** 請求產生+驗證，請確定您的環境已選取，然後按一下 **Send** 以產生Token。
 
    ![token5](assets/configure-io-target-generatetoken5.png)
 
@@ -156,9 +158,9 @@ Adobe Target管理API(包括管 [!DNL Recommendations] 理API)會透過驗證加
 
 >[!NOTE]
 >
->問： 我是否必須使用Adobe I/O存取Token產生Postman集合來產生JSON網頁Token(JWT)和不記名存取Token?
+>問：我是否必須使用Adobe I/O存取Token產生Postman集合來產生JSON網頁Token(JWT)和不記名存取Token?
 >
->答： 不！ Adobe I/O存取Token產生Postman收集是為了方便您在Postman中更輕鬆地產生JWT和不記名存取Token。 或者，您也可以使用Adobe Developer Console中的功能，手動產生不記名存取Token。
+>答：不！ Adobe I/O存取Token產生Postman收集是為了方便您在Postman中更輕鬆地產生JWT和不記名存取Token。 或者，您也可以使用Adobe Developer Console中的功能來手動產生不記名存取Token。
 
 ## 測試承載存取Token
 
@@ -188,7 +190,7 @@ Adobe Target管理API(包括管 [!DNL Recommendations] 理API)會透過驗證加
    ><https://mycompany.experiencecloud.adobe.com/...>
    >您的租用戶ID為「mycompany」。
 
-1. 在確定您已選擇正確的環境後，傳送您的請求。 您應收到包含活動清單的回應。
+1. 在確定您已選擇正確的環境後，傳送您的請求。 您應該會收到包含活動清單的回應。
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
 恭喜！ 現在您已經驗證Adobe驗證，您可以用它來與Adobe Target API（以及其他Adobe API）互動。 例如，您可以使 [用Recommendations API](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) 來建立或管理建議。
