@@ -1,17 +1,17 @@
 ---
 title: 使用傳送API擷取建議
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄； 管理您的建議演算法和宣傳活動； 並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
+description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄；管理您的建議演算法和宣傳活動；並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
 kt: 3815
 audience: developer
 doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # 使用 [!DNL Recommendations] 傳送API擷取
 
-Adobe Target和Adobe Target [!DNL Recommendations] API可用來傳遞網頁回應，但也可用於非HTML型的體驗，包括應用程式、螢幕、控制台、電子郵件、資訊站和其他顯示裝置。 換言之，當無法 [!DNL Target] 使用程式庫和JavaScript時， **[!DNL Target]Delivery API **(傳送API[!DNL Target])仍可讓我們存取各種功能，以提供個人化的體驗。
+Adobe Target和Adobe Target [!DNL Recommendations] API可用來傳遞網頁回應，但也可用於非HTML型的體驗，包括應用程式、螢幕、控制台、電子郵件、資訊站和其他顯示裝置。 換言之，當無法 [!DNL Target] 使用程式庫和JavaScript時， **[!DNL Target]Delivery API** (傳送API [!DNL Target] )仍可讓我們存取各種功能，以提供個人化的體驗。
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Adobe Target [的Delivery API](https://developers.adobetarget.com/api/delivery-a
 3. 選取屬性，然後按一下「下 **[!UICONTROL 一步]**」。
 4. 定義您希望使用者接收建議回應的位置。 以下範例使用名為 *api_charter的位置*。 選取您以JSON為基礎的設計，先前建立，名為 *Simple JSON。*
    ![server-side-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. 儲存並啟動建議。 它將產生結果。 [結果準備就緒後](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html)，您就可以使用「傳送API」來擷取結果。
+5. 儲存並啟動建議。 它將產生結果。 [結果準備就緒後](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html)，您就可以使用傳送API來擷取結果。
 
 ## 使用傳送API
 
@@ -98,7 +98,7 @@ The syntax for the [Delivery API](https://developers.adobetarget.com/api/deliver
 | [Adobe Target在行動應用程式中的運作方式](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | 如何 [!DNL Target] 與Mobile SDK搭配使用 |
 | [設定 [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | 在Experience Platform Launch中設定 [!DNL Target] 擴充功能、將擴充功能新增至應用程式，以及實作 [!DNL Target][!DNL Target] API以請求活動、預回遷選件和進入視覺預覽模式的步驟。 |
 | [Adobe Target節點用戶端](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | 開放來源 [!DNL Target] 的Node.js SDK v1.0 |
-| [伺服器端概觀](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Adobe Target伺服器端傳送API、伺服器端批次傳送API、Node.js SDK和Adobe Target API的相關資 [!DNL Recommendations] 訊。 |
+| [伺服器端概觀](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Adobe Target伺服器端傳送API、伺服器端批次傳送API、Node.js SDK和Adobe Target [!DNL Recommendations] API的相關資訊。 |
 | [電子郵件中的Adobe Campaign內容建議](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | 說明如何在Adobe Campaign中透過Adobe Target和Adobe I/O Runtime運用電子郵件中的內容建議的部落格。 |
 
 ## 使用API [!DNL Recommendations] 管理設定
