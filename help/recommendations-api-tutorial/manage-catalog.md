@@ -1,17 +1,17 @@
 ---
 title: 使用API管理您的Recommendations目錄
 keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄； 管理您的建議演算法和宣傳活動； 並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
+description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄；管理您的建議演算法和宣傳活動；並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
 kt: 3815
 audience: developer
 doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->傳送 **[!UICONTROL IMS: JWT：當您需要重新整理存取Token以進行驗證時]** ，透過使用者Token請求產生+驗證，因為它會在24小時後過期。 如需 [指示，請參閱設定Adobe API](../apis/configure-io-target-integration.md) 驗證。
+>傳送 **[!UICONTROL IMS:JWT：當您需要重新整理存取Token以進行驗證時]** ，透過使用者Token請求產生+驗證，因為它會在24小時後過期。 如需 [指示，請參閱設定Adobe API](../apis/configure-io-target-integration.md) 驗證。
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -45,7 +45,7 @@ POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities
 
 例如，「儲存實體」可用於在符合特定臨界值（例如庫存或價格臨界值）時更新項目，以標籤這些項目並防止建議它們。
 
-1. 導航至「設 **[!DNL Target]置>主機[!UICONTROL >環境」]**[!DNL Target] >以獲取要添加或更新項目的環境ID。
+1. 導航至「設 **[!DNL Target]置」[!UICONTROL >「主機]」[!UICONTROL > 「環境]**[!DNL Target] 」，以獲取要添加或更新項目的環境ID。
 
    ![SaveEntities1](assets/SaveEntities01.png)
 
