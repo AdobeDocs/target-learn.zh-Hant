@@ -7,15 +7,15 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: d6cedd55dcc9c08d2d2ca5709e15fe5ea9fab8b8
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '549'
 ht-degree: 2%
 
 ---
 
 
-# 概述
+# Adobe Target搭配Adobe Mobile Services SDK v4 for Android —— 概觀
 
 _Adobe Target搭配Adobe Mobile Services SDK v4 for Android_ ，是已使用Adobe Mobile Services SDK v4且想要開始使用Adobe Target個人化應用程式體驗的Android開發人員的最佳起點。
 
@@ -56,7 +56,7 @@ _Adobe Target搭配Adobe Mobile Services SDK v4 for Android_ ，是已使用Adob
 1. 登入 [Adobe Experience Cloud](https://experience.adobe.com/)
 1. 從Experience Cloud首頁畫面，按一下 [!DNL Target]:
    ![Experience Cloud首頁畫面](assets/aec_homeScreen_clickTarget.png)
-1. 您應前往Adobe Target中的「活動」清單，如下圖所示，您應該會看到您的使用者擁有「核准者」層級的存取權。 如果您無法存取或 [!DNL Target] 無法驗證核准者層級的存取權，請連絡您公司的其中一位Experience Cloud管理員，請申請此存取權，並在授與本教學課程後繼續本教學課程：
+1. 您應前往Adobe Target中的「活動」清單，如下圖所示，您應該會看到您的使用者擁有「核准者」層級的存取權。 如果您無法存取或 [!DNL Target] 無法驗證核准者層級的存取權，請連絡您公司的其中一位Experience Cloud管理員，請申請此存取權，並在授予本教學課程後繼續本教學課程：
 
    ![Adobe UI](assets/targetUI_approver.png)
 
@@ -70,4 +70,4 @@ _Adobe Target搭配Adobe Mobile Services SDK v4 for Android_ ，是已使用Adob
 
 開始吧！
 
-**[下一個： 「下載並更新範例應用程式」>](download-and-update-the-sample-app.md)**
+**[下一個：「下載並更新範例應用程式」>](download-and-update-the-sample-app.md)**
