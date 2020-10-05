@@ -1,5 +1,5 @@
 ---
-title: 配置驗證
+title: 設定Adobe Target API的驗證
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄；管理您的建議演算法和宣傳活動；並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
 kt: null
@@ -11,15 +11,15 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1885'
 ht-degree: 2%
 
 ---
 
 
-# 配置驗證
+# 設定Adobe Target API的驗證
 
 Adobe Target管理API(包括管 [!DNL Recommendations] 理API)會透過驗證加以保護，以確保只有授權使用者才能使用這些API來存取Adobe Target。 使用 [Adobe Developer Console](https://console.adobe.io/) ，管理所有Adobe Experience Cloud解決方案的此驗證，包括 [!DNL Target]。
 
