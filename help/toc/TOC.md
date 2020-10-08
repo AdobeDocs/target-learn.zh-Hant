@@ -5,9 +5,9 @@ breadcrumb-title: Target Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 8%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 8%
    + [設計目標實作](../dev101/2.5-design-target-implementation.md)
    + [設計目標實作的後續步驟](../dev101/2.6-next-steps-design-target-implementation.md)
    + [根據使用者同意，使用選擇加入來控制Experience Cloud解決方案](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+   + [瞭解Adobe Target混合部署](../implementation/hybrid-deployment.md)
 + 整合{#integrations}
    + [將Target與Analytics整合](../dev101/3.2-target-analytics.md)
    + [使用Analytics做為Target的資料來源(A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
