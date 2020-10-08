@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 2%
@@ -181,13 +181,17 @@ Adobe Target管理API(包括管 [!DNL Recommendations] 理API)會透過驗證加
 1. 開啟「管理環境」模組，並選取您的環境。
    ![JWT11](assets/configure-io-target-jwt11.png)
 1. 鍵入以添加新環 `{{TENANT_ID}}` 境變數。 將您的租用戶ID值複製並貼至新 **環境變數的「初始值** 」和「目前值 **」欄**`TENANT_ID` 位中。
+
    ![testtoken5](assets/configure-io-target-testtoken5.png)
+
    >[!NOTE]
    >
    >租用戶ID與您的不同 [!DNL Target]`clientcode`。 當您登入時，URL中存在租用戶ID [!DNL Target]。 若要取得您的租用戶ID，請登入、 [!DNL Adobe Experience Cloud]開啟 [!DNL Target]並按一下 [!DNL Target] 資訊卡。 使用URL子網域中注明的租用戶ID值。
    >
    >例如，若您登入Adobe Target時的URL是
-   ><https://mycompany.experiencecloud.adobe.com/...>
+   >
+   >`<https://mycompany.experiencecloud.adobe.com/...>`
+   >
    >您的租用戶ID為「mycompany」。
 
 1. 在確定您已選擇正確的環境後，傳送您的請求。 您應該會收到包含活動清單的回應。
