@@ -1,17 +1,17 @@
 ---
-title: Adobe Target教學課程總覽
-seo-title: Adobe Target教學課程總覽
-description: Adobe Target的使用說明影片和教學課程，讓您成為Adobe Target的強大使用者
+title: Adobe Target 教學課程
+seo-title: Adobe Target 教學課程
+description: Adobe Target的使用說明影片和教學課程的集合，讓您成為Adobe Target的強大使用者
 translation-type: tm+mt
-source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
+source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 16%
+source-wordcount: '243'
+ht-degree: 20%
 
 ---
 
 
-# Adobe Target教學課程總覽
+# Adobe Target 教學課程
 
 Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。使用這些視訊和教學課程來學習Adobe Target的許多元件。
 
