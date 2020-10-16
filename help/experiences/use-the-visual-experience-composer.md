@@ -1,7 +1,7 @@
 ---
 title: 在Adobe Target中使用Visual Experience Composer
 seo-title: 在Adobe Target中使用Visual Experience Composer
-description: 瞭解如何在Adobe Target中使用Visual Experience Composer。
+description: 了解如何在 Adobe Target 中使用 Visual Experience Composer。
 audience: marketer
 difficulty: 1
 author: Daniel Wright
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 7469ee7da84d1fed480fca979f89478640a5fbda
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
