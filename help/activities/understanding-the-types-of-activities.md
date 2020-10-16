@@ -1,6 +1,6 @@
 ---
 title: 瞭解Adobe Target中的活動類型
-description: 瞭解Adobe Target中包含的不同活動類型，以及它們如何協助您達成目標。
+description: 了解 Adobe Target 中包含的不同類型活動，以及其如何能協助您達成目標。
 audience: marketer
 difficulty: 1
 author: Daniel Wright
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9d90be1fed34f07415d1619dfd007c4ec586ed0a
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
