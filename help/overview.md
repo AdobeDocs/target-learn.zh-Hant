@@ -3,9 +3,9 @@ title: Adobe Target 教學課程
 seo-title: Adobe Target 教學課程
 description: Adobe Target的使用說明影片和教學課程的集合，讓您成為Adobe Target的強大使用者
 translation-type: tm+mt
-source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
+source-git-commit: f7aef8f332173c8dfca9fbb09d13c5a43a42ffbc
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 20%
 
 ---
@@ -17,20 +17,18 @@ Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具�
 
 ## 新功能
 
-* **[使用Recommendations API（教學課程）](recommendations-api-tutorial/recs-api-overview.md)**
+* **[裝置上決策概觀](implementation/on-device-decisioning-overview.md)**
 
-   <br>
-   *針對開發人員：使用API來設定和管理型錄[!DNL Recommendations]和自訂准則等[!DNL Recommendations]進行實際操作。*
+   *適用於建築師：開始使用裝置上決策，為您的消費者提供近乎零的延遲體驗！*
+* **[使用Recommendations API（教學課程）](recommendations-api-tutorial/recs-api-overview.md)**
+   *針對開發人員：使用API來設定和管理型錄 [!DNL Recommendations] 和自訂准則等 [!DNL Recommendations] 進行實際操作。*
 
 * **[使用Adobe Mobile Services SDK v4 for Android實作Adobe Target（教學課程）](mobile-v4/overview.md)**
 
-   <br>
    *對於已使用Adobe Mobile Services SDK v4的開發人員：瞭解如何開始使用Adobe Target個人化應用程式體驗。 這些步驟是舊版使用者支援。<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
-* **[使用建議選件（影片）](recommendations/use-recommendations-offers.md)**
-
-   <br>
-   *對於所有Target使用者：瞭解如何在A/B和體驗定位活動中使用產品建議。*
+<!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
+    *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
 
 <!--
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
