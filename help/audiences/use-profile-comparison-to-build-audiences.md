@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # 使用描述檔比較在Adobe Target中建立觀眾
 
-Adobe Target [!UICONTROL 中的「描述檔比較] 」功能可讓您在建立對象時，比較兩個數值描述檔值。 如果您要將自訂傾向分數傳遞至並想要根據傾向分數最高的 [!DNL Target] 產品個人化內容，這非常有用。
+Adobe Target的[!UICONTROL 描述檔比較]功能可讓您在建立對象時，比較兩個數值描述檔值。 如果您要將自訂傾向分數傳遞至[!DNL Target]，並想要根據傾向分數最高的產品個人化內容，這非常有用。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
