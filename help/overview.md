@@ -21,11 +21,11 @@ Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具�
 
    *適用於建築師：開始使用裝置上決策，為您的消費者提供近乎零的延遲體驗！*
 * **[使用Recommendations API（教學課程）](recommendations-api-tutorial/recs-api-overview.md)**
-   *針對開發人員：使用API來設定和管理型錄 [!DNL Recommendations] 和自訂准則等 [!DNL Recommendations] 進行實際操作。*
+   *針對開發人員：使用API來設定和管理型 [!DNL Recommendations] 錄和自訂准則 [!DNL Recommendations] 等，取得實際操作。*
 
 * **[使用Adobe Mobile Services SDK v4 for Android實作Adobe Target（教學課程）](mobile-v4/overview.md)**
 
-   *對於已使用Adobe Mobile Services SDK v4的開發人員：瞭解如何開始使用Adobe Target個人化應用程式體驗。 這些步驟是舊版使用者支援。<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+   *對於已使用Adobe Mobile Services SDK v4的開發人員：瞭解如何開始使用Adobe Target個人化應用程式體驗。這些步驟是舊版使用者支援。<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
 <!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
     *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
