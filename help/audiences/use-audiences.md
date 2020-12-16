@@ -1,7 +1,7 @@
 ---
 title: 在Adobe Target中使用觀眾
 seo-title: 在Adobe Target中使用觀眾
-description: 了解如何將「對象」用於最佳化。
+description: 了解如何將對象用於最佳化。
 audience: marketer
 difficulty: 1
 author: Daniel Wright
