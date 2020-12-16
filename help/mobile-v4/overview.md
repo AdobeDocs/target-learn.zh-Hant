@@ -17,16 +17,16 @@ ht-degree: 2%
 
 # Adobe Target搭配Adobe Mobile Services SDK v4 for Android —— 概觀
 
-_Adobe Target搭配Adobe Mobile Services SDK v4 for Android_ ，是已使用Adobe Mobile Services SDK v4且想要開始使用Adobe Target個人化應用程式體驗的Android開發人員的最佳起點。
+_Adobe Target搭配Adobe Mobile Services SDK v4 for_ Android是已使用Adobe Mobile Services SDK v4且想要開始使用Adobe Target個人化應用程式體驗的Android開發人員的最佳起點。
 
-我們提供示範Android應用程式，讓您完成課程。 完成本教學課程後，您應準備好開始在您自己的Android應 [!DNL Target] 用程式中實作！
+我們提供示範Android應用程式，讓您完成課程。 完成本教學課程後，您應準備好開始在您自己的Android應用程式中實作[!DNL Target]!
 
 完成此教學課程之後，您將能:
 
-* 驗證 [Adobe Mobile Services SDK設定](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
-* 實作下列類型的 [!DNL Target] 請求：
-   * 內容預取 [!DNL Target]
-   * 在單一請 [!DNL Target] 求中批次多個位置(mbox)
+* 驗證[Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)設定
+* 實作下列類型的[!DNL Target]請求：
+   * 預回遷[!DNL Target]內容
+   * 在單一請求中批次多個[!DNL Target]位置(mbox)
    * 封鎖請求（在應用程式顯示前執行）
    * 非封鎖請求（在背景執行）
    * 即時（非快取）
@@ -41,9 +41,9 @@ _Adobe Target搭配Adobe Mobile Services SDK v4 for Android_ ，是已使用Adob
 在這些教訓中，我們假定您：
 
 * 擁有Adobe Id和核准者層級的Adobe Target介面存取權（請參閱下方的驗證步驟）
-* 瞭解您的Adobe Target用戶端代碼，以便向您自己的帳戶提出要求。 「用戶端程式碼」會顯示在「設定>實作>編輯at.js設定」畫面的Adobe Target介面中
-* 存取並熟悉 [Mobile Services使用者介面](https://mobilemarketing.adobe.com)
-* 針對Android行動應用程式開發使用IDE。 本教學課程以 [Android Studio](https://developer.android.com/studio/install) ，為各個步驟和螢幕擷取
+* 瞭解您的Adobe Target用戶端代碼，以便向您自己的帳戶提出要求。 「用戶端程式碼」會顯示在   「設定>實作>編輯at.js設定畫面」
+* 存取並熟悉[Mobile Services使用者介面](https://mobilemarketing.adobe.com)
+* 針對Android行動應用程式開發使用IDE。 本教學課程將[Android Studio](https://developer.android.com/studio/install)功能整合在各種步驟和螢幕擷取畫面中
 
 如果您沒有Experience Cloud解決方案的必要存取權，請洽詢您的Experience Cloud管理員。
 
@@ -53,10 +53,10 @@ _Adobe Target搭配Adobe Mobile Services SDK v4 for Android_ ，是已使用Adob
 
 本課程需要存取Adobe Target。 在執行後續步驟之前，請執行下列動作，以確保您擁有Adobe Target的存取權：
 
-1. 登入 [Adobe Experience Cloud](https://experience.adobe.com/)
-1. 從Experience Cloud首頁畫面，按一下 [!DNL Target]:
+1. 登入[Adobe Experience Cloud](https://experience.adobe.com/)
+1. 從Experience Cloud首頁畫面，按一下[!DNL Target]:
    ![Experience Cloud首頁畫面](assets/aec_homeScreen_clickTarget.png)
-1. 您應前往Adobe Target中的「活動」清單，如下圖所示，您應該會看到您的使用者擁有「核准者」層級的存取權。 如果您無法存取或 [!DNL Target] 無法驗證核准者層級的存取權，請連絡您公司的其中一位Experience Cloud管理員，請申請此存取權，並在授予本教學課程後繼續本教學課程：
+1. 您應前往Adobe Target中的「活動」清單，如下圖所示，您應該會看到您的使用者擁有「核准者」層級的存取權。 如果您無法存取[!DNL Target]或無法驗證核准者層級的存取權，請連絡您公司的其中一位Experience Cloud管理員，請求此存取權，並在授與本教學課程後繼續本教學課程：
 
    ![Adobe UI](assets/targetUI_approver.png)
 
@@ -66,7 +66,7 @@ _Adobe Target搭配Adobe Mobile Services SDK v4 for Android_ ，是已使用Adob
 
 ![We.Travel應用程式最終版](assets/overview_final_result.jpg)
 
-在We.Travel應用程式中進行實作後，您就可以開始在自己的行動應 [!DNL Target] 用程式中使用。
+在We.Travel應用程式中進行實作後，您就可以在自己的行動應用程式中開始使用[!DNL Target]。
 
 開始吧！
 
