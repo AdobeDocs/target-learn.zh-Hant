@@ -16,7 +16,7 @@ ht-degree: 31%
 ---
 
 
-# 在Adobe Target中 [!UICONTROL 使用Visual Experience] Composer
+# 使用Adobe Target中的[!UICONTROL Visual Experience Composer]
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
