@@ -18,13 +18,13 @@ ht-degree: 2%
 
 # 搭配Adobe Target使用回應Token和at.js自訂事件
 
-回應Token `at.js` 和自訂事件可讓您從第三方系統 [!DNL Target] 共用描述檔資訊。 訪客描述檔中 [!DNL Target][!DNL Target] 的任何物件（包括自訂描述檔屬性、地理資訊、活動詳細資訊和內建描述檔）都可新增至回應中，您可使用自訂JavaScript與協力廠商整合。
+回應Token和`at.js`自訂事件可讓您將描述檔資訊從[!DNL Target]共用至協力廠商系統。 [!DNL Target]訪客描述檔中的任何物件，包括自訂描述檔屬性、地理資訊、活動詳細資訊和內建描述檔，都可新增至[!DNL Target]回應，您可使用自訂JavaScript與協力廠商整合。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
 
 ## 如何使用回應Token和at.js自訂事件
 
-1. 確定您需要的資料來源 [!DNL Target]
+1. 確定您需要[!DNL Target]中的哪些資料
 1. 在「設定->回應Token」畫面上切換，以開啟您所需資料的回應Token
 1. 確定需要使用哪個事件偵聽器
 1. 撰寫必要的JavaScript，以監聽Adobe Target事件、讀取回應Token，並執行整合所需的動作
