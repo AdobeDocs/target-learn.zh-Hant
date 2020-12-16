@@ -28,7 +28,7 @@ ht-degree: 1%
 在本課程結束時，您將能夠：
 
 * 向批預回遷請求添加新位置
-* 建立 [!DNL Target] 包含選件的活動，以做為功能標幟
+* 建立[!DNL Target]活動，其選件將用作功能標幟
 * 載入並驗證應用程式中的功能標幟選件
 
 ## 將新位置添加到預回遷請求到主活動
@@ -49,7 +49,7 @@ ht-degree: 1%
 public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_recs";
 ```
 
-現在，將位置添加到預回遷請求中，並載入名為 `processFeatureFlags()`:
+現在，將位置添加到預回遷請求中，並載入名為`processFeatureFlags()`的新函式：
 
 ![功能標幟程式碼](assets/feature_flag_code.jpg)
 
@@ -112,7 +112,7 @@ public void processFeatureFlags() {
 
 ## 建立功能標幟JSON選件
 
-我們現在將建立簡單的JSON選件，作為特定對象的旗標或觸發器——這些對象會收到在其應用程式中推出的功能。 在介面 [!DNL Target] 中，建立新選件：
+我們現在將建立簡單的JSON選件，作為特定對象的旗標或觸發器——這些對象會收到在其應用程式中推出的功能。 在[!DNL Target]介面中，建立新選件：
 
 ![建立功能標幟JSON選件](assets/feature_flag_json_offer.jpg)
 
@@ -130,19 +130,19 @@ public void processFeatureFlags() {
 
    ![功能標幟活動設定](assets/feature_flag_activity.jpg)
 
-1. 按一 **[!UICONTROL 下「新增體驗]** 」以新增體驗B。
+1. 按一下「新增體驗」，新增體驗B。****
 1. 保留&quot;wetravel_feature_flag_recs&quot;位置
-1. 保留 **[!UICONTROL 內容的預設內容]** ,
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] screen
+1. 保留&#x200B;**[!UICONTROL 內容的預設內容]**
+1. 按一下「下一步」，移至「定位」畫面[!UICONTROL ****]
 
    ![功能標幟活動設定](assets/feature_flag_activity_2.jpg)
 
-1. 在「定 [!UICONTROL 位] 」畫面上，確認「流量分配」方法已設為預設設定（手動），且每個體驗都有預設的50%分配。 選取「 **[!UICONTROL 下一]** 頁」，進 **[!UICONTROL 入「目標與設定」]**。
+1. 在[!UICONTROL Targeting]畫面上，確認[!UICONTROL 流量分配]方法已設為預設設定（手動），且每個體驗都有預設的50%配置。 選擇&#x200B;**[!UICONTROL Next]**&#x200B;以進入&#x200B;**[!UICONTROL 目標與設定]**。
 
    ![功能標幟活動設定](assets/feature_flag_activity_3.jpg)
 
-1. 將「主要目 **[!UICONTROL 標」設為]** 「 **[!UICONTROL 轉換」]**。
-1. 將動作設為「已 **[!UICONTROL 檢視Mbox」]**。 我們將使用&quot;wetravel_context_dest&quot;位置（因為此位置位於「確認」畫面上，因此我們可使用它來查看新功能是否帶來更多轉換）。
+1. 將&#x200B;**[!UICONTROL 主要目標]**&#x200B;設定為&#x200B;**[!UICONTROL 轉換]**。
+1. 將動作設定為「已檢視Mbox **[!UICONTROL 」。]**&#x200B;我們將使用&quot;wetravel_context_dest&quot;位置（因為此位置位於「確認」畫面上，因此我們可使用它來查看新功能是否帶來更多轉換）。
 1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**。
 
    ![功能標幟活動設定](assets/feature_flag_activity_4.jpg)
@@ -151,19 +151,19 @@ public void processFeatureFlags() {
 
 ## 驗證功能標幟活動
 
-現在，請使用模擬器來監視請求。 由於我們將定位設定給50%的使用者，因此您會看到50%的功能標幟回應包含 `{enable:1}` 值。
+現在，請使用模擬器來監視請求。 由於我們將定位設定給50%的使用者，因此您會看到50%的功能標幟回應包含`{enable:1}`值。
 
 ![功能標幟驗證](assets/feature_flag_validation.jpg)
 
-如果您沒有看到值， `{enable:1}` 這表示您並未鎖定體驗目標。 作為臨時測試，若要強制顯示選件，您可以：
+如果您未看到`{enable:1}`值，表示您未針對體驗設定目標。 作為臨時測試，若要強制顯示選件，您可以：
 
 1. 停用活動。
 1. 將新功能體驗的流量分配變更為100%。
 1. 儲存並重新啟用。
 1. 在模擬器上擦除資料，然後重新啟動應用程式。
-1. 選件現在應傳回 `{enable:1}` 值。
+1. 選件現在應傳回`{enable:1}`值。
 
-在即時案例中，回 `{enable:1}` 應可用於啟用應用程式中的更多自訂邏輯，以顯示您要顯示目標對象的特定功能集。
+在即時案例中，`{enable:1}`回應可用於啟用應用程式中的更多自訂邏輯，以顯示您要顯示目標對象的特定功能集。
 
 ## 結論
 
