@@ -10,7 +10,7 @@ topic: Analytics for Target(A4T)、Auto-Target
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 814ce9b49eff6cbc41a84bb65718f4e5f4f0142d
+source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 若要建立[!DNL Auto-Target]報表的A4T，請從工作區中的&#x200B;**[!UICONTROL Analytics for Target]**&#x200B;面板開始，如下所示，或從自由表格開始。 然後進行下列選擇：
 
-1. **[!UICONTROL 控制體驗]**:您可以選擇任何經驗；不過，我們稍後會覆寫此選項。請注意，對於[!DNL Auto-Target]活動，控制體驗實際上是一種控制策略，其對象為a)在所有體驗中隨機提供，或b)提供單一體驗(此選項是在Adobe Target的活動建立時選擇)。 即使您選擇(b)—您的[!DNL Auto-Target]活動將特定體驗指定為控制項——您仍應遵循本教學課程中概述的方法，來分析[!DNL Auto-Target]活動的A4T。
+1. **[!UICONTROL 控制體驗]**:您可以選擇任何經驗；不過，您稍後會覆寫此選項。請注意，對於[!DNL Auto-Target]活動，控制體驗實際上是一種控制策略，其對象為a)在所有體驗中隨機提供，或b)提供單一體驗(此選項是在Adobe Target的活動建立時選擇)。 即使您選擇(b)—您的[!DNL Auto-Target]活動將特定體驗指定為控制項——您仍應遵循本教學課程中概述的方法，來分析[!DNL Auto-Target]活動的A4T。
 2. **[!UICONTROL 標準化量度]**:選擇瀏覽。
 3. **[!UICONTROL 成功度量]**:雖然您可以選取要報告的任何量度，但您通常應檢視在Adobe Target建立活動期間針對最佳化所選擇之量度的報表。
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 | --- | --- | --- | --- | --- | --- |
 | A | 1 | 3 | - | 0% | 0% |
 | B | 2 | 3 | 3 | 50% | 33.3% |
-| 總計 | 2 | 4 | 1 | 50% | 25% |
+| 總計 | 2 | 4 | 3 | 50% | 25% |
 *表1:比較訪客標準化和瀏覽標準化報表的範例，其中決策與瀏覽（而非訪客，如同一般A/B測試）有關。在此案例中，訪客標準化量度會令人混淆。*
 
 如表格所示，訪客層級的數字明顯不一致。 儘管有兩個獨特訪客總數，但這並非每個體驗的個別獨特訪客總和。 雖然訪客層級的轉換率不一定是錯的，但當您比較個別體驗時，瀏覽層級的轉換率可以說更有意義。 從形式上講，分析單位（「瀏覽」）與決策粘性單位相同，這表示可新增和比較度量的體驗層級劃分。
