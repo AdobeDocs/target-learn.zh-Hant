@@ -1,18 +1,18 @@
 ---
-title: Adobe Target混合部署
-description: Adobe Target針對個人化提供獨特的混合部署模型——混合用戶端和伺服器端實作。
-topics: implementation
-feature: implementation
-audience: developer, architect
-activity: understand
+title: 混合部署選項
+description: 觀看此影片，瞭解Adobe Target獨特的個人化混合部署模型——混合用戶端和伺服器端實作。
+role: 開發人員、架構設計人員
+level: 初學者
+topic: 個人化、架構、開發
+feature: 實作、伺服器端實作、用戶端實作
 doc-type: feature video
-team: Evangelism
-kt: 6165
 thumbnail: null
+kt: 6165
+team: Evangelism
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 1%
 
 # Adobe Target混合部署
 
-## 說明
-
-Adobe Target針對個人化提供獨特的混合部署模型——混合用戶端和伺服器端實作。 此混合模型可讓非技術使用者使用WYSIWYG Visual Experience Composer來製作實驗或個人化活動，並讓伺服器端執行、傳送和轉譯體驗，以提供高效能的發佈。 
+Adobe Target公司為個人化提供獨特的混合部署模型——混合用戶端和伺服器端建置。 此混合模型可讓非技術使用者使用WYSIWYG Visual Experience Composer來製作實驗或個人化活動，並讓伺服器端執行、傳送和轉譯體驗，以提供高效能的發佈。 
 
 ## 目標
 
 在本視訊結束前，您將：
 
-* 瞭解Adobe Target的混合部署需要什麼
+* 瞭解Adobe Target的混合部署帶來什麼
 * 瞭解混合部署的優點
 * 觀察混合部署可能減少的伺服器呼叫
 
@@ -39,4 +37,7 @@ Adobe Target針對個人化提供獨特的混合部署模型——混合用戶�
 
 >[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
-<!-- JUDY: add to this once we have documentation. And/or add to this, with links to the on-device decisioning content. For more information, visit the [documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html). -->
+## 其他資源
+
+* [裝置上決策概觀](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Adobe TargetSDK檔案](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
