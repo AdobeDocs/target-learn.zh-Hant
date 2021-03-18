@@ -1,21 +1,33 @@
 ---
-title: 在Recommendations中建立動態消息
-seo-title: 在Adobe Target Recommendations中建立動態消息
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: 如何在Recommendations建立動態消息
+description: 瞭解如何在Adobe TargetRecommendations建立資料饋送
+role: 業務從業人員
+level: 中級
+topic: 個人化
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 024678e0569b92da8e470a1299f0f7a585ba2371
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 17%
+source-wordcount: '78'
+ht-degree: 12%
 
 ---
 
 
-# 在Recommendations中建立動態消息
+# 在Adobe TargetRecommendations建立動態消息
+
+## 說明
+
+在此影片中，您將學習如何：
+
+* 在Adobe TargetRecommendations建立資料饋送
+
+## 目標對象
+
+* 業務從業人員
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
