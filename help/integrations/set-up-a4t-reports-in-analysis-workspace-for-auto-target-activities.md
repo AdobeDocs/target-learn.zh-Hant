@@ -1,24 +1,23 @@
 ---
 title: 如何在Analysis Workspace為自動定位活動設定A4T報表
-description: 如何在Analysis Workspace設定A4T報表，以便在執行Auto-Target活動時取得預期結果
-kt: null
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: 一旦您的Analytics for Target(A4T)整合到位，而且您正在執行Auto-Target活動，如何確保正確解讀結果？ 請依照下列步驟，在Analysis Workspace設定A4T報表，以在執行Auto-Target活動時取得預期結果。
+role: 業務從業人員
+level: 中級
+topic: 個人化
 feature: Analytics for Target(A4T)、Auto-Target
-topic: Analytics for Target(A4T)、Auto-Target
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2262'
 ht-degree: 1%
 
 ---
 
 
-# 如何在Analysis Workspace為[!DNL Auto-Target]活動設定A4T報告
+# 在Analysis Workspace為[!DNL Auto-Target]活動設定A4T報告
 
 [!DNL Auto-Target]活動的Analytics for Target(A4T)整合使用Adobe Target的整合機器學習(ML)演算法，根據每位訪客的描述檔、行為和上下文選擇最佳體驗，同時使用Adobe Analytics目標量度。
 
@@ -88,7 +87,7 @@ ht-degree: 1%
 | --- | --- | --- | --- | --- | --- |
 | A | 1 | 3 | - | 0% | 0% |
 | B | 2 | 3 | 3 | 50% | 33.3% |
-| 總計 | 2 | 4 | 3 | 50% | 25% |
+| 總計 | 2 | 4 | 1 | 50% | 25% |
 *表1:比較訪客標準化和瀏覽標準化報表的範例，其中決策與瀏覽（而非訪客，如同一般A/B測試）有關。在此案例中，訪客標準化量度會令人混淆。*
 
 如表格所示，訪客層級的數字明顯不一致。 儘管有兩個獨特訪客總數，但這並非每個體驗的個別獨特訪客總和。 雖然訪客層級的轉換率不一定是錯的，但當您比較個別體驗時，瀏覽層級的轉換率可以說更有意義。 從形式上講，分析單位（「瀏覽」）與決策粘性單位相同，這表示可新增和比較度量的體驗層級劃分。
