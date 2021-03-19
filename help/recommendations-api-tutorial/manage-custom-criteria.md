@@ -1,19 +1,18 @@
 ---
-title: 管理自訂條件
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄；管理您的建議演算法和宣傳活動；並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
-kt: 3815
-audience: developer
+title: 如何管理自訂條件
+description: 本教學課程將引導開發人員完成使用Adobe TargetAPI來管理、建立、列出、編輯、取得和刪除Adobe TargetRecommendations標準所需的步驟。
+role: 開發人員
+level: 中級
+topic: 個人化、管理、整合、開發
+feature: API/SDK、Recommendations、管理與設定
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---
@@ -37,7 +36,7 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->如本練習所述，使用「建立自訂准則API」建立的自訂准則會顯示在UI中，並持續存在。 您將無法從UI中編輯或刪除這些項目。 您可以透過API **編輯或刪除它們，但無論如何，它們都會繼續出現在** UI中。 [!DNL Target]若要維持從UI編輯或刪除的選項，請依照檔案[的UI建立自訂准則，而非使用「建立自訂准則API」。](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html)
+>如本練習所述，使用「建立自訂准則API」建立的自訂准則會顯示在UI中，並持續存在。 您將無法從UI中編輯或刪除這些項目。 您可以透過API **編輯或刪除它們，但無論如何，它們都會繼續出現在[!DNL Target] UI中。**&#x200B;若要維持從UI編輯或刪除的選項，請依照檔案[的UI建立自訂准則，而非使用「建立自訂准則API」。](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html)
 
 請等到您閱讀上述警告並樂於建立無法從UI刪除的新自訂准則後，再繼續本教學課程。
 
@@ -53,7 +52,7 @@ ht-degree: 1%
 
    ![CreateCustomCriteria3](assets/CreateCustomCriteria3.png)
 
-4. 若要確認已建立自訂准則，請在Adobe Target中導覽至&#x200B;**[!UICONTROL Recommendations] > [!UICONTROL Criteria]**，並依名稱搜尋准則，或在下一步驟中使用&#x200B;**清單自訂准則API**。
+4. 若要確認已建立您的自訂准則，請在Adobe Target內導覽至&#x200B;**[!UICONTROL Recommendations] > [!UICONTROL 標準]**，並依名稱搜尋您的准則，或在下一步驟中使用&#x200B;**清單自訂准則API**。
 
    ![CreateCustomCriteria4](assets/CreateCustomCriteria4.png)
 
@@ -121,4 +120,4 @@ ht-degree: 1%
 
 恭喜！ 您現在可以使用[!DNL Recommendations] API，建立、列出、編輯、刪除及取得自訂准則的詳細資訊。 在下一節中，您將使用[!DNL Target]傳送API來擷取建議。
 
-[下一個「使用伺服器端傳送API擷取建議」>](fetch-recs-server-side-delivery-api.md)
+[下一個「使用伺服器端傳送API擷取Recommendations」>](fetch-recs-server-side-delivery-api.md)
