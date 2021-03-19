@@ -1,19 +1,18 @@
 ---
-title: 使用傳送API擷取建議
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄；管理您的建議演算法和宣傳活動；並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
-kt: 3815
-audience: developer
+title: 如何使用傳送API擷取Recommendations
+description: 本教學課程的這一部分將引導開發人員完成使用Adobe Target傳送API擷取建議內容所需的步驟。
+role: 開發人員
+level: 中級
+topic: 個人化、管理、整合、開發
+feature: API/SDK、Recommendations、管理與設定
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -21,15 +20,15 @@ ht-degree: 0%
 
 # 使用傳送API擷取[!DNL Recommendations]
 
-Adobe Target和Adobe Target [!DNL Recommendations] API可用來傳送網頁回應，但也可用於非HTML的體驗，包括應用程式、螢幕、控制台、電子郵件、資訊站和其他顯示裝置。 換言之，當無法使用[!DNL Target]程式庫和JavaScript時，**[!DNL Target]傳送API**&#x200B;仍可讓我們存取完整的[!DNL Target]功能，以提供個人化體驗。
+Adobe Target和Adobe Target的[!DNL Recommendations] API可用來傳送網頁回應，但也可用於非HTML的體驗，包括應用程式、螢幕、主控台、電子郵件、資訊站和其他顯示裝置。 換言之，當無法使用[!DNL Target]程式庫和JavaScript時，**[!DNL Target]傳送API**&#x200B;仍可讓我們存取完整的[!DNL Target]功能，以提供個人化體驗。
 
 >[!NOTE]
 >
 > 請求包含實際建議（建議產品或項目）的內容時，請使用[!DNL Target]傳送API。
 
-若要擷取建議，請傳送含有適當內容資訊的Adobe Target傳送API POST呼叫，其中可能包含使用者ID（以用於特定描述檔的建議，例如使用者最近檢視的項目）、相關mbox名稱、mbox參數、描述檔參數或其他屬性。 回應將包含JSON或HTML格式的建議entity.ids（且可能包含其他實體資料），然後會顯示在裝置中。
+若要擷取建議，請傳送含有適當內容資訊的Adobe Target傳送APIPOST呼叫，其中可能包含使用者ID（用於特定描述檔建議，例如使用者最近檢視的項目）、相關mbox名稱、mbox參數、描述檔參數或其他屬性。 回應將包含JSON或HTML格式的建議entity.ids（且可能包含其他實體資料），然後會顯示在裝置中。
 
-Adobe Target的[傳送API](https://developers.adobetarget.com/api/delivery-api/)會公開標準[!DNL Target]要求提供的所有現有功能。
+適用於Adobe Target的[傳送API](https://developers.adobetarget.com/api/delivery-api/)公開標準[!DNL Target]要求提供的所有現有功能。
 
 >[!NOTE]
 >傳送API:
@@ -55,7 +54,7 @@ Adobe Target的[傳送API](https://developers.adobetarget.com/api/delivery-api/)
 
    ![server-side-create-recs-json-design-png](assets/server-side-create-recs-json-design.png)
 
-2. 在[!DNL Target]中，導覽至&#x200B;**[!UICONTROL 活動] > [!UICONTROL 建立活動] > [!UICONTROL 建議]**，然後選擇&#x200B;**[!UICONTROL 表單]**。
+2. 在[!DNL Target]中，導航至&#x200B;**[!UICONTROL 活動] > [!UICONTROL 建立活動] > [!UICONTROL Recommendations]**，然後選擇&#x200B;**[!UICONTROL 表單]**。
 
    ![server-side-create-recs.png](assets/server-side-create-recs.png)
 
@@ -70,7 +69,7 @@ Adobe Target的[傳送API](https://developers.adobetarget.com/api/delivery-api/)
 
 `POST https://{{CLIENT_CODE}}.tt.omtrdc.net/rest/v1/delivery`
 
-1. 請注意，用戶端代碼是必要的。 提醒您，若要在Adobe Target中找到您的用戶端程式碼，請導覽至&#x200B;**[!UICONTROL Recommendations] > [!UICONTROL Settings]**。 請注意&#x200B;**[!UICONTROL 建議API Token]**&#x200B;區段中的&#x200B;**[!UICONTROL 用戶端代碼]**值。
+1. 請注意，用戶端代碼是必要的。 提醒您，您可在Adobe Target找到您的客戶代碼，方法是導覽至&#x200B;**[!UICONTROL Recommendations] > [!UICONTROL Settings]**。 請注意&#x200B;**[!UICONTROL 建議API Token]**&#x200B;區段中的&#x200B;**[!UICONTROL 用戶端代碼]**值。
    ![client-code.png](assets/client-code.png)
 1. 在您取得用戶端程式碼後，建構您的傳送API呼叫。 以下範例從[傳送API郵遞員集合](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection)中提供的&#x200B;**[!UICONTROL 網頁批次Mbox傳送API呼叫]**&#x200B;開始，進行相關修改。 例如:
    * **browser**&#x200B;和&#x200B;**address**&#x200B;物件已從&#x200B;**Body**&#x200B;移除，因為非HTML使用案例不需要這些物件
@@ -95,20 +94,20 @@ png回應包含索引鍵ID以及建議實體的實體ID。
 
 | 資源 | 詳細資料 |
 | --- | --- |
-| [在AEM中使用REST風格的API](https://helpx.adobe.com/experience-manager/using/restful-services.html) | 如何建立和部署Adobe Experience Manager OSGi套件，以取用來自協力廠商REST風格的網站服務的資料。 |
-| [Adobe Target Everywhere —— 在IoT中實作伺服器端](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab，為運用Adobe Target伺服器端API的React應用程式提供實際操作體驗。 |
-| [Adobe Target在不使用Adobe SDK的行動應用程式中](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | 本指南說明如何在行動應用程式中設定Adobe Target，而不需安裝Adobe SDK。 此解決方案使用Tealium SDK網頁檢視和遠端指令模組，傳送和接收要求至Adobe Visitor API(Experience Cloud)和Adobe Target API。 |
-| [Adobe Target在行動應用程式中的運作方式](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | [!DNL Target]如何與Mobile SDK搭配運作 |
+| [使用REST風格的API AEM](https://helpx.adobe.com/experience-manager/using/restful-services.html) | 如何建立和部署Adobe Experience ManagerOSGi套件，該套件會耗用來自協力廠商REST風格的Web服務的資料。 |
+| [Adobe Target各地——在IoT中實施伺服器端](https://expleague.azureedge.net/labs/L733/index.html) | Adobe峰會2019實驗室，為運用Adobe Target伺服器端API的React應用程式提供實際操作體驗。 |
+| [Adobe Target在沒有AdobeSDK的行動應用程式中](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | 本指南說明如何在行動應用程式中設定Adobe Target，而不需安裝AdobeSDK。 此解決方案使用Tealium SDK網頁檢視和遠端指令模組，傳送和接收要求至Adobe訪客API(Experience Cloud)和Adobe TargetAPI。 |
+| [Adobe Target如何在行動應用程式中運作](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | [!DNL Target]如何與Mobile SDK搭配運作 |
 | [設定 [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | 在Experience Platform Launch中設定[!DNL Target]擴充功能、將[!DNL Target]擴充功能新增至應用程式，以及實作[!DNL Target] API以請求活動、預回遷選件和進入視覺預覽模式的步驟。 |
-| [Adobe Target節點用戶端](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | 開放來源[!DNL Target] Node.js SDK v1.0 |
-| [伺服器端概觀](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Adobe Target伺服器端傳送API、伺服器端批次傳送API、Node.js SDK和Adobe Target [!DNL Recommendations] API的相關資訊。 |
-| [電子郵件中的Adobe Campaign內容建議](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | 說明如何在Adobe Campaign中透過Adobe Target和Adobe I/O Runtime運用電子郵件中的內容建議的部落格。 |
+| [Adobe Target節點客戶端](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | 開放來源[!DNL Target] Node.js SDK v1.0 |
+| [伺服器端概觀](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | 有關Adobe Target伺服器端傳送API、伺服器端批次傳送API、Node.js SDK和Adobe Target[!DNL Recommendations] API的資訊。 |
+| [Adobe Campaign內容Recommendations電子郵件](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | 說明如何透過Adobe Target和Adobe CampaignAdobe I/O Runtime的電子郵件運用內容建議的部落格。 |
 
 ## 使用API管理[!DNL Recommendations]安裝
 
-大部分時候，建議會在Adobe Target UI中設定，然後透過[!DNL Target] API使用或存取，原因如上節所述。 此UI-API協調是常見的。 不過，有時使用者可能會想要透過API執行所有動作，包括設定以及結果的使用。 雖然不常見，但使用者可完全使用API來設定、執行&#x200B;*和*，並運用建議的結果。
+大部分時候，建議會在Adobe TargetUI中設定，然後透過[!DNL Target] API使用或存取，原因如上節所述。 此UI-API協調是常見的。 不過，有時使用者可能會想要透過API執行所有動作，包括設定以及結果的使用。 雖然不常見，但使用者可完全使用API來設定、執行&#x200B;*和*，並運用建議的結果。
 
-我們在[之前章節](manage-catalog.md)中學習了如何管理Adobe Target Recommendations實體並在伺服器端提供。 同樣地，Adobe I/O可讓您管理標準、促銷、系列和設計範本，而不需登入Adobe Target。 所有[!DNL Recommendations] API的完整清單可在[這裡找到](http://developers.adobetarget.com/api/recommendations/)，但這裡是供參考的摘要。
+我們在[前面章節](manage-catalog.md)中學習了如何管理Adobe TargetRecommendations實體並在伺服器端提供這些實體。 同樣地，Adobe I/O可讓您管理標準、促銷、系列和設計範本，而不需登入Adobe Target。 所有[!DNL Recommendations] API的完整清單可在[這裡找到](http://developers.adobetarget.com/api/recommendations/)，但這裡是供參考的摘要。
 
 | 資源 | 詳細資料 |
 | --- | --- |
@@ -127,13 +126,13 @@ png回應包含索引鍵ID以及建議實體的實體ID。
 
 ## 參考檔案
 
-* [Adobe Target API檔案](https://developers.adobetarget.com/api/#getting-started)
+* [Adobe TargetAPI檔案](https://developers.adobetarget.com/api/#getting-started)
 * [Adobe Target傳送API](https://developers.adobetarget.com/api/delivery-api/)
 * [與電子 [!DNL Recommendations] 郵件整合](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
 
 ## 摘要和審查
 
 恭喜！ 在完成本教學課程後，您已學習如何：
-* [使用Recommendations API管理您的目錄](manage-catalog.md)
-* [使用Recommendations API管理自訂條件](manage-custom-criteria.md)
-* [搭配Recommendations使用傳送API](fetch-recs-server-side-delivery-api.md)
+* [使用RecommendationsAPI管理您的型錄](manage-catalog.md)
+* [使用RecommendationsAPI管理自訂標準](manage-custom-criteria.md)
+* [搭配使用傳送API與Recommendations](fetch-recs-server-side-delivery-api.md)
