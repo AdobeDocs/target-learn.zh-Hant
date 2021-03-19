@@ -1,23 +1,25 @@
 ---
-title: 新增Adobe Target請求
-description: 'Adobe Mobile Services SDK(v4)提供Adobe Target方法與功能，讓您針對不同的使用者提供不同的體驗，以個人化您的應用程式。   '
-feature: mobile
-kt: 3040
-audience: developer
+title: 添加Adobe Target請求
+description: 'AdobeMobile Services SDK(v4)提供Adobe Target方法與功能，讓您針對不同的使用者提供不同的體驗，以個人化您的應用程式。   '
+role: 開發人員
+level: 中級
+topic: 行動、個人化
+feature: 實施行動
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
 
 
-# 新增Adobe Target請求
+# 添加Adobe Target請求
 
-Adobe Mobile Services SDK(v4)提供Adobe Target方法與功能，讓您針對不同的使用者提供不同的體驗，以個人化您的應用程式。 通常，會從應用程式向Adobe Target提出一或多個要求，以擷取個人化內容並評估該內容的影響。
+AdobeMobile Services SDK(v4)提供Adobe Target方法和功能，讓您針對不同的使用者提供不同的體驗，以個人化您的應用程式。 通常，會從應用程式向Adobe Target提出一或多個要求，以擷取個人化內容並評估該內容的影響。
 
 在本課中，您將透過實作[!DNL Target]請求，準備We.Travel應用程式以進行個人化。
 
@@ -45,7 +47,7 @@ Adobe Mobile Services SDK(v4)提供Adobe Target方法與功能，讓您針對不
 * **批次請求：**  包含多個位置的單一請求
 * **預回遷請**  求：擷取選件並將選件快取至記憶體中的單一請求，以供日後在應用程式中使用
 * **批預回遷請求：**  一個預回遷多個位置選件的請求
-* **對象：**  在介面中定義或從其 [!DNL Target] 他Adobe應用 [!DNL Target] 程式共用的一組訪客(例如「iPhone X訪客」、「加州的訪客」、「第一個應用程式開啟」)
+* **觀眾：**  在介面中定義或從其 [!DNL Target] 他Adobe應 [!DNL Target] 用程式共用的訪客群(例如「iPhone X訪客」、「加州的訪客」、「第一個應用程式開啟」)
 * **活動：**  在使 [!DNL Target] 用者介面（或使用API）中定 [!DNL Target] 義的建構，連結位置、優惠和觀眾以建立個人化體驗
 
 ## 添加批預回遷請求
