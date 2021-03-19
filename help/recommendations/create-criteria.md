@@ -1,21 +1,33 @@
 ---
-title: 在Recommendations中建立條件
-seo-title: 在Adobe Target建議中建立條件
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: 如何在Recommendations建立標準
+description: 瞭解如何在Adobe TargetRecommendations建立標準
+role: 業務從業人員
+level: 中級
+topic: 個人化
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 024678e0569b92da8e470a1299f0f7a585ba2371
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '67'
+ht-degree: 14%
 
 ---
 
 
-# 在Recommendations中建立條件
+# 在Recommendations建立標準
+
+## 說明
+
+在此影片中，您將學習如何：
+
+* 建立條件
+
+## 目標對象
+
+* 業務從業人員
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
