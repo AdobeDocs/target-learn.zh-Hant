@@ -1,19 +1,18 @@
 ---
-title: 使用API管理您的Recommendations目錄
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations包含一組專屬的API，可讓您管理建議產品和／或內容的目錄；管理您的建議演算法和宣傳活動；並以JSON、HTML或XML物件提供建議，以便顯示在網頁、行動裝置、電子郵件、IOT和其他通道中。
-kt: 3815
-audience: developer
+title: 如何使用API管理Recommendations目錄
+description: 本教學課程將引導開發人員完成使用Adobe TargetAPI來建立、更新、儲存、取得和刪除Recommendations目錄中實體的必要步驟。
+role: 開發人員
+level: 中級
+topic: 個人化、管理、整合、開發
+feature: API/SDK、Recommendations、管理與設定
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -23,17 +22,17 @@ ht-degree: 1%
 
 目前，您已學習如何使用JWT驗證流程產生存取Token，以搭配Adobe I/O使用Adobe Target管理API。
 
-您可以使用[Recommendations API](https://developers.adobetarget.com/api/recommendations/)來新增、更新或刪除建議目錄中的項目。 和其他Adobe Target管理API一樣，[!DNL Recommendations] API需要驗證。
+您可以使用[RecommendationsAPI](https://developers.adobetarget.com/api/recommendations/)來新增、更新或刪除建議目錄中的項目。 與Adobe Target管理API的其他部分一樣，[!DNL Recommendations] API需要驗證。
 
 >[!TIP]
 >
->傳送&#x200B;**[!UICONTROL IMS:JWT只要您需要重新整理存取Token以進行驗證，就會透過使用者Token]**&#x200B;產生+驗證請求，因為它會在24小時後過期。 如需指示，請參閱[設定Adobe API驗證](../apis/configure-io-target-integration.md)。
+>傳送&#x200B;**[!UICONTROL IMS:JWT只要您需要重新整理存取Token以進行驗證，就會透過使用者Token]**&#x200B;產生+驗證請求，因為它會在24小時後過期。 有關說明，請參閱[配置AdobeAPI驗證](../apis/configure-io-target-integration.md)。
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
 >[!NOTE]
 >
->繼續之前，請先取得[Recommendations Postman系列](https://developers.adobetarget.com/api/recommendations/#section/Postman)。
+>繼續之前，請先取得[Recommendations郵遞員系列](https://developers.adobetarget.com/api/recommendations/#section/Postman)。
 
 ## 使用「儲存實體API」建立和更新項目
 
