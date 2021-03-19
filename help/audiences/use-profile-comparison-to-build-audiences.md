@@ -1,24 +1,37 @@
 ---
-title: 使用描述檔比較在Adobe Target中建立觀眾
-seo-title: 使用描述檔比較在Adobe Target中建立觀眾
-description: Adobe Target中的「描述檔比較」功能可讓您在建立對象時，比較兩個數值描述檔值。 如果您要將自訂傾向分數傳遞至Target，並想要根據傾向分數最高的產品個人化內容，這非常有用。
-audience: marketer
-difficulty: 3
+title: 如何使用描述檔比較來建立觀眾
+description: 此影片示範Adobe Target使用者如何使用「描述檔比較」功能，在建立觀眾時，比較兩個數值描述檔值。
+role: 業務從業人員
+level: 經驗豐富
+topic: 個人化
+feature: 對象
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 4%
+source-wordcount: '179'
+ht-degree: 5%
 
 ---
 
 
-# 使用描述檔比較在Adobe Target中建立觀眾
+# 使用個人檔案比較建立Adobe Target的觀眾
 
-Adobe Target的[!UICONTROL 描述檔比較]功能可讓您在建立對象時，比較兩個數值描述檔值。 如果您要將自訂傾向分數傳遞至[!DNL Target]，並想要根據傾向分數最高的產品個人化內容，這非常有用。
+Adobe Target的[!UICONTROL 描述檔比較]功能可讓您在建立觀眾時，對比兩個數值描述檔值。 例如，如果您要將自訂的傾向分數傳遞至[!DNL Target]，並想要根據傾向分數最高的產品個人化內容，這非常有用。
+
+## 說明
+
+在此影片中，您將學習如何：
+
+* 比較傳遞至Adobe Target的數值描述檔值（分數）
+* 使用這些分數比較來定義觀眾
+
+## 目標對象
+
+* 業務從業人員
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
