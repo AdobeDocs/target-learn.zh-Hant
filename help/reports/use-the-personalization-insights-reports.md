@@ -1,16 +1,19 @@
 ---
-title: 在Adobe Target中使用個人化見解報表
-description: 「自動個人化」和「自動定位」活動使用進階機器學習，根據每位訪客的個人客戶個人檔案以及先前具有類似個人檔案的訪客的行為，為每位訪客提供最自訂的體驗。 「個人化洞察」報表提供這些模型如何做出決策的資訊。
-audience: analyst
-difficulty: 3
+title: 如何使用個人化見解報表
+description: Automated Personalization和Auto-Target活動會使用進階機器學習，根據每位訪客的個別客戶個人檔案以及先前具有類似個人檔案的訪客行為，為每位訪客提供最符合其個人化體驗。 「個人化洞察」報表提供這些模型如何做出決策的資訊。
+role: 業務從業人員
+level: 中級
+topic: 個人化
+feature: 報表、Automated Personalization、自動定位
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3c239d01b1cead4bf7c28e21e8694c4df6273d4e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 1%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 1%
 
 # 使用個人化見解報表
 
-「自動個人化」和「自動定位」活動使用進階機器學習，根據每位訪客的個人客戶個人檔案以及先前具有類似個人檔案的訪客的行為，為每位訪客提供最自訂的體驗。 「個人化洞察」報表提供這些模型如何做出決策的資訊。
+Automated Personalization和Auto-Target活動會使用進階機器學習，根據每位訪客的個別客戶個人檔案以及先前具有類似個人檔案的訪客行為，為每位訪客提供最符合其個人化體驗。 「個人化洞察」報表提供這些模型如何做出決策的資訊。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
