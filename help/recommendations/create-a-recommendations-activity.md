@@ -1,27 +1,39 @@
 ---
-title: 建立 Recommendations 活動
-seo-title: 在Adobe Target中建立Recommendations活動
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: 如何建立Recommendations活動
+description: 瞭解如何建立Adobe TargetRecommendations活動
+role: 業務從業人員
+level: 中級
+topic: 個人化
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 22%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
-# 建立 Recommendations 活動
+# 建立Adobe TargetRecommendations活動
+
+## 說明
+
+在此影片中，您將學習如何：
+
+* 建立 Recommendations 活動
+
+## 目標對象
+
+* 業務從業人員
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
 ## 其他資源
 
-* [在A/B測試和體驗定位活動中使用建議選件](use-recommendations-offers.md)
+* [在A/B測試和體驗定位活動中使用Recommendations選件](use-recommendations-offers.md)
 * [瞭解動態消息](understanding-feeds.md)
 * [建立動態消息](create-a-feed.md)
 * [建立條件](create-criteria.md)
