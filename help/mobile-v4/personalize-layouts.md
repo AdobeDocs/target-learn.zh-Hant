@@ -1,17 +1,18 @@
 ---
 title: 個人化版面
-seo-title: 個人化版面
-description: '在最後一課中，我們將在Target中為我們的觀眾建立兩個個人化活動。 我們將載入並顯示應用程式中的活動，並驗證內容是否在正確的時間顯示在正確的位置。  '
-seo-description: 在最後一課中，我們將在Target中為我們的觀眾建立兩個個人化活動。 我們將載入並顯示應用程式中的活動，並驗證內容是否在正確的時間顯示在正確的位置。
-feature: mobile
-kt: 3040
-audience: developer
+description: '在最後一課中，我們在Target中為我們的觀眾建立兩個個人化活動。 瞭解如何載入和顯示應用程式中的活動，並驗證內容是否在正確的時間顯示在正確的位置。  '
+role: 開發人員
+level: 中級
+topic: 行動、個人化
+feature: 實施行動
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
+author: Daniel Wright
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1098'
 ht-degree: 1%
 
 ---
@@ -25,10 +26,10 @@ ht-degree: 1%
 
 在本課程結束時，您將能夠：
 
-* 在Adobe Target中建立活動
+* 在Adobe Target建設活動
 * 驗證範例應用程式中的活動
 
-## 在Adobe Target中建立活動
+## 在Adobe Target建立活動
 
 瞭解如何建立「吸引使用者」和「內容相關選件」活動。
 
@@ -102,7 +103,7 @@ ht-degree: 1%
 
 讓我們繼續進入設定中的下一個畫面：
 
-1. 按一下「下一頁」，進入「定位」畫面。**[!UICONTROL ****]**
+1. 按一下「下一頁」，進入「定位」畫面。********
 1. 使用「定位」的預設設定。 如果您有重疊的觀眾體驗(例如&#x200B;_New York Users_&#x200B;和&#x200B;_First Time Users_)，您可以在此畫面上排列優先順序。
 1. 按一下&#x200B;**[!UICONTROL Next]**&#x200B;進入&#x200B;**[!UICONTROL 目標和設定]**。
 
@@ -111,7 +112,7 @@ ht-degree: 1%
 現在，讓我們完成活動設定：
 
 1. 將&#x200B;**[!UICONTROL 主要目標]**&#x200B;設定為&#x200B;**[!UICONTROL 轉換]**。
-1. 將動作設定為「已檢視mbox **[!UICONTROL >]** wetravel_context_dest _」（由於此位置位於確認畫面上，因此我們可用它來測量轉換）。_
+1. 將動作設定為「已檢視mbox ]**> _wetravel_context_dest_」（由於此位置位於確認畫面上，因此我們可用它來測量轉換）。**[!UICONTROL 
 
    ![吸引使用者活動——目標](assets/activity_create_12.jpg)
 
@@ -145,7 +146,7 @@ ht-degree: 1%
 在「目標與設定」步驟中，我們會將「主要目標」變更為訂房確認畫面上的位置：
 
 1. 在&#x200B;**[!UICONTROL 報告設定]**&#x200B;下，將&#x200B;**[!UICONTROL 主要目標]**&#x200B;設定為&#x200B;**[!UICONTROL 轉換]**。
-1. 將動作設定為「已檢視mbox **[!UICONTROL >]** wetravel_context_dest _」（在本練習中，此量度基本上沒有意義，因為這也是提供體驗的相同位置）。_
+1. 將動作設定為「已檢視mbox ]**> _wetravel_context_dest_」（在本練習中，此量度基本上沒有意義，因為這也是提供體驗的相同位置）。**[!UICONTROL 
 1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**。
 
 ![情境式選件——體驗](assets/activity_create_14.jpg)
@@ -194,8 +195,8 @@ ht-degree: 1%
 
 ## 結論
 
-恭喜！ Adobe Target SDK 4.x for Android教學課程的主要部分已到此結束。 您現在擁有在Android應用程式中實作個人化的技能！ 您可參閱本檔案和示範應用程式，做為未來專案的參考。
+恭喜！ 本節將結束「Android教學課程Adobe TargetSDK 4.x」的主要部分。 您現在擁有在Android應用程式中實作個人化的技能！ 您可參閱本檔案和示範應用程式，做為未來專案的參考。
 
-下一步：「功能標幟」是另一個可在Android中與Adobe Target一起實作的功能。 若要瞭解功能標幟，請參閱下一課。
+下一步：「功能標幟」是可在Android中與Adobe Target一起實施的另一項功能。 若要瞭解功能標幟，請參閱下一課。
 
 **[下一個：功能標幟>](feature-flagging.md)**
