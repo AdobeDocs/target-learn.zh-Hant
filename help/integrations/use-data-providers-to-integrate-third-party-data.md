@@ -1,17 +1,19 @@
 ---
-title: 使用資料提供者將協力廠商資料整合至Adobe Target
-seo-title: 使用資料提供者將協力廠商資料整合至Adobe Target
-description: 資料提供者這項功能可以讓您輕鬆將資料從第三方傳入 Target。第三方可能是氣象服務、DMP，甚至是您自己的 Web 服務。接著，您就能使用此資料來建立對象、鎖定內容及擴充訪客設定檔。
-audience: marketer
-difficulty: 5
+title: 如何使用資料提供者整合第三方資料
+description: 本教學課程將使用者介紹給資料提供者。 瞭解如何使用資料提供者功能，輕鬆將資料從第三方傳遞至Adobe Target。
+role: 商業從業人員、開發人員
+level: 經驗豐富
+topic: 個人化，整合
+feature: 實施、整合、API/SDK
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 40%
+source-wordcount: '220'
+ht-degree: 22%
 
 ---
 
@@ -35,5 +37,5 @@ ht-degree: 40%
 
 ## 支援材料
 
-* [在at.js和Adobe Target中實作資料提供者](implement-data-providers-to-integrate-third-party-data.md)
+* [在at.js和Adobe Target實作資料提供者](implement-data-providers-to-integrate-third-party-data.md)
 * [資料提供者檔案](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
