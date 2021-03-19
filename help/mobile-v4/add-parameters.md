@@ -1,15 +1,17 @@
 ---
 title: 新增參數至請求
-description: 在本課中，我們將新增Adobe生命週期量度和自訂參數至上一課中新增的Target請求。 這些度量和參數將在教學課程的稍後部份用於建立個人化的觀眾。
-feature: mobile
-kt: 3040
-audience: developer
+description: 在本課中，我們將新增Adobe生命週期度量和自訂參數至上一課中新增的Target請求。 這些度量和參數將在教學課程的稍後部份用於建立個人化的觀眾。
+role: 開發人員
+level: 中級
+topic: 行動、個人化
+feature: 實施行動
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 # 新增參數至請求
 
-在本課中，我們將新增Adobe生命週期度量和自訂參數至上一課中新增的[!DNL Target]請求。 這些度量和參數將在教學課程的稍後部份用於建立個人化的觀眾。
+在本課中，我們將在上一課中新增的[!DNL Target]請求中新增Adobe生命週期度量和自訂參數。 這些度量和參數將在教學課程的稍後部份用於建立個人化的觀眾。
 
 ## 學習目標
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## 添加生命週期參數
 
-讓我們啟用[Adobe行動生命週期量度](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。 這會將參數新增至位置要求，其中包含使用者裝置的豐富資訊以及與應用程式的互動。 我們將使用生命週期要求提供的資料，在下一課中建立受眾。
+讓我們啟用[Adobe行動生命週期度量](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。 這會將參數新增至位置要求，其中包含使用者裝置的豐富資訊以及與應用程式的互動。 我們將使用生命週期要求提供的資料，在下一課中建立受眾。
 
 若要啟用生命週期度量，請再次開啟HomeActivity控制器，並將`Config.collectLifecycleData(this);`新增至onResume()函式：
 
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 ## 將at_property參數新增至預回遷請求
 
-Adobe Target屬性是在[!DNL Target]介面中定義，用來建立個人化應用程式和網站的界限。 at_property參數可識別存取和維護選件和活動的特定屬性。 我們將向預回遷和即時位置請求添加屬性。
+Adobe Target屬性在[!DNL Target]介面中定義，用來建立個人化應用程式和網站的邊界。 at_property參數可識別存取和維護選件和活動的特定屬性。 我們將向預回遷和即時位置請求添加屬性。
 
 >[!NOTE]
 >
@@ -89,7 +91,7 @@ public void targetPrefetchContent() {
 
 ### 關於參數的注意事項
 
-對於未來的專案，您可能想要實作其他參數。 `createTargetPrefetchObject()`方法允許三種類型的參數：`locationParams`、`orderParams`和`productParams`。 有關將這些參數添加到預回遷請求[的詳細資訊，請參閱文檔。](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html)
+對於未來的專案，您可能想要實作其他參數。 `createTargetPrefetchObject()`方法允許三種類型的參數：`locationParams`、`orderParams`和`productParams`。 有關將這些參數添加到預回遷請求](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html)的詳細資訊，請參閱文檔。[
 
 另請注意，可以將不同的位置參數添加到預回遷請求中的每個位置。 例如，您可以建立另一個名為param2的Map，在其中加入新參數，然後將param2設定在一個位置，並將param1設定在另一個位置。 以下是一個例子：
 
@@ -150,8 +152,8 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->Analytics for Target(A4T):Adobe Analytics可以設定為[!DNL Target]的報表來源。 這可讓Target SDK收集的所有量度／維度在Adobe Analytics中檢視。 如需詳細資訊，請參閱[A4T概觀](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)。
+>Analytics for Target(A4T):Adobe Analytics可以配置為[!DNL Target]的報告源。 這可讓Target SDK收集的所有量度／維度在Adobe Analytics檢視。 如需詳細資訊，請參閱[A4T概觀](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)。
 
-幹得好！ 現在已有參數可供使用，我們已準備好使用這些參數在Adobe Target中建立觀眾和選件。
+幹得好！ 現在已有參數，我們已準備好使用這些參數來建立Adobe Target的觀眾和優惠。
 
 **[下一個：「建立觀眾和選件」>](create-audiences-and-offers.md)**
