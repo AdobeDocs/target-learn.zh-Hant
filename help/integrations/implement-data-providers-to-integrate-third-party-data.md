@@ -1,14 +1,16 @@
 ---
-title: 實作資料提供者，將協力廠商資料整合至Adobe Target
-seo-title: 實作資料提供者，將協力廠商資料整合至Adobe Target
-description: 實作詳細資訊和範例，說明如何使用Adobe Target的「資料提供者」功能從協力廠商資料提供者擷取資料，並在Target請求中傳遞資料。
-audience: developer
-difficulty: 5
+title: 如何實施資料提供者整合第三方資料
+description: 本教學課程提供實作詳細資訊和範例，說明如何使用Adobe Target的資料提供者功能從第三方資料提供者擷取資料，並在Target要求中傳遞資料。
+role: 開發人員
+level: 經驗豐富
+topic: 個人化，整合
+feature: 實施、整合、API/SDK
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -16,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# 實作[!UICONTROL 資料提供者]以將協力廠商資料整合至Adobe Target
+# 實作[!UICONTROL 資料提供者]，將協力廠商資料整合至Adobe Target
 
-實作詳細資訊和範例，說明如何使用Adobe Target的[!UICONTROL 資料提供者]功能，從協力廠商資料提供者擷取資料，並在Target請求中傳遞資料。
+實作詳細資訊和範例，說明如何使用Adobe Target的[!UICONTROL 資料提供者]功能，從第三方資料提供者擷取資料，並在Target要求中傳遞資料。
 
 >[!NOTE]
 >
