@@ -1,17 +1,17 @@
 ---
 title: 功能標幟
-seo-title: 功能標幟
-description: Adobe Target可用來實驗UX功能，例如色彩、復本、按鈕、文字和影像，並為特定的觀眾提供這些功能。
-seo-description: Adobe Target可用來實驗UX功能，例如色彩、復本、按鈕、文字和影像，並為特定的觀眾提供這些功能。
-feature: mobile
-kt: 3040
-audience: developer
+description: Adobe Target可用來實驗UX的功能，例如顏色、復本、按鈕、文字和影像，並為特定的觀眾提供這些功能。
+role: 開發人員
+level: 中級
+topic: 行動、個人化
+feature: 實施行動
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # 功能標幟
 
-行動應用程式產品擁有者需要有彈性，在應用程式中推出新功能，而不需投資於多個應用程式版本。 他們也可能想要逐步將功能推展至使用者群的百分比，以測試效能。 Adobe Target可用來實驗UX功能，例如色彩、復本、按鈕、文字和影像，並為特定的觀眾提供這些功能。
+行動應用程式產品擁有者需要有彈性，在應用程式中推出新功能，而不需投資於多個應用程式版本。 他們也可能想要逐步將功能推展至使用者群的百分比，以測試效能。 Adobe Target可用來實驗UX的功能，例如顏色、復本、按鈕、文字和影像，並為特定的觀眾提供這些功能。
 
 在本課中，我們將建立「功能標幟」選件，此選件可用作啟用特定應用程式功能的觸發器。
 
@@ -133,7 +133,7 @@ public void processFeatureFlags() {
 1. 按一下「新增體驗」，新增體驗B。****
 1. 保留&quot;wetravel_feature_flag_recs&quot;位置
 1. 保留&#x200B;**[!UICONTROL 內容的預設內容]**
-1. 按一下「下一步」，移至「定位」畫面[!UICONTROL ****]
+1. 按一下「下一步」，移至「定位」畫面&#x200B;****
 
    ![功能標幟活動設定](assets/feature_flag_activity_2.jpg)
 
@@ -142,7 +142,7 @@ public void processFeatureFlags() {
    ![功能標幟活動設定](assets/feature_flag_activity_3.jpg)
 
 1. 將&#x200B;**[!UICONTROL 主要目標]**&#x200B;設定為&#x200B;**[!UICONTROL 轉換]**。
-1. 將動作設定為「已檢視Mbox **[!UICONTROL 」。]**&#x200B;我們將使用&quot;wetravel_context_dest&quot;位置（因為此位置位於「確認」畫面上，因此我們可使用它來查看新功能是否帶來更多轉換）。
+1. 將動作設定為「已檢視Mbox ]**」。**[!UICONTROL &#x200B;我們將使用&quot;wetravel_context_dest&quot;位置（因為此位置位於「確認」畫面上，因此我們可使用它來查看新功能是否帶來更多轉換）。
 1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**。
 
    ![功能標幟活動設定](assets/feature_flag_activity_4.jpg)
