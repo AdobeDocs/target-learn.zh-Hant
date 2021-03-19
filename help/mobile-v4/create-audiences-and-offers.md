@@ -1,23 +1,23 @@
 ---
-title: 在Adobe Target中建立觀眾和選件
-seo-title: 在Adobe Target中建立觀眾和選件
-description: '在本課中，我們將在Adobe Target中針對我們在上一課中實施的三個位置建立受眾和優惠。 這些將用於在下一課中展示個人化體驗。   '
-seo-description: 在本課中，我們將在Adobe Target中針對我們在上一課中實施的三個位置建立受眾和優惠。 這些將用於在下一課中展示個人化體驗。
-feature: mobile
-kt: 3040
-audience: developer
+title: 在Adobe Target建立觀眾和選件
+description: '在本課中，我們在Adobe Target為我們在上一課中實施的三個地點建立受眾和優惠。 這些將用於在下一課中展示個人化體驗。   '
+role: 開發人員
+level: 中級
+topic: 行動、個人化
+feature: 實施行動
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1015'
 ht-degree: 1%
 
 ---
 
 
-# 在Adobe Target中建立觀眾和選件
+# 在Adobe Target建立觀眾和選件
 
 在本課中，我們將進入[!DNL Target]介面，並針對我們在上節課中實施的三個位置建立受眾和優惠。
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 在本課程結束時，您將能夠：
 
 * 在 Adobe Target 中建立受眾
-* 在Adobe Target中建立選件
+* 在Adobe Target建立選件
 
 更具體地說，在本課中，我們將建立所需的受眾和優惠，以完成教學課程開頭定義的個人化使用案例。 我們想使用「首頁」和「搜尋」畫面來協助應用程式使用者預訂行程，而我們想使用「感謝」畫面來根據使用者的目的地顯示一些相關的促銷活動。 下表顯示了我們在本課中為每個位置建立的內容：
 
@@ -106,7 +106,7 @@ Adobe Target觀眾可用來識別特定訪客群組。 然後，選件可以定�
 
 ## 建立選件
 
-現在，讓我們建立選件來顯示這些訊息。 提醒您，選件是程式碼／內容的片段，會以[!DNL Target]回應傳送。 它們最常在[!DNL Target]使用者介面中建立，但也可透過API或使用與Adobe Experience Manager整合的Experience Fragments來建立。 在行動應用程式中，JSON選件是常見的。 在本教學課程中，我們將使用HTML選件，此選件可用來將任何明文內容（包括JSON）傳送至應用程式。
+現在，讓我們建立選件來顯示這些訊息。 提醒您，選件是程式碼／內容的片段，會以[!DNL Target]回應傳送。 它們最常在[!DNL Target]使用者介面中建立，但也可透過API或使用與Adobe Experience Manager整合的「體驗片段」來建立。 在行動應用程式中，JSON選件是常見的。 在本教學課程中，我們將使用HTML選件，此選件可用來將任何明文內容（包括JSON）傳送至應用程式。
 
 ### 為新使用者建立選件
 
