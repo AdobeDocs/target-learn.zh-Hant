@@ -1,14 +1,17 @@
 ---
 title: 瞭解如何使用Adobe Target
 description: 透過涵蓋其所有元件的教學課程和影片集，瞭解如何使用Adobe Target。 有效運用Adobe Target的力量。
+role: Leader, Architect, Developer, Administrator, Business Practitioner
+level: Beginner, Intermediate, Experienced
+topic: 個人化
+exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 16%
+source-wordcount: '253'
+ht-degree: 15%
 
 ---
-
 
 # 學習使用Adobe Target
 
@@ -16,15 +19,17 @@ Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具�
 
 ## 新功能
 
+* **[在Analysis Workspace為自動目標活動設定A4T報表](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+
+   *對於商業從業者：您是否使用A4T進行自動定位？請依照下列步驟，在Analysis Workspace設定A4T報表，以確保在執行Auto-Target活動時取得預期結果。*
 * **[裝置上決策概觀](implementation/on-device-decisioning-overview.md)**
 
    *適用於建築師：開始使用裝置上決策，為您的消費者提供近乎零的延遲體驗！*
 * **[使用RecommendationsAPI（教學課程）](recommendations-api-tutorial/recs-api-overview.md)**
    *針對開發人員：使用API來設定和管理型 [!DNL Recommendations] 錄和自訂准則 [!DNL Recommendations] 等，取得實際操作。*
 
-* **[使用Android專用AdobeMobile Services SDK v4實作Adobe Target（教學課程）](mobile-v4/overview.md)**
-
-   *對於已使用AdobeMobile Services SDK v4的開發人員：瞭解如何開始使用Adobe Target個人化應用程式體驗。這些步驟是舊版使用者支援。<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+<!--* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
+    *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.*<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->
 
 <!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
     *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
