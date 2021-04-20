@@ -1,10 +1,10 @@
 ---
 title: 如何實施資料提供者整合第三方資料
 description: 本教學課程提供實作詳細資訊和範例，說明如何使用Adobe Target的資料提供者功能從第三方資料提供者擷取資料，並在Target要求中傳遞資料。
-role: 開發人員
-level: 經驗豐富
-topic: 個人化，整合
-feature: 實施、整合、API/SDK
+role: Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt: null
 thumbnail: null

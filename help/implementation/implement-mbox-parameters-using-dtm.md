@@ -1,10 +1,10 @@
 ---
 title: 如何使用DTM實作Mbox參數
 description: 此影片示範開發人員如何使用Adobe啟動(先前稱為Adobe動態標籤管理(DTM))來實作mbox參數。
-role: 開發人員
-level: 中級
-topic: 個人化、架構、開發
-feature: 實施
+role: Developer
+level: Intermediate
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

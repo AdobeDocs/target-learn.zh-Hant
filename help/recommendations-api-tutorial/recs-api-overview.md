@@ -1,10 +1,10 @@
 ---
 title: 什麼是Adobe RecommendationsAPI?
 description: 本教學課程將帶領開發人員進行實際操作，使用Adobe TargetRecommendationsAPI來設定和管理Recommendations型錄和自訂准則，以及使用傳送API來擷取建議內容。
-role: 開發人員
-level: 中級
-topic: 個人化、管理、整合、開發
-feature: API/SDK,Recommendations，管理與設定，概觀
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
 thumbnail: null

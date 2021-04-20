@@ -1,10 +1,10 @@
 ---
 title: 混合部署選項
 description: 觀看此影片，瞭解Adobe Target獨特的個人化混合部署模型——混合用戶端和伺服器端實作。
-role: 開發人員、架構設計人員
-level: 初學者
-topic: 個人化、架構、開發
-feature: 實作、伺服器端實作、用戶端實作
+role: Developer, Architect
+level: Beginner
+topic: Personalization, Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 thumbnail: null
 kt: 6165

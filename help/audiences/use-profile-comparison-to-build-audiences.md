@@ -1,10 +1,10 @@
 ---
 title: 如何使用描述檔比較來建立觀眾
 description: 此影片示範Adobe Target使用者如何使用「描述檔比較」功能，在建立觀眾時，比較兩個數值描述檔值。
-role: 業務從業人員
-level: 經驗豐富
-topic: 個人化
-feature: 對象
+role: Business Practitioner
+level: Experienced
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: 如何設定帳戶偏好設定
 description: 此影片說明Adobe Target帳戶偏好設定。 觀看此影片，瞭解不同設定對Adobe Target的影響。
-role: 管理員
-level: 初學者
-topic: 管理
-feature: 管理 & 設定
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

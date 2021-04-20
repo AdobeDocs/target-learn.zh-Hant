@@ -1,10 +1,10 @@
 ---
 title: 如何使用資料提供者整合第三方資料
 description: 本教學課程將使用者介紹給資料提供者。 瞭解如何使用資料提供者功能，輕鬆將資料從第三方傳遞至Adobe Target。
-role: 商業從業人員、開發人員
-level: 經驗豐富
-topic: 個人化，整合
-feature: 實施、整合、API/SDK
+role: Business Practitioner, Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: 在Adobe Target建立觀眾和選件
 description: '在本課中，我們在Adobe Target為我們在上一課中實施的三個地點建立受眾和優惠。 這些將用於在下一課中展示個人化體驗。   '
-role: 開發人員
-level: 中級
-topic: 行動、個人化
-feature: 實施行動
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

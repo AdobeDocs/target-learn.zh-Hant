@@ -1,10 +1,10 @@
 ---
 title: 如何設定屬性
 description: 此影片示範管理員如何在Adobe Target建立屬性。
-role: 管理員
-level: 初學者
-topic: 管理
-feature: 管理 & 設定
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

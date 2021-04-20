@@ -1,10 +1,10 @@
 ---
 title: 如何設定企業使用者權限
 description: 本影片將介紹Adobe Target管理員的使用者權限、屬性和工作區。 觀看此影片，瞭解不同的使用者層級，以及如何使用屬性和工作區來控制使用者存取。
-role: 管理員
-level: 初學者
-topic: 管理
-feature: 管理 & 設定
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

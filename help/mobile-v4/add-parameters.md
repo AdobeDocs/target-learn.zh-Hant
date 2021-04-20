@@ -1,10 +1,10 @@
 ---
 title: 新增參數至請求
 description: 在本課中，我們將新增Adobe生命週期度量和自訂參數至上一課中新增的Target請求。 這些度量和參數將在教學課程的稍後部份用於建立個人化的觀眾。
-role: 開發人員
-level: 中級
-topic: 行動、個人化
-feature: 實施行動
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

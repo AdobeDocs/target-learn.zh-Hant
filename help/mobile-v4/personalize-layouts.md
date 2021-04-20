@@ -1,10 +1,10 @@
 ---
 title: 個人化版面
 description: '在最後一課中，我們在Target中為我們的觀眾建立兩個個人化活動。 瞭解如何載入和顯示應用程式中的活動，並驗證內容是否在正確的時間顯示在正確的位置。  '
-role: 開發人員
-level: 中級
-topic: 行動、個人化
-feature: 實施行動
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

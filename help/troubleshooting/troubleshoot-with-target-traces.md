@@ -1,10 +1,10 @@
 ---
 title: 如何使用Target追蹤進行疑難排解
 description: Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作。瞭解如何在Experience Cloud中驗證，並使用功能強大的Target追蹤工具來檢查您的活動和受眾資格以及訪客資料。
-role: 業務從業人員
-level: 中級
-topic: 個人化，效能
-feature: 疑難排解
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Performance
+feature: Troubleshooting
 doc-type: feature video
 kt: null
 thumbnail: null

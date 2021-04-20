@@ -1,10 +1,10 @@
 ---
 title: 如何建立A/B測試
 description: 這段影片會帶領使用者瞭解在Adobe Target建立A/B活動的關鍵工作流程。 觀看此影片，瞭解如何使用視覺體驗撰寫器(VEC)建立基本A/B活動。
-role: 業務從業人員
-level: 初學者
-topic: 個人化
-feature: A/B測試、活動、視覺體驗撰寫器(VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

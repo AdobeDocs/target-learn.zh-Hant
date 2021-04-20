@@ -3,7 +3,7 @@ title: 瞭解如何使用Adobe Target
 description: 透過涵蓋其所有元件的教學課程和影片集，瞭解如何使用Adobe Target。 有效運用Adobe Target的力量。
 role: Leader, Architect, Developer, Administrator, Business Practitioner
 level: Beginner, Intermediate, Experienced
-topic: 個人化
+topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 translation-type: tm+mt
 source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82

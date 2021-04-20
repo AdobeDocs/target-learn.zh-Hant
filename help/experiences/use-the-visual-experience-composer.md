@@ -1,10 +1,10 @@
 ---
 title: 如何使用視覺體驗撰寫器(VEC)
 description: 這兩個影片將行銷人員介紹給Adobe Target視覺體驗撰寫器(VEC)。 觀看這些影片，瞭解如何使用VEC建立活動。
-role: 業務從業人員
-level: 初學者
-topic: 個人化
-feature: Visual Experience Composer(VEC)、體驗與優惠
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
 thumbnail: null
 kt: null

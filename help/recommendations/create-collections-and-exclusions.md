@@ -1,9 +1,9 @@
 ---
 title: 如何在Recommendations建立系列與排除
 description: 瞭解Recommendations的收藏集，以及如何使用它。 瞭解Recommendations的排斥是什麼，以及如何運用。
-role: 業務從業人員
-level: 中級
-topic: 個人化
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

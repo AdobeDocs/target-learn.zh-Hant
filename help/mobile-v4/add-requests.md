@@ -1,10 +1,10 @@
 ---
 title: 添加Adobe Target請求
 description: 'AdobeMobile Services SDK(v4)提供Adobe Target方法與功能，讓您針對不同的使用者提供不同的體驗，以個人化您的應用程式。   '
-role: 開發人員
-level: 中級
-topic: 行動、個人化
-feature: 實施行動
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

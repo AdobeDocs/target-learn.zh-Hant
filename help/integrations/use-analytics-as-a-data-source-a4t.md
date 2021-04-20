@@ -1,10 +1,10 @@
 ---
 title: 如何使用Analytics做為Target的資料來源(A4T)
 description: 此影片將行銷人員介紹至Analytics for Target(A4T)。
-role: 業務從業人員
-level: 初學者
-topic: 個人化，整合
-feature: Analytics for Target(A4T)，整合
+role: Business Practitioner
+level: Beginner
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 thumbnail: null
 kt: null

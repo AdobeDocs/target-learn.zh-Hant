@@ -1,10 +1,10 @@
 ---
 title: 如何在單頁應用程式中實作at.js 2.0(SPA)
 description: Adobe Target的at.js 2.0提供豐富的功能集，讓您的企業能夠運用新一代的用戶端技術，進行個人化。 請依照下列步驟，在單頁應用程式(SPA)中實作at.js 2.0。
-role: 開發人員
-level: 中級
-topic: SPA，架構，開發
-feature: 實施
+role: Developer
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

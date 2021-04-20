@@ -1,10 +1,10 @@
 ---
 title: at.js 2.0如何運作？
 description: at.js 2.0增強了Adobe Target對單頁應用程式(SPA)的支援，並與其他Experience Cloud解決方案整合。 這段視頻和隨附的圖解說明了一切如何匯集在一起。
-role: 開發人員
-level: 中級
-topic: SPA，架構，開發
-feature: 實施
+role: Developer
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

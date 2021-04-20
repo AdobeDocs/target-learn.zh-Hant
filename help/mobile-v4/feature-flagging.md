@@ -1,10 +1,10 @@
 ---
 title: 功能標幟
 description: Adobe Target可用來實驗UX的功能，例如顏色、復本、按鈕、文字和影像，並為特定的觀眾提供這些功能。
-role: 開發人員
-level: 中級
-topic: 行動、個人化
-feature: 實施行動
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

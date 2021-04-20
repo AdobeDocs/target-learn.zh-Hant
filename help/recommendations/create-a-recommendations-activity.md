@@ -1,9 +1,9 @@
 ---
 title: 如何建立Recommendations活動
 description: 瞭解如何建立Adobe TargetRecommendations活動
-role: 業務從業人員
-level: 中級
-topic: 個人化
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

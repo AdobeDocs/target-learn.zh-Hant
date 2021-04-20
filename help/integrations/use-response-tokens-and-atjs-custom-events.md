@@ -1,10 +1,10 @@
 ---
 title: 如何使用回應Token和at.js自訂事件
 description: 瞭解如何使用回應Token和at.js自訂事件，將描述檔資訊從Target共用至協力廠商系統。
-role: 開發人員
-level: 經驗豐富
-topic: 個人化、架構、開發
-feature: 實施
+role: Developer
+level: Experienced
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: 如何建立體驗定位活動
 description: 體驗鎖定(XT)活動可讓行銷人員將特定內容鎖定在特定對象。 瞭解XT活動的優點，以及如何建立和使用它們。
-role: 業務從業人員
-level: 初學者
-topic: 個人化
-feature: 體驗定位、活動、視覺體驗撰寫器(VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

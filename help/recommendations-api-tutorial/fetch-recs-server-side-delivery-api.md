@@ -1,10 +1,10 @@
 ---
 title: 如何使用傳送API擷取Recommendations
 description: 本教學課程的這一部分將引導開發人員完成使用Adobe Target傳送API擷取建議內容所需的步驟。
-role: 開發人員
-level: 中級
-topic: 個人化、管理、整合、開發
-feature: API/SDK、Recommendations、管理與設定
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: 如何在Analysis Workspace為自動定位活動設定A4T報表
 description: 一旦您的Analytics for Target(A4T)整合到位，而且您正在執行Auto-Target活動，如何確保正確解讀結果？ 請依照下列步驟，在Analysis Workspace設定A4T報表，以在執行Auto-Target活動時取得預期結果。
-role: 業務從業人員
-level: 中級
-topic: 個人化，整合
-feature: Analytics for Target(A4T)、自動定位、整合
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail: null
 kt: null

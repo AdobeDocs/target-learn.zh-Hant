@@ -1,10 +1,10 @@
 ---
 title: 如何針對單頁應用程式(SPAVEC)使用Visual Experience Composer
 description: 此影片向行銷人員介紹Adobe Target單頁應用程式視覺體驗撰寫器(SPAVEC)。 觀看此影片，瞭解如何使用VEC建立活SPA動。
-role: 業務從業人員
-level: 初學者
-topic: SPA，個人化
-feature: 體驗與選件、視覺體驗撰寫器(VEC)
+role: Business Practitioner
+level: Beginner
+topic: SPA, Personalization
+feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

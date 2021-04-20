@@ -1,10 +1,10 @@
 ---
 title: 如何在A/B測試和體驗定位活動中使用Recommendations選件
 description: 瞭解如何在Adobe Target的A/B測試和體驗定位活動中使用Recommendations選件。
-role: 業務從業人員
-level: 中級
-topic: 個人化
-feature: Recommendations，自動定位，自動分配
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail: null
 kt: 3451

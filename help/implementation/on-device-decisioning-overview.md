@@ -1,10 +1,10 @@
 ---
 title: 裝置上決策的目的
 description: Adobe Target裝置上決策可讓內容傳送接近零延遲。 觀看此影片，瞭解裝置上的決策，以及如何啟用它。
-role: 架構師
-level: 初學者
-topic: 架構、開發
-feature: 實作、伺服器端實作、用戶端實作
+role: Architect
+level: Beginner
+topic: Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 team: Evangelism
 kt: 6691

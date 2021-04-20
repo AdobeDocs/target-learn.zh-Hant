@@ -1,10 +1,10 @@
 ---
 title: 如何使用API管理Recommendations目錄
 description: 本教學課程將引導開發人員完成使用Adobe TargetAPI來建立、更新、儲存、取得和刪除Recommendations目錄中實體的必要步驟。
-role: 開發人員
-level: 中級
-topic: 個人化、管理、整合、開發
-feature: API/SDK、Recommendations、管理與設定
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

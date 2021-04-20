@@ -1,10 +1,10 @@
 ---
 title: 如何配置Adobe TargetAPI的驗證
 description: 本教學課程將引導開發人員完成產生與Adobe TargetAPI成功互動所需驗證Token的必要步驟。 請依照下列步驟，使用Adobe開發人員主控台產生並測試使用Target API所需的承載存取Token。
-role: 開發人員、管理員、架構設計人員
-level: 中級
-topic: 個人化、管理、整合、開發
-feature: API/SDK，管理與設定
+role: Developer, Administrator, Architect
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null

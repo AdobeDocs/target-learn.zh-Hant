@@ -1,10 +1,10 @@
 ---
 title: 如何使用活動設定
 description: 觀看此影片，瞭解如何使用Adobe Target的各種活動設定，包括目標、優先順序等級、開始和結束時間以及觀眾。
-role: 業務從業人員
-level: 初學者
-topic: 個人化
-feature: 活動
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

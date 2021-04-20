@@ -1,10 +1,10 @@
 ---
 title: 下載並更新We.Travel範例應用程式
 description: 'We.Travel範例應用程式已預先建置在AdobeMobile Services SDK v4中。 您只需要更新它，就能指向您自己的Experience Cloud組織和解決方案帳戶。   '
-role: 開發人員
-level: 中級
-topic: 行動、個人化
-feature: 實施行動
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

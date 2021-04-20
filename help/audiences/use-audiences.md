@@ -1,10 +1,10 @@
 ---
 title: 什麼是受眾，我要如何運用？
 description: 此影片示範Adobe Target使用者如何使用觀眾來定位活動和篩選報表。
-role: 業務從業人員
-level: 初學者
-topic: 個人化
-feature: 觀眾、報表
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Audiences, Reports
 doc-type: feature video
 thumbnail: null
 kt: null

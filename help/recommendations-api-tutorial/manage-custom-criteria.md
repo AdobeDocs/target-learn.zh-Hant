@@ -1,10 +1,10 @@
 ---
 title: 如何管理自訂條件
 description: 本教學課程將引導開發人員完成使用Adobe TargetAPI來管理、建立、列出、編輯、取得和刪除Adobe TargetRecommendations標準所需的步驟。
-role: 開發人員
-level: 中級
-topic: 個人化、管理、整合、開發
-feature: API/SDK、Recommendations、管理與設定
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null
