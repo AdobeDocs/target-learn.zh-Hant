@@ -1,27 +1,26 @@
 ---
-title: 如何使用活動定位
-description: Adobe Target提供不同的工具，以控制活動上線時向不同觀眾顯示的體驗。 瞭解如何透過使用受眾和流量分配來控制誰可以看到什麼。
-role: Business Practitioner
+title: 如何使用活動鎖定目標
+description: Adobe Target提供不同的拉桿，可控制活動上線時對不同對象顯示的體驗。 了解如何使用對象和流量分配來控制誰可以看到什麼。
+role: User
 level: Intermediate
-topic: Personalization
-feature: Activities, Audiences
+topic: 個人化
+feature: 活動，對象
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 28%
+source-wordcount: '75'
+ht-degree: 29%
 
 ---
 
-
-# 使用活動定位
+# 使用活動鎖定
 
 ## 說明
 
-在此影片中，您將學習如何：
+此影片會說明如何：
 
 * 指派對象至您的活動
 * 向上或向下調節流量
