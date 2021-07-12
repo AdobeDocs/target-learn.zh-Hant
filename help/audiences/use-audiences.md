@@ -1,32 +1,31 @@
 ---
-title: 什麼是受眾，我要如何運用？
-description: 此影片示範Adobe Target使用者如何使用觀眾來定位活動和篩選報表。
-role: Business Practitioner
+title: 什麼是對象？如何使用？
+description: 此影片向 Adobe Target 用戶說明如何使用 Audiences 以鎖定活動和篩選報表。
+role: User
 level: Beginner
-topic: Personalization
-feature: Audiences, Reports
+topic: 個人化
+feature: 對象，報表
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 1%
+source-wordcount: '66'
+ht-degree: 25%
 
 ---
 
-
-# 在Adobe Target使用觀眾
+# 在Adobe Target中使用對象
 
 ## 說明
 
-在此影片中，您將學習如何：
+此影片會說明如何：
 
-* 定義Adobe Target的「觀眾」
-* 在觀眾清單中尋找觀眾
-* 使用對象來定位活動和篩選報表
+* 定義Adobe Target的「對象」
+* 在對象清單中尋找對象
+* 使用對象來鎖定活動及篩選報表
 
 ## 目標對象
 
