@@ -1,31 +1,30 @@
 ---
 title: 如何在活動中使用量度
-description: 您如何衡量Adobe Target的活動是否成功？ 在此影片中，瞭解不同類型的目標量度，以及如何使用它們來測量活動的效能。
-role: Business Practitioner
+description: 如何測量Adobe Target活動是否成功？ 此影片會說明不同類型的目標量度，以及如何使用這些量度來測量活動的效能。
+role: User
 level: Intermediate
-topic: Personalization
-feature: Activities
+topic: 個人化
+feature: 活動
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+exl-id: 02752f2c-2f61-44b8-a6a5-f36d576e4806
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 7%
 
 ---
-
 
 # 在活動中使用量度
 
 ## 說明
 
-在此影片中，您將學習如何：
+此影片會說明如何：
 
 * 說明「目標」量度是什麼
-* 說明「轉換」、「收入」和「參與」量度之間的差異
-* 建立轉換、收入和參與度量
+* 說明轉換、收入和參與量度之間的差異
+* 建立轉換、收入和參與量度
 * 建置點擊追蹤量度
 
 ## 目標對象
