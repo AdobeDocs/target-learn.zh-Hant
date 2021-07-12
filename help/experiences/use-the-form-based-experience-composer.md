@@ -1,31 +1,30 @@
 ---
-title: 如何使用表單型體驗撰寫器
-description: 此影片顯示Adobe Target使用者如何及何時使用表單型體驗撰寫器。
-role: Business Practitioner
+title: 如何使用表單式體驗撰寫器
+description: 此影片會示範Adobe Target使用者如何及何時使用表單式體驗撰寫器。
+role: User
 level: Beginner
-topic: Personalization
-feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
+topic: 個人化
+feature: 表單式體驗撰寫器、體驗和選件、可視化體驗撰寫器(VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 8%
 
 ---
 
-
-# 使用Adobe Target的表單型體驗撰寫器
+# 在Adobe Target中使用表單式體驗撰寫器
 
 ## 說明
 
-在此影片中，您將學習如何：
+此影片會說明如何：
 
 * 使用表單式撰寫器建立活動
-* 說明何時使用表單式撰寫器而非視覺體驗撰寫器(VEC)
+* 說明何時使用表單式撰寫器而非可視化體驗撰寫器(VEC)
 * 使用細分來鎖定位置
 
 ## 目標對象
