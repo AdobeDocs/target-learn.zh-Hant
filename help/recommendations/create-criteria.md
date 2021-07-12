@@ -1,27 +1,26 @@
 ---
-title: 如何在Recommendations建立標準
-description: 瞭解如何在Adobe TargetRecommendations建立標準
-role: Business Practitioner
+title: 如何在Recommendations中建立條件
+description: 了解如何在Adobe Target Recommendations中建立條件
+role: User
 level: Intermediate
-topic: Personalization
+topic: 個人化
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 14%
+source-wordcount: '64'
+ht-degree: 15%
 
 ---
 
-
-# 在Recommendations建立標準
+# 在Recommendations中建立條件
 
 ## 說明
 
-在此影片中，您將學習如何：
+此影片會說明如何：
 
 * 建立條件
 
@@ -34,8 +33,8 @@ ht-degree: 14%
 ## 其他資源
 
 * [建立自訂設計](create-custom-designs.md)
-* [建立系列和排除](create-collections-and-exclusions.md)
+* [建立集合和排除項目](create-collections-and-exclusions.md)
 * [建立 Recommendations 活動](create-a-recommendations-activity.md)
-* [瞭解動態消息](understanding-feeds.md)
-* [建立動態消息](create-a-feed.md)
+* [了解摘要](understanding-feeds.md)
+* [建立摘要](create-a-feed.md)
 * [Recommendations檔案](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
