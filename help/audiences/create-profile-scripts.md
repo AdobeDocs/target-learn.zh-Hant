@@ -1,31 +1,30 @@
 ---
-title: 如何建立配置檔案指令碼
-description: 本影片介紹Adobe Target的使用者描述檔指令碼。 如果您對Adobe Target有經驗，並想瞭解使用描述檔指令碼執行更專業的定位或建立觀眾的基本知識，請觀看此影片。
-role: Business Practitioner, Developer
+title: 如何建立設定檔指令碼
+description: 此影片會介紹Adobe Target使用者的設定檔指令碼。 如果您對Adobe Target有經驗，且想了解使用設定檔指令碼執行更專業的鎖定目標或建立受眾的基本知識，請觀看此影片。
+role: User, Developer
 level: Experienced
-topic: Personalization
-feature: Audiences, Administration & Configuration
+topic: 個人化
+feature: 觀眾、管理和設定
 doc-type: feature video
 thumbnail: null
 kt: null
 badge: premium
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: b5c44d8b-20a2-4842-a879-91d1ee68a3ec
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 6%
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
-
-# 在Adobe Target建立配置檔案指令碼
+# 在Adobe Target中建立設定檔指令碼
 
 ## 說明
 
-在此影片中，您將學習如何：
+此影片會說明如何：
 
-* 描述描述檔指令碼
+* 說明設定檔指令碼
 * 建立設定檔指令碼
 
 ## 目標對象
