@@ -1,31 +1,30 @@
 ---
-title: 如何設定企業使用者權限
-description: 本影片將介紹Adobe Target管理員的使用者權限、屬性和工作區。 觀看此影片，瞭解不同的使用者層級，以及如何使用屬性和工作區來控制使用者存取。
-role: Administrator
+title: 如何配置企業用戶權限
+description: 本影片會介紹Adobe Target管理員的使用者權限、屬性和工作區。 觀看此影片，了解不同的使用者層級，以及如何使用屬性和工作區來控制使用者存取權。
+role: Admin
 level: Beginner
-topic: Administration
-feature: Administration & Configuration
+topic: 管理
+feature: 管理與設定
 doc-type: feature video
 thumbnail: null
 kt: null
 badge: premium
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 8%
+source-wordcount: '71'
+ht-degree: 4%
 
 ---
 
-
-# 瞭解Adobe Target的企業用戶權限
+# 了解Adobe Target中的企業使用者權限
 
 ## 說明
 
-在此影片中，您將學習如何：
+此影片會說明如何：
 
-* 描述三個Adobe Target用戶級別
-* 瞭解屬性和工作區
+* 說明三個Adobe Target使用者層級
+* 了解屬性和工作區
 
 ## 目標對象
 
