@@ -1,30 +1,29 @@
 ---
 title: 如何設定屬性
-description: 此影片示範管理員如何在Adobe Target建立屬性。
-role: Administrator
+description: 此影片說明管理員如何在Adobe Target中建立屬性。
+role: Admin
 level: Beginner
-topic: Administration
-feature: Administration & Configuration
+topic: 管理
+feature: 管理與設定
 doc-type: feature video
 thumbnail: null
 kt: null
 badge: premium
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 7%
 
 ---
 
-
-# 在Adobe Target設定屬性
+# 在Adobe Target中設定屬性
 
 ## 說明
 
-在此影片中，您將學習如何：
+此影片會說明如何：
 
-* 在Adobe Target建立屬性
+* 在Adobe Target中建立屬性
 
 ## 目標對象
 
