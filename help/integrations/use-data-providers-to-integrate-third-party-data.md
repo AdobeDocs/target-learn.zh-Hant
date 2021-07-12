@@ -1,22 +1,21 @@
 ---
-title: 如何使用資料提供者整合第三方資料
-description: 本教學課程將使用者介紹給資料提供者。 瞭解如何使用資料提供者功能，輕鬆將資料從第三方傳遞至Adobe Target。
-role: Business Practitioner, Developer
+title: 如何使用資料提供者來整合協力廠商資料
+description: 本教學課程向使用者介紹資料提供者。 了解如何使用資料提供者功能，輕鬆將資料從協力廠商傳遞至Adobe Target。
+role: User, Developer
 level: Experienced
-topic: Personalization, Integrations
-feature: Implementation, Integrations, APIs/SDKs
+topic: 個人化，整合
+feature: 實作，整合， API/SDK
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '216'
 ht-degree: 22%
 
 ---
-
 
 # 使用資料提供者將協力廠商資料整合至Adobe Target
 
@@ -26,16 +25,16 @@ ht-degree: 22%
 
 ## 如何使用資料提供者
 
-1. 實作專家會在at.js之前（或在at.js的「程式庫標題」區段中）新增程式碼，以便對協力廠商進行API呼叫、分析回應並指定來自回應以傳送至[!DNL Target]的名稱／值配對。
-1. at.js會管理閃爍，並將名稱／值配對包含為全域Target請求中的自訂參數。
-1. 行銷人員會根據這些自訂參數，在[!DNL Target]介面中建立觀眾。
-1. 行銷人員使用這些對象來定位體驗、活動和量度，以及報告對象。
+1. 實作專家在at.js之前新增程式碼（或在at.js的「資料庫標題」區段中），這會向協力廠商發出API呼叫、分析回應，並從回應中以名稱/值配對指定以傳送至[!DNL Target]。
+1. at.js會處理忽隱忽現情況，並將名稱/值配對納入全域Target請求中的自訂參數。
+1. 行銷人員根據這些自訂參數在[!DNL Target]介面中建立受眾。
+1. 行銷人員使用這些對象來鎖定體驗、活動和量度，以及報表對象。
 
 >[!NOTE]
 >
->[!UICONTROL 資料] 提供者需要at.js 1.3或更新版本
+>[!UICONTROL 資] 料提供者需要at.js 1.3或更新版本
 
 ## 支援材料
 
-* [在at.js和Adobe Target實作資料提供者](implement-data-providers-to-integrate-third-party-data.md)
+* [在at.js和Adobe Target中實作資料提供者](implement-data-providers-to-integrate-third-party-data.md)
 * [資料提供者檔案](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
