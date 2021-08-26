@@ -1,6 +1,6 @@
 ---
 title: 如何在單頁應用程式中實作at.js 2.0(SPA)
-description: Adobe Target的at.js 2.0提供豐富的功能集，讓您的企業能夠運用新一代的用戶端技術，進行個人化。 請依照下列步驟，在單頁應用程式(SPA)中實作at.js 2.0。
+description: Adobe Target的at.js 2.0提供豐富的功能組合，讓貴公司能以新世代用戶端技術為基礎進行個人化。 請依照下列步驟，在單頁應用程式(SPA)中實作at.js 2.0。
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -9,40 +9,39 @@ doc-type: technical video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
 
-
 # 在單頁應用程式中實作Adobe Target的at.js 2.0(SPA)
 
-Adobe Target的`at.js` 2.0提供豐富的功能集，讓您的企業能夠在下一代的用戶端技術上執行個人化。 此版本的重點是升級`at.js`，以與單頁應用程式(SPA)產生協調的互動。
+Adobe Target的`at.js` 2.0提供豐富的功能組合，讓貴公司能以新世代用戶端技術為基礎進行個人化。 此版本著重於升級`at.js`以與單頁應用程式(SPA)產生和諧互動。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
-## 如何在SPA
+## 如何在SPA中實作at.js 2.0
 
 * 在單頁應用程式的&lt;head>中實作`at.js` 2.0。
-* 每當檢視變更時，實作`adobe.target.triggerView()`函SPA數。 可運用各種技術來執行此作業，例如監聽URL雜湊變更、監聽您引發的自訂事件SPA，或直接將`triggerView()`程式碼內嵌至您的應用程式。 您應選擇最適合您特定單一頁面應用程式的選項。
-* 視圖名稱是`triggerView()`函式的第一個參數。 使用簡單、清楚且唯一的名稱，讓您在Target的視覺體驗撰寫器中輕鬆加以選取。
-* 您可以在小檢視變更中以及非上下文(例SPA如向下半向無限捲動頁面)中觸發檢視。
-* `at.js` 2.0，並可 `triggerView()` 透過標籤管理解決方案(例如Adobe Experience Platform Launch)實作。
+* 每當SPA中的檢視變更時，實作`adobe.target.triggerView()`函式。 可採用各種技術來執行此作業，例如監聽URL雜湊變更、監聽SPA引發的自訂事件，或直接將`triggerView()`程式碼嵌入您的應用程式。 您應選擇最適合特定單頁應用程式的選項。
+* 視圖名稱是`triggerView()`函式的第一個參數。 使用簡單、清除和唯一的名稱，以便在Target的可視化體驗撰寫器中輕鬆選取。
+* 您可以在小型檢視變更以及非SPA內容（例如向下半向無限捲動頁面）中觸發檢視。
+* `at.js` 2.0和 `triggerView()` 可透過標籤管理解決方案(例如Adobe Experience Platform Launch)來實作。
 
 ## at.js 2.0限制
 
-升級前，請注意以下`at.js` 2.0限制：
+升級前，請注意`at.js` 2.0的下列限制：
 
 * `at.js` 2.0不支援跨網域追蹤
 * `at.js` 2.0不支援mboxOverride.browserIp和mboxSession URL參數
-* `at.js` 2.0中不建議使用舊版函式mboxCreate、mboxDefine、mboxUpdate。將顯示預設內容，且不會發出網路請求。
+* `at.js` 2.0中不再使用舊版函式mboxCreate、mboxDefine、mboxUpdate。將顯示預設內容，且不會提出網路要求。
 
-## 影片中使用的程式庫頁尾代碼
+## 影片中使用的程式庫頁尾程式碼
 
-在視訊期間，下列程式碼已新增至`at.js`程式庫的「程式庫頁尾」區段。 當應用程式第一次載入時，就會觸發此變數，然後會在應用程式中的任何雜湊變更時觸發。 它使用已清除的散列版本作為視圖名稱，當雜湊為空時使用&quot;home&quot;。 請注意，若要識SPA別，程式碼會在URL中尋找「react/」文字，這很可能需要在您的網站上更新。 請同時記住，將`triggerView()`從自訂事件SPA中觸發，或直接將程式碼內嵌至您的應用程式，可能更適合您。
+影片期間，下列程式碼已新增至`at.js`程式庫的「程式庫頁尾」區段。 應用程式首次載入時就會引發，而應用程式中的任何雜湊變更則會隨即引發。 它會使用雜湊的清理版本作為檢視名稱，並在雜湊為空時使用「home」。 請注意，若要識別SPA，程式碼會在URL中尋找文字「react/」，而這很可能需要在您的網站上更新。 也請記住，SPA可能更適合從自訂事件或直接將程式碼內嵌至應用程式中，來引發`triggerView()`。
 
 ```javascript
 function sanitizeViewName(viewName) {
@@ -75,6 +74,6 @@ window.onhashchange = function() {
 
 ## 其他資源
 
-* [瞭解at.js 2.0的運作方式（架構圖）](understanding-how-atjs-20-works.md)
-* [使用Adobe Target的Visual Experience Composer進行單頁應用程SPA式(VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
-* [從at.js 1.x升級至at.js 2.0檔案](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html)
+* [了解at.js 2.0的運作方式（架構圖表）](understanding-how-atjs-20-works.md)
+* [針對單頁應用程式(SPA VEC)使用Adobe Target的可視化體驗撰寫器](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [從at.js 1.x升級至at.js 2.0檔案](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=en)

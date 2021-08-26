@@ -3,16 +3,16 @@ title: 如何設定Adobe Target API的驗證
 description: 本教學課程會引導開發人員完成必要步驟，以產生與Adobe Target API成功互動所需的驗證Token。 請依照下列步驟，使用Adobe開發人員控制台來產生和測試使用Target API所需的無記名存取權杖。
 role: Developer, Admin, Architect
 level: Intermediate
-topic: 個人化，管理，整合，開發
-feature: API/SDK、管理和設定
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1884'
 ht-degree: 2%
 
 ---
@@ -93,8 +93,7 @@ Adobe Target管理API（包括[!DNL Recommendations]管理API）會透過驗證�
 > 2. 使用Postman產生存取權杖
 
 >
-> 
-以下也提供這些步驟。
+> 以下也提供這些步驟。
 
 1. 仍然在[Adobe開發人員控制台](https://console.adobe.io/)中，導覽至檢視新專案的&#x200B;**[!UICONTROL 服務帳戶(JWT)]**&#x200B;憑證。 使用左側導航或&#x200B;**[!UICONTROL Credentials]**部分，如所示。
    ![JWT1](assets/configure-io-target-jwt1.png)
@@ -197,4 +196,4 @@ Adobe Target管理API（包括[!DNL Recommendations]管理API）會透過驗證�
 1. 在確定您已選取正確的環境後，傳送您的要求。 您應會收到包含活動清單的回應。
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-恭喜！ 現在您已驗證Adobe驗證，可以使用它與Adobe Target API(以及其他AdobeAPI)互動。 例如，您可以[使用Recommendations API](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)來建立或管理建議。
+恭喜！ 現在您已驗證Adobe驗證，可以使用它與Adobe Target API(以及其他AdobeAPI)互動。 例如，您可以[使用Recommendations API](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)來建立或管理建議。
