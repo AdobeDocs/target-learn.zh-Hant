@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 新增生命週期參數
 
-啟用[Adobe行動生命週期量度](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。 這會將參數新增至位置請求，其中包含使用者裝置的豐富資訊以及與應用程式的互動。 我們將使用生命週期請求提供的資料，在下一堂課中建立對象。
+啟用[Adobe行動生命週期量度](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en)。 這會將參數新增至位置請求，其中包含使用者裝置的豐富資訊以及與應用程式的互動。 我們將使用生命週期請求提供的資料，在下一堂課中建立對象。
 
 若要啟用生命週期量度，請再次開啟HomeActivity控制器，並將`Config.collectLifecycleData(this);`新增至onResume()函式：
 
