@@ -3,16 +3,16 @@ title: 如何建立體驗鎖定目標活動
 description: 體驗鎖定目標(XT)活動可讓行銷人員將特定內容鎖定在特定對象。 了解XT活動的優點，以及如何建立和使用這些優點。
 role: User
 level: Beginner
-topic: 個人化
-feature: 體驗鎖定目標，活動，可視化體驗撰寫器(VEC)
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 19%
+source-wordcount: '210'
+ht-degree: 20%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 19%
 ## 其他資源
 
 * [下載Experience Personalization的行動手冊](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [體驗鎖定目標檔案](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
+* [體驗鎖定目標檔案](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## 此影片中使用的其他功能
 
-* [報表檔案的對象](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [建立對象檔案](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [使用可視化體驗撰寫器檔案建立體驗](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
+* [報表檔案的對象](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [建立對象檔案](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [使用可視化體驗撰寫器檔案建立體驗](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

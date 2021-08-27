@@ -3,16 +3,16 @@ title: 如何在Recommendations中建立摘要
 description: 了解如何在Adobe Target Recommendations中建立資料摘要
 role: User
 level: Intermediate
-topic: 個人化
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 13%
+source-wordcount: '73'
+ht-degree: 12%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 13%
 * [建立條件](create-criteria.md)
 * [建立自訂設計](create-custom-designs.md)
 * [建立集合和排除項目](create-collections-and-exclusions.md)
-* [Recommendations檔案](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -3,17 +3,17 @@ title: 如何使用資料提供者來整合協力廠商資料
 description: 本教學課程向使用者介紹資料提供者。 了解如何使用資料提供者功能，輕鬆將資料從協力廠商傳遞至Adobe Target。
 role: User, Developer
 level: Experienced
-topic: 個人化，整合
-feature: 實作，整合， API/SDK
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 22%
+source-wordcount: '211'
+ht-degree: 23%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 22%
 ## 支援材料
 
 * [在at.js和Adobe Target中實作資料提供者](implement-data-providers-to-integrate-third-party-data.md)
-* [資料提供者檔案](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [資料提供者檔案](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

@@ -10,9 +10,9 @@ kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '1884'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,7 @@ Adobe Target管理API（包括[!DNL Recommendations]管理API）會透過驗證�
 
 >[!NOTE]
 >
->如需適用於任何Experience Cloud解決方案（包括[!DNL Target]）的視訊指示，請參閱[使用Postman搭配Experience PlatformAPI](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html)。 以下各節與[!DNL Target] API相關：
+>如需適用於任何Experience Cloud解決方案（包括[!DNL Target]）的視訊指示，請參閱[使用Postman搭配Experience PlatformAPI](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en)。 以下各節與[!DNL Target] API相關：
 >
 > 1. 將Adobe I/O整合詳細資訊匯出至Postman
 > 2. 使用Postman產生存取權杖

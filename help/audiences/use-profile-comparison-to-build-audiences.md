@@ -3,16 +3,16 @@ title: 如何使用設定檔比較來建立對象
 description: 此影片會示範Adobe Target使用者如何使用「設定檔比較」功能，在建立受眾時相互比較兩個數值設定檔值。
 role: User
 level: Experienced
-topic: 個人化
-feature: 對象
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '174'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ Adobe Target中的[!UICONTROL 設定檔比較]功能可讓您在建立受眾時�
 
 ## 其他資源
 
-* [建立設定檔屬性比較對象](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [將資料傳入Adobe Target的方法](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [建立對象](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [建立設定檔屬性比較對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [將資料傳入Adobe Target的方法](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
+* [建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [建立體驗鎖定目標活動影片](../activities/create-experience-targeting-activities.md)

@@ -1,6 +1,6 @@
 ---
-title: 什麼是Adobe RecommendationsAPI?
-description: 本教學課程將帶領開發人員進行實際操作，使用Adobe TargetRecommendationsAPI來設定和管理Recommendations型錄和自訂准則，以及使用傳送API來擷取建議內容。
+title: 什麼是Adobe Recommendations API?
+description: 本教學課程將逐步引導開發人員實作實踐，使用Adobe Target Recommendations API來設定和管理Recommendations目錄和自訂條件，以及使用傳送API來擷取建議內容。
 role: Developer
 level: Intermediate
 topic: Personalization, Administration, Integrations, Development
@@ -9,49 +9,48 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 1%
+source-wordcount: '359'
+ht-degree: 2%
 
 ---
 
+# Adobe Recommendations API概述
 
-# Adobe RecommendationsAPI概觀
-
-與[!DNL Recommendations]相關的API包括[管理API](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html)，可讓您：
+與[!DNL Recommendations]相關的API包括[管理API](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en)，可讓您：
 
 * 管理建議產品或內容的目錄
 * 管理您的[!DNL Recommendations]演算法和活動
 
-使用[!DNL Target] [傳送API](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html)搭配Recommendations，您也可以：
+搭配使用[!DNL Target] [傳送API](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en)和Recommendations，您也可以：
 
-* 在JSON、HTML或XML物件中擷取建議，以便在網頁、行動裝置、電子郵件、物聯網(IOT)和其他通道中顯示。
+* 在JSON、HTML或XML物件中擷取建議，以便在網路、行動裝置、電子郵件、物聯網(IOT)和其他通道中顯示。
 
 ## 教學課程說明
 
-本教學課程將逐步帶領開發人員使用[!DNL Recommendations] API來設定和管理[!DNL Recommendations]型錄和自訂准則，以及使用傳送API來擷取建議內容，以進行實際操作。 在本教學課程結束時，您將能夠：
+本教學課程會逐步引導開發人員實作實務，使用[!DNL Recommendations] API來設定和管理[!DNL Recommendations]目錄和自訂條件，以及使用傳送API來擷取建議內容。 在本教學課程結束前，您將能：
 
-* 使用RecommendationsAPI設定和管理實體
-* 使用RecommendationsAPI設定和管理自訂准則
-* 瞭解如何搭配傳送API使用Recommendations，在非HTML裝置中使用建議結果
+* 使用Recommendations API設定和管理實體
+* 使用Recommendations API設定和管理自訂條件
+* 了解如何搭配傳送API使用Recommendations，以在非HTML裝置中使用建議
 
 ## 對象
 
-本教學課程適用於Target API或RecommendationsAPI新手的開發人員。
+本教學課程適用於Target API或Recommendations API的新開發人員。
 
 ## 先決條件
 
-使用Target管理API需要[Adobe驗證設定](../apis/configure-io-target-integration.md)。 在開始本教學課程之前，請務必先設定此設定。
+使用Target管理API需要[Adobe驗證設定](../apis/configure-io-target-integration.md)。 開始本教學課程之前，請務必先完成此設定。
 
 ## 資源
 
-請注意下列必要資源，以瞭解本教學課程並順利遵循：
+請注意下列必要資源，這些資源是了解本教學課程並成功遵循的必要資源：
 
 | 資源 | 詳細資料 |
 | --- | --- |
-| 郵遞員 | 取得您作業系統的[Postman應用程式](https://www.postman.com/downloads/)。 郵遞員基本功能是免費的，可建立帳戶。 雖然一般而言，Adobe TargetAPI並非必要項目，但Postman讓API工作流程更輕鬆，而Adobe Target則提供數個Postman系列，以協助執行其API並瞭解其運作方式。 本教程的其餘部分假定您對郵遞員有工作知識。 如需協助，請參閱[郵遞員檔案](https://learning.getpostman.com/)。 |
-| 參考 | 在本教學課程的其餘部分中，我們假定您熟悉以下資源：<UL><li>[Adobe I/O吉圖布](https://github.com/adobeio)</li><li>[TargetAdobe I/O檔案](https://developers.adobetarget.com/api/#introduction)</li><li>[RecommendationsAPI檔案](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| 郵遞員 | 取得作業系統的[Postman應用程式](https://www.postman.com/downloads/)。 Postman基本免費建立帳戶。 雖然一般而言不需要Adobe Target API，但Postman可讓API工作流程更輕鬆，而Adobe Target提供數個Postman集合，以協助執行其API並了解其運作方式。 本教學課程的其餘部分假設您具備Postman的工作知識。 如需協助，請參閱[Postman檔案](https://learning.getpostman.com/)。 |
+| 參考 | 在本教學課程的其餘部分中，我們假設您熟悉以下資源：<UL><li>[Adobe I/OGithub](https://github.com/adobeio)</li><li>[TargetAdobe I/O檔案](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API檔案](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-[下一個「管理您的Recommendations目錄」 >](manage-catalog.md)
+[下堂課「管理Recommendations目錄」>](manage-catalog.md)

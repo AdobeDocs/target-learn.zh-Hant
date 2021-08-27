@@ -10,7 +10,7 @@ kt: 3815
 thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -47,9 +47,9 @@ Adobe Target的[傳送API](https://developers.adobetarget.com/api/delivery-api/)
 
 ## 使用表單式體驗撰寫器建立建議
 
-若要建立可與傳送API搭配使用的建議，請使用[表單式撰寫器](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html)。
+若要建立可與傳送API搭配使用的建議，請使用[表單式撰寫器](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en)。
 
-1. 首先，建立並儲存要在建議中使用的JSON型設計。 如需範例JSON，以及設定表單式活動時如何傳回JSON回應的背景資訊，請參閱[建立建議設計](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/create-design.html)上的檔案。 在此範例中，設計名為&#x200B;*Simple JSON.*
+1. 首先，建立並儲存要在建議中使用的JSON型設計。 如需範例JSON，以及設定表單式活動時如何傳回JSON回應的背景資訊，請參閱[建立建議設計](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html?lang=en)上的檔案。 在此範例中，設計名為&#x200B;*Simple JSON.*
 
    ![server-side-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
@@ -60,7 +60,7 @@ Adobe Target的[傳送API](https://developers.adobetarget.com/api/delivery-api/)
 3. 選擇屬性，然後按一下&#x200B;**[!UICONTROL Next]**。
 4. 定義您希望使用者接收建議回應的位置。 以下範例使用名為&#x200B;*api_charter*&#x200B;的位置。 選取您先前建立的JSON型設計，名為&#x200B;*簡單JSON。*
    ![server-side-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. 儲存並啟動建議。 會產生結果。 [結果準備就緒後](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html)，您就可以使用傳送API來擷取它們。
+5. 儲存並啟動建議。 會產生結果。 [結果準備就緒後](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html?lang=en)，您就可以使用傳送API來擷取它們。
 
 ## 使用傳送API
 
@@ -95,38 +95,38 @@ png回應包含索引鍵ID，以及建議實體的實體ID。
 | --- | --- |
 | [Adobe Target Everywhere — 在IoT中實施伺服器端或](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit2019實驗，為採用Adobe Target伺服器端API的React應用程式提供實作體驗。 |
 | [Adobe Target(在不使用AdobeSDK的行動應用程式中)](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | 本指南會說明如何在行動應用程式中設定Adobe Target，而不安裝AdobeSDK。 此解決方案使用Tealium SDK webview和Remote Commands模組，傳送和接收Adobe訪客API(Experience Cloud)和Adobe Target API的要求。 |
-| [Adobe Target在行動應用程式中如何運作](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | [!DNL Target]如何與行動SDK搭配運作 |
+| [Adobe Target在行動應用程式中如何運作](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html?lang=en) | [!DNL Target]如何與行動SDK搭配運作 |
 | [設 [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] 定API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | 在Experience Platform Launch中設定[!DNL Target]擴充功能、將[!DNL Target]擴充功能新增至您的應用程式，以及實作[!DNL Target] API以請求活動、預先擷取選件及進入視覺預覽模式的步驟。 |
 | [Adobe Target Node Client](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | 開放來源[!DNL Target] Node.js SDK v1.0 |
-| [伺服器端概觀](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Adobe Target伺服器端傳送API、伺服器端批次傳送API、Node.js SDK和Adobe Target [!DNL Recommendations] API的相關資訊。 |
+| [伺服器端概觀](https://experienceleague.adobe.com/docs/target/using/implement-target/server-side/api-and-sdk-overview.html?lang=en) | Adobe Target伺服器端傳送API、伺服器端批次傳送API、Node.js SDK和Adobe Target [!DNL Recommendations] API的相關資訊。 |
 | [Adobe Campaign內容Recommendations（電子郵件）](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | 說明如何透過Adobe Campaign中的Adobe Target和Adobe I/O Runtime，運用電子郵件內容建議的部落格。 |
 
 ## 使用API管理[!DNL Recommendations]設定
 
 大部分時候，建議都是在Adobe Target UI中設定，然後透過[!DNL Target] API使用或存取，原因如上節所述。 此UI-API協調是常見的。 不過，有時使用者可能會想透過API執行所有動作，包括設定及使用結果。 雖然很少見，但使用者可以完全透過API設定、執行&#x200B;*和*&#x200B;運用建議的結果。
 
-我們在[前面的章節](manage-catalog.md)了解如何管理Adobe Target Recommendations實體並在伺服器端傳送。 同樣地，「Adobe I/O」可讓您管理條件、促銷活動、集合和設計範本，而無須登入Adobe Target。 所有[!DNL Recommendations] API的完整清單可在[此處](http://developers.adobetarget.com/api/recommendations/)找到，但此處是要參考的摘要。
+我們在[前面的章節](manage-catalog.md)了解如何管理Adobe Target Recommendations實體並在伺服器端傳送。 同樣地，「Adobe I/O」可讓您管理條件、促銷活動、集合和設計範本，而無須登入Adobe Target。 所有[!DNL Recommendations] API的完整清單可在[此處](https://developers.adobetarget.com/api/recommendations/)找到，但此處是要參考的摘要。
 
 | 資源 | 詳細資料 |
 | --- | --- |
-| [集合](http://developers.adobetarget.com/api/recommendations/#tag/Collections) | 列出、建立、取得、編輯和刪除集合。 |
-| [條件](http://developers.adobetarget.com/api/recommendations/#tag/Criteria) | 列出並取得條件。 |
-| [設計](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | 列出、建立、取得、編輯、刪除及驗證設計。 |
-| [實體](http://developers.adobetarget.com/api/recommendations/#tag/Entities) | 儲存、刪除和取得實體。 |
-| [促銷活動](http://developers.adobetarget.com/api/recommendations/#tag/Promotions) | 列出、建立、取得、編輯和刪除促銷活動。 |
-| [類別條件](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | 列出、建立、取得、編輯和刪除類別條件。 |
-| [自訂條件](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | 列出、建立、取得、編輯和刪除自訂條件。 |
-| [項目條件](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | 列出、建立、獲取、編輯和刪除項目條件。 |
-| [人氣條件](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | 列出、建立、取得、編輯和刪除人氣標準。 |
-| [設定檔屬性條件](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | 列出、建立、取得、編輯和刪除設定檔屬性條件。 |
-| [最近的條件](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | 列出、建立、取得、編輯和刪除最近的條件。 |
-| [序列條件](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | 列出、建立、取得、編輯和刪除序列條件。 |
+| [集合](https://developers.adobetarget.com/api/recommendations/#tag/Collections) | 列出、建立、取得、編輯和刪除集合。 |
+| [條件](https://developers.adobetarget.com/api/recommendations/#tag/Criteria) | 列出並取得條件。 |
+| [設計](https://developers.adobetarget.com/api/recommendations/#tag/Designs) | 列出、建立、取得、編輯、刪除及驗證設計。 |
+| [實體](https://developers.adobetarget.com/api/recommendations/#tag/Entities) | 儲存、刪除和取得實體。 |
+| [促銷活動](https://developers.adobetarget.com/api/recommendations/#tag/Promotions) | 列出、建立、取得、編輯和刪除促銷活動。 |
+| [類別條件](https://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | 列出、建立、取得、編輯和刪除類別條件。 |
+| [自訂條件](https://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | 列出、建立、取得、編輯和刪除自訂條件。 |
+| [項目條件](https://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | 列出、建立、獲取、編輯和刪除項目條件。 |
+| [人氣條件](https://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | 列出、建立、取得、編輯和刪除人氣標準。 |
+| [設定檔屬性條件](https://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | 列出、建立、取得、編輯和刪除設定檔屬性條件。 |
+| [最近的條件](https://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | 列出、建立、取得、編輯和刪除最近的條件。 |
+| [序列條件](https://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | 列出、建立、取得、編輯和刪除序列條件。 |
 
 ## 參考檔案
 
 * [Adobe Target API檔案](https://developers.adobetarget.com/api/#getting-started)
 * [Adobe Target傳送API](https://developers.adobetarget.com/api/delivery-api/)
-* [ [!DNL Recommendations] 與電子郵件整合](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
+* [ [!DNL Recommendations] 與電子郵件整合](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
 
 ## 摘要和審閱
 
