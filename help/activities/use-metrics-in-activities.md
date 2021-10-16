@@ -3,16 +3,15 @@ title: 如何在活動中使用量度
 description: 如何測量Adobe Target活動是否成功？ 此影片會說明不同類型的目標量度，以及如何使用這些量度來測量活動的效能。
 role: User
 level: Intermediate
-topic: 個人化
-feature: 活動
+topic: Personalization
+feature: Activities
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 02752f2c-2f61-44b8-a6a5-f36d576e4806
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 7%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 

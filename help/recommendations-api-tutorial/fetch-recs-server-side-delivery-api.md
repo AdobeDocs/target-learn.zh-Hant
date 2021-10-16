@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -25,7 +24,7 @@ Adobe Target和Adobe Target [!DNL Recommendations] API可用來傳送對網頁�
 >
 > 請求包含實際建議（建議產品或項目）的內容時，請使用[!DNL Target]傳送API。
 
-若要擷取建議，請傳送包含適當內容資訊的Adobe Target傳送APIPOST呼叫，其中可能包括使用者ID(以便與設定檔專屬的建議（例如使用者最近檢視的項目）、相關mbox名稱、mbox參數、設定檔參數或其他屬性。 回應將包含建議的entity.ids（且可能包含其他實體資料），其格式為JSON或HTML，然後可在裝置中顯示。
+若要擷取建議，請傳送包含適當內容資訊的Adobe Target傳送APIPOST呼叫，其中可能包括使用者ID(以便與設定檔專屬的建議（例如使用者最近檢視的項目）、相關mbox名稱、mbox參數、設定檔參數或其他屬性。 回應將包含建議的entity.ids（且可能包含其他實體資料），其格式為JSON或HTML格式，之後便可在裝置中顯示。
 
 Adobe Target的[傳送API](https://developers.adobetarget.com/api/delivery-api/)會公開標準[!DNL Target]請求提供的所有現有功能。
 
@@ -83,7 +82,7 @@ pngRemember可正確設定查詢參數。例如，請務必指定
    ![server-side-create-recs-json-response2.](assets/server-side-create-recs-json-response2.png)
 png回應包含索引鍵ID，以及建議實體的實體ID。
 
-透過此方式使用具有[!DNL Recommendations]的傳送API，可讓您在非HTML裝置上向訪客顯示建議之前，先執行其他步驟。 例如，您可以取得傳送API的回應，在顯示最終結果之前，先從其他系統（例如CMS、PIM或電子商務平台）執行額外的即時查詢實體屬性詳細資訊（庫存、價格、評等等）。
+透過[!DNL Recommendations]使用「傳送API」，可讓您在非HTML裝置上向訪客顯示建議前，先執行其他步驟。 例如，您可以取得傳送API的回應，在顯示最終結果之前，先從其他系統（例如CMS、PIM或電子商務平台）執行額外的即時查詢實體屬性詳細資訊（庫存、價格、評等等）。
 
 使用本教學課程中概述的方法，您可以讓任何應用程式運用[!DNL Target]的回應，提供個人化建議！
 

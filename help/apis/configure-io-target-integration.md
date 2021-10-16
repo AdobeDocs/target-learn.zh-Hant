@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
-thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 2%
@@ -55,7 +54,7 @@ Adobe Target管理API（包括[!DNL Recommendations]管理API）會透過驗證�
 
    ![新增API](assets/configure-io-target-createproject4.png)
 
-5. 選擇&#x200B;**[!DNL Adobe Target]**&#x200B;作為要整合的Adobe服務。 按一下顯示的&#x200B;**[!UICONTROL Next]**&#x200B;按鈕。
+5. 選取&#x200B;**[!DNL Adobe Target]**&#x200B;作為您要整合的Adobe服務。 按一下顯示的&#x200B;**[!UICONTROL Next]**&#x200B;按鈕。
 
    ![configure-io-target-createproject5](assets/configure-io-target-createproject5.png)
 

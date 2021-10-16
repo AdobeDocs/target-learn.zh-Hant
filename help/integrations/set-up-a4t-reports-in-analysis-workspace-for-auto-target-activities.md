@@ -3,15 +3,14 @@ title: 如何在Analysis Workspace中設定A4T報表以用於自動鎖定目標�
 description: 一旦您已部署Analytics for Target(A4T)整合且執行自動鎖定目標活動，如何確保正確解讀結果？ 請依照下列步驟，在Analysis Workspace中設定A4T報表，以在執行自動鎖定目標活動時取得預期結果。
 role: User
 level: Intermediate
-topic: 個人化，整合
-feature: Analytics for Target(A4T)、自動鎖定目標、整合
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2252'
 ht-degree: 1%
 
 ---
@@ -84,9 +83,9 @@ ht-degree: 1%
 
 | 體驗 | 獨特訪客 | 瀏覽次數 | 轉換 | 訪客基準。 康夫。 比率 | 訪問規範。 康夫。 比率 |
 | --- | --- | --- | --- | --- | --- |
-| A | 1 | 3 | - | 0% | 0% |
-| B | 2 | 3 | 3 | 50% | 33.3% |
-| 總計 | 2 | 4 | 3 | 50% | 25% |
+| A | 1 | 1 | - | 0% | 0% |
+| B | 2 | 3 | 1 | 50% | 33.3% |
+| 總計 | 2 | 4 | 1 | 50% | 25% |
 *表1:比較訪客標準化報表和造訪標準化報表的範例，其中決策與造訪有黏性（而非訪客，如同一般A/B測試）。此案例中的訪客標準化量度令人困惑。*
 
 如表格所示，訪客層級的數字有明顯的不一致。 儘管事實上有兩個不重複訪客總計，但這並非每個體驗的個別不重複訪客總和。 雖然訪客層級轉換率不一定是錯誤的，但比較個別體驗時，瀏覽層級的轉換率可以說更合理。 從形式上講，分析單位（「造訪」）與決策黏著度單位相同，這表示可以新增和比較量度的體驗層級劃分。

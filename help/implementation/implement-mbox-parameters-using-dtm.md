@@ -1,31 +1,29 @@
 ---
 title: 如何使用DTM實作Mbox參數
-description: 此影片示範開發人員如何使用Adobe啟動(先前稱為Adobe動態標籤管理(DTM))來實作mbox參數。
+description: 此影片會示範開發人員如何使用Adobe啟動(先前稱為Adobe動態標籤管理(DTM))實作mbox參數。
 role: Developer
 level: Intermediate
 topic: Personalization, Architecture, Development
 feature: Implementation
 doc-type: technical video
 kt: null
-thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 3%
+source-wordcount: '89'
+ht-degree: 1%
 
 ---
 
 
-# 使用動態標籤管理(DTM)實作Adobe Target的Mbox參數
+# 使用動態標籤管理(DTM)為Adobe Target實作Mbox參數
 
 ## 目標
 
-在本視訊結束前，您將能夠：
+此影片結束時，您將能：
 
-* 將靜態名稱／值配對對應至target-global-mbox中的參數或描述檔參數
-* 瞭解資料元素的基本概念
-* 將動態資料元素值對應至Target-global mbox中的參數或描述檔參數
+* 將靜態名稱/值組對應至target-global-mbox中的參數或設定檔參數
+* 了解資料元素的基本知識
+* 將動態資料元素值對應至target-global mbox中的參數或設定檔參數
 
 ## 目標對象
 

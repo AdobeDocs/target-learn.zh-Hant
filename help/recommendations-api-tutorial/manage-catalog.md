@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -125,7 +124,7 @@ JSON物件可縮放以傳送多個產品。 例如，此JSON會指定兩個實�
 
 1. 現在輪到你了！ 使用&#x200B;**儲存實體** API將下列項目新增至目錄。 請從上方的範例JSON開始。 （您需要擴充JSON以包含其他實體。）
 
-   ![SaveEntities5.png](assets/SaveEntities06.png)
+   ![SaveEntities6.png](assets/SaveEntities06.png)
 
 哇，看來最後兩件都不屬於。 我們將使用&#x200B;**Get Entity** API來檢查這些實體，並視需要使用&#x200B;**Delete Entities** API刪除這些實體。
 

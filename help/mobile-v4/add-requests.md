@@ -7,9 +7,8 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 0%
@@ -46,7 +45,7 @@ AdobeMobile Services SDK(v4)提供Adobe Target方法與功能，可讓您為不�
 * **批次請求：**  包含多個位置的單一請求
 * **預先擷取請求：**  可擷取選件並將其快取至記憶體中的單一請求，以供日後在應用程式中使用
 * **批次預先擷取請求：**  為多個位置預先擷取選件的單一請求
-* **對象：**  在介面中定義或從其 [!DNL Target] 他Adobe應 [!DNL Target] 用程式共用至的一組訪客(例如「iPhone X訪客」、「加州的訪客」、「首次應用程式開啟」)
+* **對象：**  在介面中定義或從其 [!DNL Target] 他Adobe應 [!DNL Target] 用程式共用至的一組訪客(例如「iPhone X訪客」、「加州的訪客」、「第一個應用程式開啟」)
 * **活動：**  一種 [!DNL Target] 結構，在使用者介面中 [!DNL Target] 定義（或透過API），可連結位置、選件和對象以建立個人化體驗
 
 ## 新增批次預先擷取請求
