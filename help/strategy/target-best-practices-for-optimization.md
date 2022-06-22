@@ -1,10 +1,11 @@
 ---
 title: 最佳化的最佳作法
-description: '學習Adobe的六大優化要點以及如何應用它們。 '
+description: 學習Adobe的六大優化要點以及如何應用它們。
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -115,3 +116,5 @@ _圖1 — 優化迭代週期_
 基於上述理解，Adobe建議您在進行個性化設定之前先進行優化，並將個性化設定從範圍擴展到細粒度。 要將個性化活動從廣到細，您將開始使用一對多個性化（寬）樣式（使用A/B測試），然後轉到一對一個性化（細）樣式（使用自動個性化活動）。
 
 詳情請收聽 [網路研討會，瞭解並優化您的Adobe Target實施](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/)，商務顧問，凱蒂·科茲比。
+
+瞭解有關策略和思想領導的更多資訊 [客戶成功](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) 中。

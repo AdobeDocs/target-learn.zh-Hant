@@ -1,10 +1,11 @@
 ---
 title: 優化您的Adobe Target實施
-description: '瞭解Adobe Target的實施和結構。 瞭解如何瞭解和審核您組織的設定。 瞭解為團隊建立知識庫的常見故障排除技巧和技巧。 '
+description: 瞭解Adobe Target的實施和結構。 瞭解如何瞭解和審核您組織的設定。 瞭解為團隊建立知識庫的常見故障排除技巧和技巧。
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: 49b69f41-0993-437c-bb69-84392be427df
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -162,3 +163,5 @@ Adobe建議執行月度手動審核，以：
 * **程式儀表板**  — 用於跟蹤計畫績效、節奏和收入收益的文檔。
 
 有關詳細資訊，請查看 [網路研討會](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) 高級顧問，懷爾德·弗里德。
+
+瞭解有關策略和思想領導的更多資訊 [客戶成功](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) 中。

@@ -1,10 +1,11 @@
 ---
 title: 用於個性化測試和路線圖建立的快速入門
-description: '瞭解一個框架，您可以使用該框架開始驗證個性化活動並建立個性化路線圖，以通過Adobe Target和Adobe Analytics執行。  '
+description: 瞭解一個框架，您可以使用該框架開始驗證個性化活動並建立個性化路線圖，以通過Adobe Target和Adobe Analytics執行。
 solution: Target,Analytics
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -86,3 +87,5 @@ Adobe建議您將每個使用案例按1到5的比例進行排序；1簡單，5�
 ### 詳細資訊
 
 我們建議您觀看此視頻，討論以下每個步驟： [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+
+瞭解有關策略和思想領導的更多資訊 [客戶成功](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) 中。
