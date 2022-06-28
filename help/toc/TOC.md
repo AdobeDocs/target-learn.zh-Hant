@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target 教學課程
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: 66635392b30ee5fecc15438736ef829894da53bc
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '397'
 ht-degree: 8%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 8%
    + [在活動中使用度量](../activities/use-metrics-in-activities.md)
 + 觀眾{#audiences}
    + [使用受眾](../audiences/use-audiences.md)
+   + [建立受眾](../audiences/create-audiences.md)
    + [建立設定檔指令碼](../audiences/create-profile-scripts.md)
    + [使用配置檔案比較構建受眾](../audiences/use-profile-comparison-to-build-audiences.md)
 + 體驗{#experiences}
