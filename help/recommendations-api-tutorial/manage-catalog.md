@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 >[!TIP]
 >
->發送 **[!UICONTROL IMS:JWT通過用戶令牌生成+驗證]** 在需要刷新訪問令牌以進行身份驗證時請求，因為該令牌在24小時後過期。 請參閱 [配置AdobeAPI身份驗證](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank}獲取說明。
+>發送 **[!UICONTROL IMS:JWT通過用戶令牌生成+驗證]** 在需要刷新訪問令牌以進行身份驗證時請求，因為該令牌在24小時後過期。 請參閱 [配置AdobeAPI身份驗證](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;}以獲取說明。
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -204,4 +204,4 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 
 恭喜！ 您現在可以使用 [!DNL Recommendations] 建立、更新、刪除和獲取目錄中實體的詳細資訊的API。 在下一節中，您將學習如何管理自定義條件。
 
-[下一個「管理自定義條件」 >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+[下一個「管理自定義條件」 >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;

@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 3%
@@ -195,4 +195,4 @@ Adobe Target管理API，包括 [!DNL Recommendations] 管理員API通過身份�
 1. 在確保選擇了正確的環境後，發送您的請求。 您應收到包含活動清單的響應。
    ![測試令牌6](assets/configure-io-target-testtoken6.png)
 
-恭喜！ 現在您已驗證了Adobe驗證，您可以使用它與Adobe TargetAPI(以及其他AdobeAPI)進行交互。 例如， [使用RecommendationsAPI](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank}以建立或管理建議。
+恭喜！ 現在您已驗證了Adobe驗證，您可以使用它與Adobe TargetAPI(以及其他AdobeAPI)進行交互。 例如， [使用RecommendationsAPI](https://developer.adobe.com/target/before-administer/recs-api/){target=&quot;_blank&quot;}以建立或管理建議。

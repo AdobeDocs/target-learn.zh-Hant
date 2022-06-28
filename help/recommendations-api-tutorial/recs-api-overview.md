@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 3%
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 ## 先決條件
 
-使用目標管理API需要 [Adobe驗證設定](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank}。 在開始本教程之前，請確保已配置了此功能。
+使用目標管理API需要 [Adobe驗證設定](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;}。 在開始本教程之前，請確保已配置了此功能。
 
 ## 資源
 
@@ -52,4 +52,4 @@ ht-degree: 3%
 | Postman | 獲取 [Postman應用](https://www.postman.com/downloads/) 作業系統。 Postman基本賬戶是免費的。 雖然一般不需要Adobe TargetAPI，但Postman使API工作流更加容易，而Adobe Target提供了幾個Postman集合，以幫助執行其API並瞭解它們如何操作。 本教程的其餘部分假定您對Postman有工作知識。 有關幫助，請參考 [Postman文檔](https://learning.getpostman.com/)。 |
 | 引用 | 在本教程的其餘部分中，假定您熟悉以下資源：<UL><li>[Adobe I/O吉圖布](https://github.com/adobeio)</li><li>[目標Adobe I/O文檔](https://developers.adobetarget.com/api/#introduction)</li><li>[RecommendationsAPI文檔](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-[下一個「管理Recommendations目錄」 >](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=_blank}
+[下一個「管理Recommendations目錄」 >](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;
