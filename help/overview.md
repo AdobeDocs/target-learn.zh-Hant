@@ -1,29 +1,31 @@
 ---
-title: 學習如何使用Adobe Target
-description: 瞭解如何將Adobe Target與涵蓋其所有元件的教程和視頻集一起使用。 有效利用Adobe Target的力量。
+title: 了解如何使用Adobe Target
+description: 透過這套涵蓋所有元件的教學課程和影片，了解如何使用Adobe Target。 有效運用Adobe Target的力量。
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: a3e34a3b12e89df7fd041ffe6676868ecf199121
+source-git-commit: 7d74151de84e7b9f504a5d19cb304cd29c1bb928
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '229'
+ht-degree: 17%
 
 ---
 
-# 學習使用Adobe Target
+# 了解如何使用Adobe Target
 
-Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。使用這些視頻和教程來學習Adobe Target的許多元件。
+Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。這些影片和教學課程可協助您了解Adobe Target的許多元件。
+
+<div id="whats-new-section">
 
 ## 新功能
 
-* **[在Analysis Workspace設定A4T報表以進行自動目標活動](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[在Analysis Workspace中設定A4T報表以進行自動鎖定目標活動](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
 
-   *對於業務從業者：是否使用A4T進行自動目標？ 按照以下步驟在Analysis Workspace配置A4T報告，以確保在運行自動目標活動時獲得預期結果。*
-* **[設備上決策概述](implementation/on-device-decisioning-overview.md)**
+   *業務從業人員：您是否將A4T用於自動鎖定目標？ 請依照下列步驟，在Analysis Workspace中設定A4T報表，以確保在執行自動鎖定目標活動時會獲得預期結果。*
+* **[裝置上決策概觀](implementation/on-device-decisioning-overview.md)**
 
-   *對於建築師：開始設備上的決策，為您的消費者提供接近零的延遲體驗！*
+   *對於建築師：開始使用裝置上決策功能，為消費者提供幾乎為零的延遲體驗！*
 <!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
     *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
 
@@ -38,48 +40,61 @@ Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具�
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
 
-## 員工挑選
+
+</div>
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
+
+<div id="staff-picks-section">
+
+## 員工精選
 
 <table>
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-      <img alt="與Adobe Experience Platform Launch實施目標" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="使用Adobe Experience Platform Launch實作Target" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-    <strong>與Adobe Experience Platform Launch實施目標</strong>
+    <strong>使用Adobe Experience Platform Launch實作Target</strong>
     </a>
     </div>
     <p>
-    <em>通過啟動加快Web實施</em>
+    <em>透過Launch加速Web實作</em>
     <p>
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="在單頁應用程式中實現at.js 2.0(SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt="在單頁應用程式中實作at.js 2.0(SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>在單頁應用程式中實現at.js 2.0(SPA)</strong>
+    <strong>在單頁應用程式中實作at.js 2.0(SPA)</strong>
     </a>
     </div>
     <p>
-    <em>瞭解at.js 2.x如何支SPA持</em>
+    <em>請參閱at.js 2.x如何支援SPA</em>
     <p>
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="使用Experience Cloud Debugger排除目標故障" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="使用Experience Cloud Debugger疑難排解Target" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>使用Experience Cloud Debugger排除目標故障</strong>
+    <strong>使用Experience Cloud Debugger疑難排解Target</strong>
     </a>
     </div>
     <p>
-    <em>放大您的實施</em>
+    <em>放大您的實作</em>
     <p>
   </td>
 </tr>
 </table>
+</div>
