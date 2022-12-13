@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target 教學課程
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 3b278c1286da5376375622c157bb5cc634e23888
+source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '413'
 ht-degree: 8%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 8%
    + [使用選擇加入以根據使用者同意控制Experience Cloud解決方案](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [了解Adobe Target混合部署](../implementation/hybrid-deployment.md)
    + [裝置上決策概觀](../implementation/on-device-decisioning-overview.md)
+   + [Adobe Target的實作模式](../implementation/implementation-patterns-for-adobe-target.md)
 + 整合{#integrations}
    + [將Target與Analytics整合](../dev101/3.2-target-analytics.md)
    + [使用Analytics作為Target(A4T)的資料來源](../integrations/use-analytics-as-a-data-source-a4t.md)
