@@ -1,9 +1,8 @@
 ---
-source-git-commit: ef3c016c2e7fdf12cefd340ec8ff988ad8e6c567
+source-git-commit: e3e1cf48415af1e54976fb8543927e093aca7194
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '296'
-ht-degree: 88%
+source-wordcount: '294'
+ht-degree: 89%
 
 ---
 # 投稿
@@ -17,9 +16,9 @@ ht-degree: 88%
 此專案遵守 Adobe [行為準則](code-of-conduct.md)。參與本專案即代表您同意遵守前述準則。若發現不適當的行為，請向
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) 回報。
 
-## 投稿人指南檔案
+## 貢獻者指南檔案
 
-See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+請參閱 [貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## 仍有問題嗎?
 
@@ -28,7 +27,7 @@ See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/c
 
 ## 投稿人授權合約
 
-本專案的所有協力廠商投稿內容參與必須附有已簽署的投稿者授權合約。如此一來，Adobe 才有權限將您的投稿內容連同專案重新分配。[簽署我們的CLA](http://opensource.adobe.com/cla.html)。 Adobe CLA 
+本專案的所有協力廠商投稿內容參與必須附有已簽署的投稿者授權合約。如此一來，Adobe 才有權限將您的投稿內容連同專案重新分配。[簽署我們的CLA](http://opensource.adobe.com/cla.html). Adobe CLA 
 只需提交一次，所以如果您先前已提交過，
 便不需任何操作!
 
@@ -51,4 +50,4 @@ submitting a pull request!
 
 ## 安全性問題
 
-不應在此問題追蹤器回報安全性問題。相反地， [請向我們的安全專家提出問題](https://helpx.adobe.com/security/alertus.html)
+不應在此問題追蹤器回報安全性問題。相反， [向我們的安全專家提出問題](https://helpx.adobe.com/security/alertus.html)
