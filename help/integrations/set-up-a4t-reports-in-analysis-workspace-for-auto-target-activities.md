@@ -1,6 +1,8 @@
 ---
-title: 如何在Analysis Workspace中設定A4T報表以用於自動鎖定目標活動
-description: 一旦您已部署Analytics for Target(A4T)整合且執行自動鎖定目標活動，如何確保正確解讀結果？ 請依照下列步驟，在Analysis Workspace中設定A4T報表，以在執行自動鎖定目標活動時取得預期結果。
+title: 如何在 [!DNL Analysis Workspace] for [!DNL Auto-Target] 活動
+description: 如何在 [!DNL Analysis Workspace] 在運行時獲取預期結果 [!UICONTROL 自動鎖定目標] 活動？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,14 +10,18 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 2571964b557f696d8e0377b922d96e90611f2327
+source-git-commit: 12dc82a96a8df234d02dc56e9e5904571f2152ba
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2636'
 ht-degree: 1%
 
 ---
 
 # 在中設定A4T報表 [!DNL Analysis Workspace] for [!DNL Auto-Target] 活動
+
+>[!NOTE]
+>
+>此功能目前仍在測試中，將可供所有使用 [Target Premium](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} 客戶。
 
 >[!IMPORTANT]
 >
