@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2282'
 ht-degree: 1%
 
 ---
@@ -203,6 +203,8 @@ A4T整合可讓 [!UICONTROL 自動鎖定目標] 要為的ML模型 *訓練* 使�
 ## 摘要：最終範例 [!DNL Analysis Workspace] 面板 [!UICONTROL 自動鎖定目標] 報告
 
 將上述所有步驟合併成單一面板，下圖將顯示建議報表的完整檢視 [!UICONTROL 自動鎖定目標] A4T活動。 此報表與 [!DNL Target] ML模型，以最佳化您的目標量度。 報告納入了本教學課程討論的所有細微差別和建議。 此報告也最接近傳統計算方法 [!DNL Target] — 報告驅動 [!UICONTROL 自動鎖定目標] 活動。
+
+按一下以展開影像。
 
 ![中的最終A4T報表 [!DNL Analysis Workspace]](assets/Figure8.png "A4T報表於Analysis Workspace"){width="600" zoomable="yes"}
 
