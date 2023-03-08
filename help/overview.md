@@ -1,31 +1,37 @@
 ---
 title: 了解如何使用Adobe Target
-description: 透過這套涵蓋所有元件的教學課程和影片，了解如何使用Adobe Target。 有效運用Adobe Target的力量。
+description: 了解如何使用 [!DNL Adobe Target] 此教學課程和影片系列涵蓋所有元件。
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: da8f839931f4c68d3ee8ef9e1c8ca377d79a4cb0
+source-git-commit: ca57cc6fae9bb68b9ad432afe64ffea726cd6872
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 17%
+source-wordcount: '249'
+ht-degree: 15%
 
 ---
 
 # 了解如何使用Adobe Target
 
-Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。這些影片和教學課程可協助您了解Adobe Target的許多元件。
+[!DNL Adobe Target] 為 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗，藉此為您的網頁以及行動網站、應用程式、社交媒體和其他數位頻道創造最高的收入。這些影片和教學課程可協助您了解 [!DNL Adobe Target].
 
 <div id="whats-new-section">
 
 ## 新功能
 
-* **[在Analysis Workspace中設定A4T報表以進行自動鎖定目標活動](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[在中設定A4T報表 [!DNL Analysis Workspace] for [!DNL Auto-Allocate] 活動](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
 
-   *業務從業人員：您是否將A4T用於自動鎖定目標？ 請依照下列步驟，在Analysis Workspace中設定A4T報表，以確保在執行自動鎖定目標活動時會獲得預期結果。*
-* **[裝置上決策概觀](implementation/on-device-decisioning-overview.md)**
+   業務從業人員：此 [!UICONTROL Analytics for Target] (A4T)整合 [!UICONTROL 自動分配] 可讓您在 [!DNL Adobe Analytics]，您甚至可以最佳化中定義的自訂事件或量度 [!DNL Analytics].
 
-   *對於建築師：開始使用裝置上決策功能，為消費者提供幾乎為零的延遲體驗！*
+* **[在中設定A4T報表 [!DNL Analysis Workspace] for [!UICONTROL 自動鎖定目標] 活動](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+
+   業務從業人員：您是否將A4T用於 [!UICONTROL 自動鎖定目標]? 請依照下列步驟，在 [!DNL Analysis Workspace] 確保在運行時獲得預期結果 [!UICONTROL 自動鎖定目標] 活動。
+
+* **[裝置上決策總覽](implementation/on-device-decisioning-overview.md)**
+
+   對於建築師：開始使用 [!UICONTROL 裝置上決策] 為消費者提供接近零的延遲體驗。
+
 <!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
     *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
 
@@ -39,7 +45,6 @@ Adobe Target 為 Adobe Experience Cloud 解決方案，提供一切所需工具�
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
-
 
 </div>
 

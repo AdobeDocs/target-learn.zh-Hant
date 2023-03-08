@@ -1,7 +1,6 @@
 ---
 title: 如何在 [!DNL Analysis Workspace] for [!UICONTROL 自動分配] 活動
 description: 如何在 [!DNL Analysis Workspace] 在運行時獲取預期結果 [!UICONTROL 自動分配] 活動。
-badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,18 +8,14 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
+source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
 
 # 在中設定A4T報表 [!DNL Analysis Workspace] for [!DNL Auto-Allocate] 活動
-
->[!NOTE]
->
->此功能目前仍在測試中，將可供所有使用 [!UICONTROL 目標] 客戶。
 
 安 [!DNL Auto-Allocate] 活動會從兩個或多個體驗中識別獲勝者，並在測試繼續執行和學習時自動重新分配更多流量給獲勝者。 此 [!UICONTROL Analytics for Target] (A4T)整合 [!UICONTROL 自動分配] 可讓您在 [!DNL Adobe Analytics]，您甚至可以最佳化中定義的自訂事件或量度 [!DNL Analytics].
 
