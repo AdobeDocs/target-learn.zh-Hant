@@ -2,6 +2,7 @@
 title: 如何在 [!DNL Analysis Workspace] for [!DNL Auto-Target] 活動
 description: 如何在 [!DNL Analysis Workspace] 在運行時獲取預期結果 [!UICONTROL 自動鎖定目標] 活動？
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 1%
@@ -51,7 +52,7 @@ ht-degree: 1%
 
 ## 使用 [!UICONTROL 控制與目標] 要比較的維度 [!DNL Target] 將整體ML模型整合到控制項
 
-預設的A4T面板是針對傳統（手動）設計 [!UICONTROL A/B測試] 或 [!UICONTROL 自動分配] 目標是比較個別體驗與控制體驗的效能的活動。 在 [!UICONTROL 自動鎖定目標] 不過，第一階比較應該是控制項之間 *策略* 和目標 *策略*. 換句話說，決定 [!UICONTROL 自動鎖定目標] 整合ML模型（控制策略）。
+預設的A4T面板是針對傳統（手動）設計 [!UICONTROL A/B測試] 或 [!UICONTROL 自動分配] 目標是比較個別體驗與控制體驗的效能的活動。 在 [!UICONTROL 自動鎖定目標] 不過，第一階比較應該是控制項之間 *策略* 和目標 *策略*. 換句話說，決定 [!UICONTROL 自動鎖定目標] 整體ML模型。
 
 若要執行此比較，請使用 **[!UICONTROL 控制與鎖定(Analytics for Target)]** 維度。 拖放以取代 **[!UICONTROL 目標體驗]** 維度。
 
