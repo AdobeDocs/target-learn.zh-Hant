@@ -2,6 +2,7 @@
 title: 什麼是對象？如何使用？
 description: 此影片向 Adobe Target 用戶說明如何使用 Audiences 以鎖定活動和篩選報表。
 landing-page-description: 了解如何定義受眾、尋找受眾、鎖定活動及篩選報表。
+short-description: Learn to define audiences, find audiences, and target activities and filter reports.
 role: User
 level: Beginner
 topic: Personalization
@@ -10,10 +11,10 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '75'
+ht-degree: 38%
 
 ---
 

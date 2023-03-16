@@ -8,7 +8,7 @@ exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 source-git-commit: ca57cc6fae9bb68b9ad432afe64ffea726cd6872
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 15%
 
    業務從業人員：此 [!UICONTROL Analytics for Target] (A4T)整合 [!UICONTROL 自動分配] 可讓您在 [!DNL Adobe Analytics]，您甚至可以最佳化中定義的自訂事件或量度 [!DNL Analytics].
 
-* **[在中設定A4T報表 [!DNL Analysis Workspace] for [!UICONTROL 自動鎖定目標] 活動](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
 
    業務從業人員：您是否將A4T用於 [!UICONTROL 自動鎖定目標]? 請依照下列步驟，在 [!DNL Analysis Workspace] 確保在運行時獲得預期結果 [!UICONTROL 自動鎖定目標] 活動。
 
