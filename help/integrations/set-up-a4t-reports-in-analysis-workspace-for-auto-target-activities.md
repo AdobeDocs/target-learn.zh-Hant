@@ -1,8 +1,8 @@
 ---
 title: 如何在 [!DNL Analysis Workspace] for [!DNL Auto-Target] 活動
 description: 如何在 [!DNL Analysis Workspace] 在運行時獲取預期結果 [!UICONTROL 自動鎖定目標] 活動？
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2641'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 本教學課程將逐步說明分析時的建議修改 [!UICONTROL 自動鎖定目標] 活動 [!DNL Analysis Workspace]，這些概念以下列重要概念為基礎：
 
 * 此 **[!UICONTROL 控制與目標]** 維度可用來區分 [!UICONTROL 控制] 體驗與 [!UICONTROL 自動鎖定目標] 整合ML算法。
-* 檢視體驗層級績效劃分時，應將造訪設為標準化量度。 此外， [Adobe Analytics的預設計數方法可能包含使用者實際上看不到活動內容的造訪](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics)，但可使用適當範圍的區段來修改此預設行為（詳見下方）。
+* 檢視體驗層級績效劃分時，應將造訪設為標準化量度。 此外， [Adobe Analytics的預設計數方法可能包含使用者實際上看不到活動內容的造訪](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}，但可使用適當範圍的區段來修改此預設行為（詳見下方）。
 * 使用的是「造訪回顧範圍」歸因（在指定的歸因模型上稱為「造訪回顧期間」） [!DNL Adobe Target] ML模型（在其訓練階段），劃分目標量度時應使用相同（非預設）歸因模型。
 
 ## 為建立A4T [!UICONTROL 自動鎖定目標] 面板 [!DNL Analysis Workspace]
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->目前， [!UICONTROL 提升度和可信度] 數字無法用於 [!UICONTROL 控制與目標] 維度(適用於 [!UICONTROL 自動鎖定目標]. 在添加支援之前， [!UICONTROL 提升度和可信度] 可以通過下載手動計算 [信賴度計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>目前， [!UICONTROL 提升度和可信度] 數字無法用於 [!UICONTROL 控制與目標] 維度(適用於 [!UICONTROL 自動鎖定目標]. 在添加支援之前， [!UICONTROL 提升度和可信度] 可以通過下載手動計算 [信賴度計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## 加入量度的體驗層級劃分
 
@@ -150,7 +150,7 @@ A4T整合可讓 [!UICONTROL 自動鎖定目標] 要為的ML模型 *訓練* 使�
 >
 >如果ML模型針對歸因與您在報表中檢視之量度不同的量度進行最佳化，則模型可能無法如預期般執行。 若要避免此情況，請確認報表上的目標量度使用與 [!DNL Target] ML模型。
 
-確切的量度定義和歸因設定取決於 [優化准則](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) 在活動建立期間指定。
+確切的量度定義和歸因設定取決於 [優化准則](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} 在活動建立期間指定。
 
 ### 定位定義的轉換，或 [!DNL Analytics] 量度 *將每次造訪的量度值最大化*
 
