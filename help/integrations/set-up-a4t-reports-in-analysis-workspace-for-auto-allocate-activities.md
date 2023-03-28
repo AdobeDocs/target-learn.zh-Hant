@@ -9,7 +9,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
+source-git-commit: b29362ea45196d09dcbfbceeaaed5bc20467ea16
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -29,9 +29,9 @@ ht-degree: 0%
    * 「最大化獨特訪客轉換率」最佳化標準的轉換率，其分子是具有量度正值的獨特訪客計數。
    * 「每位訪客最大化量度值」的轉換率，其分子為 [!DNL Adobe Analytics]. 預設會提供於 **[!UICONTROL Analytics for Target]** 面板 [!DNL Analysis Workspace].
 * 當最佳化量度為 [!DNL Target] 定義的轉換量度，預設 **[!UICONTROL Analytics for Target]** 面板 [!DNL Analysis Workspace] 控制代碼。
-* 全部 [!UICONTROL 自動分配] 在 [!DNL Target Standard/Premium] 23.3.1版（2023年3月28日） [!DNL Analytics Workspace] 和 [!DNL Target] 顯示 [!UICONTROL 信賴度].
+* 全部 [!UICONTROL 自動分配] 在 [!DNL Target Standard/Premium] 23.3.1版（2023年3月30日） [!DNL Analytics Workspace] 和 [!DNL Target] 顯示 [!UICONTROL 信賴度].
 
-   全部 [!UICONTROL 自動分配] 2023年3月28日之後建立的活動，信賴區間值會顯示在 [!DNL Analysis Workspace] 不會反映 [更保守的統計 [!UICONTROL 自動分配]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} 如果這些活動 *both* 下列條件之中：
+   全部 [!UICONTROL 自動分配] 2023年3月30日之後建立的活動，信賴區間值會顯示在 [!DNL Analysis Workspace] 不會反映 [更保守的統計 [!UICONTROL 自動分配]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} 如果這些活動 *both* 下列條件之中：
 
    * [!DNL Analytics] 作為報表來源(A4T)
    * [!DNL Analytics] 最佳化量度
