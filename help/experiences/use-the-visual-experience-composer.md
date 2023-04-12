@@ -2,7 +2,7 @@
 title: 如何使用可視化體驗撰寫器(VEC)
 description: 這兩部影片向行銷人員介紹 Adobe Target Visual Experience Composer (VEC)。 觀看這兩部影片以了解如何使用 VEC 建立活動。
 landing-page-description: 觀看這些影片，了解如何使用可視化體驗撰寫器 (VEC) 建立活動。
-short-description: Watch these videos to learn how to create activities using the Visual Experience Composer (VEC).
+short-description: 觀看這些影片，了解如何使用可視化體驗撰寫器 (VEC) 建立活動。
 role: User
 level: Beginner
 topic: Personalization
@@ -12,8 +12,8 @@ kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '144'
+ht-degree: 38%
 
 ---
 
