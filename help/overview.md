@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 0b160a9c72c922d184383c699cea463df46a5ecd
+source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 10%
+source-wordcount: '474'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 10%
 
 對於建築師：開始使用 [!UICONTROL 裝置上決策] 為消費者提供接近零的延遲體驗。 請參閱 [裝置上決策概觀](implementation/on-device-decisioning-overview.md).
 
+### 移轉 [!DNL Target] 從at.js 2.*x* to [!DNL Adobe Experience Platform Web SDK]
+
+了解如何移轉 [!DNL Target] at.js實作至 [!DNL Adobe Experience Platform Web SDK]. 請參閱 [移轉 [!DNL Target] 從at.js 2.x [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} 在 *Adobe Experience PlatformTutorials指南*.
+
 ## 最受歡迎影片
 
 Target客戶最常存取下列影片：
@@ -67,20 +71,14 @@ Target客戶最常存取下列影片：
 
 ### 使用Adobe Experience Platform標籤實作Target
 
-了解如何使用頁面載入請求和自訂參數實作Adobe Target擴充功能。
-
-如需詳細資訊，請參閱 [新增Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} 在 *使用標籤在網站中實作教學課程指南*.
+了解如何使用頁面載入請求和自訂參數實作Adobe Target擴充功能。 如需詳細資訊，請參閱 [新增Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} 在 *使用標籤在網站中實作教學課程指南*.
 
 ### 在單頁應用程式中實作at.js 2.0(SPA)
 
-了解如何在SPA中實作at.js 2.0（和更新版本）。
-
-如需詳細資訊，請參閱 [在單頁應用程式中實作Adobe Target的at.js 2.0(SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
+了解如何在SPA中實作at.js 2.0（和更新版本）。 如需詳細資訊，請參閱 [在單頁應用程式中實作Adobe Target的at.js 2.0(SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
 
 ### 使用Experience Cloud Debugger疑難排解Target
 
-了解如何使用Adobe Experience Cloud Debugger來了解您的 [!DNL Target] 實作。 了解如何快速檢視程式庫組態、檢查要求以確定自訂參數是否正確傳遞、開啟主控台記錄，以及停用所有 [!DNL Target] 請求，並使用Mbox追蹤工具。
-
-如需詳細資訊，請參閱 [疑難排解 [!DNL Target] 和 [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+了解如何使用Adobe Experience Cloud Debugger來了解您的 [!DNL Target] 實作。 了解如何快速檢視程式庫組態、檢查要求以確定自訂參數是否正確傳遞、開啟主控台記錄，以及停用所有 [!DNL Target] 請求，並使用Mbox追蹤工具。 如需詳細資訊，請參閱 [疑難排解 [!DNL Target] 和 [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
 
 
