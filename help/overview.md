@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
+source-git-commit: bfb985f8f4d4d354b39dffacdda8c81fe828b9f1
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 11%
+source-wordcount: '464'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->除了本指南外，以下 [!DNL Adobe Target] 也提供指南：
+>除本指南外，還有提供以下 [!DNL Adobe Target] 指南：
 >
 >* *[Adobe Target 商務從業者指南](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hant){target=_blank}*
 >
@@ -29,56 +29,111 @@ ht-degree: 11%
 
 下列為新資源：
 
-### 在中設定A4T報表 [!DNL Analysis Workspace] for [!DNL Auto-Allocate] 活動
+* **[在中設定A4T報表 [!DNL Analysis Workspace] for [!DNL Auto-Allocate] 活動](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md){target=_blank}**
 
-業務從業人員：此 [!UICONTROL Analytics for Target] (A4T)整合 [!UICONTROL 自動分配] 可讓您在 [!DNL Adobe Analytics]，您甚至可以最佳化中定義的自訂事件或量度 [!DNL Analytics]. 請參閱 [在中設定A4T報表 [!DNL Analysis Workspace] for [!DNL Auto-Allocate] 活動](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md).
+   *業務從業人員：此 [!UICONTROL Analytics for Target] (A4T)整合 [!UICONTROL 自動分配] 可讓您在 [!DNL Adobe Analytics]，您甚至可以最佳化中定義的自訂事件或量度 [!DNL Analytics].*
 
-### 在 [!DNL Analysis Workspace] 中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告
 
-業務從業人員：您是否將A4T用於 [!UICONTROL 自動鎖定目標]? 請依照下列步驟，在 [!DNL Analysis Workspace] 確保在運行時獲得預期結果 [!UICONTROL 自動鎖定目標] 活動。 請參閱 [在中設定A4T報表 [!DNL Analysis Workspace] for [!UICONTROL 自動鎖定目標] 活動](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md).
+* **[在  [!DNL Analysis Workspace]  中設定[!UICONTROL 自動鎖定目標]活動的 A4T 報告](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md){target=_blank}**
 
-### 裝置上決策
+   *業務從業人員：您是否將A4T用於 [!UICONTROL 自動鎖定目標]? 請依照下列步驟，在 [!DNL Analysis Workspace] 確保在運行時獲得預期結果 [!UICONTROL 自動鎖定目標] 活動。*
 
-對於建築師：開始使用 [!UICONTROL 裝置上決策] 為消費者提供接近零的延遲體驗。 請參閱 [裝置上決策概觀](implementation/on-device-decisioning-overview.md).
+* **[裝置上決策](implementation/on-device-decisioning-overview.md)**
 
-### 移轉 [!DNL Target] 從at.js 2.*x* to [!DNL Adobe Experience Platform Web SDK]
+   *對於建築師：開始使用 [!UICONTROL 裝置上決策] 為消費者提供接近零的延遲體驗。*
 
-了解如何移轉 [!DNL Target] at.js實作至 [!DNL Adobe Experience Platform Web SDK]. 請參閱 [移轉 [!DNL Target] 從at.js 2.x [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} 在 *Adobe Experience PlatformTutorials指南*.
+* **[移轉 [!DNL Target] 從at.js 2.x [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank}**
+
+   *了解如何移轉 [!DNL Target] at.js實作至 [!DNL Adobe Experience Platform Web SDK].*
 
 ## 最受歡迎影片
 
-Target客戶最常存取下列影片：
-
-### 裝置上決策概覽
-
->[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
-
-如需詳細資訊，請參閱 [裝置上決策概觀](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} 在 *Adobe Target開發人員指南*.
-
-### 簡介 [!DNL Adobe Target] 實施
-
->[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
-
-如需詳細資訊，請參閱 [用戶端實作](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} or [Server-side implementation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} 在 *[!UICONTROL Adobe Target開發人員指南]*.
-
-### 在中建立設定檔指令碼 [!DNL Adobe Target]
-
->[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
+<table>
+<tr>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html"> 
+      <img alt="裝置上決策概覽" src="./assets/329032.png"/>
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html">
+    <strong>裝置上決策概覽</strong>
+    </a>
+    </div>
+    <!--- <p>
+    <em>Learn how to implement the Adobe Target extension with a page load request and custom parameters.</em>
+    <p> --->
+  </td>
+   <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/2.1-intro-to-target-implementation.html">
+      <img alt="Adobe Target實作簡介" src="./assets/35139.png" />
+    </a>
+    <div>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/2.1-intro-to-target-implementation.html">
+    <strong>Adobe Target實作簡介</strong>
+    </a>
+    </div>
+    <!--- <p>
+    <em> Learn how to implement at.js 2.0 (and later) in SPAs.</em>
+    <p> --->
+  </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/audiences/create-profile-scripts.html">
+      <img alt="在Adobe Target中建立設定檔指令碼" src="./assets/17394.png" />
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/audiences/create-profile-scripts.html">
+    <strong>在Adobe Target中建立設定檔指令碼</strong>
+    </a>
+    </div>
+    <!--- <p>
+    <em>Learn how to use the Adobe Experience Cloud Debugger to understand your [!DNL Target] implementation. Learn how to quickly view your library configuration, examine requests to make sure that your custom parameters are being passed correctly, turn on console logging, and disable all [!DNL Target] requests, and use the Mbox Trace tool.</em>
+    <p> --->
+  </td>
+</tr>
+</table>
 
 ## 員工精選
 
-此 [!DNL Adobe Target] 工作人員建議以下資源：
-
-### 使用Adobe Experience Platform標籤實作Target
-
-了解如何使用頁面載入請求和自訂參數實作Adobe Target擴充功能。 如需詳細資訊，請參閱 [新增Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} 在 *使用標籤在網站中實作教學課程指南*.
-
-### 在單頁應用程式中實作at.js 2.0(SPA)
-
-了解如何在SPA中實作at.js 2.0（和更新版本）。 如需詳細資訊，請參閱 [在單頁應用程式中實作Adobe Target的at.js 2.0(SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
-
-### 使用Experience Cloud Debugger疑難排解Target
-
-了解如何使用Adobe Experience Cloud Debugger來了解您的 [!DNL Target] 實作。 了解如何快速檢視程式庫組態、檢查要求以確定自訂參數是否正確傳遞、開啟主控台記錄，以及停用所有 [!DNL Target] 請求，並使用Mbox追蹤工具。 如需詳細資訊，請參閱 [疑難排解 [!DNL Target] 和 [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
-
-
+<table>
+<tr>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
+      <img alt="使用Adobe Experience Platform標籤實作Target" src="./assets/add-adobe-target.png"/>
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
+    <strong>使用Adobe Experience Platform標籤實作Target</strong>
+    </a>
+    </div>
+    <p>
+    <em>了解如何使用頁面載入請求和自訂參數實作Adobe Target擴充功能。</em>
+    <p>
+  </td>
+   <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+      <img alt="在單頁應用程式中實作Adobe Target的at.js 2.0(SPA)" src="./assets/26248.png" />
+    </a>
+    <div>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <strong>在單頁應用程式中實作Adobe Target的at.js 2.0(SPA)</strong>
+    </a>
+    </div>
+    <p>
+    <em> 了解如何在SPA中實作at.js 2.0（和更新版本）。</em>
+    <p>
+  </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html">
+      <img alt="使用Experience Cloud Debugger疑難排解Target" src="./assets/23115.png" />
+    </a>
+    <div>
+      <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html">
+    <strong>使用Experience Cloud Debugger疑難排解Target</strong>
+    </a>
+    </div>
+    <p>
+    <em>了解如何使用Adobe Experience Cloud Debugger來了解您的 [!DNL Target] 實作。 了解如何快速檢視程式庫組態、檢查要求以確定自訂參數是否正確傳遞、開啟主控台記錄，以及停用所有 [!DNL Target] 請求，並使用Mbox追蹤工具。</em>
+    <p>
+  </td>
+</tr>
+</table>
