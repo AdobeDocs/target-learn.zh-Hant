@@ -1,10 +1,10 @@
 ---
 user-guide-title: Adobe Target 教學課程
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
+source-git-commit: a61bec9451517f85db2d421b7cf09015d302b2aa
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -48,10 +48,10 @@ ht-degree: 7%
    + [將Target與Experience Cloud受眾整合](../dev101/3.4-target-exc-audiences.md)
    + [將 Target 與 Campaign 整合](../dev101/3.6-target-campaign.md)
    + [將Target與Adobe Developer主控台整合](../dev101/3.7-target-io.md)
-   + [將Target與Real-Time CDP整合]{#rtcdp}
+   + 將Target與Real-Time CDP整合{#rtcdp}
       + [使用Adobe Target進行下一次點選個人化](../integrations/rtcdp/next-hit-personalization.md)
       + [設定Adobe Target目的地](../integrations/rtcdp/configure-the-target-destination.md)
-      + [啟用區段和設定檔屬性](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
+      + [啟動區段和設定檔屬性](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
       + [在Target中使用Real-Time CDP區段](../integrations/rtcdp/use-rtcdp-segments-in-target.md)
       + [在Target中使用Real-Time CDP設定檔屬性](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [將Target與Scene7整合](../dev101/3.8-target-scene7.md)
