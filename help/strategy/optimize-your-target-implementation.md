@@ -2,8 +2,10 @@
 title: 最佳化Adobe Target實施
 description: 取得Adobe Target實施與結構的概觀。 瞭解如何瞭解及稽核組織的設定。 瞭解為團隊建立知識存放庫的常見疑難排解技巧和提示。
 solution: Target
+feature: Overview
+role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
