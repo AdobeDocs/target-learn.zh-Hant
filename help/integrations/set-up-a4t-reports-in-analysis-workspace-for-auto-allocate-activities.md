@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
+source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ ht-degree: 0%
 
 * [!UICONTROL 訪客] 應一律用作中的標準化量度 [!DNL Auto-Allocate] 活動。
 * 當量度為 [!DNL Adobe Analytics] 量度，轉換率的計算會因活動設定期間定義的最佳化條件型別而異。
-   * 「最大化的不重複訪客轉換率」轉換率分子是獨特訪客的計數 *而量度的值為正數*.
-   * 此方法不需要額外的區段來比對 [!DNL Target] UI。
-* 「最大化的每位訪客量度值」轉換率分子是中的一般量度值 [!DNL Adobe Analytics]. 此量度預設由 [!DNL Analytics for Target] 中的面板 [!DNL Analysis Workspace].
-   * 其含義是：將轉換的訪客數量最大化（「每位訪客計數一次」）。
-   * 此方法需要在報告中建立額外的區段，以符合「 」中顯示的「 」轉換率。 [!DNL Target] UI。
+   * 「最大化每位訪客的量度值」轉換率：分子是中的一般量度值 [!DNL Adobe Analytics] (這預設由 [!UICONTROL 目標分析] 中的面板 [!DNL Analysis Workspace])。
+      * 換句話說：將每位訪客的轉換次數最大化（「每位訪客各計數」）。
+      * 此方法不需要額外的區段來比對 [!DNL Target] UI。
+   * 「最大化不重複訪客轉換率」轉換率：分子是以量度為正值的獨特訪客計數。
+      * 其含義是：將轉換的訪客數量最大化（「每位訪客計數一次）。
+      * 此方法 *DO* 需要在報告中建立額外的區段，以符合 [!DNL Target] UI。
+
 * 當您的最佳化量度為 [!DNL Target] 定義的轉換量度，預設值 **[!UICONTROL 目標分析]** 中的面板 [!DNL Analysis Workspace] 處理面板的設定。
 * 全部 [!UICONTROL 自動分配] 在以下日期之前建立的活動： [!DNL Target Standard/Premium] 23.3.1版（2023年3月30日） [!DNL Analytics Workspace] 和 [!DNL Target] 顯示相同的值 [!UICONTROL 信賴度].
 
@@ -45,7 +47,7 @@ ht-degree: 0%
 若要為建立A4T面板 [!DNL Auto-Allocate] 報告開始於 **[!UICONTROL 目標分析]** 中的面板 [!DNL Analysis Workspace]，如下所示。 然後進行下列選取：
 
 1. **[!UICONTROL 控制體驗]**：您可以選擇任何體驗。
-1. **[!UICONTROL 標準化量度]**：選取訪客（訪客預設包含在A4T面板中）。 [!DNL Auto-Allocate] 一律會根據不重複訪客將轉換率標準化。
+1. **[!UICONTROL 標準化量度]**：選取訪客（預設情況下，訪客包含在A4T面板中）。 [!DNL Auto-Allocate] 一律會根據不重複訪客將轉換率標準化。
 1. **[!UICONTROL 成功量度]**：選取您在活動建立期間使用的相同量度。 如果這是 [!DNL Target] 定義的轉換量度，選取 **活動轉換**. 否則，請選取 [!DNL Adobe Analytics] 您使用的量度。
 
 ![[!UICONTROL 目標分析] 面板設定 [!DNL Auto-Allocate] 活動。](assets/AAFigure1.png)
@@ -74,9 +76,9 @@ ht-degree: 0%
 
 *圖2：的建議報表 [!DNL Auto-Allocate] 具有的活動 [!DNL Analytics] 量度「將每位訪客的量度值最佳化最大化」條件。 對於這些型別的量度，以及 [!DNL Target] 定義的轉換量度，預設值&#x200B;**[!UICONTROL 目標分析]**中的面板 [!DNL Analysis Workspace] 可使用。*
 
-## [!DNL Analytics] 具有「最大化不重複訪客」最佳化條件的量度
+## [!DNL Analytics] 具有「最大化不重複訪客轉換率」最佳化條件的量度
 
-最佳化標準「使用轉換率最大化不重複訪客」是指量度值為正數的訪客計數。 例如，如果轉換率定義為收入，則「轉換率最大化不重複訪客」標準將會針對收入大於0的不重複訪客計數進行最佳化。 換言之，此標準將最大化產生收入的訪客計數，而不是收入本身的值。
+最佳化標準「最大化不重複訪客轉換率」指的是量度值為正數的訪客計數。 例如，如果轉換率定義為收入，則「最大化不重複訪客轉換率」標準將會針對收入大於0的不重複訪客計數進行最佳化。 換言之，此標準將最大化產生收入的訪客計數，而不是收入本身的值。
 
 >[!NOTE]
 >
