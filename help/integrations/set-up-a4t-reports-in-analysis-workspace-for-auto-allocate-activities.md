@@ -1,6 +1,6 @@
 ---
-title: 如何在 [!DNL Analysis Workspace] for [!UICONTROL 自動分配] 活動
-description: 如何在 [!DNL Analysis Workspace] 在運行時獲取預期結果 [!UICONTROL 自動分配] 活動。
+title: 如何在中設定A4T報表 [!DNL Analysis Workspace] 的 [!UICONTROL 自動分配] 活動
+description: 如何在中設定A4T報表 [!DNL Analysis Workspace] 以取得執行時的預期結果 [!UICONTROL 自動分配] 活動。
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,101 +8,121 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: bd8283d3c0e5fa9e690e377bc4dfbf6a147dd577
+source-git-commit: ef9e4667ab6e264f0dd324bfd8a7a14783952078
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
 
-# 在中設定A4T報表 [!DNL Analysis Workspace] for [!DNL Auto-Allocate] 活動
+# 在中設定A4T報表 [!DNL Analysis Workspace] 的 [!DNL Auto-Allocate] 活動
 
-安 [!DNL Auto-Allocate] 活動會從兩個或多個體驗中識別獲勝者，並在測試繼續執行和學習時自動重新分配更多流量給獲勝者。 此 [!UICONTROL Analytics for Target] (A4T)整合 [!UICONTROL 自動分配] 可讓您在 [!DNL Adobe Analytics]，您甚至可以最佳化中定義的自訂事件或量度 [!DNL Analytics].
+一個 [!DNL Auto-Allocate] 活動會從兩個或多個體驗中識別獲勝者，並自動重新分配您的流量給獲勝者，同時測試會繼續執行和學習。 此 [!UICONTROL 目標分析] (A4T)整合 [!UICONTROL 自動分配] 可讓您在中檢視您的報告資料 [!DNL Adobe Analytics]，您甚至可以針對中定義的自訂事件或量度進行最佳化 [!DNL Analytics].
 
-雖然 [!DNL Adobe Analytics] [!DNL Analysis Workspace]，對預設值進行一些修改 **[!UICONTROL Analytics for Target]** 需要面板才能正確解譯 [!DNL Auto-Allocate] 活動，由於 [最佳化准則](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
+雖然提供豐富的分析功能，但 [!DNL Adobe Analytics] [!DNL Analysis Workspace]，對預設值進行了一些修改 **[!UICONTROL 目標分析]** 可能需要面板才能正確解譯 [!DNL Auto-Allocate] 活動，由於中的細微差別 [最佳化量度條件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
-本教學課程將逐步說明分析時的建議修改 [!DNL Auto-Allocate] 活動 [!DNL Analysis Workspace]. 主要概念包括：
+本教學課程會逐步引導您瞭解建議的修改方式，以便分析 [!DNL Auto-Allocate] 中的活動 [!DNL Analysis Workspace]. 主要概念為：
 
-* [!UICONTROL 訪客] 應一律作為 [!DNL Auto-Allocate] 活動。
-* 當量度為 [!DNL Adobe Analytics] 量度，轉換率的適當分子取決於活動設定期間選擇的最佳化條件類型。
-   * 「最大化獨特訪客轉換率」最佳化標準的轉換率，其分子是具有量度正值的獨特訪客計數。
-   * 「每位訪客最大化量度值」的轉換率，其分子為 [!DNL Adobe Analytics]. 預設會提供於 **[!UICONTROL Analytics for Target]** 面板 [!DNL Analysis Workspace].
-* 當最佳化量度為 [!DNL Target] 定義的轉換量度，預設 **[!UICONTROL Analytics for Target]** 面板 [!DNL Analysis Workspace] 控制代碼。
-* 全部 [!UICONTROL 自動分配] 在 [!DNL Target Standard/Premium] 23.3.1版（2023年3月30日） [!DNL Analytics Workspace] 和 [!DNL Target] 顯示 [!UICONTROL 信賴度].
+* [!UICONTROL 訪客] 應一律用作中的標準化量度 [!DNL Auto-Allocate] 活動。
+* 當量度為 [!DNL Adobe Analytics] 量度，轉換率的計算會因活動設定期間定義的最佳化條件型別而異。
+   * 「最大化的不重複訪客轉換率」轉換率分子是獨特訪客的計數 *而量度的值為正數*.
+   * 此方法不需要額外的區段來比對 [!DNL Target] UI。
+* 「最大化的每位訪客量度值」轉換率分子是中的一般量度值 [!DNL Adobe Analytics]. 此量度預設由 [!DNL Analytics for Target] 中的面板 [!DNL Analysis Workspace].
+   * 其含義是：將轉換的訪客數量最大化（「每位訪客計數一次」）。
+   * 此方法需要在報告中建立額外的區段，以符合「 」中顯示的「 」轉換率。 [!DNL Target] UI。
+* 當您的最佳化量度為 [!DNL Target] 定義的轉換量度，預設值 **[!UICONTROL 目標分析]** 中的面板 [!DNL Analysis Workspace] 處理面板的設定。
+* 全部 [!UICONTROL 自動分配] 在以下日期之前建立的活動： [!DNL Target Standard/Premium] 23.3.1版（2023年3月30日） [!DNL Analytics Workspace] 和 [!DNL Target] 顯示相同的值 [!UICONTROL 信賴度].
 
-   全部 [!UICONTROL 自動分配] 2023年3月30日之後建立的活動，信賴區間值會顯示在 [!DNL Analysis Workspace] 不會反映 [更保守的統計 [!UICONTROL 自動分配]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} 如果這些活動 *both* 下列條件之中：
+  全部 [!UICONTROL 自動分配] 在2023年3月30日之後建立的活動，在中看到的信賴區間值 [!DNL Analysis Workspace] 不要反映 [使用較為保守的統計資料 [!UICONTROL 自動分配]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} 在，如果這些活動具有 *兩者* 下列條件之一：
 
-   * [!DNL Analytics] 作為報表來源(A4T)
+   * [!DNL Analytics] 做為報表來源(A4T)
    * [!DNL Analytics] 最佳化量度
 
-   若 *both* 其中，應從A4T面板中移除信賴度量。 請改為在 [!DNL Target] 報告。
+  可信度量度應從A4T面板中移除。 請改為參考下列值： [!DNL Target] 報告。
 
-## 為建立A4T [!DNL Auto-Allocate] 面板 [!DNL Analysis Workspace]
+## 建立A4T用於 [!DNL Auto-Allocate] 中的面板 [!DNL Analysis Workspace]
 
-為建立A4T [!DNL Auto-Allocate] 報表從 **[!UICONTROL Analytics for Target]** 面板 [!DNL Analysis Workspace]，如下所示。 然後進行下列選取：
+若要為建立A4T面板 [!DNL Auto-Allocate] 報告開始於 **[!UICONTROL 目標分析]** 中的面板 [!DNL Analysis Workspace]，如下所示。 然後進行下列選取：
 
-1. **[!UICONTROL 控制體驗]**:您可以選擇任何體驗。
-2. **[!UICONTROL 標準化量度]**:選取訪客。 [!DNL Auto-Allocate] 一律會依不重複訪客將轉換率標準化。
-3. **[!UICONTROL 成功量度]**:選取您在活動建立期間使用的相同量度。 如果這是 [!DNL Target] 定義的轉換量度，請選取 **活動轉換**. 否則，請選取 [!DNL Adobe Analytics] 量度。
+1. 新增活動。
+1. **[!UICONTROL 控制體驗]**：您可以選擇任何體驗。
+1. **[!UICONTROL 標準化量度]**：選取訪客（訪客預設包含在A4T面板中）。 [!DNL Auto-Allocate] 一律會根據不重複訪客將轉換率標準化。
+1. **[!UICONTROL 成功量度]**：選取您在活動建立期間使用的相同量度。 如果這是 [!DNL Target] 定義的轉換量度，選取 **活動轉換**. 否則，請選取 [!DNL Adobe Analytics] 您使用的量度。
 
-![[!UICONTROL Analytics for Target] 面板設定 [!DNL Auto-Allocate] 活動。](assets/AAFigure1.png)
+![[!UICONTROL 目標分析] 面板設定 [!DNL Auto-Allocate] 活動。](assets/AAFigure1.png)
 
-*圖1: [!UICONTROL Analytics for Target] 面板設定 [!DNL Auto-Allocate] 活動。*
+*圖1： [!UICONTROL 目標分析] 面板設定 [!DNL Auto-Allocate] 活動。*
+
+您也可以取得預先建立的 **[!UICONTROL 目標分析]** 面板（如果您按一下中報表畫面的連結） [!DNL Adobe Target].
+
+## [!DNL Target] [!UICONTROL 轉換] 量度或 [!DNL Analytics] 具有「每位訪客量度值最大化」最佳化條件的量度
+
+當目標量度為下列其中一項：
+
+* 目標轉換量度
+* 最佳化條件為「每位訪客量度值最大化」的Analytics量度
+
+預設的A4T面板會自動設定報表。
+
+此面板的一個範例顯示於 [!UICONTROL 收入] 量度，其中「每位訪客的量度值最大化」在活動建立時選取為最佳化條件。 如前所述， [!DNL Auto-Allocate] 使用的信賴度計算比中使用的更保守 **[!UICONTROL 目標分析]** 面板。 Adobe建議您從A4T面板中移除可信度量度，以及相關的下限和上限提升量度。 請改為參考中的信賴值 [!DNL Target] 報告。
 
 >[!NOTE]
 >
-> 您也可以取得預先建立的 **[!UICONTROL Analytics for Target]** 中的 [!DNL Adobe Target].
+>A4T報表中的信賴值較不保守 [!DNL Target] 報告，並可能提前指出贏家 [!UICONTROL 自動分配] 活動。
 
-## [!DNL Target] [!UICONTROL 轉換] 量度或 [!DNL Analytics] 具有「每位訪客最大化量度值」最佳化條件的量度
 
-預設的A4T面板控點 [!DNL Auto-Allocate] 目標量度為 [!DNL Target] 轉換或 [!DNL Analytics] 量度，其最佳化標準為「將每位訪客的量度值最大化」。
+![[!UICONTROL Analytics for Target — 自動分配報表] 面板](assets/AAFigure2.png)
 
-此面板的一個範例顯示於 [!UICONTROL 收入] 量度中，選取「每位訪客最大化量度值」作為活動建立時的最佳化條件。 如前所述， [!DNL Auto-Allocate] 使用比中所用更保守的信賴計算 **[!UICONTROL Analytics for Target]** 中。 Adobe建議您從A4T面板中移除信賴度量，以及相關的上下提升度量。 請改為在 [!DNL Target] 報告。
+*圖2：的建議報表 [!DNL Auto-Allocate] 具有的活動 [!DNL Analytics] 量度「將每位訪客的量度值最佳化最大化」條件。 對於這些型別的量度，以及 [!DNL Target] 定義的轉換量度，預設值&#x200B;**[!UICONTROL 目標分析]**中的面板 [!DNL Analysis Workspace] 可使用。*
 
-![[!UICONTROL 目標分析 — 自動分配報表] 面板](assets/AAFigure2.png)
+## [!DNL Analytics] 具有「最大化不重複訪客」最佳化條件的量度
 
-*圖2:建議的 [!DNL Auto-Allocate] 活動 [!DNL Analytics] 量度「將每個訪客的量度值最大化」條件。 針對這些類型的量度，以及 [!DNL Target] 定義的轉換量度，預設&#x200B;**[!UICONTROL Analytics for Target]**面板 [!DNL Analysis Workspace] 可供使用。*
+最佳化標準「使用轉換率最大化不重複訪客」是指量度值為正數的訪客計數。 例如，如果轉換率定義為收入，則「轉換率最大化不重複訪客」標準將會針對收入大於0的不重複訪客計數進行最佳化。 換言之，此標準將最大化產生收入的訪客計數，而不是收入本身的值。
 
-## [!DNL Analytics] 具有「最大化獨特訪客轉換率」最佳化條件的量度
+>[!NOTE]
+>
+>這裡所參照的轉換率可指訂單以外的動作，例如點按數、曝光數等。 在這些情況下，標準仍將是分別點按或檢視頁面的訪客計數最大化。
 
-當 [!DNL Adobe Analytics] 量度與 *最大化獨特訪客轉換率*，預設值 **[!UICONTROL Analytics for Target]** 面板 [!DNL Analysis Workspace] 必須修改。
+此 [!DNL Analytics for Target] 中的面板 [!DNL Analysis Workspace] 如果將此最佳化准則與 [!DNL Adobe Analytics] 量度。
 
-成功量度現在是轉換量度為正的不重複訪客計數。 您可以建立群體來篩選具有量度正值的點擊，借此達成此目的。 建立此區段的方式如下：
+使用此最佳化標準時，成功量度是轉換量度為正的不重複訪客的計數。 因此，若要檢視此值，必須建立新區段，以篩選量度具有正值的點選。
 
-1. 選取 **[!UICONTROL 元件]** > **[!UICONTROL 建立區段]** 選項 [!DNL Analysis Workspace] 工具欄。
-1. 從左側面板拖曳活動建立時使用的量度至 **[!UICONTROL 定義]** 框。
+建立此區段如下：
+
+1. 選取 **[!UICONTROL 元件]** > **[!UICONTROL 建立區段]** 中的選項 [!DNL Analysis Workspace] 工具列。
+1. 將活動建立時所使用的量度從左側面板拖曳至 **[!UICONTROL 定義]** 方塊中。
 1. 選取以下量度的值： **大於** 0的數值。
-1. 從 **[!UICONTROL 包括]** 下拉式清單，選取 **[!UICONTROL 訪客]**.
-1. 為您的區段指定適當的名稱。
+1. 從 **[!UICONTROL 包含]** 下拉式清單，選取 **[!UICONTROL 訪客]**.
+1. 為區段提供適當的名稱。
 
-區段建立的範例如下圖所示，您可在此選取 [!UICONTROL 收入為正的訪客].
+區段的建立範例如下圖所示，其中成功量度為 [!UICONTROL 有正面收入的訪客].
 
-![[!UICONTROL 收入為正的訪客] 區段 [!DNL Analysis Workspace]](assets/AAFigure3.png)
+![[!UICONTROL 有正面收入的訪客] 中的區段 [!DNL Analysis Workspace]](assets/AAFigure3.png)
 
-*圖3:區段建立 [!DNL Adobe Analytics] 最佳化條件等於「[!UICONTROL 最大化獨特訪客轉換率].&quot; 在此範例中，量度為 [!UICONTROL 收入]，而最佳化目標是以正收入將訪客數量最大化。*
+*圖3：建立區段 [!DNL Adobe Analytics] 最佳化條件等於&quot;[!UICONTROL 最大化的不重複訪客轉換率].」 在此範例中，量度為 [!UICONTROL 收入]，而最佳化目標是最大化具有正收入的訪客數量。*
 
-建立適當的區段後，預設  **[!UICONTROL Analytics for Target]** 面板 [!DNL Analysis Workspace] 可以修改。
+建立適當的區段後，您可以修改預設值  **[!UICONTROL 目標分析]** 中的面板 [!DNL Analysis Workspace] 以檢視最佳化准則值。 可透過下列方式達成：
 
-1. 新增秒數 **不重複訪客** 量度與現有 [!UICONTROL 訪客] 量度欄。
-2. 將新建立的段拖動到第一列下，以生成類似圖4的面板。 請注意差異：收入為正的獨特訪客數量，是指派給每個體驗之獨特訪客總數的一小部分。
+1. 新增秒 **不重複訪客** 量度與現有 [!UICONTROL 訪客] 量度欄。
+2. 將新建立的區段拖曳到第一欄下，以產生類似圖4的面板。 請注意欄值的差異：收入為正的不重複訪客數應為指派給每個體驗的不重複訪客總數的一小部分（如下所示）。
 
    ![圖4.png](assets/AAFigure4.png)
 
-   *圖4:篩選 [!UICONTROL 不重複訪客] 依新建立的區段*
+   *圖4：篩選 [!UICONTROL 不重複訪客] 依新建立的區段*
 
-3. 轉換率可以是 [快速計算](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) 加亮第一欄和第二欄，按一下右鍵，選擇 **[!UICONTROL 從選取範圍建立量度]** > **[!UICONTROL 除]**.
+3. 轉換率可以是 [快速計算](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) 反白第一欄和第二欄，按一下滑鼠右鍵，選取 **[!UICONTROL 從選取專案建立量度]** > **[!UICONTROL 除]**.
 
-   預設轉換率應移除，並取代為這個新計算量度，如下圖所示。 您可能需要編輯新建立的計算量度，才會顯示為 **[!UICONTROL 格式]** > **[!UICONTROL 百分比]** 最多兩位小數，如所示。
+   應移除預設轉換率，並取代為此新計算量度，如下圖所示。 您可能需要編輯新建立的計算量度，以顯示為 **[!UICONTROL 格式]** > **[!UICONTROL 百分比]** 最多小數點兩位數，如圖所示。
 
    ![圖5.png](assets/AAFigure5.png)
 
-   *圖5:最後 [!UICONTROL 自動分配] 顯示二進位收入轉換量度的轉換率的面板*
+   *圖5：決賽 [!UICONTROL 自動分配] 顯示二進位收入轉換量度轉換率的面板*
 
 ## 摘要
 
-本教學課程中的步驟示範如何正確設定 [!DNL Analysis Workspace] 顯示 [!UICONTROL 自動分配] 報告資料。
+本教學課程中的步驟示範如何正確設定 [!DNL Analysis Workspace] 以顯示 [!UICONTROL 自動分配] 報表資料。
 
 總而言之:
 
-* 當量度為 [!DNL Target] 定義的轉換量度或 [!DNL Adobe Analytics] 量度搭配最佳化標準「每位訪客最大化量度值」時，應使用以訪客為標準化量度的預設工作區面板。
-* 當量度為 [!DNL Adobe Analytics] 量度搭配最佳化標準「最大化獨特訪客轉換率」，您必須使用轉換率，此轉換率定義為量度為正的訪客比例。 若要這麼做，請建立對應的區段來篩選 [!UICONTROL 不重複訪客] 量度。
+* 當量度為 [!DNL Target] 定義的轉換量度或 [!DNL Adobe Analytics] 應使用最佳化條件為「每位訪客量度值最大化」的量度，此為預設工作區面板，且已設定為將訪客設為標準化量度。
+* 當量度為 [!DNL Adobe Analytics] 使用最佳化准則「最大化不重複訪客轉換率」的量度，您必須判斷具有正量度值的訪客相對於訪客總數的比例。 若要這麼做，請建立對應的區段來篩選 [!UICONTROL 不重複訪客] 在該量度上。
