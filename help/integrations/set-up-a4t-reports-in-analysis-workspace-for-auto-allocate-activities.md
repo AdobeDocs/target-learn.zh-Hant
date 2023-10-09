@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 0%
@@ -52,13 +52,13 @@ ht-degree: 0%
 
    此 [!UICONTROL 欄] 設定對話方塊顯示：
 
-   ![欄設定對話方塊](/help/integrations/assets/column-settings-dialog-box.png)
+   ![欄設定對話方塊](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. 取消選取 **[!UICONTROL 百分比]** 核取方塊。
 
-您的A4T面板現在不包含百分比作為轉換率和相符項 [!DNL Target]，如下所示：
+   您的A4T面板現在不包含百分比作為轉換率和相符項 [!DNL Target]，如下所示：
 
-![顯示無百分比的「轉換率」欄](/help/integrations/assets/no-percentages.png)
+   ![顯示無百分比的「轉換率」欄](/help/integrations/assets/no-percentages.png)
 
 ### 在A4T面板中對齊日期和時間 {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ ht-degree: 0%
 1. 將您新建立的「轉換率」量度拖放至現有面板。
 1. 按一下齒輪圖示，然後取消選取 **[!UICONTROL 百分比]** 核取方塊，因為此值可能會導致混淆。
 
-正確設定報告應該會產生類似下列圖例的結果：
+   正確設定報告應該會產生類似下列圖例的結果：
 
-![A4T面板報表中的不重複造訪轉換率](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![A4T面板報表中的不重複造訪轉換率](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target] — 定義的轉換率
 
