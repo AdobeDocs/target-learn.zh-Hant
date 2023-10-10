@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1582'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-「尚未有贏家」和「贏家」徽章在的A4T面板中無法使用 [!DNL Analysis Workspace] 而且也無法在 [!DNL Target] 報告。 如需詳細資訊，請參閱 [自動分配](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} 在 *自動分配和自動鎖定目標活動的A4T支援* 在 *[!UICONTROL Adobe Target商業從業者指南]*.
+「尚未有贏家」和「贏家」徽章在的A4T面板中無法使用 [!DNL Analysis Workspace]. 此外，獲勝者「星星」徽章會顯示在 [!DNL Target] 報表 [!UICONTROL 自動分配] 活動應被忽略。 如需詳細資訊，請參閱 [自動分配](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} 在 *自動分配和自動鎖定目標活動的A4T支援* 在 *[!UICONTROL Adobe Target商業從業者指南]*.
 
 ## 建立A4T用於 [!UICONTROL 自動分配] 中的面板 [!DNL Analysis Workspace]
 
