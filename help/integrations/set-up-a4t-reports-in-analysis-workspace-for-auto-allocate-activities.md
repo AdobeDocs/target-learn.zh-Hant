@@ -8,16 +8,16 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 352f334e2ca8c1d0be3ff0f89482b97500685174
+source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
 
 # 在中設定A4T報表 [!DNL Analysis Workspace] 的 [!DNL Auto-Allocate] 活動
 
-一個 [!UICONTROL 自動分配] 中的活動 [!DNL Adobe Target] 會從兩個或多個體驗中識別獲勝者，並自動重新分配訪客流量給獲勝者，同時測試會繼續執行和學習。 此 [!UICONTROL 目標分析] (A4T)整合 [!UICONTROL 自動分配] 可讓您在中檢視報表資料 [!DNL Adobe Analytics]，您也可以針對中定義的自訂事件或量度最佳化 [!DNL Analytics].
+一個 [[!UICONTROL 自動分配] 活動](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} 在 [!DNL Adobe Target] 會從兩個或多個體驗中識別獲勝者，並自動重新分配訪客流量給獲勝者，同時測試會繼續執行和學習。 此 [!UICONTROL 目標分析] (A4T)整合 [!UICONTROL 自動分配] 可讓您在中檢視報表資料 [!DNL Adobe Analytics]，您也可以針對中定義的自訂事件或量度最佳化 [!DNL Analytics].
 
 雖然提供豐富的分析功能，但 [!DNL Adobe Analytics] [!DNL Analysis Workspace]，對預設值進行了一些修改 [!UICONTROL 目標分析] 可能需要面板才能正確解譯 [!UICONTROL 自動分配] 活動。 由於中的細微差別，需要進行這些修改 [最佳化量度條件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | 所需變更 | [!DNL Target]-triggered report — 觸發的報告 | A4T面板報表 |
 | --- | --- | --- |
-| 將的量度值最大化 [!DNL Analytics] 量度 | <ul><li>[!UICONTROL 信賴度] 量度應移除。</li><li>[!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）] 應該已移除。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [整體指引](#guidance) 底下。</li><li>轉換率量度應重新命名為「量度/訪客」。</li></ul> | <ul><li>[!UICONTROL 信賴度] 量度應移除。</li><li>[!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）] 應該已移除。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [整體指引](#guidance) 底下。</li><li>轉換率量度應重新命名為「量度/訪客」。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [整體指引](#guidance) 底下。</li></ul> |
+| 將的量度值最大化 [!DNL Analytics] 量度 | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>重新命名 [!UICONTROL 轉換] 將量度評為「量度/訪客」。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>重新命名 [!UICONTROL 轉換] 將量度評為「量度/訪客」。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
 
 ![最大化的收入量度值](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 | 所需變更 | 目標觸發的報告 | A4T面板報表 |
 | --- | --- | --- |
-| 將的轉換最大化 [!DNL Analytics] 量度 | <ul><li>[!UICONTROL 信賴度] 量度應移除。</li><li>全部 [!UICONTROL 提升度] 量度應移除。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [整體指引](#guidance) 底下。</li></ul> | <ul><li>[!UICONTROL 信賴度] 量度應移除。</li><li>全部 [!UICONTROL 提升度] 量度應移除。</li><li>建立區段來篩選具有正量度值的訪客，這些訪客檢視分析的活動。 另請參閱 [建立區段](#segment) 底下。</li><li>取代自動填入的 [!UICONTROL 轉換率] 量度，因此是 [!UICONTROL 不重複訪客] 具有正的量度值和不重複訪客。 另請參閱 [更新轉換率量度](#update-conversion-metric) 底下。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [整體指引](#guidance) 底下。</li></ul> |
+| 將的轉換最大化 [!DNL Analytics] 量度 | <ul><li>[!UICONTROL 信賴度] 量度應移除。</li><li>全部移除 [!UICONTROL 提升度] 量度。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>全部移除 [!UICONTROL 提升度] 量度。</li><li>建立區段來篩選具有正量度值的訪客，這些訪客檢視了分析過的活動。 另請參閱 [建立區段](#segment) 底下。</li><li>取代自動填入的 [!UICONTROL 轉換率] 量度，因此是 [!UICONTROL 不重複訪客] 具有正的量度值和不重複訪客。 另請參閱 [更新轉換率量度](#update-conversion-metric) 底下。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
 
 ### 預設A4T面板報告 — 其他指南
 
@@ -114,19 +114,19 @@ ht-degree: 0%
 
 | 所需變更 | 目標觸發的報告 | A4T面板報表 |
 | --- | --- | --- |
-| [!DNL Analytics] 報告工具 [!DNL Target] 轉換量度 | <ul><li>[!UICONTROL 信賴度] 量度應移除。</li><li>[!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）] 應該已移除。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [整體指引](#guidance) 底下。</li></ul> | <ul><li>[!UICONTROL 信賴度] 量度應移除。</li><li>[!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）] 應該已移除。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [整體指引](#guidance) 底下。</li></ul> |
+| [!DNL Analytics] 報告工具 [!DNL Target] 轉換量度 | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
 
 正確設定報告應該會產生類似下列圖例的結果：
 
 ![活動轉換](/help/integrations/assets/optimized-table.png)
 
-## 整體指引 [!UICONTROL 目標分析] (A4T) {#guidance}
+## A4T的整體指引 {#guidance}
 
-您可以導覽至預先建立的 [!UICONTROL 目標分析] 按一下中報表畫面的連結，即可使用此面板 [!UICONTROL Adobe Target] (本指南稍後將這稱為&quot;[!DNL Target]-triggered report」)。 或者，您也可以在中建置A4T面板 [!DNL Analytics] （本節稍後將詳述）。
+您可以導覽至預先建立的 [!UICONTROL 目標分析] 按一下中報表畫面的連結，即可使用此面板 [!UICONTROL Target] (本指南稍後將這稱為&quot;[!DNL Target]-triggered report」)。 或者，您也可以在中建置A4T面板 [!DNL Analytics] （本節稍後將詳述）。
 
-以下各節會根據您選擇的這些方法，指定所需的組態。 不過，下列步驟可作為整體指引：
+以下各節會根據您選擇的這些方法，指定所需的組態。 不過，下列步驟可作為A4T的整體指引：
 
-* 無論面板建立方法為何（兩者皆將於下文詳細說明），都應從A4T面板移除信賴度量度。 請改為參考下列值： [!DNL Target] 報告。 此外，活動的獲勝者可識別 [!DNL Target] 報告。 有關活動獲勝者識別的詳細資訊，請參閱 [識別活動獲勝者](#winner) 一節。
+* 無論面板建立方法為何，都會從A4T面板移除信賴度量度（兩者皆詳見下文）。 請改為參考下列值： [!DNL Target] 報告。 此外，活動的獲勝者可識別 [!DNL Target] 報告。 有關活動獲勝者識別的詳細資訊，請參閱 [識別活動獲勝者](#winner) 一節。
 >>
 * 為避免混淆，請取消核取「[!UICONTROL 百分比]」簡報 [!UICONTROL 轉換率] 量度。 另請參閱 [隱藏百分比，從 [!UICONTROL 轉換率] 欄](#hide-percentage) 底下。
 >>
@@ -144,13 +144,13 @@ ht-degree: 0%
 
 1. 取消選取 **[!UICONTROL 百分比]** 核取方塊。
 
-   您的A4T面板現在不包含百分比作為轉換率和相符項 [!DNL Target]，如下所示：
+   您的A4T面板現在不包含百分比作為 [!UICONTROL 轉換率] 和符合 [!DNL Target]，如下所示：
 
    ![顯示無百分比的「轉換率」欄](/help/integrations/assets/no-percentages.png)
 
 ### 在A4T面板中對齊日期和時間 {#aligning-date-and-time}
 
-1. 在每個面板下方，檢查面板參考的日期範圍，確保日期範圍符合 [!DNL Target] 報告。
+1. 在每個面板下方，檢查面板參考的日期範圍，確保日期範圍與 [!DNL Target] 報告。
 
    ![A4T面板中的日期範圍](/help/integrations/assets/date-range.png)
 
