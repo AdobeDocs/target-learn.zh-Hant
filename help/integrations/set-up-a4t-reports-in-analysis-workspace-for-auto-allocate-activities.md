@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
+source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 | 所需變更 | 目標觸發的報告 | A4T面板報表 |
 | --- | --- | --- |
-| 將的轉換最大化 [!DNL Analytics] 量度 | <ul><li>[!UICONTROL 信賴度] 量度應移除。</li><li>全部移除 [!UICONTROL 提升度] 量度。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>全部移除 [!UICONTROL 提升度] 量度。</li><li>建立區段來篩選具有正量度值的訪客，這些訪客檢視了分析過的活動。 另請參閱 [建立區段](#segment) 底下。</li><li>取代自動填入的 [!UICONTROL 轉換率] 量度，因此是 [!UICONTROL 不重複訪客] 具有正的量度值和不重複訪客。 另請參閱 [更新轉換率量度](#update-conversion-metric) 底下。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
+| 將的轉換最大化 [!DNL Analytics] 量度 | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>全部移除 [!UICONTROL 提升度] 量度。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>全部移除 [!UICONTROL 提升度] 量度。</li><li>建立區段來篩選具有正量度值的訪客，這些訪客檢視了分析過的活動。 另請參閱 [建立區段](#segment) 底下。</li><li>取代自動填入的 [!UICONTROL 轉換率] 量度，因此是 [!UICONTROL 不重複訪客] 具有正的量度值和不重複訪客。 另請參閱 [更新轉換率量度](#update-conversion-metric) 底下。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
 
 ### 預設A4T面板報告 — 其他指南
 
