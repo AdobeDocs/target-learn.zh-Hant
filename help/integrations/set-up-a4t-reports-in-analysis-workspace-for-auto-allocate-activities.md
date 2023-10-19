@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
+source-git-commit: 190a67832f378e15090115420bfaf8a4af4b9cb9
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 | 所需變更 | [!DNL Target]-triggered report — 觸發的報告 | A4T面板報表 |
 | --- | --- | --- |
-| 將的量度值最大化 [!DNL Analytics] 量度 | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>重新命名 [!UICONTROL 轉換] 將量度評為「量度/訪客」。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>重新命名 [!UICONTROL 轉換] 將量度評為「量度/訪客」。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
+| 將的量度值最大化 [!DNL Analytics] 量度 | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）]. 保留 [!UICONTROL 提升度(Med)].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>重新命名 [!UICONTROL 轉換] 將量度評為「量度/訪客」。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）] 保留 [!UICONTROL 提升度(Med)].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>重新命名 [!UICONTROL 轉換] 將量度評為「量度/訪客」。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
 
 ![最大化的收入量度值](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 | 所需變更 | 目標觸發的報告 | A4T面板報表 |
 | --- | --- | --- |
-| 將的轉換最大化 [!DNL Analytics] 量度 | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>全部移除 [!UICONTROL 提升度] 量度。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>全部移除 [!UICONTROL 提升度] 量度。</li><li>建立區段來篩選具有正量度值的訪客，這些訪客檢視了分析過的活動。 另請參閱 [建立區段](#segment) 底下。</li><li>取代自動填入的 [!UICONTROL 轉換率] 量度，因此是 [!UICONTROL 不重複訪客] 具有正的量度值和不重複訪客。 另請參閱 [更新轉換率量度](#update-conversion-metric) 底下。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
+| 將的轉換最大化 [!DNL Analytics] 量度 | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除全部三項 [!UICONTROL 提升度] 量度。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除全部三項 [!UICONTROL 提升度] 量度。</li><li>建立區段來篩選具有正量度值的訪客，這些訪客檢視了分析過的活動。 另請參閱 [建立區段](#segment) 底下。</li><li>取代自動填入的 [!UICONTROL 轉換率] 量度，因此是 [!UICONTROL 不重複訪客] 具有正的量度值和不重複訪客。 另請參閱 [更新轉換率量度](#update-conversion-metric) 底下。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
 
 ### 預設A4T面板報告 — 其他指南
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 | 所需變更 | 目標觸發的報告 | A4T面板報表 |
 | --- | --- | --- |
-| [!DNL Analytics] 報告工具 [!DNL Target] 轉換量度 | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
+| [!DNL Analytics] 報告工具 [!DNL Target] 轉換量度 | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）]. 保持提升度（中等）。</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> | <ul><li>移除 [!UICONTROL 信賴度] 量度。</li><li>移除 [!UICONTROL 提升度（低）] 和 [!UICONTROL 提升度（高）]. 保留 [!UICONTROL 提升度(Med)].</li><li>取消核取百分比簡報 [!UICONTROL 轉換率] 欄，以避免混淆。 另請參閱 [A4T的整體指引](#guidance) 底下。</li><li>確保日期和時間範圍與您在欄位中看到的值一致 [!DNL Target] 報告。 另請參閱 [A4T的整體指引](#guidance) 底下。</li></ul> |
 
 正確設定報告應該會產生類似下列圖例的結果：
 
