@@ -1,6 +1,6 @@
 ---
 title: 如何使用活動鎖定目標
-description: Adobe Target提供不同的拉桿，可控制活動上線時對不同對象顯示的體驗。 了解如何使用對象和流量分配來控制誰可以看到什麼。
+description: Adobe Target提供不同的控制工具，用於在活動上線時控制向不同對象顯示的體驗。 瞭解如何使用受眾和流量分配來控制哪些人可以看到哪些內容。
 role: User
 level: Intermediate
 topic: Personalization
@@ -15,11 +15,11 @@ ht-degree: 30%
 
 ---
 
-# 使用活動鎖定
+# 使用活動鎖定目標
 
 ## 說明
 
-此影片會說明如何：
+在本影片中，您將瞭解如何：
 
 * 指派對象至您的活動
 * 向上或向下調節流量
@@ -28,6 +28,6 @@ ht-degree: 30%
 
 ## 目標對象
 
-* 業務從業人員
+* 商務從業人員
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385/?quality=12)

@@ -30,13 +30,13 @@ ht-degree: 3%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
 
-如需詳細資訊，請瀏覽 [標籤教學課程](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en).
+如需詳細資訊，請造訪[標籤教學課程](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)。
 
 >[!NOTE]
 >
 >Adobe Experience Platform Launch已整合至Adobe Experience Platform，作為資料收集技術套件。 此介面已推出幾項術語變更，使用此內容時請務必注意：
 >
-> * platform launch （使用者端）現在為 **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)**
-> * platform launch伺服器端現在是 **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)**
-> * Edge設定現在為 **[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)**
+> * platform launch（使用者端）現在是&#x200B;**[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)**
+> * platform launch伺服器端現在是&#x200B;**[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)**
+> * Edge設定現在是&#x200B;**[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)**
 

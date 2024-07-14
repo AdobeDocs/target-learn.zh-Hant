@@ -1,6 +1,6 @@
 ---
 title: 瞭解如何使用Adobe Target
-description: 瞭解如何使用 [!DNL Adobe Target] 此教學課程和影片集合涵蓋其所有元件。
+description: 瞭解如何搭配此教學課程和影片集使用 [!DNL Adobe Target] ，其中涵蓋所有元件。
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
@@ -8,20 +8,20 @@ topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 29%
+source-wordcount: '186'
+ht-degree: 10%
 
 ---
 
-# Adobe Target 教學課程
+# Adobe Target教學課程
 
-[!DNL Adobe Target] 是 [!DNL Adobe Experience Cloud] 解決方案，提供一切所需工具，讓您量身訂造及個人化您的客戶體驗。 [!DNL Target] 協助您在網站和行動網站、應用程式、社交媒體和其他數位頻道上獲得最大收入。使用這些影片和教學課程來學習的許多元件 [!DNL Adobe Target].
+[!DNL Adobe Target]是[!DNL Adobe Experience Cloud]解決方案，提供一切所需工具，讓您量身打造及個人化您的客戶體驗。 [!DNL Target]可協助您在網站和行動網站、應用程式、社群媒體和其他數位頻道上獲得最大收入。 使用這些影片和教學課程來學習[!DNL Adobe Target]的許多元件。
 
 >[!NOTE]
 >
 >除本指南外，還有提供以下 [!DNL Adobe Target] 指南：
 >
->* *[Adobe Target 商務從業者指南](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hant){target=_blank}*
+>* *[Adobe Target商業從業者指南](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hant){target=_blank}*
 >
 >* *[Adobe Target 開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
 
@@ -32,7 +32,7 @@ ht-degree: 29%
 <div id="recs-overview-body-5"></div>
 <div id="recs-overview-body-6"></div>
 
-## 工作人員選擇
+## 員工精選
 
 <table style="margin-top: 0 !important">
 <tr>
@@ -59,7 +59,7 @@ ht-degree: 29%
     </a>
     </div>
     <p>
-    <em>瞭解如何使用頁面載入請求和自訂引數實施Adobe Target擴充功能。</em>
+    <em>瞭解如何使用頁面載入請求和自訂引數來實作Adobe Target擴充功能。</em>
     <p>
   </td>
    <td>
@@ -68,11 +68,11 @@ ht-degree: 29%
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>在 SPA 中實作 at.js 2.0</strong>
+    <strong>在SPA中實作at.js 2.0</strong>
     </a>
     </div>
     <p>
-    <em> 瞭解如何在單頁應用程式(SPA)中實作Adobe Target的at.js 2.0 （及更新版本）。</em>
+    <em>瞭解如何在單頁應用程式(SPA)中實作Adobe Target的at.js 2.0 （和更新版本）。</em>
     <p>
   </td>
 </tr>

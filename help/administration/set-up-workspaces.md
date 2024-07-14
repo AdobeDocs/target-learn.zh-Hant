@@ -1,6 +1,6 @@
 ---
 title: 如何設定工作區
-description: 此影片說明管理員如何在Adobe Target中建立工作區。
+description: 本影片向管理員說明如何在Adobe Target中建立工作區。
 role: Admin
 level: Beginner
 topic: Administration
@@ -15,11 +15,11 @@ ht-degree: 5%
 
 ---
 
-# 在Adobe Target中設定工作區
+# 在Adobe Target中設定Workspace
 
 ## 說明
 
-此影片會說明如何：
+在本影片中，您將瞭解如何：
 
 * 在Adobe Target中建立工作區
 

@@ -1,6 +1,6 @@
 ---
 title: 如何使用表單式體驗撰寫器
-description: 此影片會示範Adobe Target使用者如何及何時使用表單式體驗撰寫器。
+description: 本影片向Adobe Target使用者說明如何使用及何時使用表單式體驗撰寫器。
 role: User
 level: Beginner
 topic: Personalization
@@ -20,14 +20,14 @@ ht-degree: 10%
 
 ## 說明
 
-此影片會說明如何：
+在本影片中，您將瞭解如何：
 
 * 使用表單式撰寫器建立活動
-* 說明何時使用表單式撰寫器而非可視化體驗撰寫器(VEC)
+* 說明何時使用表單式撰寫器，而非視覺化體驗撰寫器(VEC)
 * 使用細分來鎖定位置
 
 ## 目標對象
 
-* 業務從業人員
+* 商務從業人員
 
 >[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)

@@ -1,6 +1,6 @@
 ---
 title: 如何設定屬性
-description: 此影片說明管理員如何在Adobe Target中建立屬性。
+description: 本影片向管理員展示如何在Adobe Target中建立屬性。
 role: Admin
 level: Beginner
 topic: Administration
@@ -11,8 +11,8 @@ badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 5%
+source-wordcount: '39'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 ## 說明
 
-此影片會說明如何：
+在本影片中，您將瞭解如何：
 
 * 在Adobe Target中建立屬性
 

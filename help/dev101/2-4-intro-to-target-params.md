@@ -1,6 +1,6 @@
 ---
 title: 如何管理和實作引數
-description: 此影片向Adobe Target架構師和開發人員說明如何區分請求引數和設定檔引數、使用JavaScript和標籤管理系統設定和觸發請求，以及瞭解行動、電子郵件目標定位和API的實作需求。
+description: 此影片向Adobe Target架構師和開發人員說明如何區分請求引數和設定檔引數、使用JavaScript和標籤管理系統來設定和觸發請求，以及瞭解行動、電子郵件目標定位和API的實作需求。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -33,4 +33,4 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
 
-如需詳細資訊，請瀏覽 [檔案](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en)。

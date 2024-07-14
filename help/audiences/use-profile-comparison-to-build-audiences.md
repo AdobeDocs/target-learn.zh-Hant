@@ -1,6 +1,6 @@
 ---
 title: 如何使用設定檔比較來建立對象
-description: 本影片向Adobe Target使用者說明如何在建立受眾時，使用設定檔比較功能來比較兩個數值的設定檔值。
+description: 本影片向Adobe Target使用者說明如何在建立受眾時，使用「設定檔比較」功能來比較兩個數值的設定檔值。
 role: User
 level: Experienced
 topic: Personalization
@@ -11,14 +11,14 @@ author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
 source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 5%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
 # 在Adobe Target中使用設定檔比較來建立對象
 
-此 [!UICONTROL 設定檔比較] Adobe Target中的功能可讓您在建立受眾時相互比較兩個數值設定檔值。 舉例來說，如果您要將自訂的傾向分數傳入，這會非常有用 [!DNL Target] 並且想要根據具有最高傾向分數的產品來個人化內容。
+Adobe Target中的[!UICONTROL Profile Comparison]功能可讓您在建立受眾時比較兩個數值設定檔值。 如果您想要將自訂建立的傾向分數傳入[!DNL Target]，並想要根據傾向分數最高的產品來個人化內容，這會非常實用。
 
 ## 說明
 

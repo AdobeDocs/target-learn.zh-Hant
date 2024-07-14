@@ -18,6 +18,6 @@ ht-degree: 1%
 
 # 在Real-time Customer Data Platform中設定Adobe Target目的地
 
-瞭解如何在Real-time Customer Data Platform中設定Adobe Target目的地，以開始從Real-Time CDP傳送區段和設定檔屬性至Target。 如需詳細資訊，請參閱 [Adobe Target連線檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html).
+瞭解如何在Real-time Customer Data Platform中設定Adobe Target目的地，以開始從Real-Time CDP傳送區段和設定檔屬性至Target。 如需詳細資訊，請參閱[Adobe Target連線檔案](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)

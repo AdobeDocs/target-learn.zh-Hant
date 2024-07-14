@@ -1,6 +1,6 @@
 ---
 title: 如何設定帳戶偏好設定
-description: 此影片說明Adobe Target帳戶偏好設定。 請觀看此影片，了解不同設定對Adobe Target有何影響的範例。
+description: 此影片說明Adobe Target帳戶偏好設定。 觀看此影片以舉例說明不同的設定會如何影響Adobe Target。
 role: Admin
 level: Beginner
 topic: Administration
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ## 說明
 
-此影片會說明如何：
+在本影片中，您將瞭解如何：
 
 * 說明Adobe Target中的不同帳戶設定
 

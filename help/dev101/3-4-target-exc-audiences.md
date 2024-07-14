@@ -33,4 +33,4 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
 
-如需詳細資訊，請瀏覽 [檔案](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en).
+如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=en)。
