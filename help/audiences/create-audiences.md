@@ -1,5 +1,5 @@
 ---
-title: 建立對象
+title: 建立客群
 description: 瞭解如何在Target中建立和儲存自訂對象，以便在您的活動中使用。
 feature: Audiences
 topic: Personalization
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 ---
 
-# 建立對象
+# 建立客群
 
 瞭解如何在[!DNL Target]中建立和儲存自訂對象，以便在您的活動中使用。
 

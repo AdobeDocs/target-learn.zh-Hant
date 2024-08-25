@@ -35,7 +35,7 @@ ht-degree: 1%
 
 以下是我們將建立的活動摘要：
 
-| 對象 | 位置 | 選件 |
+| 客群 | 位置 | 選件 |
 |---|---|---|
 | 新行動應用程式使用者 | wetravel_engage_home， wetravel_engage_search | 首頁：與新使用者互動，搜尋：與新使用者互動 |
 | 回訪行動應用程式使用者 | wetravel_engage_home， wetravel_engage_search | 首頁：再度訪問的使用者，default_content |
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 以下是我們將建置的第二個活動的摘要：
 
-| 對象 | 位置 | 選件 |
+| 客群 | 位置 | 選件 |
 | --- | --- | --- |
 | 目的地：聖地亞哥 | wetravel_context_dest | San Diego促銷活動 |
 | 目的地：洛杉磯 | wetravel_context_dest | 洛杉磯促銷活動 |

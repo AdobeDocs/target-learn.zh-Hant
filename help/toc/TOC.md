@@ -69,7 +69,7 @@ ht-degree: 6%
    + [使用活動鎖定目標](../activities/use-activity-targeting.md)
    + [使用活動設定](../activities/use-activity-settings.md)
    + [在活動中使用量度](../activities/use-metrics-in-activities.md)
-+ 觀眾{#audiences}
++ 客群{#audiences}
    + [使用對象](../audiences/use-audiences.md)
    + [建立對象](../audiences/create-audiences.md)
    + [建立設定檔指令碼](../audiences/create-profile-scripts.md)

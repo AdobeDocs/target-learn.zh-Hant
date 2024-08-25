@@ -1,8 +1,8 @@
 ---
 title: 什麼是對象？如何使用對象？
 description: 此影片向 Adobe Target 用戶說明如何使用 Audiences 以鎖定活動和篩選報表。
-landing-page-description: 了解如何定義對象、尋找對象、鎖定活動及篩選報表。
-short-description: 了解如何定義對象、尋找對象、鎖定活動及篩選報表。
+landing-page-description: 了解如何定義客群、尋找客群、鎖定活動及篩選報表。
+short-description: 了解如何定義客群、尋找客群、鎖定活動及篩選報表。
 role: User
 level: Beginner
 topic: Personalization
