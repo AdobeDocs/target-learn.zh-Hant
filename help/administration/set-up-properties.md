@@ -9,9 +9,9 @@ doc-type: feature video
 kt: null
 badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: d1088178a874437aea181f6048ab20977fe85e84
+source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '89'
 ht-degree: 3%
 
 ---
@@ -41,4 +41,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->錄製此影片後，[!DNL Target] UI已更新。 在新視訊可用之前，建立屬性的路徑為&#x200B;**[!UICONTROL Administration]** > **[!UICONTROL Properties]** > **[!UICONTROL Create Property]**。
+>自此影片錄製以來，[!DNL Target] UI已更新。 若要建立屬性，請瀏覽至[!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]。 新影片即將推出。
