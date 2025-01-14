@@ -1,8 +1,8 @@
 ---
 title: 有哪些不同的活動型別？
 description: 了解 Adobe Target 中包含的不同類型活動，以及其如何能協助您達成目標。觀看此影片以了解 A/B 活動、多變數測試 (MVT)、體驗鎖定 (XT) 活動、建議和自動個人化 (AP) 活動的基礎。
-landing-page-description: 了解 A/B 活動、多變數測試、體驗鎖定活動、Recommendations 和 Automated Personalization 活動的基礎知識。
-short-description: 了解 A/B 活動、多變數測試、體驗鎖定活動、Recommendations 和 Automated Personalization 活動的基礎知識。
+landing-page-description: 了解 A/B 活動、多變數測試、體驗鎖定活動、推薦和 Automated Personalization 活動的基礎知識。
+short-description: 了解 A/B 活動、多變數測試、體驗鎖定活動、推薦和 Automated Personalization 活動的基礎知識。
 role: User
 level: Beginner
 topic: Personalization
