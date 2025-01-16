@@ -1,6 +1,6 @@
 ---
 title: 如何建立Recommendations活動
-description: 瞭解如何建立Adobe Target Recommendations活動
+description: 瞭解如何建立Adobe Target Recommendations活動。
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,20 +8,22 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 39a8a9807b2910f12d07a56f0df06cacf2145ba7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '76'
+ht-degree: 9%
 
 ---
 
 # 建立Adobe Target Recommendations活動
 
+瞭解如何建立Adobe Target Recommendations活動。
+
 ## 說明
 
 在本影片中，您將瞭解如何：
 
-* 建立 Recommendations 活動
+* 建立推薦活動
 
 ## 目標對象
 
