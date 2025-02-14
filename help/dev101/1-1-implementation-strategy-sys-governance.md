@@ -1,8 +1,8 @@
 ---
 title: 實作策略與系統管理的方法
-description: 此影片向管理員和架構者逐步解說管理及實施 Adobe Target 的關鍵概念。觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實施需求。
-landing-page-description: 觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實施需求。
-short-description: 觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實施需求。
+description: 此影片向管理員和架構者逐步解說管理及實作 Adobe Target 的關鍵概念。觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實作需求。
+landing-page-description: 觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實作需求。
+short-description: 觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實作需求。
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration

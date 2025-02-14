@@ -1,8 +1,8 @@
 ---
 title: 如何實作Target
-description: 此影片向 Adobe Target 開發人員和架構者逐步解說如何實施 Target。觀看此影片以了解不同的 Target 實施技術並運用 Target 實施最佳實務。
-landing-page-description: 觀看此影片以了解不同的 Target 實施技術並運用 Target 實施最佳實務。
-short-description: 觀看此影片以了解不同的 Target 實施技術並運用 Target 實施最佳實務。
+description: 此影片向 Adobe Target 開發人員和架構者逐步解說如何實作 Target。觀看此影片以了解不同的 Target 實作技術並運用 Target 實作最佳實務。
+landing-page-description: 觀看此影片以了解不同的 Target 實作技術並運用 Target 實作最佳實務。
+short-description: 觀看此影片以了解不同的 Target 實作技術並運用 Target 實作最佳實務。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
