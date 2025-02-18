@@ -1,6 +1,6 @@
 ---
 title: 瞭解企業使用者許可權
-description: 本影片向Adobe Target管理員介紹使用者許可權、屬性和工作區。 觀看此影片以瞭解不同的使用者層級，以及如何使用屬性和工作區來控制使用者存取。
+description: 瞭解不同的使用者層級，以及如何使用屬性和工作區來控制使用者存取。
 role: Admin
 level: Beginner
 topic: Administration
@@ -9,16 +9,18 @@ doc-type: feature video
 kt: null
 badge: premium
 exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
-source-git-commit: 0e2f4824fcef96841ace2460f68033530f384c93
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 4%
+source-wordcount: '87'
+ht-degree: 6%
 
 ---
 
 # 瞭解Adobe Target中的企業使用者許可權
 
-## 說明
+本影片向Adobe Target管理員介紹使用者許可權、屬性和工作區。 觀看此影片以瞭解不同的使用者層級，以及如何使用屬性和工作區來控制使用者存取。
+
+## 學習目標
 
 在本影片中，您將瞭解如何：
 

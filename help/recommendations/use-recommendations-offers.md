@@ -1,5 +1,5 @@
 ---
-title: 如何在A/B測試和體驗鎖定目標活動中使用Recommendations選件
+title: 如何在A/B測試和體驗鎖定活動中使用建議選件
 description: 瞭解如何在Adobe Target的A/B測試和體驗鎖定目標活動中使用Recommendations選件。
 role: User
 level: Intermediate
@@ -8,14 +8,14 @@ feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 1%
 
 ---
 
-# 在A/B測試和體驗鎖定活動中使用Recommendations選件
+# 在A/B測試和體驗鎖定活動中使用建議選件
 
 Recommendations選件可搭配A/B測試和體驗鎖定活動使用。 此功能開啟了豐富的功能，讓您能夠：
 
@@ -29,4 +29,4 @@ Recommendations選件可搭配A/B測試和體驗鎖定活動使用。 此功能�
 ## 其他資源
 
 * [Recommendations作為選件檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
-* [建立Recommendations活動影片](create-a-recommendations-activity.md)
+* [建立建議活動影片](create-a-recommendations-activity.md)

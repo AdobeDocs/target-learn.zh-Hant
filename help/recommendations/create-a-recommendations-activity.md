@@ -1,5 +1,5 @@
 ---
-title: 如何建立Recommendations活動
+title: 如何建立建議活動
 description: 瞭解如何建立Adobe Target Recommendations活動。
 role: User
 level: Intermediate
@@ -8,10 +8,10 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
-source-git-commit: 39a8a9807b2910f12d07a56f0df06cacf2145ba7
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 9%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 瞭解如何建立Adobe Target Recommendations活動。
 
-## 說明
+## 學習目標
 
 在本影片中，您將瞭解如何：
 
@@ -33,10 +33,10 @@ ht-degree: 9%
 
 ## 其他資源
 
-* [在A/B測試和體驗鎖定活動中使用Recommendations選件](use-recommendations-offers.md)
+* [在A/B測試和體驗鎖定活動中使用建議選件](use-recommendations-offers.md)
 * [瞭解摘要](understanding-feeds.md)
 * [建立摘要](create-a-feed.md)
 * [建立條件](create-criteria.md)
 * [建立自訂設計](create-custom-designs.md)
 * [建立集合和排除專案](create-collections-and-exclusions.md)
-* [Recommendations檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [建議檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

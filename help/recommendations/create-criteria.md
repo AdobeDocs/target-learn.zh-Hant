@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 16%
+source-wordcount: '57'
+ht-degree: 21%
 
 ---
 
 # 在Recommendations中建立條件
 
-## 說明
+## 學習目標
 
 在本影片中，您將瞭解如何：
 
@@ -36,4 +36,4 @@ ht-degree: 16%
 * [建立建議活動](create-a-recommendations-activity.md)
 * [瞭解摘要](understanding-feeds.md)
 * [建立摘要](create-a-feed.md)
-* [Recommendations檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [建議檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -1,6 +1,6 @@
 ---
 title: 如何將Target與Analytics整合
-description: 此影片向開發人員說明如何使用 SDID 來繫結 Analytics 和 Target 請求。 觀看此影片以了解 Adobe Analytics 與 Adobe Target (A4T) 的實作需求。
+description: 瞭解使用Adobe Target (A4T)的Adobe Analytics實作需求。
 landing-page-description: 觀看此影片以了解 Adobe Analytics 與 Adobe Target (A4T) 的實作需求。
 short-description: 觀看此影片以了解 Adobe Analytics 與 Adobe Target (A4T) 的實作需求。
 role: Developer
@@ -11,16 +11,14 @@ doc-type: technical video
 kt: 5386
 thumbnail: 35146.jpg
 exl-id: 29292873-91f5-40c4-8f4c-d26ed4ce24d8
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 56%
+source-wordcount: '88'
+ht-degree: 35%
 
 ---
 
 # 將Target與Analytics整合
-
-## 說明
 
 在本影片中，您將瞭解如何：
 

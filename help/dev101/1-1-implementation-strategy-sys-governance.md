@@ -1,6 +1,6 @@
 ---
 title: 實作策略與系統管理的方法
-description: 此影片向管理員和架構者逐步解說管理及實作 Adobe Target 的關鍵概念。觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實作需求。
+description: 瞭解如何識別及套用治理最佳實務，以及列出Target實作需求。
 landing-page-description: 觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實作需求。
 short-description: 觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實作需求。
 role: Admin, Developer, Architect
@@ -11,16 +11,14 @@ doc-type: technical video
 kt: 5063
 thumbnail: 33753.jpg
 exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 61%
+source-wordcount: '98'
+ht-degree: 38%
 
 ---
 
 # 實作策略與系統治理
-
-## 說明
 
 在本影片中，您將瞭解如何：
 

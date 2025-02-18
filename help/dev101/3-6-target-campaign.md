@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5389
 thumbnail: 35149.jpg
 exl-id: a953e9f9-103f-4c0d-b2f1-3534632cd59e
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 4%
+source-wordcount: '40'
+ht-degree: 2%
 
 ---
 
-# 將Target與行銷活動整合
-
-## 說明
+# 將[!DNL Target]與[!DNL Campaign]整合
 
 在本影片中，您將瞭解如何：
 

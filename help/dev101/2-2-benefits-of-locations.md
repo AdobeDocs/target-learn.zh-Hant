@@ -1,6 +1,6 @@
 ---
 title: 使用位置有哪些優點
-description: 此影片說明在Adobe Target實作中使用位置的優點。 觀看此影片以瞭解如何為特定案例選取最佳實作型別。
+description: 瞭解如何為特定案例選取最佳的Adobe Target實作型別。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5380
 thumbnail: 35140.jpg
 exl-id: 5b20a321-058c-4ef6-8c2e-3ac28cba6cde
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 2%
+source-wordcount: '61'
+ht-degree: 1%
 
 ---
 
 # 使用位置的好處
-
-## 說明
 
 在本影片中，您將瞭解如何：
 

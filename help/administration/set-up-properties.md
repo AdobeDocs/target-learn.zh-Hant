@@ -1,6 +1,6 @@
 ---
 title: 如何設定屬性
-description: 本影片向管理員展示如何在Adobe Target中建立屬性。
+description: 瞭解如何在Adobe Target中建立屬性。
 role: Admin
 level: Beginner
 topic: Administration
@@ -9,16 +9,14 @@ doc-type: feature video
 kt: null
 badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 3%
+source-wordcount: '85'
+ht-degree: 2%
 
 ---
 
 # 在[!DNL Adobe Target]中設定屬性
-
-## 說明
 
 在本影片中，您將瞭解如何：
 

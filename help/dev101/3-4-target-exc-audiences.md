@@ -1,6 +1,6 @@
 ---
 title: 如何將Target與Experience Cloud受眾整合
-description: 這部供Adobe Target開發人員使用的影片會示範如何使用Analytics和Audience Manager建立受眾。 觀看此影片的開發人員將可從其他Adobe產品匯入對象，熟悉Adobe Experience Cloud (AEC)管理員面板，並列出Experience CloudID (ECID)的需求。
+description: 瞭解如何從其他Adobe產品匯入對象。 熟悉Experience Cloud Admin Console以及Experience Cloud ID (ECID)的需求。
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,23 +9,21 @@ doc-type: technical video
 kt: 5392
 thumbnail: 35152.jpg
 exl-id: 00e50e90-29cf-4dc5-8bfc-e938f1d596a4
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '88'
 ht-degree: 1%
 
 ---
 
-# 將Target與Experience Cloud受眾整合
-
-## 說明
+# 將[!DNL Target]與Experience Cloud對象整合
 
 在本影片中，您將瞭解如何：
 
 * 說明透過Analytics和Audience Manager建立及使用受眾
 * 說明如何從其他Adobe產品匯入對象
-* 探索Adobe Experience Cloud (AEC)管理面板
-* 列出Experience CloudID (ECID)的需求
+* 探索Experience Cloud Admin Console
+* 列出Experience Cloud ID (ECID)的需求
 
 ## 目標對象
 

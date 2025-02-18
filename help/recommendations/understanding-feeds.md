@@ -8,16 +8,16 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '70'
+ht-degree: 14%
 
 ---
 
 # 瞭解Recommendations中的摘要
 
-## 說明
+## 學習目標
 
 在本影片中，您將瞭解如何：
 
@@ -36,4 +36,4 @@ ht-degree: 10%
 * [建立自訂設計](create-custom-designs.md)
 * [建立集合和排除專案](create-collections-and-exclusions.md)
 * [建立建議活動](create-a-recommendations-activity.md)
-* [Recommendations檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [建議檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

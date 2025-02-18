@@ -1,6 +1,6 @@
 ---
 title: 如何使用適用於單頁應用程式的視覺化體驗撰寫器(SPA VEC)
-description: 此影片向行銷人員介紹適用於單頁應用程式的Adobe Target視覺化體驗撰寫器(SPA VEC)。 觀看此影片以瞭解如何使用SPA VEC建立活動。
+description: 瞭解適用於單頁應用程式的Adobe Target視覺化體驗撰寫器(SPA VEC)。 瞭解如何使用SPA VEC建立活動。
 role: User
 level: Beginner
 topic: SPA, Personalization
@@ -9,20 +9,18 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
 
-# 在Adobe Target中為單頁應用程式(SPA VEC)使用[!UICONTROL Visual Experience Composer]
+# 在Adobe Target中使用適用於單頁應用程式(SPA VEC)的[!UICONTROL Visual Experience Composer]
 
-SPA VEC可讓行銷人員在SPA中，自己動手建立測試並個人化內容，無需持續開發的相依性。 VEC可用來在使用熱門架構(React和Angular)建置的應用程式中建立A/B測試和體驗鎖定目標(XT)活動。 觀看以下影片，瞭解如何使用SPA VEC建立活動。
+SPA VEC可讓行銷人員在SPA中，自己動手建立測試並個人化內容，無需持續開發的相依性。
 
-## 總覽
-
-* SPA VEC可用來建立A/B和自動分配測試和體驗鎖定目標(XT)活動
+* SPA VEC可用來建立A/B和自動分配測試與體驗鎖定目標(XT)活動
 * SPA VEC不支援自動鎖定目標、Automated Personalization或Recommendations活動
 * SPA VEC支援A4T、[!UICONTROL Experience Cloud Audiences]和[!UICONTROL Customer Attributes]整合
 * 單一頁面應用程式支援所有VEC動作，包括自訂程式碼

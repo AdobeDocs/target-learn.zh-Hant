@@ -1,5 +1,5 @@
 ---
-title: 如何在Recommendations中建立自訂設計
+title: 如何在Recommendations建立自訂設計
 description: 瞭解如何在Adobe Target Recommendations中建立自訂設計。
 role: User
 level: Intermediate
@@ -8,20 +8,20 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 11%
+source-wordcount: '64'
+ht-degree: 15%
 
 ---
 
-# 在Recommendations中建立自訂設計
+# 在Recommendations建立自訂設計
 
-## 說明
+## 學習目標
 
 在本影片中，您將瞭解如何：
 
-* 在Adobe Target Recommendations中建立自訂設計
+* 在Adobe Target Recommendations建立自訂設計
 
 ## 目標對象
 
@@ -36,4 +36,4 @@ ht-degree: 11%
 * [瞭解摘要](understanding-feeds.md)
 * [建立摘要](create-a-feed.md)
 * [建立條件](create-criteria.md)
-* [Recommendations檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [建議檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
