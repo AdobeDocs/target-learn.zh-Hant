@@ -1,7 +1,7 @@
 ---
 title: 實作策略與系統管理的方法
-description: 瞭解如何識別及套用治理最佳實務，以及列出Target實作需求。
-landing-page-description: 觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實作需求。
+description: 了解如何識別及套用治理最佳做法，以及列出 Target 實作需求。
+landing-page-description: 觀看此影片以了解如何識別及套用治理最佳做法，以及列出 Target 實作需求。
 short-description: 觀看此影片以了解如何識別及套用治理最佳實務，以及列出 Target 實作需求。
 role: Admin, Developer, Architect
 level: Intermediate
@@ -14,7 +14,7 @@ exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 38%
+ht-degree: 53%
 
 ---
 

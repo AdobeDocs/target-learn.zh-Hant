@@ -1,7 +1,7 @@
 ---
 title: 如何實作Target
-description: 瞭解不同的Adobe Target實作技術，並運用Target實作最佳實務。
-landing-page-description: 瞭解不同的Adobe Target實作技術，並運用Target實作最佳實務。
+description: 了解不同的 Adobe Target 實作技術並運用 Target 實作最佳做法。
+landing-page-description: 了解不同的 Adobe Target 實作技術並運用 Target 實作最佳做法。
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -13,7 +13,7 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 2%
+ht-degree: 38%
 
 ---
 

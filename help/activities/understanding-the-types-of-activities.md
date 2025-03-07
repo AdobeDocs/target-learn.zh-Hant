@@ -1,8 +1,8 @@
 ---
 title: 有哪些不同的活動型別？
-description: 了解 Adobe Target 中包含的不同類型活動，以及其如何能協助您達成目標。
-landing-page-description: 了解 A/B 活動、多變數測試、體驗鎖定活動、推薦和 Automated Personalization 活動的基礎知識。
-short-description: 了解 A/B 活動、多變數測試、體驗鎖定活動、推薦和 Automated Personalization 活動的基礎知識。
+description: 了解 Adobe Target 中包含的不同類型活動，以及其能如何協助您達成目標。
+landing-page-description: 了解 A/B 活動、多變數測試、體驗目標選擇活動、推薦和 Automated Personalization 活動的基礎知識。
+short-description: 了解 A/B 活動、多變數測試、體驗目標選擇活動、推薦和 Automated Personalization 活動的基礎知識。
 role: User
 level: Beginner
 topic: Personalization

@@ -1,6 +1,6 @@
 ---
 title: 如何使用視覺化體驗撰寫器(VEC)
-description: 瞭解如何使用VEC建立活動。
+description: 了解如何使用 VEC 建立活動。
 landing-page-description: 觀看這些影片，了解如何使用可視化體驗撰寫器 (VEC) 建立活動。
 short-description: 觀看這些影片，了解如何使用可視化體驗撰寫器 (VEC) 建立活動。
 role: User
@@ -13,7 +13,7 @@ exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
