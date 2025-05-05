@@ -57,7 +57,7 @@ ht-degree: 1%
 
 請注意，此取代會使A4T面板上的預設[!UICONTROL Lift and Confidence]計算失效。 為避免混淆，您可以從預設面板中移除這些量度，並留下下列報表：
 
-[!DNL Analysis Workspace]](assets/Figure2.png)中的![[!UICONTROL Experiences by Activity Conversions]面板
+[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)中的[!UICONTROL Experiences by Activity Conversions]面板
 
 *圖2： [!DNL Auto-Target]活動的建議基準線報告。 此報告已設定為比較目標流量（由整體ML模型提供）與您的控制流量。*
 
@@ -69,13 +69,13 @@ ht-degree: 1%
 
 若要深入瞭解整體ML模型的執行方式，您可以檢查&#x200B;**[!UICONTROL Control vs Targeted]**&#x200B;維度的體驗層級劃分。 在[!DNL Analysis Workspace]中，將&#x200B;**[!UICONTROL Target Experiences]**&#x200B;維度拖曳至您的報表，然後分別劃分每個控制項和目標維度。
 
-[!DNL Analysis Workspace]](assets/Figure3.png)中的![[!UICONTROL Experiences by Activity Conversions]面板
+[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)中的[!UICONTROL Experiences by Activity Conversions]面板
 
 *圖3：依目標體驗劃分目標維度*
 
 產生的報表範例顯示於此處。
 
-[!DNL Analysis Workspace]](assets/Figure4.png)中的![[!UICONTROL Experiences by Activity Conversions]面板
+[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)中的[!UICONTROL Experiences by Activity Conversions]面板
 
 *圖4：具有體驗層級劃分的標準[!UICONTROL Auto-Target]報告。 請注意，您的目標量度可能不同，而您的控制策略可能有單一體驗。*
 
@@ -120,7 +120,7 @@ ht-degree: 1%
 6. 按一下齒輪圖示，然後選取&#x200B;**[!UICONTROL Attribution model > Instance]**，如下圖所示。
 7. 按一下 **[!UICONTROL Save]**。
 
-[!DNL Analysis Workspace]](assets/Figure5.png)中的![區段
+[!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)中的區段
 
 *圖5：使用如這裡所示的區段來篩選[!UICONTROL Auto-Target]報告*&#x200B;的A4T中的[!UICONTROL Visits]量度
 
@@ -133,7 +133,7 @@ ht-degree: 1%
 
 最終面板顯示如下：
 
-[!DNL Analysis Workspace]](assets/Figure6.png)中的![[!UICONTROL Experiences by Activity Conversions]面板
+[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)中的[!UICONTROL Experiences by Activity Conversions]面板
 
 *圖6：套用到[!UICONTROL Visits]量度且「具有特定自動鎖定目標活動的點選」區段的報告面板。 此區段可確保報表中只包含使用者實際與相關[!DNL Target]活動互動的造訪。*
 
@@ -245,6 +245,6 @@ A4T整合允許[!UICONTROL Auto-Target] ML模型使用與[!DNL Adobe Analytics]�
 
 按一下以展開影像。
 
-在Analysis Workspace的[!DNL Analysis Workspace]](assets/Figure10.png "A4T報告中![最終的A4T報告"){width="600" zoomable="yes"}
+在Analysis Workspace的[!DNL Analysis Workspace]&rbrack;(assets/Figure10.png "A4T報告中!&lbrack;最終的A4T報告"){width="600" zoomable="yes"}
 
 *圖10： [!DNL Adobe Analytics] [!DNL Workspace]中的最終A4T [!UICONTROL Auto-Target]報告，此報告結合本教學課程前幾節中說明的所有量度定義調整。*

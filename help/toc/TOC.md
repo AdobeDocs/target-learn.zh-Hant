@@ -27,7 +27,7 @@ ht-degree: 6%
 + 實施{#implementation}
    + [Target實作簡介](../dev101/2-1-intro-to-target-implementation.md)
    + [將Target與Launch整合](../dev101/3-1-target-launch.md)
-   + 透過Launch在網站中實作[](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [透過Launch在網站中實作](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [使用位置的好處](../dev101/2-2-benefits-of-locations.md)
    + [Target請求簡介](../dev101/2-3-intro-to-target-requests.md)
    + [Target引數簡介](../dev101/2-4-intro-to-target-params.md)
@@ -48,7 +48,7 @@ ht-degree: 6%
    + [將Target與Experience Cloud受眾整合](../dev101/3-4-target-exc-audiences.md)
    + [將Target與行銷活動整合](../dev101/3-6-target-campaign.md)
    + [將Target與Adobe Developer Console整合](../dev101/3-7-target-io.md)
-   + 將Target與Real-Time CDP{#rtcdp}整合
+   + 將Target與Real-Time CDP整合{#rtcdp}
       + [使用Adobe Target進行下一次點選個人化](../integrations/rtcdp/next-hit-personalization.md)
       + [設定Adobe Target目的地](../integrations/rtcdp/configure-the-target-destination.md)
       + [啟動區段和設定檔屬性](../integrations/rtcdp/activate-segments-and-profile-attributes.md)

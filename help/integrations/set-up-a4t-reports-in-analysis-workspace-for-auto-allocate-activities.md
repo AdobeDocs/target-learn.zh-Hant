@@ -127,16 +127,16 @@ ht-degree: 0%
 以下各節會根據您選擇的這些方法，指定所需的組態。 不過，下列步驟可作為A4T的整體指引：
 
 * 無論面板建立方法為何，都會從A4T面板移除信賴度量度（兩者皆詳見下文）。 請改為在[!DNL Target]報表中參考這些值。 此外，可在[!DNL Target]報告中識別活動獲勝者。 有關活動獲勝者識別的詳細資訊，請參閱下面的[識別活動獲勝者](#winner)區段。
->>
+&#x200B;>>
 * 為避免混淆，請取消核取[!UICONTROL Conversion Rate]量度的&quot;[!UICONTROL Percent]&quot;簡報。 請參閱下方的[隱藏百分比[!UICONTROL Conversion Rate]欄](#hide-percentage)。
->>
+&#x200B;>>
 * 如果您正在建立A4T面板，請確定日期和時間範圍符合[!DNL Target]報表的日期和時間範圍。 請參閱下面的[在A4T面板](#aligning-date-and-time)中將日期和時間對齊。
 
 ### 從[!UICONTROL Conversion Rate]欄隱藏百分比 {#hide-percentage}
 
 1. 按一下[!UICONTROL Conversion Rate]欄標題旁的&#x200B;**齒輪**&#x200B;圖示。
 
-   轉換率資料行](/help/integrations/assets/coversion-rate-gear-icon.png)中的![齒輪圖示
+   轉換率資料行![&#128279;](/help/integrations/assets/coversion-rate-gear-icon.png)中的齒輪圖示
 
    [!UICONTROL Column]設定對話方塊隨即顯示：
 
@@ -162,7 +162,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-[!DNL Analysis Workspace]中的A4T面板無法使用「尚未有贏家」和「贏家」徽章。 此外，應該忽略在[!UICONTROL Auto-Allocate]活動的[!DNL Target]報告中顯示的獲勝者「星星」徽章。 檢視&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;中自動分配和自動鎖定目標活動&#x200B;*的* A4T支援中的[自動分配](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank}。
+>[!DNL Analysis Workspace]中的A4T面板無法使用「尚未有贏家」和「贏家」徽章。 此外，應該忽略在[!UICONTROL Auto-Allocate]活動的[!DNL Target]報告中顯示的獲勝者「星星」徽章。 檢視&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;中自動分配和自動鎖定目標活動&#x200B;*的* A4T支援中的[自動分配](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank}。
 
 ### 在[!DNL Analysis Workspace]中建立[!UICONTROL Auto-Allocate]面板的A4T
 
