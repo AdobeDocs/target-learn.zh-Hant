@@ -21,7 +21,7 @@ ht-degree: 0%
 
 瞭解如何在Adobe Target中使用Adobe Real-time Customer Data Platform設定檔屬性，在您的網站和行動應用程式上提供個人化體驗。 如需詳細資訊，請參閱[檔案](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=zh-Hant)。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451904/?learn=on&captions=chi_hant)
 
 >[!CAUTION]
 >
