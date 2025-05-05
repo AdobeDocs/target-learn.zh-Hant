@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 在[!DNL Analysis Workspace]中為[!DNL Auto-Allocate]個活動設定A4T報告
 
-[!DNL Adobe Target]中的[[!UICONTROL Auto-Allocate]活動](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank}可識別兩個或多個體驗中的獲勝者，並在測試持續執行和學習期間，自動重新分配訪客流量給獲勝者。 [!UICONTROL Auto-Allocate]的[!UICONTROL Analytics for Target] (A4T)整合可讓您檢視[!DNL Adobe Analytics]中的報告資料，而且您可以最佳化[!DNL Analytics]中定義的自訂事件或量度。
+[!DNL Adobe Target]中的[[!UICONTROL Auto-Allocate]活動](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=zh-Hant){target=_blank}可識別兩個或多個體驗中的獲勝者，並在測試持續執行和學習期間，自動重新分配訪客流量給獲勝者。 [!UICONTROL Auto-Allocate]的[!UICONTROL Analytics for Target] (A4T)整合可讓您檢視[!DNL Adobe Analytics]中的報告資料，而且您可以最佳化[!DNL Analytics]中定義的自訂事件或量度。
 
-雖然[!DNL Adobe Analytics] [!DNL Analysis Workspace]中提供了豐富的分析功能，但可能需要對預設[!UICONTROL Analytics for Target]面板進行一些修改，才能正確解譯[!UICONTROL Auto-Allocate]活動。 由於[最佳化量度條件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}中的細微差別，所以需要這些修改。
+雖然[!DNL Adobe Analytics] [!DNL Analysis Workspace]中提供了豐富的分析功能，但可能需要對預設[!UICONTROL Analytics for Target]面板進行一些修改，才能正確解譯[!UICONTROL Auto-Allocate]活動。 由於[最佳化量度條件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=zh-Hant#supported){target=_blank}中的細微差別，所以需要這些修改。
 
 每種最佳化量度型別在A4T中都需要不同的報表設定，如下所示：
 
@@ -158,11 +158,11 @@ ht-degree: 0%
 
 ### 識別活動獲勝者 {#winner}
 
-當有成功轉換率的信賴值大於或等於95%時，就會選取[!DNL Auto-Allocate]個活動獲勝者。 這些值應在[!DNL Target]報表中參考，因為可信度計算反映[!DNL Target]建議用於[!UICONTROL Auto-Allocate]活動的較保守方法。 檢視&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;中自動分配的[統計保證](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}。
+當有成功轉換率的信賴值大於或等於95%時，就會選取[!DNL Auto-Allocate]個活動獲勝者。 這些值應在[!DNL Target]報表中參考，因為可信度計算反映[!DNL Target]建議用於[!UICONTROL Auto-Allocate]活動的較保守方法。 檢視&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;中自動分配的[統計保證](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=zh-Hant#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}。
 
 >[!NOTE]
 >
->[!DNL Analysis Workspace]中的A4T面板無法使用「尚未有贏家」和「贏家」徽章。 此外，應該忽略在[!UICONTROL Auto-Allocate]活動的[!DNL Target]報告中顯示的獲勝者「星星」徽章。 檢視&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;中自動分配和自動鎖定目標活動&#x200B;*的* A4T支援中的[自動分配](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank}。
+>[!DNL Analysis Workspace]中的A4T面板無法使用「尚未有贏家」和「贏家」徽章。 此外，應該忽略在[!UICONTROL Auto-Allocate]活動的[!DNL Target]報告中顯示的獲勝者「星星」徽章。 檢視&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;中自動分配和自動鎖定目標活動&#x200B;*的* A4T支援中的[自動分配](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=zh-Hant#aa){target=_blank}。
 
 ### 在[!DNL Analysis Workspace]中建立[!UICONTROL Auto-Allocate]面板的A4T
 

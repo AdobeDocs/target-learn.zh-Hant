@@ -150,7 +150,7 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->Analytics for Target (A4T)：可以將Adobe Analytics設定為[!DNL Target]的報告來源。 如此一來，您就可以在Adobe Analytics中檢視Target SDK收集的所有量度/維度。 如需詳細資訊，請參閱[A4T總覽](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)。
+>Analytics for Target (A4T)：可以將Adobe Analytics設定為[!DNL Target]的報告來源。 如此一來，您就可以在Adobe Analytics中檢視Target SDK收集的所有量度/維度。 如需詳細資訊，請參閱[A4T總覽](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
 
 做得很好！引數已就緒後，我們準備使用這些引數在Adobe Target中建立對象和選件。
 

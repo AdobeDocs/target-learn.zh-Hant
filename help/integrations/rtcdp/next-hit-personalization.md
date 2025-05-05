@@ -18,6 +18,6 @@ ht-degree: 1%
 
 # 使用Real-Time CDP和Adobe Target進行下一次點選個人化
 
-瞭解如何使用Real-time Customer Data Platform和Adobe Target進行下一次點選個人化。 Real-Time CDP中的Adobe Target目的地可讓您將Adobe Target中的Experience Platform區段用於具有治理和隱私權支援的相同頁面和下一頁個人化。 如需詳細資訊，請參閱[設定相同頁面和下一頁個人化的個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)
+瞭解如何使用Real-time Customer Data Platform和Adobe Target進行下一次點選個人化。 Real-Time CDP中的Adobe Target目的地可讓您將Adobe Target中的Experience Platform區段用於具有治理和隱私權支援的相同頁面和下一頁個人化。 如需詳細資訊，請參閱[設定相同頁面和下一頁個人化的個人化目的地](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=zh-Hant)
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)

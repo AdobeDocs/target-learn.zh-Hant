@@ -23,7 +23,7 @@ ht-degree: 10%
 >
 >* *[Adobe Target商業從業者指南](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=zh-Hant){target=_blank}*
 >
->* *[Adobe Target 開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
+>* *[Adobe Target 開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=zh-Hant){target=_blank}*
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -37,11 +37,11 @@ ht-degree: 10%
 <table style="margin-top: 0 !important">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=zh-Hant">
       <img alt="將Target從at.js移轉至Platform Web SDK" src="./assets/thumb_websdk.jpg" />
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=zh-Hant">
     <strong>將Target從at.js移轉至Platform Web SDK</strong>
     </a>
     </div>
@@ -50,11 +50,11 @@ ht-degree: 10%
     <p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=zh-Hant"> 
       <img alt="使用Adobe Experience Platform標籤實作Target" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=zh-Hant">
     <strong>使用Adobe Experience Platform標籤實作Target</strong>
     </a>
     </div>
@@ -63,11 +63,11 @@ ht-degree: 10%
     <p>
   </td>
    <td>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=zh-Hant">
       <img alt="在單頁應用程式(SPA)中實作Adobe Target的at.js 2.0" src="./assets/26248.png" />
     </a>
     <div>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=zh-Hant">
     <strong>在SPA中實作at.js 2.0</strong>
     </a>
     </div>

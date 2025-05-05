@@ -25,4 +25,4 @@ Automated Personalization和自動鎖定目標活動會使用進階機器學習�
 
 ## 其他資訊
 
-* 說明檔案中的[Personalization Insights](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)
+* 說明檔案中的[Personalization Insights](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=zh-Hant)

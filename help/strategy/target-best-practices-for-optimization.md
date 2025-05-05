@@ -120,4 +120,4 @@ Personalization也包含體驗鎖定目標測試活動型別，此活動型別�
 
 如需詳細資訊，請聆聽[網路研討會，瞭解並最佳化您的Adobe Target實作](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/)，與業務顧問Katie Cozby一起進行。
 
-在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)中心瞭解更多策略和思想領導力。
+在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=zh-Hant)中心瞭解更多策略和思想領導力。

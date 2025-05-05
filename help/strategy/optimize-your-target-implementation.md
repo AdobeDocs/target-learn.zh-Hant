@@ -16,7 +16,7 @@ ht-degree: 0%
 
 如果您是組織的新手，並且想熟悉測試和最佳化作法的現有內容，本文會幫助您快速入門。 我們先從Adobe Target實作與結構的概觀開始。 您將瞭解如何瞭解和稽核組織的設定。 最後，我們將討論常見的疑難排解技巧和建立團隊知識存放庫的秘訣。
 
-Adobe Target是可測試不重複內容並鎖定其目標給不同訪客的工具。 如需可用功能的概述，[請瀏覽本指南](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en)。
+Adobe Target是可測試不重複內容並鎖定其目標給不同訪客的工具。 如需可用功能的概述，[請瀏覽本指南](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant)。
 
 ## Target實作與結構
 
@@ -166,4 +166,4 @@ Adobe建議每月手動稽核至：
 
 如需詳細資訊，請與資深顧問Wilder Freed一起檢閱我們的[網路研討會](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/)。
 
-在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)中心瞭解更多策略和思想領導力。
+在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=zh-Hant)中心瞭解更多策略和思想領導力。

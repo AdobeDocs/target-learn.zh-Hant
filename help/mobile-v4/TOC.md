@@ -11,7 +11,7 @@ ht-degree: 5%
 
 # Adobe Target與適用於Android的Adobe Mobile Services SDK v4 {#mobile-sdk-v4-android}
 
-+ [概述](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)
++ [概述](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=zh-Hant)
 + [下載並更新範例應用程式](download-and-update-the-sample-app.md)
 + [新增請求](add-requests.md)
 + [新增引數](add-parameters.md)
