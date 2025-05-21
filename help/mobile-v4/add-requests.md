@@ -52,7 +52,7 @@ Adobe Mobile Services SDK (v4)提供Adobe Target方法與功能，可讓您為�
 
 我們將在We.Travel中實作的第一個要求是批次預先擷取要求，主畫面上具有兩個[!DNL Target]位置。 在稍後的課程中，我們將為這些顯示訊息的位置設定選件，以協助引導新使用者完成預訂流程。
 
-預先擷取要求會快取Adobe Target伺服器回應（選件），以最低擷取[!DNL Target]內容。 批次預先擷取請求會擷取並快取多個選件，每個選件都與不同位置相關聯。 所有預先擷取的位置都會在裝置上快取，以供日後在使用者工作階段中使用。 藉由預先擷取首頁畫面上的多個位置，我們可以擷取選件，以供訪客導覽應用程式時稍後使用。 如需預先擷取方法的詳細資訊，請參閱[預先擷取檔案](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)。
+預先擷取要求會快取Adobe Target伺服器回應（選件），以最低擷取[!DNL Target]內容。 批次預先擷取請求會擷取並快取多個選件，每個選件都與不同位置相關聯。 所有預先擷取的位置都會在裝置上快取，以供日後在使用者工作階段中使用。 藉由預先擷取首頁畫面上的多個位置，我們可以擷取選件，以供訪客導覽應用程式時稍後使用。 如需預先擷取方法的詳細資訊，請參閱[預先擷取檔案](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=zh-Hant)。
 
 ### 新增批次預先擷取請求
 
