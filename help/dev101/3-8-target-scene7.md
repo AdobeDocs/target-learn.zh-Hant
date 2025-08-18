@@ -28,4 +28,4 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35148/?quality=12)
 
-如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=en)。
+如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=zh-Hant)。

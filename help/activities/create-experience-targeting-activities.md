@@ -34,10 +34,10 @@ ht-degree: 27%
 ## 其他資源
 
 * [下載Experience Personalization的Playbook](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [體驗鎖定目標檔案](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [體驗鎖定目標檔案](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=zh-Hant)
 
 ## 此影片中使用的其他功能
 
-* [報表檔案的對象](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [建立對象檔案](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [使用視覺化體驗撰寫器檔案建置體驗](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [報表檔案的對象](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=zh-Hant)
+* [建立對象檔案](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=zh-Hant)
+* [使用視覺化體驗撰寫器檔案建置體驗](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=zh-Hant)

@@ -36,4 +36,4 @@ ht-degree: 14%
 * [建立自訂設計](create-custom-designs.md)
 * [建立集合和排除專案](create-collections-and-exclusions.md)
 * [建立建議活動](create-a-recommendations-activity.md)
-* [建議檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [建議檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=zh-Hant)
