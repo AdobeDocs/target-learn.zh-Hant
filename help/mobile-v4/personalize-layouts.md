@@ -35,7 +35,7 @@ ht-degree: 1%
 
 以下是我們將建立的活動摘要：
 
-| 客群 | 位置 | 選件 |
+| 客群 | 位置 | 產品建議 |
 |---|---|---|
 | 新行動應用程式使用者 | wetravel_engage_home， wetravel_engage_search | 首頁：與新使用者互動，搜尋：與新使用者互動 |
 | 回訪行動應用程式使用者 | wetravel_engage_home， wetravel_engage_search | 首頁：再度訪問的使用者，default_content |
@@ -126,7 +126,7 @@ ht-degree: 1%
 
 以下是我們將建置的第二個活動的摘要：
 
-| 客群 | 位置 | 選件 |
+| 客群 | 位置 | 產品建議 |
 | --- | --- | --- |
 | 目的地：聖地亞哥 | wetravel_context_dest | San Diego促銷活動 |
 | 目的地：洛杉磯 | wetravel_context_dest | 洛杉磯促銷活動 |
@@ -193,7 +193,7 @@ ht-degree: 1%
 
 ## 結論
 
-恭喜！此部分將結束Android適用的Adobe Target SDK 4.x教學課程的主要部分。 您現在擁有在Android應用程式中實作個人化的技能！ 您可以參考此檔案和示範應用程式，作為未來專案的參考。
+恭喜！此部分結束適用於Android的Adobe Target SDK 4.x教學課程的主要部分。 您現在擁有在Android應用程式中實作個人化的技能！ 您可以參考此檔案和示範應用程式，作為未來專案的參考。
 
 下一步：功能標幟是另一個可在Android中透過Adobe Target實作的功能。 若要瞭解功能標幟，請參閱下一個課程。
 

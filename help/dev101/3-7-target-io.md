@@ -28,6 +28,6 @@ ht-degree: 3%
 
 ## 注意
 
-此影片示範使用[Adobe Developer Console](https://developer.adobe.com/developer-console/)整合的概念。 如需示範如何使用Adobe Developer Console與Adobe Target整合的實作步驟，請瀏覽此&#x200B;*Adobe Target開發人員指南*&#x200B;中設定Adobe驗證的[指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=zh-Hant){target="_blank"}。
+此影片示範使用[Adobe Developer Console](https://developer.adobe.com/developer-console/)整合的概念。 如需示範如何使用Adobe Developer Console與Adobe Target整合的實作步驟，請瀏覽此[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target="_blank"}中有關設定Adobe驗證的指南&#x200B;**。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)

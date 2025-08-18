@@ -34,4 +34,4 @@ ht-degree: 53%
 
 >[!VIDEO](https://video.tv.adobe.com/v/33753/?quality=12)
 
-如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=zh-Hant)。
+如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en)。

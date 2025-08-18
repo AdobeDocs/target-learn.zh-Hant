@@ -11,9 +11,9 @@ ht-degree: 6%
 
 # Adobe Target 教學課程 {#tutorials}
 
-+ [Adobe TargetTutorials概觀](../overview.md)
++ [Adobe Target教學課程總覽](../overview.md)
 + 管理{#administration}
-   + 策略與思想領導力{#strategy}
+   + 策略與思維領導力{#strategy}
       + [個人化測試和藍圖建立的快速入門](../strategy/create-personalization-roadmap-testing-plan.md)
       + [實作策略與系統治理](../dev101/1-1-implementation-strategy-sys-governance.md)
       + [使用Adobe Target最佳化的最佳實務](../strategy/target-best-practices-for-optimization.md)
@@ -27,7 +27,7 @@ ht-degree: 6%
 + 實施{#implementation}
    + [Target實作簡介](../dev101/2-1-intro-to-target-implementation.md)
    + [將Target與Launch整合](../dev101/3-1-target-launch.md)
-   + [透過Launch在網站中實作](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=zh-Hant)
+   + 透過Launch在網站中實作[](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [使用位置的好處](../dev101/2-2-benefits-of-locations.md)
    + [Target請求簡介](../dev101/2-3-intro-to-target-requests.md)
    + [Target引數簡介](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +35,7 @@ ht-degree: 6%
    + [在單頁應用程式(SPA)中實作at.js 2.0](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [設計Target實施](../dev101/2-5-design-target-implementation.md)
    + [設計Target實作的後續步驟](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [根據使用者同意使用選擇加入控制Experience Cloud解決方案](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=zh-Hant)
+   + [根據使用者同意使用選擇加入以控制Experience Cloud解決方案](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [瞭解Adobe Target混合部署](../implementation/hybrid-deployment.md)
    + [裝置上決策總覽](../implementation/on-device-decisioning-overview.md)
    + [Adobe Target的實作模式](../implementation/implementation-patterns-for-adobe-target.md)
@@ -51,7 +51,7 @@ ht-degree: 6%
    + 將Target與Real-Time CDP整合{#rtcdp}
       + [使用Adobe Target進行下一次點選個人化](../integrations/rtcdp/next-hit-personalization.md)
       + [設定Adobe Target目的地](../integrations/rtcdp/configure-the-target-destination.md)
-      + [啟動區段和設定檔屬性](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
+      + [啟動區段和輪廓屬性](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
       + [在Target中使用Real-Time CDP區段](../integrations/rtcdp/use-rtcdp-segments-in-target.md)
       + [在Target中使用Real-Time CDP設定檔屬性](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [將Target與Scene7整合](../dev101/3-8-target-scene7.md)
@@ -79,9 +79,9 @@ ht-degree: 6%
    + [使用適用於單頁應用程式的視覺化體驗撰寫器(SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [使用表單式體驗撰寫器](../experiences/use-the-form-based-experience-composer.md)
    + [在Adobe Target中使用AEM體驗片段](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
-+ 報表{#reports}
++ 報告{#reports}
    + [使用Personalization前瞻分析報表](../reports/use-the-personalization-insights-reports.md)
-+ 建議{#recommendations}
++ 推薦{#recommendations}
    + [建立建議活動](../recommendations/create-a-recommendations-activity.md)
    + [使用Recommendations選件](../recommendations/use-recommendations-offers.md)
    + [瞭解摘要](../recommendations/understanding-feeds.md)

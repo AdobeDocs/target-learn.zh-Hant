@@ -1,6 +1,6 @@
 ---
 title: 最佳化的最佳作法
-description: 瞭解Adobe最佳化的六個基本要素以及如何加以套用。
+description: 瞭解Adobe在最佳化方面的六大基本知識以及如何加以套用。
 solution: Target
 role: Leader, Architect, Developer, Admin
 feature: Overview
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 使用Adobe Target最佳化的最佳實務
 
-瞭解Adobe最佳化的六個基本要素以及如何加以套用。
+瞭解Adobe在最佳化方面的六大基本知識以及如何加以套用。
 
 在建立強大的數位實力時，您的團隊將面臨許多挑戰。 您不僅要吸引數百名，甚至數千名客戶，除此之外，您的客戶還會顯示各種不重複的行為和偏好，而且會隨著時間而改變；您不僅要跟上這些變化，還要預見這些變化，並有效且準確地執行您的策略。 這是一場與競爭者進行的永恆內容馬拉松比賽，需要不斷反複和同級最佳技術。
 
@@ -65,7 +65,7 @@ _圖1 — 最佳化反複週期_
 * **報表對象：**&#x200B;要用於分析的訪客子集說明清單。
 * **體驗概念：**&#x200B;模型、範例線框和說明。
 
-**一般備註：**&#x200B;網頁中任何可提升商業價值或提供訪客行為寶貴洞察的元素，都可以進行測試。 測試活動的一些常見型別包括：
+**一般注意事項：**&#x200B;網頁中任何可提升商業價值或為訪客行為提供寶貴insight的元素，都可以進行測試。 測試活動的一些常見型別包括：
 
 * 標題文字
 * 內容文字
@@ -104,7 +104,7 @@ _圖1 — 最佳化反複週期_
 
 聚焦於最佳化時，最常見的測試活動為：
 
-* **A/B測試：**&#x200B;即時測試兩個或多個頁面或頁面元素彼此相對，以取得客戶偏好設定的量化分析。
+* **A/B測試：**&#x200B;即時測試兩個或多個頁面或頁面元素彼此相對，以獲得量化的insight至客戶偏好設定。
 * **多變數測試：**&#x200B;比較頁面上元素間選件的組合，以檢視哪個組合表現最好。 此外，多變數測試會識別頁面的哪個元素最能改善轉換。
 
 當您專注於Personalization時，您可能會看到與「最佳化」中相同的測試活動，不過這些活動是針對更具體的對象。 例如，在A/B測試中，您可能會在體驗中新增頁面和對象，以進一步推進您的Personalization。
@@ -120,4 +120,4 @@ Personalization也包含體驗鎖定目標測試活動型別，此活動型別�
 
 如需詳細資訊，請聆聽[網路研討會，瞭解並最佳化您的Adobe Target實作](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/)，與業務顧問Katie Cozby一起進行。
 
-在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=zh-Hant)中心瞭解更多策略和思想領導力。
+在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)中心瞭解更多策略和思想領導力。

@@ -52,12 +52,12 @@ ht-degree: 1%
 Adobe Target Audiences用於識別特定的訪客群組。 然後可將選件鎖定為這些特定群組。 對於前兩個位置，我們將使用「新使用者」對象：
 
 1. 按一下頂端導覽列中的&#x200B;**[!UICONTROL Audiences]**。
-1. 按一下&#x200B;**[!UICONTROL Create Audience]**&#x200B;按鈕。
+1. 按一下&#x200B;**[!UICONTROL Create Audience]**按鈕。
    ![建立新的使用者對象](assets/audience_new_mobile_app_users_1.jpg)
 
 1. 輸入&#x200B;**[!UICONTROL New Mobile App Users]**&#x200B;作為對象名稱。
 1. 選取&#x200B;**[!UICONTROL Add Rule]**。
-1. 選取&#x200B;**[!UICONTROL Custom]**&#x200B;規則。
+1. 選取&#x200B;**[!UICONTROL Custom]**規則。
    ![建立新的使用者對象](assets/audience_new_mobile_app_users_2.jpg)
 
 1. 選取&#x200B;**[!UICONTROL a.Launches]**。
@@ -127,7 +127,7 @@ Adobe Target Audiences用於識別特定的訪客群組。 然後可將選件鎖
 現在，讓我們為回訪使用者建立一個選件（第二個選件將是預設內容，將不顯示任何內容）：
 
 1. 將選件命名為&#x200B;_首頁：回訪使用者_。
-1. 請輸入&#x200B;_歡迎回來！ 結帳時使用促銷代碼BACK30可獲得10%的折扣。_&#x200B;作為HTML代碼。
+1. 請輸入&#x200B;_歡迎回來！ 結帳時使用促銷代碼BACK30可獲得10%的折扣。_&#x200B;作為HTML程式碼。
 1. 儲存新選件。
 
    ![建立首頁HTML選件](assets/offer_home_returning_users.jpg)
@@ -137,7 +137,7 @@ Adobe Target Audiences用於識別特定的訪客群組。 然後可將選件鎖
 當「DJ」傳回ThankYou活動時，filterRecommendationBasedOnOffer()函式中的邏輯會顯示「Rock Night with DJ SAM」的橫幅：
 
 1. 為San Diego的促銷活動命名&#x200B;__。
-1. 輸入&#x200B;_DJ_&#x200B;作為HTML代碼。
+1. 輸入&#x200B;_DJ_&#x200B;作為HTML程式碼。
 1. 儲存新選件。
 
 ![建立「San Diego」選件](assets/offer_san_diego.jpg)
@@ -147,7 +147,7 @@ Adobe Target Audiences用於識別特定的訪客群組。 然後可將選件鎖
 當「Universal」傳回ThankYou活動時，filterRecommendationBasedOnOffer()函式中的邏輯會顯示「Universal Studios」的橫幅：
 
 1. 為優惠方案命名&#x200B;_洛杉磯促銷活動_。
-1. 輸入&#x200B;_Universal_&#x200B;作為HTML代碼。
+1. 輸入&#x200B;_Universal_&#x200B;作為HTML程式碼。
 1. 儲存新選件。
 
 ![建立「洛杉磯」優惠方案](assets/offer_los_angeles.jpg)

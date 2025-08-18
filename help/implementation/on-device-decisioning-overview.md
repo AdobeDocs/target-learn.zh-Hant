@@ -33,7 +33,7 @@ Adobe Target裝置上決策可讓您幾乎無延遲地傳送內容。 這段7分
 * 說明裝置上決策及其優點
 * 在Target中啟用裝置上決策
 * 建立旨在與裝置上決策搭配使用的表單式撰寫器活動
-* 若要深入瞭解裝置上決策所需的SDK設定，請造訪[Adobe Target SDK檔案](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* 若要深入瞭解裝置上決策所需的SDK設定，請造訪[Adobe Target SDK檔案](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * 瞭解使用者使用裝置上決策功能傳遞內容時會有什麼體驗
 
 ## 目標對象
@@ -42,4 +42,4 @@ Adobe Target裝置上決策可讓您幾乎無延遲地傳送內容。 這段7分
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-如需詳細資訊，請參閱&#x200B;*Adobe Target開發人員指南*&#x200B;中的[裝置上決策總覽](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱[Adobe Target開發人員指南](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank}中的&#x200B;*裝置上決策總覽*。

@@ -39,4 +39,4 @@ SPA VEC可讓行銷人員在SPA中，自己動手建立測試並個人化內容�
 
 * [在單頁應用程式中實作at.js 2.0](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [瞭解at.js 2.0的運作方式（架構圖）](../implementation/understanding-how-atjs-20-works.md)
-* [單頁應用程式(SPA)視覺化體驗撰寫器檔案](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=zh-Hant)
+* [單頁應用程式(SPA)視覺化體驗撰寫器檔案](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

@@ -41,8 +41,8 @@ ht-degree: 0%
 
    單頁應用程式未來檢視的目標內容會快取在瀏覽器中，因此可在觸發檢視時立即套用，不需額外的伺服器呼叫。 （請參閱下圖，瞭解`triggerView()`行為）。
 
-1. 從頁面傳送至[!UICONTROL Data Collection]伺服器的[!DNL Analytics]資料
-1. [!DNL Target]資料已透過SDID比對至Analytics資料，並已處理至[!DNL Analytics]報表儲存體。 然後就可以透過A4T報表在[!DNL Analytics]和[!DNL Target]中檢視[!DNL Analytics]資料。
+1. 從頁面傳送至[!DNL Analytics]伺服器的[!UICONTROL Data Collection]資料
+1. [!DNL Target]資料已透過SDID比對至Analytics資料，並已處理至[!DNL Analytics]報表儲存體。 然後就可以透過A4T報表在[!DNL Analytics]和[!DNL Analytics]中檢視[!DNL Target]資料。
 
 使用triggerView()函式時的![at.js 2.0行為](assets/triggerview.png)
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 1. 通知要求已傳送至[!DNL Target] [!UICONTROL Profile Store]，以計算活動中的訪客數並增加量度
 1. [!DNL Analytics]資料從SPA傳送至[!UICONTROL Data Collection]伺服器
 
-1. [!DNL Target]資料從[!DNL Target]後端傳送至[!UICONTROL Data Collection]伺服器。 [!DNL Target]資料透過SDID與[!DNL Analytics]資料相符，並且已處理至[!DNL Analytics]報表儲存體。 然後就可以透過A4T報表在[!DNL Analytics]和[!DNL Target]中檢視[!DNL Analytics]資料。
+1. [!DNL Target]資料從[!DNL Target]後端傳送至[!UICONTROL Data Collection]伺服器。 [!DNL Target]資料透過SDID與[!DNL Analytics]資料相符，並且已處理至[!DNL Analytics]報表儲存體。 然後就可以透過A4T報表在[!DNL Analytics]和[!DNL Analytics]中檢視[!DNL Target]資料。
 
 ## 其他資源
 

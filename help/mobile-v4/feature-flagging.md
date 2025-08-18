@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ public void processFeatureFlags() {
 
 ![建立功能標幟JSON選件](assets/feature_flag_json_offer.jpg)
 
-以值{&quot;enable&quot;：1}將其命名為「功能標幟v1」
+讓我們將其命名為「功能標幟v1」，值為{&quot;enable&quot;:1}
 
 ![feature_flag_v1 JSON選件](assets/feature_flag_json_name.jpg)
 

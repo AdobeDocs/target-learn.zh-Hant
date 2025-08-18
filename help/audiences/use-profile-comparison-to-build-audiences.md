@@ -35,6 +35,6 @@ Adobe Target中的[!UICONTROL Profile Comparison]功能可讓您在建立受眾�
 
 ## 其他資源
 
-* [建立設定檔屬性比較對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=zh-Hant)
-* [建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=zh-Hant)
+* [建立設定檔屬性比較對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [建立對象](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [建立體驗鎖定目標活動影片](../activities/create-experience-targeting-activities.md)

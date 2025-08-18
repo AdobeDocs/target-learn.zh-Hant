@@ -16,7 +16,7 @@ ht-degree: 0%
 
 如果您是組織的新手，並且想熟悉測試和最佳化作法的現有內容，本文會幫助您快速入門。 我們先從Adobe Target實作與結構的概觀開始。 您將瞭解如何瞭解和稽核組織的設定。 最後，我們將討論常見的疑難排解技巧和建立團隊知識存放庫的秘訣。
 
-Adobe Target是可測試不重複內容並鎖定其目標給不同訪客的工具。 如需可用功能的概述，[請瀏覽本指南](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant)。
+Adobe Target是可測試不重複內容並鎖定其目標給不同訪客的工具。 如需可用功能的概述，[請瀏覽本指南](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en)。
 
 ## Target實作與結構
 
@@ -40,7 +40,7 @@ Target基本活動型別共有三種：
 
 * 在多個元素中顯示多個選件的方式。
 * 用來針對特定目標測試所產生的不重複體驗的方法。
-* 深入瞭解哪些元素對訪客互動的負面或正面影響最大。
+* insight會確認哪些元素對訪客互動的負面或正面影響最大。
 
 **體驗測試** （經驗豐富的鎖定目標）會根據一組行銷人員定義的規則和條件將內容提供給特定對象。 此方法提供一種方法，可讓您根據一組已定義的配置規則，將特定內容鎖定在特定對象。
 
@@ -58,7 +58,7 @@ Target是以「全域Mbox」為基礎而建立，因此能夠影響頁面上的�
 
 ## 瞭解您目前的實作
 
-若要瞭解您目前的實施，Adobe建議您檢閱Target使用者介面實施，以及標籤管理器和頁面載入實施。
+若要瞭解您目前的實作，Adobe建議您檢閱Target使用者介面實作，以及標籤管理員和頁面載入實作。
 
 **檢閱您的[!DNL Target]使用者介面：**
 
@@ -102,9 +102,9 @@ Target是以「全域Mbox」為基礎而建立，因此能夠影響頁面上的�
 
 ## [!DNL Target]個稽核活動
 
-若要避免手動瀏覽每個頁面來稽核[!DNL Target]活動，請使用AdobeAuditor來協助瞭解您實作的目前技術狀態。 Adobe Auditor由ObservePoint提供技術支援，可設定為以手動方式執行，以識別您網站上的高階實作問題。
+若要避免手動瀏覽每個頁面以稽核[!DNL Target]活動，請使用Adobe Auditor協助瞭解您實作的目前技術狀態。 Adobe Auditor由ObservePoint提供技術支援，可設定為以手動方式執行，以識別您網站上的高層級實作問題。
 
-Auditor提供的Adobe：
+Adobe Auditor提供：
 
 * 高網站健康度
 * 實作問題的快速註解
@@ -166,4 +166,4 @@ Adobe建議每月手動稽核至：
 
 如需詳細資訊，請與資深顧問Wilder Freed一起檢閱我們的[網路研討會](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/)。
 
-在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=zh-Hant)中心瞭解更多策略和思想領導力。
+在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)中心瞭解更多策略和思想領導力。

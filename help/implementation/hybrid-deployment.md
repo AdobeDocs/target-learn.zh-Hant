@@ -37,5 +37,5 @@ Adobe Target提供獨特的混合部署模型，整合使用者端和伺服器�
 
 ## 其他資源
 
-* [裝置上決策總覽](https://experienceleague.adobe.com/zh-hant/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Adobe Target SDK檔案](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [裝置上決策總覽](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Adobe Target SDK檔案](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)

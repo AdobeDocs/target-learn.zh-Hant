@@ -1,6 +1,6 @@
 ---
 title: 如何在 [!DNL Analysis Workspace] 中為[!UICONTROL Auto-Allocate]個活動設定A4T報告
-description: 執行[!UICONTROL Auto-Allocate]活動時，如何在 [!DNL Adobe] [!DNL Analysis Workspace]中設定[!UICONTROL Analytics for Target] (A4T)報告。
+description: 執行[!UICONTROL Analytics for Target]活動時，如何在 [!DNL Adobe] [!DNL Analysis Workspace]中設定[!UICONTROL Auto-Allocate] (A4T)報告。
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,16 +10,16 @@ kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 source-git-commit: 190a67832f378e15090115420bfaf8a4af4b9cb9
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
 
 # 在[!DNL Analysis Workspace]中為[!DNL Auto-Allocate]個活動設定A4T報告
 
-[!DNL Adobe Target]中的[[!UICONTROL Auto-Allocate]活動](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=zh-Hant){target=_blank}可識別兩個或多個體驗中的獲勝者，並在測試持續執行和學習期間，自動重新分配訪客流量給獲勝者。 [!UICONTROL Auto-Allocate]的[!UICONTROL Analytics for Target] (A4T)整合可讓您檢視[!DNL Adobe Analytics]中的報告資料，而且您可以最佳化[!DNL Analytics]中定義的自訂事件或量度。
+[[!UICONTROL Auto-Allocate]中的](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank}活動[!DNL Adobe Target]會從兩個或多個體驗中識別獲勝者，並自動重新分配訪客流量給獲勝者，同時測試會繼續執行和學習。 [!UICONTROL Analytics for Target]的[!UICONTROL Auto-Allocate] (A4T)整合可讓您檢視[!DNL Adobe Analytics]中的報告資料，而且您可以最佳化[!DNL Analytics]中定義的自訂事件或量度。
 
-雖然[!DNL Adobe Analytics] [!DNL Analysis Workspace]中提供了豐富的分析功能，但可能需要對預設[!UICONTROL Analytics for Target]面板進行一些修改，才能正確解譯[!UICONTROL Auto-Allocate]活動。 由於[最佳化量度條件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=zh-Hant#supported){target=_blank}中的細微差別，所以需要這些修改。
+雖然[!DNL Adobe Analytics] [!DNL Analysis Workspace]中提供了豐富的分析功能，但可能需要對預設[!UICONTROL Analytics for Target]面板進行一些修改，才能正確解譯[!UICONTROL Auto-Allocate]活動。 由於[最佳化量度條件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}中的細微差別，所以需要這些修改。
 
 每種最佳化量度型別在A4T中都需要不同的報表設定，如下所示：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![將收入的量度值最大化](/help/integrations/assets/maximize-metric-value-revenue.png)
 
-## 具有「[!UICONTROL Unique Visitor Conversion Rate]」最佳化條件的[!DNL Analytics]個量度
+## 具有「[!DNL Analytics]」最佳化條件的[!UICONTROL Unique Visitor Conversion Rate]個量度
 
 **定義**： （量度值為正值的獨特訪客數） / （獨特訪客總數）
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 #### 建立區段 {#segment}
 
-1. 按一下左側邊欄中&#x200B;**[!UICONTROL Segments]**&#x200B;旁的&#x200B;**「+」符號**。
+1. 按一下左側邊欄中&#x200B;**旁的**「+」符號&#x200B;**[!UICONTROL Segments]**。
 
    左側邊欄中的區段旁有![加號。](/help/integrations/assets/plus-sign.png)
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 | 所需變更 | 目標觸發的報告 | A4T面板報表 |
 | --- | --- | --- |
-| 使用[!DNL Target]轉換量度的[!DNL Analytics]報告 | <ul><li>移除[!UICONTROL Confidence]個量度。</li><li>移除[!UICONTROL Lift (Low)]和[!UICONTROL Lift (High)]。 保持提升度（中等）。</li><li>取消核取[!UICONTROL Conversion Rate]欄中的百分比簡報，以避免混淆。 請參閱下列[A4T](#guidance)的整體指引。</li></ul> | <ul><li>移除[!UICONTROL Confidence]個量度。</li><li>移除[!UICONTROL Lift (Low)]和[!UICONTROL Lift (High)]。 保留[!UICONTROL Lift (Med)]。</li><li>取消核取[!UICONTROL Conversion Rate]欄中的百分比簡報，以避免混淆。 請參閱下列[A4T](#guidance)的整體指引。</li><li>確保日期和時間範圍符合您在[!DNL Target]報表中看到的值。 請參閱下列[A4T](#guidance)的整體指引。</li></ul> |
+| 使用[!DNL Analytics]轉換量度的[!DNL Target]報告 | <ul><li>移除[!UICONTROL Confidence]個量度。</li><li>移除[!UICONTROL Lift (Low)]和[!UICONTROL Lift (High)]。 保持提升度（中等）。</li><li>取消核取[!UICONTROL Conversion Rate]欄中的百分比簡報，以避免混淆。 請參閱下列[A4T](#guidance)的整體指引。</li></ul> | <ul><li>移除[!UICONTROL Confidence]個量度。</li><li>移除[!UICONTROL Lift (Low)]和[!UICONTROL Lift (High)]。 保留[!UICONTROL Lift (Med)]。</li><li>取消核取[!UICONTROL Conversion Rate]欄中的百分比簡報，以避免混淆。 請參閱下列[A4T](#guidance)的整體指引。</li><li>確保日期和時間範圍符合您在[!DNL Target]報表中看到的值。 請參閱下列[A4T](#guidance)的整體指引。</li></ul> |
 
 正確設定報告應該會產生類似下列圖例的結果：
 
@@ -122,21 +122,21 @@ ht-degree: 0%
 
 ## A4T的整體指引 {#guidance}
 
-您可以按一下[!UICONTROL Target]中報表畫面上的連結，導覽至預先建立的[!UICONTROL Analytics for Target]面板（這在本指南稍後稱為「[!DNL Target]觸發的報告」）。 或者，您可以在[!DNL Analytics]中建置A4T面板（本節稍後將詳述）。
+您可以按一下[!UICONTROL Analytics for Target]中報表畫面上的連結，導覽至預先建立的[!UICONTROL Target]面板（這在本指南稍後稱為「[!DNL Target]觸發的報告」）。 或者，您可以在[!DNL Analytics]中建置A4T面板（本節稍後將詳述）。
 
 以下各節會根據您選擇的這些方法，指定所需的組態。 不過，下列步驟可作為A4T的整體指引：
 
 * 無論面板建立方法為何，都會從A4T面板移除信賴度量度（兩者皆詳見下文）。 請改為在[!DNL Target]報表中參考這些值。 此外，可在[!DNL Target]報告中識別活動獲勝者。 有關活動獲勝者識別的詳細資訊，請參閱下面的[識別活動獲勝者](#winner)區段。
-&#x200B;>>
-* 為避免混淆，請取消核取[!UICONTROL Conversion Rate]量度的&quot;[!UICONTROL Percent]&quot;簡報。 請參閱下方的[隱藏百分比[!UICONTROL Conversion Rate]欄](#hide-percentage)。
-&#x200B;>>
+>>
+* 為避免混淆，請取消核取[!UICONTROL Percent]量度的&quot;[!UICONTROL Conversion Rate]&quot;簡報。 請參閱下方的[隱藏百分比[!UICONTROL Conversion Rate]欄](#hide-percentage)。
+>>
 * 如果您正在建立A4T面板，請確定日期和時間範圍符合[!DNL Target]報表的日期和時間範圍。 請參閱下面的[在A4T面板](#aligning-date-and-time)中將日期和時間對齊。
 
 ### 從[!UICONTROL Conversion Rate]欄隱藏百分比 {#hide-percentage}
 
-1. 按一下[!UICONTROL Conversion Rate]欄標題旁的&#x200B;**齒輪**&#x200B;圖示。
+1. 按一下&#x200B;**欄標題旁的**&#x200B;齒輪[!UICONTROL Conversion Rate]圖示。
 
-   轉換率資料行![&#128279;](/help/integrations/assets/coversion-rate-gear-icon.png)中的齒輪圖示
+   轉換率資料行![中的](/help/integrations/assets/coversion-rate-gear-icon.png)齒輪圖示
 
    [!UICONTROL Column]設定對話方塊隨即顯示：
 
@@ -154,19 +154,19 @@ ht-degree: 0%
 
    ![A4T面板中的日期範圍](/help/integrations/assets/date-range.png)
 
-1. 在[!DNL Analytics]中，將時間範圍設定為上午12:00至晚上11:59。
+1. 在[!DNL Analytics]中，將時間範圍設定為12:00am - 11:59pm。
 
 ### 識別活動獲勝者 {#winner}
 
-當有成功轉換率的信賴值大於或等於95%時，就會選取[!DNL Auto-Allocate]個活動獲勝者。 這些值應在[!DNL Target]報表中參考，因為可信度計算反映[!DNL Target]建議用於[!UICONTROL Auto-Allocate]活動的較保守方法。 檢視&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;中自動分配的[統計保證](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=zh-Hant#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}。
+當有成功轉換率的信賴值大於或等於95%時，就會選取[!DNL Auto-Allocate]個活動獲勝者。 這些值應在[!DNL Target]報表中參考，因為可信度計算反映[!DNL Target]建議用於[!UICONTROL Auto-Allocate]活動的較保守方法。 檢視[中自動分配的](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}統計保證&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*。
 
 >[!NOTE]
 >
->[!DNL Analysis Workspace]中的A4T面板無法使用「尚未有贏家」和「贏家」徽章。 此外，應該忽略在[!UICONTROL Auto-Allocate]活動的[!DNL Target]報告中顯示的獲勝者「星星」徽章。 檢視&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;中自動分配和自動鎖定目標活動&#x200B;*的* A4T支援中的[自動分配](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=zh-Hant#aa){target=_blank}。
+>[!DNL Analysis Workspace]中的A4T面板無法使用「尚未有贏家」和「贏家」徽章。 此外，應該忽略在[!DNL Target]活動的[!UICONTROL Auto-Allocate]報告中顯示的獲勝者「星星」徽章。 檢視[中自動分配和自動鎖定目標活動](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank}的&#x200B;*A4T支援中的*&#x200B;自動分配&#x200B;*[!UICONTROL Adobe Target Business Practitioner Guide]*。
 
-### 在[!DNL Analysis Workspace]中建立[!UICONTROL Auto-Allocate]面板的A4T
+### 在[!UICONTROL Auto-Allocate]中建立[!DNL Analysis Workspace]面板的A4T
 
-1. 若要為[!UICONTROL Auto-Allocate]活動報告建立A4T面板，請從[!DNL Analysis Workspace]中的[!UICONTROL Analytics for Target]面板開始，如下所示。
+1. 若要為[!UICONTROL Auto-Allocate]活動報告建立A4T面板，請從[!UICONTROL Analytics for Target]中的[!DNL Analysis Workspace]面板開始，如下所示。
 
    ![目標分析 — 自動分配報告](/help/integrations/assets/a4t-auto-allocate-report.png)
 

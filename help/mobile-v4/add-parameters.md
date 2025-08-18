@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 新增生命週期引數
 
-讓我們啟用[Adobe行動生命週期量度](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=zh-Hant)。 這會將引數新增至位置請求，其中包含使用者裝置和與應用程式互動的豐富資訊。 我們將在下一個課程中，使用生命週期請求提供的資料來建立對象。
+讓我們啟用[Adobe行動生命週期量度](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en)。 這會將引數新增至位置請求，其中包含使用者裝置和與應用程式互動的豐富資訊。 我們將在下一個課程中，使用生命週期請求提供的資料來建立對象。
 
 若要啟用生命週期量度，請再次開啟HomeActivity控制器，並將`Config.collectLifecycleData(this);`新增至onResume()函式：
 
@@ -51,13 +51,13 @@ Adobe Target屬性定義於[!DNL Target]介面中，用來建立個人化應用�
 >
 >視您的授權而定，您在[!DNL Target]介面中可能會看到，也可能不會看到[內容]選項。 如果您沒有這些選項，或您未在公司中使用屬性，請跳至本課程的下一節。
 
-您可以在[!UICONTROL Setup] > [!UICONTROL Properties]底下的[!DNL Target]介面中擷取您的at_property值。  將游標停留在屬性上，選取程式碼片段圖示並複製`at_property`值：
+您可以在[!DNL Target] > [!UICONTROL Setup]底下的[!UICONTROL Properties]介面中擷取您的at_property值。  將游標停留在屬性上，選取程式碼片段圖示並複製`at_property`值：
 
 ![複製at_property](assets/at_property_interface.jpg)
 
 將其新增為預先擷取請求中每個位置的引數，如下所示：
 ![新增at_property引數](assets/params_at_property.jpg)
-這是`targetPrefetchContent()`函式的更新程式碼（請務必更新&#x200B;_[!UICONTROL your at_property value goes here]_&#x200B;預留位置文字！）：
+這是`targetPrefetchContent()`函式的更新程式碼（請務必更新&#x200B;_[!UICONTROL your at_property value goes here]_預留位置文字！）：
 
 ```java
 public void targetPrefetchContent() {
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### 關於引數的注意事項
 
-對於未來的專案，您可能會想要實作其他引數。 `createTargetPrefetchObject()`方法允許三種型別的引數： `locationParams`、`orderParams`和`productParams`。 請參閱[有關將這些引數新增至預先擷取要求](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=zh-Hant)的詳細資訊。
+對於未來的專案，您可能會想要實作其他引數。 `createTargetPrefetchObject()`方法允許三種型別的引數： `locationParams`、`orderParams`和`productParams`。 請參閱[有關將這些引數新增至預先擷取要求](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)的詳細資訊。
 
 另請注意，可以將不同的位置引數新增至預先擷取請求中的每個位置。 例如，您可以建立另一個名為param2的Map，在其中放置新引數，然後在一個位置設定param2，並在另一個位置設定param1。 範例如下：
 
@@ -146,11 +146,11 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->訂單確認請求與引數：雖然未用於此示範專案，但訂單詳細資料通常會在實際實施中擷取，因此[!DNL Target]可將訂單詳細資料用作量度/維度。 請參閱檔案，瞭解如何[實作訂單確認請求和引數](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=zh-Hant)的說明。
+>訂單確認請求與引數：雖然未用於此示範專案，但訂單詳細資料通常會在實際實施中擷取，因此[!DNL Target]可將訂單詳細資料用作量度/維度。 請參閱檔案，瞭解如何[實作訂單確認請求和引數](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en)的說明。
 
 >[!NOTE]
 >
->Analytics for Target (A4T)：可以將Adobe Analytics設定為[!DNL Target]的報告來源。 如此一來，您就可以在Adobe Analytics中檢視Target SDK收集的所有量度/維度。 如需詳細資訊，請參閱[A4T總覽](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
+>Analytics for Target (A4T)：可以將Adobe Analytics設定為[!DNL Target]的報告來源。 這可讓您Adobe Analytics中檢視Target SDK收集的所有量度/維度。 如需詳細資訊，請參閱[A4T總覽](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)。
 
 做得很好！引數已就緒後，我們準備使用這些引數在Adobe Target中建立對象和選件。
 
