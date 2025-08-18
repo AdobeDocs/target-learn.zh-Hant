@@ -57,7 +57,7 @@ Adobe Target屬性定義於[!DNL Target]介面中，用來建立個人化應用�
 
 將其新增為預先擷取請求中每個位置的引數，如下所示：
 ![新增at_property引數](assets/params_at_property.jpg)
-這是`targetPrefetchContent()`函式的更新程式碼（請務必更新&#x200B;_[!UICONTROL your at_property value goes here]_預留位置文字！）：
+這是`targetPrefetchContent()`函式的更新程式碼（請務必更新&#x200B;_[!UICONTROL your at_property value goes here]_&#x200B;預留位置文字！）：
 
 ```java
 public void targetPrefetchContent() {
