@@ -118,6 +118,6 @@ Personalization也包含體驗鎖定目標測試活動型別，此活動型別�
 
 基於上述瞭解，Adobe建議您先最佳化再進行個人化，並將Personalization從廣義提升為精細。 若要讓Personalization活動從廣義到精細的成熟，您將開始使用一對多（廣義）個人化樣式（使用A/B測試），然後改用一對一（精細）個人化樣式（使用Automated Personalization活動）。
 
-如需詳細資訊，請閱讀[個人化測試和藍圖建立的快速入門](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)。
+如需詳細資訊，請閱讀[個人化測試和藍圖建立的快速入門](https://experienceleague.adobe.com/zh-hant/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)。
 
-在[觀點](https://experienceleague.adobe.com/en/perspectives)中心瞭解更多策略和思想領導力。
+在[觀點](https://experienceleague.adobe.com/zh-hant/perspectives)中心瞭解更多策略和思想領導力。
