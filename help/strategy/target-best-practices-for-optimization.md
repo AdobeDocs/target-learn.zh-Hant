@@ -6,9 +6,9 @@ role: Leader, Architect, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -118,6 +118,6 @@ Personalization也包含體驗鎖定目標測試活動型別，此活動型別�
 
 基於上述瞭解，Adobe建議您先最佳化再進行個人化，並將Personalization從廣義提升為精細。 若要讓Personalization活動從廣義到精細的成熟，您將開始使用一對多（廣義）個人化樣式（使用A/B測試），然後改用一對一（精細）個人化樣式（使用Automated Personalization活動）。
 
-如需詳細資訊，請聆聽[網路研討會，瞭解並最佳化您的Adobe Target實作](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/)，與業務顧問Katie Cozby一起進行。
+如需詳細資訊，請閱讀[個人化測試和藍圖建立的快速入門](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)。
 
-在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=zh-Hant)中心瞭解更多策略和思想領導力。
+在[觀點](https://experienceleague.adobe.com/en/perspectives)中心瞭解更多策略和思想領導力。
