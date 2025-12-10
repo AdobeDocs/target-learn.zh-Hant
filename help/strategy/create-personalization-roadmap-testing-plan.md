@@ -3,9 +3,9 @@ title: 個人化測試和藍圖建立的快速入門
 description: 瞭解可用來開始驗證個人化活動的架構，並建立要透過Adobe Target和Adobe Analytics執行的個人化藍圖。
 solution: Target,Analytics
 level: Intermediate
-role: Leader, Architect, Developer, Admin
+role: Leader, Developer, Admin
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 0%
@@ -90,4 +90,4 @@ Adobe建議您對每個使用案例進行從1到5的排名；1代表簡單，5�
 
 建議您觀看此影片，其中會討論下列每個步驟： [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=zh-Hant)中心瞭解更多策略和思想領導力。
+在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)中心瞭解更多策略和思想領導力。

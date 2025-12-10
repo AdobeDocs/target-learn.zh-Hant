@@ -1,7 +1,7 @@
 ---
 title: 混合式部署選項
 description: 瞭解Adobe Target獨特的混合部署模型，用於個人化混合使用者端和伺服器端實作。
-role: Developer, Architect
+role: Developer
 level: Beginner
 topic: Personalization, Architecture, Development
 feature: Implementation, Implement Server-side, Implement Client-side
@@ -9,7 +9,7 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 3%
@@ -37,5 +37,5 @@ Adobe Target提供獨特的混合部署模型，整合使用者端和伺服器�
 
 ## 其他資源
 
-* [裝置上決策總覽](https://experienceleague.adobe.com/zh-hant/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Adobe Target SDK檔案](https://experienceleague.adobe.com/zh-hant/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [裝置上決策總覽](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Adobe Target SDK檔案](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
