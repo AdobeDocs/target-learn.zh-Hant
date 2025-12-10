@@ -31,4 +31,4 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
 
-如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en)。
+如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=zh-Hant)。
