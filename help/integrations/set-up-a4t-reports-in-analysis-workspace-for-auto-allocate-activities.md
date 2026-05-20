@@ -9,12 +9,20 @@ doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
 TQID: https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 1390
@@ -134,16 +142,16 @@ ht-degree: 0%
 以下各節會根據您選擇的這些方法，指定所需的組態。 不過，下列步驟可作為A4T的整體指引：
 
 * 無論面板建立方法為何，都會從A4T面板移除信賴度量度（兩者皆詳見下文）。 請改為在[!DNL Target]報表中參考這些值。 此外，可在[!DNL Target]報告中識別活動獲勝者。 有關活動獲勝者識別的詳細資訊，請參閱下面的[識別活動獲勝者](#winner)區段。
->>
+&#x200B;>>
 * 為避免混淆，請取消核取[!UICONTROL Conversion Rate]量度的&quot;[!UICONTROL Percent]&quot;簡報。 請參閱下方的[隱藏百分比[!UICONTROL Conversion Rate]欄](#hide-percentage)。
->>
+&#x200B;>>
 * 如果您正在建立A4T面板，請確定日期和時間範圍符合[!DNL Target]報表的日期和時間範圍。 請參閱下面的[在A4T面板](#aligning-date-and-time)中將日期和時間對齊。
 
 ### 從[!UICONTROL Conversion Rate]欄隱藏百分比 {#hide-percentage}
 
 1. 按一下[!UICONTROL Conversion Rate]欄標題旁的&#x200B;**齒輪**&#x200B;圖示。
 
-   轉換率資料行](/help/integrations/assets/coversion-rate-gear-icon.png)中的![齒輪圖示
+   轉換率資料行![&#128279;](/help/integrations/assets/coversion-rate-gear-icon.png)中的齒輪圖示
 
    [!UICONTROL Column]設定對話方塊隨即顯示：
 
