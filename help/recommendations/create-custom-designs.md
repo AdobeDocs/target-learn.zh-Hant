@@ -45,4 +45,4 @@ ht-degree: 13%
 * [瞭解摘要](understanding-feeds.md)
 * [建立摘要](create-a-feed.md)
 * [建立條件](create-criteria.md)
-* [Recommendations檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Recommendations檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=zh-Hant)

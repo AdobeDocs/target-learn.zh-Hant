@@ -37,5 +37,5 @@ Recommendations選件可搭配A/B測試和體驗鎖定活動使用。 此功能�
 
 ## 其他資源
 
-* [Recommendations作為選件檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
+* [Recommendations作為選件檔案](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=zh-Hant)
 * [建立建議活動影片](create-a-recommendations-activity.md)

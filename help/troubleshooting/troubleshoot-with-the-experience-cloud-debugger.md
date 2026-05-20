@@ -41,6 +41,6 @@ Adobe Experience Cloud Debugger 方便您快速且輕鬆地瞭解 Target 實作�
 
 * [疑難排解Target追蹤影片](troubleshoot-with-target-traces.md)
 * [Chrome商店中的Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [新增Debugger擴充功能影片](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
-* [Target 疑難排解說明文件](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
-* [如何使用Experience Cloud Debugger影片](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)
+* [新增Debugger擴充功能影片](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=zh-Hant)
+* [Target 疑難排解說明文件](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=zh-Hant)
+* [如何使用Experience Cloud Debugger影片](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=zh-Hant)
