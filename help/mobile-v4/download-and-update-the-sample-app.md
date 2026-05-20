@@ -8,9 +8,23 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/23TuO5OZXkf9TDWMgIEXyu2Hx9f3dzI1n91u7A1Wix0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 499
 ht-degree: 0%
 
 ---
@@ -38,14 +52,14 @@ We.Travel範例應用程式已透過Adobe Mobile Services SDK v4預先實作。 
 
 ## 驗證並更新[!DNL Target]的Mobile Services SDK設定
 
-根據檔案[，已在We.Travel應用程式](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=zh-Hant)中預先安裝Adobe Mobile Services SDK。 現在將更新安裝，以指向您自己的[!DNL Target]帳戶。
+根據檔案[&#128279;](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=zh-Hant)，已在We.Travel應用程式中預先安裝Adobe Mobile Services SDK。 現在將更新安裝，以指向您自己的[!DNL Target]帳戶。
 
 首先，在Mobile Services使用者介面中建立新的應用程式：
 
 1. 登入[Adobe Mobile Services介面](https://mobilemarketing.adobe.com/)。
 1. 移至[!UICONTROL Manage Apps]，然後按一下&#x200B;**[!UICONTROL Add]**&#x200B;以新增應用程式以用於此教學課程(**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**)。
 1. 選擇包含非生產資料的Analytics報表套裝、為應用程式命名、選取&#x200B;**[!UICONTROL Standard]**&#x200B;型別並按一下&#x200B;**[!UICONTROL Save]**。
-1. 新增應用程式後，請在[!DNL Target]區段的下一個畫面中新增您的[!UICONTROL SDK Target Options]使用者端代碼(您可以在[!DNL Target]介面的&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]** （在「下載`at.js`」按鈕旁）下找到您的使用者端代碼)。
+1. 新增應用程式後，請在[!UICONTROL SDK Target Options]區段的下一個畫面中新增您的[!DNL Target]使用者端代碼(您可以在[!DNL Target]介面的&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]** （在「下載`at.js`」按鈕旁）下找到您的使用者端代碼)。
 1. [!UICONTROL Request Timeout]設定會決定應用程式在執行逾時指示前，等待[!DNL Target]伺服器回應的時間。 只要保留預設設定即可。
 1. 啟用[!UICONTROL Visitor ID Service]並確定在下拉式清單中選取您的[!UICONTROL Organization]。
 1. 按一下視窗右上方的&#x200B;**[!UICONTROL Save]** （不是[!UICONTROL Universal Links]、[!UICONTROL App Links]選項或[!UICONTROL Push Services]區段中的專案）以儲存變更。
@@ -58,8 +72,8 @@ We.Travel範例應用程式已透過Adobe Mobile Services SDK v4預先實作。 
 1. 現在開啟`ADBMobileConfig.json`檔案，並確定它包含預期的變更，例如[!DNL Target]使用者端代碼和Analytics詳細資料：
    ![下載設定檔](assets/client_code.jpg)
 
-如果您沒有看到您的設定，請確認您已按一下&#x200B;**[!UICONTROL Save]**&#x200B;介面中的正確[!UICONTROL Mobile Services]按鈕，並將檔案複製到正確的位置。
+如果您沒有看到您的設定，請確認您已按一下[!UICONTROL Mobile Services]介面中的正確&#x200B;**[!UICONTROL Save]**&#x200B;按鈕，並將檔案複製到正確的位置。
 
-恭喜！您已使用[!DNL Target]帳戶詳細資料更新SDK！ 在下個課程中新增[!DNL Target]個請求後，我們會進一步驗證設定。
+恭喜！ 您已使用[!DNL Target]帳戶詳細資料更新SDK！ 在下個課程中新增[!DNL Target]個請求後，我們會進一步驗證設定。
 
 **[下一步：「新增Target請求」>](add-requests.md)**

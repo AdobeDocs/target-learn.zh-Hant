@@ -8,9 +8,20 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: 1820
 ht-degree: 0%
 
 ---
@@ -45,7 +56,7 @@ Adobe Mobile Services SDK (v4)提供Adobe Target方法與功能，可讓您為�
 * **批次要求：**&#x200B;包含多個位置的單一要求
 * **預先擷取要求：**&#x200B;單一要求，可擷取選件並將它們快取到記憶體中，以供日後在應用程式中使用
 * **批次預先擷取要求：**&#x200B;預先擷取多個位置選件的單一要求
-* **對象：**&#x200B;在[!DNL Target]介面中定義或從其他Adobe應用程式共用給[!DNL Target]的訪客群組(例如「iPhone X訪客」、「加州訪客」、「首次應用程式開啟」)
+* **對象：**&#x200B;在[!DNL Target]介面中定義或從其他Adobe應用程式共用給[!DNL Target]的訪客群組（例如「iPhone X訪客」、「加州訪客」、「首次應用程式開啟」）
 * **活動：** [!DNL Target]建構，定義於[!DNL Target]使用者介面（或使用API），可連結位置、選件與對象以建立個人化體驗
 
 ## 新增批次預先擷取請求
@@ -116,7 +127,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 | 程式碼 | 說明 |
 |--- |--- |
-| `targetPrefetchContent()` | 使用者定義的函式(不是SDK的一部分)，它使用[!DNL Target]方法來擷取和快取兩個[!DNL Target]位置。 |
+| `targetPrefetchContent()` | 使用者定義的函式（不是SDK的一部分），它使用[!DNL Target]方法來擷取和快取兩個[!DNL Target]位置。 |
 | `prefetchContent()` | 傳送預先擷取要求的[!DNL Target] SDK方法 |
 | `Constant.wetravel_engage_home` | 預先擷取[!DNL Target]位置名稱，將在主畫面上顯示其選件內容 |
 | `Constant.wetravel_engage_search` | 預先擷取[!DNL Target]位置名稱，此名稱將在搜尋結果畫面上顯示其選件內容。 由於這是預先擷取中的第二個位置，因此此預先擷取請求稱為「預先擷取批次請求」。 |
@@ -124,11 +135,11 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 ### 關於非同步與同步
 
-使用我們剛實作的程式碼時，會在主畫面呈現之前，以同步、封鎖呼叫的形式提出預先擷取要求。 將新程式碼貼入HomeActivity控制器時，我們將`setUp()`函式的執行從`onResume()`函式移動到Target要求之後。 若您想在應用程式首次開啟時個人化內容，這會很有幫助，因為它可確保在第一個畫面呈現之前來自Target伺服器的個人化內容已傳回（或逾時）。 若要允許要求非同步載入（在背景中），請改為呼叫`setUp()`函式中的`onCreate()`。
+使用我們剛實作的程式碼時，會在主畫面呈現之前，以同步、封鎖呼叫的形式提出預先擷取要求。 將新程式碼貼入HomeActivity控制器時，我們將`setUp()`函式的執行從`onResume()`函式移動到Target要求之後。 若您想在應用程式首次開啟時個人化內容，這會很有幫助，因為它可確保在第一個畫面呈現之前來自Target伺服器的個人化內容已傳回（或逾時）。 若要允許要求非同步載入（在背景中），請改為呼叫`onCreate()`函式中的`setUp()`。
 
 ### 驗證批次預先擷取請求
 
-重新建置應用程式並開啟Android模擬器。 (下列熒幕擷取畫面使用Android Q 9+、API Level 29上的Pixel 2)。 預先擷取回應應為「已收到預先擷取回應」：
+重新建置應用程式並開啟Android模擬器。 （下列熒幕擷取畫面使用Android Q 9+、API Level 29上的Pixel 2）。 預先擷取回應應為「已收到預先擷取回應」：
 
 當主畫面呈現時，應載入預先擷取請求。 使用Logcat篩選[!DNL "Target"]以檢視請求和回應：
 
@@ -188,7 +199,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
     }
 ```
 
-現在為SearchBusActivity中的wetravel_engage_search位置新增`engageMessage()`呼叫和方法。 請注意，`engageMessage()`呼叫是在呼叫`onResume()`之前設定在`setUpSearch()`方法中，因此會在設定畫面之前執行：
+現在為SearchBusActivity中的wetravel_engage_search位置新增`engageMessage()`呼叫和方法。 請注意，`engageMessage()`呼叫是在呼叫`setUpSearch()`之前設定在`onResume()`方法中，因此會在設定畫面之前執行：
 
 ![新增第二個載入要求](assets/wetravel_engage_search_loadRequest.jpg)
 
@@ -284,7 +295,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 | 程式碼 | 說明 |
 |--- |--- |
-| `targetLoadRequest()` | 使用者定義函式(不是SDK的一部分)會引發`Target.loadRequest()`，載入並顯示wetravel_context_dest位置 |
+| `targetLoadRequest()` | 使用者定義函式（不是SDK的一部分）會引發`Target.loadRequest()`，載入並顯示wetravel_context_dest位置 |
 | `Target.loadRequest()` | 向Target伺服器發出請求的SDK方法 |
 | Constant.wetravel_context_dest | 指派給要求的位置名稱，我們稍後會在[!DNL Target]介面中建置活動時使用 |
 | `filterRecommendationBasedOnOffer()` | 應用程式中的使用者定義函式，會從Target回應中取得位置選件，並根據選件內容決定應用程式的變更方式 |
@@ -294,7 +305,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 1. 我們已標註出程式碼行，中斷應用程式先前顯示三個預設促銷活動的行為
 1. 我們改為讓應用程式執行新函式，我們將其隨意命名為targetLoadRequest
-1. 我們已定義`targetLoadRequest`函式，以使用Target.loadRequest方法向Target提出要求，並在收到`filterRecommendationBasedOnOffer()`選件回應時立即執行[!DNL Target]函式
+1. 我們已定義`targetLoadRequest`函式，以使用Target.loadRequest方法向Target提出要求，並在收到[!DNL Target]選件回應時立即執行`filterRecommendationBasedOnOffer()`函式
 1. `filterRecommendationBasedOnOffer()`函式會解譯回應，並決定應將哪些促銷活動套用至熒幕
 
 在行動應用程式中使用[!DNL Target]時，這是非常常見的使用模式。  兩者皆非常強大，因為您可將行動應用程式的幾乎所有方面個人化。 這還需要應用程式程式碼與我們稍後將在[!DNL Target]介面中定義的選件之間的協調。 由於這種協調性，某些個人化使用案例可能會要求您在應用程式商店中更新應用程式，才能啟動活動。
@@ -319,6 +330,6 @@ Target.clearPrefetchCache()
 
 ![清除快取中的預先擷取位置](assets/clearPrefetch.jpg)
 
-恭喜！您的應用程式現在已有個人化的架構。 在下一個課程中，我們將透過新增引數至這些位置來增強個人化功能。
+恭喜！ 您的應用程式現在已有個人化的架構。 在下一個課程中，我們將透過新增引數至這些位置來增強個人化功能。
 
 **[下一步：「新增引數」>](add-parameters.md)**

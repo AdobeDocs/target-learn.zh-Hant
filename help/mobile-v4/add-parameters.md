@@ -8,9 +8,23 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 816
 ht-degree: 0%
 
 ---
@@ -51,7 +65,7 @@ Adobe Target屬性定義於[!DNL Target]介面中，用來建立個人化應用�
 >
 >視您的授權而定，您在[!DNL Target]介面中可能會看到，也可能不會看到[內容]選項。 如果您沒有這些選項，或您未在公司中使用屬性，請跳至本課程的下一節。
 
-您可以在[!DNL Target] > [!UICONTROL Setup]底下的[!UICONTROL Properties]介面中擷取您的at_property值。  將游標停留在屬性上，選取程式碼片段圖示並複製`at_property`值：
+您可以在[!UICONTROL Setup] > [!UICONTROL Properties]底下的[!DNL Target]介面中擷取您的at_property值。  將游標停留在屬性上，選取程式碼片段圖示並複製`at_property`值：
 
 ![複製at_property](assets/at_property_interface.jpg)
 
@@ -152,6 +166,6 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 >
 >Analytics for Target (A4T)：可以將Adobe Analytics設定為[!DNL Target]的報告來源。 這可讓您Adobe Analytics中檢視Target SDK收集的所有量度/維度。 如需詳細資訊，請參閱[A4T總覽](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
 
-做得很好！引數已就緒後，我們準備使用這些引數在Adobe Target中建立對象和選件。
+做得很好！ 引數已就緒後，我們準備使用這些引數在Adobe Target中建立對象和選件。
 
 **[下一步：「建立對象和選件」>](create-audiences-and-offers.md)**

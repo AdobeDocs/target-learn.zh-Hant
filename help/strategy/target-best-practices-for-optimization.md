@@ -6,9 +6,29 @@ role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
+TQID: https://experienceleague.adobe.com/4M13hg8c1kxAmsBaiSfyvV3XEXLxV5lHEy299YGBvII
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: 1254
 ht-degree: 0%
 
 ---
@@ -83,13 +103,13 @@ _圖1 — 最佳化反複週期_
 
     A。元素值
     
-    這是透過後退一步來詢問，為什麼您的網站上存在特定元素，以及內容是否有特定目的而達成的？ 如果您的網站剛完成重新設計，或最近推出新功能，這些問題都是很好的起點。 用於判斷元素值的策略稱為包含/排除測試。 包含/排除測試可讓您在元素顯示的頁面上良好地讀取值。
+    這是透過後退一步來詢問，為什麼您的網站上存在特定元素，以及內容是否有特定目的而達成的？ 如果您的網站剛完成重新設計，或最近推出新功能，這些問題都是很好的起點。 用於判斷元素值的策略稱為包含/排除測試。 包含/排除測試在顯示元素的頁面上提供良好的值讀取。
     
     B。元素簡報
     
     您可以在此考慮元素的整體外觀和感覺，以及它如何影響整體頁面簡報。 用於簡報的策略是專注於進行具影響力的內容和元素頁面變更。
     
-    C。元素函式
+    C.元素函式
     
     我們在此詢問，頁面上的元素是否正在執行它應該執行的動作？ 互動是否成功且如預期運作？ 互動是自然的還是摩擦點？ 用於功能的策略是建置以易於使用的功能為主的體驗，而不會產生額外的成本影響。
 
