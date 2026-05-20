@@ -5,9 +5,15 @@ solution: Target
 feature: Overview
 role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+TQID: https://experienceleague.adobe.com/yVphbQMPxd8oTKUMyD988VHu-bnipjEWtfSMOHldps4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: 1153
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 如果您是組織的新手，並且想熟悉測試和最佳化作法的現有內容，本文會幫助您快速入門。 我們先從Adobe Target實作與結構的概觀開始。 您將瞭解如何瞭解和稽核組織的設定。 最後，我們將討論常見的疑難排解技巧和建立團隊知識存放庫的秘訣。
 
-Adobe Target是可測試不重複內容並鎖定其目標給不同訪客的工具。 如需可用功能的概述，[請瀏覽本指南](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant)。
+Adobe Target是可測試不重複內容並鎖定其目標給不同訪客的工具。 如需可用功能的概述，[請瀏覽本指南](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en)。
 
 ## Target實作與結構
 
@@ -166,4 +172,4 @@ Adobe建議每月手動稽核至：
 
 如需詳細資訊，請與資深顧問Wilder Freed一起檢閱我們的[網路研討會](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/)。
 
-在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=zh-Hant)中心瞭解更多策略和思想領導力。
+在[客戶成功](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html)中心瞭解更多策略和思想領導力。

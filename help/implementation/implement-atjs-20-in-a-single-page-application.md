@@ -9,9 +9,16 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+TQID: https://experienceleague.adobe.com/eGA92lV-FAhNnjeKc-Vceh1DrDgWBUKqDkVHzzTQ5Nk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: 420
 ht-degree: 0%
 
 ---
@@ -28,7 +35,7 @@ Adobe Target的`at.js` 2.0提供豐富的功能組合，讓貴公司能以新世
 * 每次在您的SPA中檢視變更時實作`adobe.target.triggerView()`函式。 您可以運用各種技術來達成此目的，例如接聽URL雜湊變更、接聽SPA觸發的自訂事件，或將`triggerView()`程式碼直接內嵌至您的應用程式。 您應該選擇最適合您特定單頁應用程式的選項。
 * 檢視名稱是`triggerView()`函式的第一個引數。 使用簡單、清楚且唯一的名稱，以便在Target的視覺化體驗撰寫器中輕鬆選取。
 * 您可以在較小的檢視變更中以及在非SPA內容中觸發檢視，例如向下一個無限捲動頁面的一半。
-* `at.js` 2.0和`triggerView()`可透過標籤管理解決方案(例如Adobe Experience Platform Launch)實作。
+* `at.js` 2.0和`triggerView()`可透過標籤管理解決方案（例如Adobe Experience Platform Launch）實作。
 
 ## at.js 2.0限制
 
@@ -36,7 +43,7 @@ Adobe Target的`at.js` 2.0提供豐富的功能組合，讓貴公司能以新世
 
 * `at.js` 2.0不支援跨網域追蹤
 * `at.js` 2.0不支援mboxOverride.browserIp和mboxSession URL引數
-* 舊版函式mboxCreate、mboxDefine、mboxUpdate在`at.js` 2.0中已過時。將顯示預設內容，且不會提出網路要求。
+* 舊版函式mboxCreate、mboxDefine、mboxUpdate在`at.js` 2.0中已過時。 將顯示預設內容，且不會提出網路要求。
 
 ## 視訊中使用的資料庫頁尾程式碼
 

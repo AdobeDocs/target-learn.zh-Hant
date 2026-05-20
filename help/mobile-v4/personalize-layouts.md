@@ -9,9 +9,15 @@ doc-type: tutorial
 kt: 3040
 author: Daniel Wright
 exl-id: a9f033d9-9f72-4154-88f5-d36423a404d0
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/Ku3bhBHqeS5xdaAVtjPELQJ2fu-GdNWqTweOTILSqsI
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 993
 ht-degree: 1%
 
 ---
@@ -61,7 +67,7 @@ ht-degree: 1%
 1. 按一下 **[!UICONTROL Done]**。
    ![新的行動應用程式使用者對象](assets/activity_create_4.jpg)
 
-1. 將位置變更為&#x200B;_wetravel_engage_home_。
+1. 將位置變更為&#x200B;_wetravel_ engage_home_。
 1. 選取「預設內容」旁的下拉箭頭，然後選取&#x200B;**[!UICONTROL Change HTML Offer]**。
 
    ![新的行動應用程式使用者對象](assets/activity_create_5.jpg)
@@ -74,7 +80,7 @@ ht-degree: 1%
 1. 選取&#x200B;**[!UICONTROL Add Location]**。
    ![新的行動應用程式使用者對象](assets/activity_create_7.jpg)
 
-1. 選取&#x200B;_wetravel_engage_search_&#x200B;位置。
+1. 選取&#x200B;_wetravel_ engage_search_位置。
 1. 變更HTML選件。
 
    ![新的行動應用程式使用者對象](assets/activity_create_8.jpg)
@@ -110,7 +116,7 @@ ht-degree: 1%
 現在，讓我們完成活動設定：
 
 1. 將&#x200B;**[!UICONTROL Primary Goal]**&#x200B;設為&#x200B;**[!UICONTROL Conversion]**。
-1. 將動作設為&#x200B;**[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ （由於此位置位於確認熒幕上，因此我們可以使用它來測量轉換）。
+1. 將動作設為&#x200B;**[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ （由於此位置位於確認熒幕上，因此我們可以使用它來測量轉換）。
 
    ![參與使用者活動 — 目標](assets/activity_create_12.jpg)
 
@@ -144,7 +150,7 @@ ht-degree: 1%
 在「目標與設定」步驟中，我們會將主要目標變更為預訂確認畫面上的位置：
 
 1. 在&#x200B;**[!UICONTROL Reporting Settings]**&#x200B;底下，將&#x200B;**[!UICONTROL Primary Goal]**&#x200B;設定為&#x200B;**[!UICONTROL Conversion]**。
-1. 將動作設為&#x200B;**[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ （在此活動中，此量度基本上沒有意義，因為這也是提供體驗的位置）。
+1. 將動作設為&#x200B;**[!UICONTROL Viewed an mbox]** > _wetravel_ context_dest_ （在此活動中，此量度基本上沒有意義，因為這也是提供體驗的位置）。
 1. 按一下 **[!UICONTROL Save & Close]**。
 
 ![內容選件 — 體驗](assets/activity_create_14.jpg)
@@ -163,7 +169,7 @@ ht-degree: 1%
 
 ![抹除模擬器](assets/layout_home_validate_avd_wipe.jpg)
 
-您也可以篩選&#x200B;_wetravel_engage_home_，以在Logcat中驗證回應：
+您也可以篩選&#x200B;_wetravel_ engage_home_，以在Logcat中驗證回應：
 
 ![驗證主選件 — Logcat](assets/layout_home_validate_logcat.jpg)
 
@@ -193,7 +199,7 @@ ht-degree: 1%
 
 ## 結論
 
-恭喜！此部分結束適用於Android的Adobe Target SDK 4.x教學課程的主要部分。 您現在擁有在Android應用程式中實作個人化的技能！ 您可以參考此檔案和示範應用程式，作為未來專案的參考。
+恭喜！ 此部分結束適用於Android的Adobe Target SDK 4.x教學課程的主要部分。 您現在擁有在Android應用程式中實作個人化的技能！ 您可以參考此檔案和示範應用程式，作為未來專案的參考。
 
 下一步：功能標幟是另一個可在Android中透過Adobe Target實作的功能。 若要瞭解功能標幟，請參閱下一個課程。
 
