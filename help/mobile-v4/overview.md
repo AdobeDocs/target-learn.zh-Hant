@@ -23,7 +23,7 @@ _已使用Adobe Mobile Services SDK v4且想要開始使用Android個人化應�
 
 完成此教學課程之後，您將能:
 
-* 驗證[Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)安裝程式
+* 驗證[Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=zh-Hant)安裝程式
 * 實作下列[!DNL Target]要求型別：
    * 預先擷取[!DNL Target]內容
    * 在單一請求中批次處理多個[!DNL Target]位置(mbox)

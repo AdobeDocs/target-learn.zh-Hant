@@ -1,7 +1,7 @@
 ---
 title: 如何在 [!DNL Analysis Workspace] 中為 [!DNL Auto-Target] 個活動設定A4T報告
 description: '如何在執行[!UICONTROL 自動鎖定目標]活動時設定A4T報告以取得預期結果？ [!DNL Analysis Workspace] '
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -47,7 +47,7 @@ ht-degree: 1%
 此教學課程會逐步解說分析[!DNL Analysis Workspace]中[!UICONTROL 自動鎖定目標]活動的建議修改，這些修改是以下列重要概念為基礎：
 
 * **[!UICONTROL 控制項與目標]**&#x200B;維度可用來區分[!UICONTROL 控制項]體驗與[!UICONTROL 自動鎖定目標]整體ML演演算法所提供的體驗。
-* 檢視體驗層級的效能劃分時，瀏覽應作為標準化量度使用。 此外，[Adobe Analytics的預設計數方法可能包含使用者實際上未看到活動內容的造訪](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}，但此預設行為可以使用適當範圍的區段來修改（詳細資訊如下）。
+* 檢視體驗層級的效能劃分時，瀏覽應作為標準化量度使用。 此外，[Adobe Analytics的預設計數方法可能包含使用者實際上未看到活動內容的造訪](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=zh-Hant#metrics){target=_blank}，但此預設行為可以使用適當範圍的區段來修改（詳細資訊如下）。
 * [!DNL Adobe Target] ML模型在其訓練階段會使用造訪回顧範圍歸因（在指定的歸因模型上也稱為「造訪回顧期間」），且在劃分目標量度時應使用相同的（非預設）歸因模型。
 
 ## 在[!DNL Analysis Workspace]中為[!UICONTROL 自動鎖定目標]面板建立A4T
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->目前，[!UICONTROL 自動鎖定目標]的A4T報告的[!UICONTROL 控制與目標]維度無法使用[!UICONTROL 提升度和可信度]數字。 在新增支援之前，可藉由下載[信賴度計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)來手動計算[!UICONTROL 提升度和信賴度]。
+>目前，[!UICONTROL 自動鎖定目標]的A4T報告的[!UICONTROL 控制與目標]維度無法使用[!UICONTROL 提升度和可信度]數字。 在新增支援之前，可藉由下載[信賴度計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant)來手動計算[!UICONTROL 提升度和信賴度]。
 
 ## 新增量度的體驗層級劃分
 
@@ -166,7 +166,7 @@ A4T整合允許[!UICONTROL 自動鎖定目標] ML模型使用與[!DNL Adobe Anal
 >
 >如果ML模型針對某一量度進行最佳化，而該量度的歸因不同於您在報表中檢視的量度，則模型可能無法如預期般執行。 若要避免此問題，請確保報表上的目標量度使用[!DNL Target] ML模型使用的相同量度定義和歸因。
 
-確切的量度定義和歸因設定取決於您在活動建立期間指定的[最佳化准則](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}。
+確切的量度定義和歸因設定取決於您在活動建立期間指定的[最佳化准則](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=zh-Hant#supported){target=_blank}。
 
 ### 目標定義的轉換，或具有&#x200B;*最大化的每次造訪量度值*&#x200B;的[!DNL Analytics]個量度
 
@@ -244,7 +244,7 @@ A4T整合允許[!UICONTROL 自動鎖定目標] ML模型使用與[!DNL Adobe Anal
 
 >[!TIP]
 >
-> 您也可以使用[快速計算量度功能](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html)來建立此量度。
+> 您也可以使用[快速計算量度功能](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=zh-Hant)來建立此量度。
 
 此處顯示完整的計算量度定義。
 
