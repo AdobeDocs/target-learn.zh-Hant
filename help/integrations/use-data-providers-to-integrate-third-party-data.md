@@ -27,14 +27,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: 199
 ht-degree: 16%
 
 ---
 
 # 使用資料提供者將第三方資料整合至Adobe Target
 
-[!UICONTROL Data Providers]是一種功能，可讓您輕鬆將資料從第三方傳遞至Target。  第三方可能是氣象服務、DMP，甚至是您自己的 Web 服務。 接著，您就能使用此資料來建立對象、鎖定內容及擴充訪客設定檔。
+[!UICONTROL 資料提供者]是一種功能，可讓您輕鬆將資料從第三方傳遞至Target。  第三方可能是氣象服務、DMP，甚至是您自己的 Web 服務。 接著，您就能使用此資料來建立對象、鎖定內容及擴充訪客設定檔。
 
 >[!VIDEO](https://video.tv.adobe.com/v/22349/?quality=12)
 
@@ -47,7 +47,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers]需要at.js 1.3或更高版本
+>[!UICONTROL 資料提供者]需要at.js 1.3或更新版本
 
 ## 支援材料
 

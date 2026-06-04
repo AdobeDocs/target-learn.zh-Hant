@@ -24,18 +24,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: 299
 ht-degree: 0%
 
 ---
 
-# 實作[!UICONTROL Data Providers]以將協力廠商資料整合至Adobe Target
+# 實作[!UICONTROL 資料提供者]以將協力廠商資料整合至Adobe Target
 
-實作詳細資料和範例，說明如何使用Adobe Target的[!UICONTROL Data Providers]功能從第三方資料提供者擷取資料，並將資料傳遞至Target請求。
+實作詳細資料和範例，說明如何使用Adobe Target的[!UICONTROL 資料提供者]功能，從協力廠商資料提供者擷取資料，並將資料傳遞至Target請求。
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers]需要`at.js` 1.3或更高版本
+>[!UICONTROL 資料提供者]需要`at.js` 1.3或更高版本
 
 ## 實作資料提供者的基本元件
 

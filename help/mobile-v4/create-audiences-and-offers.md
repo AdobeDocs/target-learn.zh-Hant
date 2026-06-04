@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: 1004
 ht-degree: 1%
 
 ---
@@ -62,17 +62,17 @@ ht-degree: 1%
 
 Adobe Target Audiences用於識別特定的訪客群組。 然後可將選件鎖定為這些特定群組。 對於前兩個位置，我們將使用「新使用者」對象：
 
-1. 按一下頂端導覽列中的&#x200B;**[!UICONTROL Audiences]**。
-1. 按一下&#x200B;**[!UICONTROL Create Audience]**&#x200B;按鈕。
+1. 按一下頂端導覽列中的&#x200B;**[!UICONTROL 對象]**。
+1. 按一下&#x200B;**[!UICONTROL 建立對象]**&#x200B;按鈕。
    ![建立新的使用者對象](assets/audience_new_mobile_app_users_1.jpg)
 
-1. 輸入&#x200B;**[!UICONTROL New Mobile App Users]**&#x200B;作為對象名稱。
-1. 選取&#x200B;**[!UICONTROL Add Rule]**。
-1. 選取&#x200B;**[!UICONTROL Custom]**&#x200B;規則。
+1. 輸入&#x200B;**[!UICONTROL 新的行動應用程式使用者]**&#x200B;作為對象名稱。
+1. 選取&#x200B;**[!UICONTROL 新增規則]**。
+1. 選取&#x200B;**[!UICONTROL 自訂]**&#x200B;規則。
    ![建立新的使用者對象](assets/audience_new_mobile_app_users_2.jpg)
 
 1. 選取&#x200B;**[!UICONTROL a.Launches]**。
-1. 選取&#x200B;**[!UICONTROL is less than]**。
+1. 選取&#x200B;**[!UICONTROL 小於]**。
 1. 輸入&#x200B;**5**。
 1. 儲存新對象。
    ![建立新的使用者對象](assets/audience_new_mobile_app_users_3.jpg)
@@ -82,7 +82,7 @@ Adobe Target Audiences用於識別特定的訪客群組。 然後可將選件鎖
 請依照上述步驟，為再度訪問的使用者建立對象。
 
 1. 將對象命名為&#x200B;_傳回行動應用程式使用者_。
-1. 使用&#x200B;**[!UICONTROL a.Launches is greater than or equal to 5]**&#x200B;作為自訂規則。
+1. 使用&#x200B;**[!UICONTROL a。啟動次數大於或等於5]**&#x200B;做為自訂規則。
 1. 儲存新對象。
 
    ![建立回訪的使用者對象](assets/audience_returning_mobile_app_users.jpg)
@@ -121,9 +121,9 @@ Adobe Target Audiences用於識別特定的訪客群組。 然後可將選件鎖
 
 首先，建立訊息的優惠方案給新使用者：
 
-1. 按一下頂端導覽列中的&#x200B;**[!UICONTROL Offers]**。
-1. 按一下 **[!UICONTROL Create]**。
-1. 選取&#x200B;**[!UICONTROL HTML Offer]**。
+1. 按一下頂端導覽列中的&#x200B;**[!UICONTROL 選件]**。
+1. 按一下&#x200B;**[!UICONTROL 建立]**。
+1. 選取&#x200B;**[!UICONTROL HTML選件]**。
 
    ![建立主選件](assets/offer_home_1.jpg)
 

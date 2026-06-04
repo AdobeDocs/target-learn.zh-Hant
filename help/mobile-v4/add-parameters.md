@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -65,13 +65,13 @@ Adobe Target屬性定義於[!DNL Target]介面中，用來建立個人化應用�
 >
 >視您的授權而定，您在[!DNL Target]介面中可能會看到，也可能不會看到[內容]選項。 如果您沒有這些選項，或您未在公司中使用屬性，請跳至本課程的下一節。
 
-您可以在[!UICONTROL Setup] > [!UICONTROL Properties]底下的[!DNL Target]介面中擷取您的at_property值。  將游標停留在屬性上，選取程式碼片段圖示並複製`at_property`值：
+您可以在[!UICONTROL 設定] > [!UICONTROL 屬性]底下的[!DNL Target]介面中擷取您的at_property值。  將游標停留在屬性上，選取程式碼片段圖示並複製`at_property`值：
 
 ![複製at_property](assets/at_property_interface.jpg)
 
 將其新增為預先擷取請求中每個位置的引數，如下所示：
 ![新增at_property引數](assets/params_at_property.jpg)
-這是`targetPrefetchContent()`函式的更新程式碼（請務必更新&#x200B;_[!UICONTROL your at_property value goes here]_&#x200B;預留位置文字！）：
+這是`targetPrefetchContent()`函式的更新程式碼（請務必更新&#x200B;_[!UICONTROL 您的at_property值移至此處]_&#x200B;預留位置文字！）：
 
 ```java
 public void targetPrefetchContent() {

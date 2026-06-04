@@ -28,7 +28,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 1. 提出頁面載入請求，包含所有已設定的引數、ECID、SDID和客戶ID。
 
-1. 設定檔指令碼執行並加入[!UICONTROL Profile Store]。 存放區會向[!UICONTROL Audience Library]要求合格對象（例如從[!DNL Analytics]、Audience Manager等共用的對象）。 [!UICONTROL Customer Attributes]會以批次程式傳送至[!UICONTROL Profile Store]。
+1. 設定檔指令碼執行並加入[!UICONTROL 設定檔存放區]。 存放區會從[!UICONTROL 對象資料庫]要求合格對象（例如從[!DNL Analytics]、Audience Manager等共用的對象）。 [!UICONTROL 客戶屬性]會以批次程式傳送至[!UICONTROL 設定檔存放區]。
 1. 根據URL、要求引數和設定檔資料，[!DNL Target]會決定可針對目前頁面和未來檢視傳回哪些活動和體驗給訪客
 
 1. 目標內容會傳回至頁面，選擇性地包括其他個人化的設定檔值。
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    單頁應用程式未來檢視的目標內容會快取在瀏覽器中，因此可在觸發檢視時立即套用，不需額外的伺服器呼叫。 （請參閱下圖，瞭解`triggerView()`行為）。
 
-1. 從頁面傳送至[!UICONTROL Data Collection]伺服器的[!DNL Analytics]資料
+1. 從頁面傳送至[!UICONTROL 資料收集]伺服器的[!DNL Analytics]資料
 1. [!DNL Target]資料已透過SDID比對至Analytics資料，並已處理至[!DNL Analytics]報表儲存體。 然後就可以透過A4T報表在[!DNL Analytics]和[!DNL Target]中檢視[!DNL Analytics]資料。
 
 使用triggerView()函式時的![at.js 2.0行為](assets/triggerview.png)
@@ -68,10 +68,10 @@ ht-degree: 0%
 
 1. 目標內容會儘快出現，不會有忽隱忽現的預設內容
 
-1. 通知要求已傳送至[!DNL Target] [!UICONTROL Profile Store]，以計算活動中的訪客數並增加量度
-1. [!DNL Analytics]資料從SPA傳送至[!UICONTROL Data Collection]伺服器
+1. 通知要求已傳送至[!DNL Target] [!UICONTROL 設定檔存放區]，以計算活動中的訪客數和增加量度
+1. [!DNL Analytics]資料從SPA傳送到[!UICONTROL 資料收集]伺服器
 
-1. [!DNL Target]資料從[!DNL Target]後端傳送至[!UICONTROL Data Collection]伺服器。 [!DNL Target]資料透過SDID與[!DNL Analytics]資料相符，並且已處理至[!DNL Analytics]報表儲存體。 然後就可以透過A4T報表在[!DNL Analytics]和[!DNL Target]中檢視[!DNL Analytics]資料。
+1. [!DNL Target]資料從[!DNL Target]後端傳送至[!UICONTROL 資料收集]伺服器。 [!DNL Target]資料透過SDID與[!DNL Analytics]資料相符，並且已處理至[!DNL Analytics]報表儲存體。 然後就可以透過A4T報表在[!DNL Analytics]和[!DNL Target]中檢視[!DNL Analytics]資料。
 
 ## 其他資源
 

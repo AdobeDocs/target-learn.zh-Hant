@@ -25,8 +25,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 93
-ht-degree: 40%
+source-wordcount: 97
+ht-degree: 39%
 
 ---
 
@@ -45,5 +45,5 @@ ht-degree: 40%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-如需詳細資訊，請參閱&#x200B;*[!UICONTROL Adobe Target Developer Guide]*&#x200B;中的[使用者端實施](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant){target=_blank}或[伺服器端實施](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
+如需詳細資訊，請參閱&#x200B;*[!UICONTROL Adobe Target開發人員指南]*&#x200B;中的[使用者端實作](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant){target=_blank}或[伺服器端實作](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
 

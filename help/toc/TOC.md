@@ -47,7 +47,7 @@ ht-degree: 5%
    + [在Analysis Workspace中為自動分配活動設定A4T報表](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)
    + [在Analysis Workspace中設定自動鎖定目標活動的A4T報表](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [將Target與Audience Manager整合](../dev101/3-3-target-dmp.md)
-   + [將Target與Experience Cloud受眾整合](../dev101/3-4-target-exc-audiences.md)
+   + [將Target與Experience Cloud Audiences整合](../dev101/3-4-target-exc-audiences.md)
    + [將Target與行銷活動整合](../dev101/3-6-target-campaign.md)
    + [將Target與Adobe Developer Console整合](../dev101/3-7-target-io.md)
    + 將Target與Real-Time CDP整合{#rtcdp}

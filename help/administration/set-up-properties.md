@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: 88
 ht-degree: 2%
 
 ---
@@ -51,4 +51,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->自此影片錄製以來，[!DNL Target] UI已更新。 若要建立屬性，請瀏覽至[!UICONTROL Administration] > [!UICONTROL Properties] > [!UICONTROL Create Property]。 新影片即將推出。
+>自此影片錄製以來，[!DNL Target] UI已更新。 若要建立屬性，請瀏覽至[!UICONTROL 管理] > [!UICONTROL 屬性] > [!UICONTROL 建立屬性]。 新影片即將推出。

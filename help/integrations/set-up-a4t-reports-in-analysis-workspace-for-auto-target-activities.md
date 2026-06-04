@@ -1,6 +1,6 @@
 ---
 title: 如何在 [!DNL Analysis Workspace] 中為 [!DNL Auto-Target] 個活動設定A4T報告
-description: 如何在 [!DNL Analysis Workspace] 中設定A4T報告，以便在執行[!UICONTROL Auto-Target]活動時取得預期結果？
+description: '如何在執行[!UICONTROL 自動鎖定目標]活動時設定A4T報告以取得預期結果？ [!DNL Analysis Workspace] '
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 role: User
 level: Intermediate
@@ -29,7 +29,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 2507
+source-wordcount: 2717
 ht-degree: 1%
 
 ---
@@ -38,71 +38,71 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->針對[!UICONTROL Auto-Target]活動，您必須檢查[!DNL Analytics Workspace]中的報告，並手動建立A4T面板。
+>針對[!UICONTROL 自動鎖定目標]活動，您必須檢查[!DNL Analytics Workspace]中的報告，並手動建立A4T面板。
 
-[!DNL Auto-Target]活動的[!UICONTROL Analytics for Target] (A4T)整合使用[!DNL Adobe Target]整體機器學習(ML)演演算法，依據訪客的設定檔、行為和內容來選擇每位訪客的最佳體驗，所有這一切都使用[!DNL Adobe Analytics]目標量度。
+[!DNL Auto-Target]活動的[!UICONTROL Analytics for Target] (A4T)整合使用[!DNL Adobe Target]整體機器學習(ML)演演算法，根據訪客的設定檔、行為和內容為每位訪客選擇最佳體驗，同時使用[!DNL Adobe Analytics]目標量度。
 
-雖然[!DNL Adobe Analytics] [!DNL Analysis Workspace]中提供了豐富的分析功能，但由於實驗活動（手動[!UICONTROL A/B Test]和[!UICONTROL Auto-Allocate]）和個人化活動([!UICONTROL [!UICONTROL Auto-Target]])之間的差異，預設&#x200B;**[!UICONTROL Analytics for Target]**&#x200B;面板需要一些修改才能正確解譯[!DNL Auto-Target]活動。
+雖然[!DNL Adobe Analytics] [!DNL Analysis Workspace]中提供了豐富的分析功能，但由於實驗活動（手動[!UICONTROL A/B測試]和[!UICONTROL 自動分配]）和個人化活動（[!UICONTROL [!UICONTROL 自動鎖定目標]]）之間的差異，仍需要對預設&#x200B;**[!UICONTROL Analytics for Target]**&#x200B;面板進行一些修改，才能正確解譯[!DNL Auto-Target]活動。
 
-此教學課程會逐步引導您瞭解分析[!DNL Analysis Workspace]中[!UICONTROL Auto-Target]個活動的建議修改，這些修改是以下列重要概念為基礎：
+此教學課程會逐步解說分析[!DNL Analysis Workspace]中[!UICONTROL 自動鎖定目標]活動的建議修改，這些修改是以下列重要概念為基礎：
 
-* **[!UICONTROL Control vs Targeted]**&#x200B;維度可用來區分[!UICONTROL Control]個體驗與[!UICONTROL Auto-Target]組合ML演演算法所提供的體驗。
+* **[!UICONTROL 控制項與目標]**&#x200B;維度可用來區分[!UICONTROL 控制項]體驗與[!UICONTROL 自動鎖定目標]整體ML演演算法所提供的體驗。
 * 檢視體驗層級的效能劃分時，瀏覽應作為標準化量度使用。 此外，[Adobe Analytics的預設計數方法可能包含使用者實際上未看到活動內容的造訪](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=zh-Hant#metrics){target=_blank}，但此預設行為可以使用適當範圍的區段來修改（詳細資訊如下）。
 * [!DNL Adobe Target] ML模型在其訓練階段會使用造訪回顧範圍歸因（在指定的歸因模型上也稱為「造訪回顧期間」），且在劃分目標量度時應使用相同的（非預設）歸因模型。
 
-## 在[!DNL Analysis Workspace]中建立[!UICONTROL Auto-Target]面板的A4T
+## 在[!DNL Analysis Workspace]中為[!UICONTROL 自動鎖定目標]面板建立A4T
 
-若要為[!UICONTROL Auto-Target]報告建立A4T，請從[!DNL Analysis Workspace]中的&#x200B;**[!UICONTROL Analytics for Target]**&#x200B;面板開始（如下所示），或以自由表格開始。 然後進行下列選取：
+若要為[!UICONTROL 自動鎖定目標]報告建立A4T，請從[!DNL Analysis Workspace]中的&#x200B;**[!UICONTROL Analytics for Target]**&#x200B;面板開始（如下所示），或以自由表格開始。 然後進行下列選取：
 
-1. **[!UICONTROL Control Experience]**：您可以選擇任何體驗；不過，您稍後會覆寫此選項。 請注意，對於[!UICONTROL Auto-Target]個活動，控制體驗其實是控制策略，其目的為a)在所有體驗中隨機提供，或b)提供單一體驗（此選項是在[!DNL Adobe Target]中建立活動時做出的）。 即使您已選擇選項(b)，您的[!UICONTROL Auto-Target]活動仍會指定特定體驗作為控制。 您仍然應該遵循本教學課程中概述的方法，分析[!UICONTROL Auto-Target]活動的A4T。
-2. **[!UICONTROL Normalizing Metric]**：選取[!UICONTROL Visits]。
-3. **[!UICONTROL Success Metrics]**：雖然您可以選取要報告的任何量度，但您通常應該檢視在[!DNL Target]中活動建立期間為最佳化所選取之相同量度的報告。
+1. **[!UICONTROL 控制體驗]**：您可以選擇任何體驗；不過，您稍後會覆寫此選項。 請注意，對於[!UICONTROL 自動鎖定目標]活動，控制體驗實際上是一種控制策略，其目的為a)在所有體驗中隨機提供，或b)提供單一體驗（此選項是在[!DNL Adobe Target]中的活動建立時做出的）。 即使您已選擇選項(b)，您的[!UICONTROL 自動鎖定目標]活動仍會指定特定體驗作為控制。 您仍然應該遵循本教學課程中概述的方法，分析[!UICONTROL 自動鎖定目標]活動的A4T。
+2. **[!UICONTROL 標準化量度]**：選取[!UICONTROL 造訪]。
+3. **[!UICONTROL 成功量度]**：雖然您可以選取要報告的任何量度，但您通常應該檢視在[!DNL Target]中活動建立期間為最佳化所選取之相同量度的報告。
 
-   [!UICONTROL Auto-Target]活動的![[!UICONTROL Analytics for Target]面板設定。](assets/Figure1.png)
+   ![[!UICONTROL Analytics for Target]面板設定，用於[!UICONTROL 自動鎖定目標]活動。](assets/Figure1.png)
 
-   *圖1： [!UICONTROL Auto-Target]活動的[!UICONTROL Analytics for Target]面板設定。*
+   *圖1： [!UICONTROL 自動鎖定目標]活動的[!UICONTROL Analytics for Target]面板設定。*
 
 >[!TIP]
 >
->若要設定[!UICONTROL Auto-Target]活動的[!UICONTROL Analytics for Target]面板，請選擇任何控制體驗，選擇[!UICONTROL Visits]作為標準化量度，並選擇在[!DNL Target]活動建立期間為最佳化選擇的相同目標量度。
+>若要為[!UICONTROL 自動鎖定目標]活動設定您的[!UICONTROL Analytics for Target]面板，請選擇任何控制體驗，選擇[!UICONTROL 造訪]作為標準化量度，並選擇在[!DNL Target]活動建立期間選擇用於最佳化的相同目標量度。
 
-## 使用[!UICONTROL Control vs.Targeted]維度來比較[!DNL Target]組合ML模型與您的控制項
+## 使用[!UICONTROL 控制項與將[!DNL Target]整體ML模型與您的控制項做比較的目標]維度
 
-預設A4T面板是針對傳統（手動） [!UICONTROL A/B Test]或[!UICONTROL Auto-Allocate]活動而設計，其目標是比較個別體驗與控制體驗的效能。 但在[!UICONTROL Auto-Target]活動中，第一順序比較應該是在控制&#x200B;*策略*&#x200B;與目標的&#x200B;*策略*&#x200B;之間。 換言之，決定[!UICONTROL Auto-Target]整體ML模型相對於控制策略的整體效能提升度。
+預設A4T面板是針對傳統（手動） [!UICONTROL A/B測試]或[!UICONTROL 自動分配]活動所設計，其目標是比較個別體驗與控制體驗的效能。 但是，在[!UICONTROL 自動鎖定目標]活動中，第一順序比較應該是在控制&#x200B;*策略*&#x200B;與目標的&#x200B;*策略*&#x200B;之間。 換句話說，決定[!UICONTROL 自動鎖定目標]整體ML模型相對於控制策略的整體效能提升度。
 
-若要執行這項比較，請使用&#x200B;**[!UICONTROL Control vs Targeted (Analytics for Target)]**&#x200B;維度。 拖放以取代預設A4T報表中的&#x200B;**[!UICONTROL Target Experiences]**&#x200B;維度。
+若要執行此比較，請使用&#x200B;**[!UICONTROL 控制與目標（目標分析）]**&#x200B;維度。 拖放以取代預設A4T報表中的&#x200B;**[!UICONTROL 目標體驗]**&#x200B;維度。
 
-請注意，此取代會使A4T面板上的預設[!UICONTROL Lift and Confidence]計算失效。 為避免混淆，您可以從預設面板中移除這些量度，並留下下列報表：
+請注意，此取代會使A4T面板上的預設[!UICONTROL 提升度和信賴度]計算失效。 為避免混淆，您可以從預設面板中移除這些量度，並留下下列報表：
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)中的[!UICONTROL Experiences by Activity Conversions]面板
+在[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
 
 *圖2： [!DNL Auto-Target]活動的建議基準線報告。 此報告已設定為比較目標流量（由整體ML模型提供）與您的控制流量。*
 
 >[!NOTE]
 >
->目前，[!UICONTROL Auto-Target]的A4T報告的[!UICONTROL Control vs Targeted]個維度無法使用[!UICONTROL Lift and Confidence]個數字。 在新增支援之前，可藉由下載[可信度計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant)來手動計算[!UICONTROL Lift and Confidence]。
+>目前，[!UICONTROL 自動鎖定目標]的A4T報告的[!UICONTROL 控制與目標]維度無法使用[!UICONTROL 提升度和可信度]數字。 在新增支援之前，可藉由下載[信賴度計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant)來手動計算[!UICONTROL 提升度和信賴度]。
 
 ## 新增量度的體驗層級劃分
 
-若要進一步瞭解insight如何執行整體ML模型，您可以檢查&#x200B;**[!UICONTROL Control vs Targeted]**&#x200B;維度的體驗層級劃分。 在[!DNL Analysis Workspace]中，將&#x200B;**[!UICONTROL Target Experiences]**&#x200B;維度拖曳至您的報表，然後分別劃分每個控制項和目標維度。
+若要進一步瞭解insight如何執行整體ML模型，您可以檢查&#x200B;**[!UICONTROL 控制與目標]**&#x200B;維度的體驗層級劃分。 在[!DNL Analysis Workspace]中，將&#x200B;**[!UICONTROL 目標體驗]**&#x200B;維度拖曳至您的報表，然後分別劃分每個控制項和目標維度。
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)中的[!UICONTROL Experiences by Activity Conversions]面板
+在[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
 
 *圖3：依目標體驗劃分目標維度*
 
 產生的報表範例顯示於此處。
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)中的[!UICONTROL Experiences by Activity Conversions]面板
+在[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
 
-*圖4：具有體驗層級劃分的標準[!UICONTROL Auto-Target]報告。 請注意，您的目標量度可能不同，而您的控制策略可能有單一體驗。*
+*圖4：具有體驗層級劃分的標準[!UICONTROL 自動鎖定目標]報告。 請注意，您的目標量度可能不同，而您的控制策略可能有單一體驗。*
 
 >[!TIP]
 >
->在[!DNL Analysis Workspace]中，按一下齒輪圖示以隱藏[!UICONTROL Conversion Rate]欄中的百分比，以協助將焦點保持在體驗轉換率上。 轉換率隨後將格式化為小數，但會據此將其解譯為百分比。
+>在[!DNL Analysis Workspace]中，按一下齒輪圖示以隱藏[!UICONTROL 轉換率]欄中的百分比，以協助將焦點保持在體驗轉換率上。 轉換率隨後將格式化為小數，但會據此將其解譯為百分比。
 
-## 為什麼&quot;[!UICONTROL Visits]&quot;是[!UICONTROL Auto-Target]活動的正確標準化量度
+## 為什麼「[!UICONTROL 造訪]」是[!UICONTROL 自動鎖定目標]活動的正確標準化量度
 
-分析[!UICONTROL Auto-Target]活動時，請一律選擇[!UICONTROL Visits]作為預設標準化量度。 [!UICONTROL Auto-Target]個人化會在每次造訪時為訪客選取一次體驗（正式地說，每個[!DNL Target]工作階段選取一次），這表示向訪客顯示的體驗可在每次造訪時變更。 因此，如果您使用[!UICONTROL Unique Visitors]作為標準化量度，單一使用者最終可能會看到多個體驗（跨不同造訪）的事實會導致轉換率混亂。
+分析[!UICONTROL 自動鎖定目標]活動時，請一律選擇[!UICONTROL 造訪]作為預設的標準化量度。 [!UICONTROL 自動鎖定目標]個人化會在每次造訪時為訪客選取一次體驗（正式地說，每個[!DNL Target]工作階段選取一次），這表示向訪客顯示的體驗可在每次造訪時變更。 因此，如果您使用[!UICONTROL 獨特訪客]作為標準化量度，單一使用者最終可能會看到多個體驗（跨不同造訪）的事實會導致轉換率混亂。
 
 一個簡單的範例將示範這一點：假設有兩個訪客進入一個只有兩個體驗的行銷活動。 第一個訪客造訪兩次。 他們會在第一次造訪時指派給體驗A，但在第二次造訪時指派給體驗B （因為其設定檔狀態在第二次造訪時變更）。 在第二次造訪後，訪客會下訂單進行轉換。 此轉換可歸因於最近顯示的體驗（體驗B）。 第二個訪客也會造訪兩次，且兩次都會顯示體驗B，但絕不會轉換。
 
@@ -122,41 +122,41 @@ ht-degree: 1%
 
 [!DNL Target]活動造訪的[!DNL Adobe Analytics]預設計數方法可能包含使用者未與[!DNL Target]活動互動的造訪。 這是因為[!DNL Target]活動指派持續存在於[!DNL Analytics]訪客內容中的方式。 因此，[!DNL Target]活動的造訪次數有時會膨脹，導致轉換率降低。
 
-如果您偏好報告使用者實際與[!UICONTROL Auto-Target]活動互動的造訪（透過進入活動、顯示或造訪事件，或轉換），您可以：
+如果您偏好報告使用者實際與[!UICONTROL 自動鎖定目標]活動互動的造訪（透過進入活動、顯示或造訪事件，或轉換），您可以：
 
 1. 建立特定區段，包含來自相關[!DNL Target]活動的點選，然後
-1. 使用此區段篩選[!UICONTROL Visits]量度。
+1. 使用此區段篩選[!UICONTROL 造訪]量度。
 
 **若要建立區段：**
 
-1. 選取[!DNL Analysis Workspace]工具列中的&#x200B;**[!UICONTROL Components > Create Segment]**&#x200B;選項。
-2. 指定區段的&#x200B;**[!UICONTROL Title]**。 在下列範例中，區段名為[!DNL "Hit with specific Auto-Target activity"]。
-3. 將&#x200B;**[!UICONTROL Target Activities]**&#x200B;維度拖曳至區段&#x200B;**[!UICONTROL Definition]**&#x200B;區段。
-4. 使用&#x200B;**[!UICONTROL equals]**&#x200B;運運算元。
+1. 選取[!DNL Analysis Workspace]工具列中的&#x200B;**[!UICONTROL 元件>建立區段]**&#x200B;選項。
+2. 為您的區段指定&#x200B;**[!UICONTROL 標題]**。 在下列範例中，區段名為[!DNL "Hit with specific Auto-Target activity"]。
+3. 將&#x200B;**[!UICONTROL 目標活動]**&#x200B;維度拖曳至區段&#x200B;**[!UICONTROL 定義]**&#x200B;區段。
+4. 使用&#x200B;**[!UICONTROL 等於]**&#x200B;運運算元。
 5. 搜尋您的特定[!DNL Target]活動。
-6. 按一下齒輪圖示，然後選取&#x200B;**[!UICONTROL Attribution model > Instance]**，如下圖所示。
-7. 按一下 **[!UICONTROL Save]**。
+6. 按一下齒輪圖示，然後選取「**[!UICONTROL 歸因模型>執行個體]**」，如下圖所示。
+7. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 [!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)中的區段
 
-*圖5：使用如這裡所示的區段來篩選[!UICONTROL Auto-Target]報告*&#x200B;的A4T中的[!UICONTROL Visits]量度
+*圖5：使用如這裡所示的區段，針對[!UICONTROL 自動鎖定目標]報告*&#x200B;篩選A4T中的[!UICONTROL 造訪]量度
 
-建立區段後，請使用該區段來篩選[!UICONTROL Visits]量度，因此[!UICONTROL Visits]量度僅包含使用者與[!DNL Target]活動互動的造訪。
+建立區段後，請使用該區段來篩選[!UICONTROL 造訪]量度，因此[!UICONTROL 造訪]量度只會包含使用者與[!DNL Target]活動互動的造訪。
 
-**若要使用此區段來篩選[!UICONTROL Visits]：**
+**若要使用此區段來篩選[!UICONTROL 造訪]：**
 
-1. 從元件工具列拖曳新建立的區段，並將滑鼠游標暫留在&#x200B;**[!UICONTROL Visits]**&#x200B;量度標籤的基底上，直到出現藍色&#x200B;**[!UICONTROL Filter by]**&#x200B;提示為止。
+1. 從元件工具列拖曳新建立的區段，並將滑鼠游標停留在&#x200B;**[!UICONTROL 造訪]**&#x200B;量度標籤的基底上，直到出現藍色&#x200B;**[!UICONTROL 篩選依據]**&#x200B;提示為止。
 2. 發行區段。 篩選器會套用至該量度。
 
 最終面板顯示如下：
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)中的[!UICONTROL Experiences by Activity Conversions]面板
+在[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
 
-*圖6：套用到[!UICONTROL Visits]量度且「具有特定自動鎖定目標活動的點選」區段的報告面板。 此區段可確保報表中只包含使用者實際與相關[!DNL Target]活動互動的造訪。*
+*圖6：套用到[!UICONTROL 造訪]量度的「具有特定自動鎖定目標活動的點選」區段的報告面板。 此區段可確保報表中只包含使用者實際與相關[!DNL Target]活動互動的造訪。*
 
 ## 確保目標量度和歸因符合最佳化標準
 
-A4T整合允許[!UICONTROL Auto-Target] ML模型使用與[!DNL Adobe Analytics]用於&#x200B;*產生效能報表*&#x200B;的相同轉換事件資料&#x200B;*培訓*。 不過，在訓練ML模型時，必須使用某些假設來解譯此資料，這些假設與[!DNL Adobe Analytics]中報告階段期間所做的預設假設不同。
+A4T整合允許[!UICONTROL 自動鎖定目標] ML模型使用與[!DNL Adobe Analytics]用於&#x200B;*產生效能報表*&#x200B;的相同轉換事件資料&#x200B;*培訓*。 不過，在訓練ML模型時，必須使用某些假設來解譯此資料，這些假設與[!DNL Adobe Analytics]中報告階段期間所做的預設假設不同。
 
 具體來說，[!DNL Adobe Target] ML模型會使用造訪範圍的歸因模型。 也就是說，ML模型假設轉換必須發生在活動內容的顯示同一次造訪中，才能將轉換「歸因」於ML模型所做的決定。 這是[!DNL Target]保證及時訓練其模型的必要專案；[!DNL Target]無法等待最多30天的時間進行轉換（[!DNL Adobe Analytics]中報表的預設歸因期間），才能將其納入其模型的訓練資料。
 
@@ -178,17 +178,17 @@ A4T整合允許[!UICONTROL Auto-Target] ML模型使用與[!DNL Adobe Analytics]�
 
    ![gearicon.png](assets/gearicon.png)
 
-1. 從產生的功能表，捲動至&#x200B;**[!UICONTROL Data settings]**。
-1. 選取&#x200B;**[!UICONTROL Use non-default  attribution model]** （如果尚未選取）。
+1. 從產生的功能表，捲動至&#x200B;**[!UICONTROL 資料設定]**。
+1. 選取&#x200B;**[!UICONTROL 使用非預設歸因模型]** （如果尚未選取）。
 
    ![non-defaultattributionmodel.png](assets/non-defaultattributionmodel.png)
 
-1. 按一下 **[!UICONTROL Edit]**。
-1. 選取&#x200B;**[!UICONTROL Model]**： **[!UICONTROL Participation]**&#x200B;和&#x200B;**[!UICONTROL Lookback window]**： **[!UICONTROL Visit]**。
+1. 按一下&#x200B;**[!UICONTROL 編輯]**。
+1. 選取&#x200B;**[!UICONTROL 模型]**： **[!UICONTROL 參與率]**，以及&#x200B;**[!UICONTROL 回顧期間]**： **[!UICONTROL 造訪]**。
 
    ![ParticipationbyVisit.png](assets/ParticipationbyVisit.png)
 
-1. 按一下 **[!UICONTROL Apply]**。
+1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
 
 如果目標量度事件發生在有體驗顯示的同一次造訪中的&#x200B;*任何時間* （「參與率」），這些步驟可確保報表將目標量度歸因於體驗的顯示。
 
@@ -198,8 +198,8 @@ A4T整合允許[!UICONTROL Auto-Target] ML模型使用與[!DNL Adobe Analytics]�
 
 在您選取&#x200B;*最大化不重複造訪轉換率*&#x200B;作為最佳化條件的案例中，轉換率的正確定義是度量值為正值的造訪次數比例。 若要這麼做，可建立區段篩選，找出量度值為正值的造訪，然後篩選造訪量度。
 
-1. 和之前一樣，在[!DNL Analysis Workspace]工具列中選取&#x200B;**[!UICONTROL Components > Create Segment]**&#x200B;選項。
-2. 指定區段的&#x200B;**[!UICONTROL Title]**。
+1. 和之前一樣，在[!DNL Analysis Workspace]工具列中選取&#x200B;**[!UICONTROL 元件>建立區段]**&#x200B;選項。
+2. 為您的區段指定&#x200B;**[!UICONTROL 標題]**。
 
    在下列範例中，區段名為[!DNL "Visits with an order"]。
 
@@ -207,12 +207,12 @@ A4T整合允許[!UICONTROL Auto-Target] ML模型使用與[!DNL Adobe Analytics]�
 
    在下列範例中，我們使用&#x200B;**訂單**&#x200B;量度，因此轉換率會測量已記錄訂單的造訪次數。
 
-4. 在區段定義容器的左上方，選取&#x200B;**[!UICONTROL Include]** **造訪**。
-5. 使用&#x200B;**[!UICONTROL is greater than]**&#x200B;運運算元，並將值設為0。
+4. 在區段定義容器的左上方，選取&#x200B;**[!UICONTROL 包含]** **造訪**。
+5. 使用&#x200B;**[!UICONTROL 大於]**&#x200B;運運算元，並將值設為0。
 
    將值設為0表示此區段包含訂單量度為正數的造訪。
 
-6. 按一下 **[!UICONTROL Save]**。
+6. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ![圖7.png](assets/Figure7.png)
 
@@ -228,19 +228,19 @@ A4T整合允許[!UICONTROL Auto-Target] ML模型使用與[!DNL Adobe Analytics]�
 
 ## 最後步驟：建立可擷取上述神奇的轉換率
 
-修改前幾節中的[!UICONTROL Visit]和目標量度後，您對[!DNL Auto-Target]報表面板的預設A4T應進行的最終修改，是建立正確比率的轉換率，也就是正確的目標量度與適當篩選的「造訪」量度的比率。
+在前幾節中修改[!UICONTROL 造訪]和目標量度後，您對[!DNL Auto-Target]報表面板的預設A4T應進行的最終修改，是建立正確比率（即已更正的目標量度與適當篩選的「造訪」量度的比率）的轉換率。
 
-使用下列步驟建立[!UICONTROL Calculated Metric]，以執行此操作：
+若要這麼做，請使用下列步驟建立[!UICONTROL 計算量度]：
 
-1. 選取[!DNL Analysis Workspace]工具列中的&#x200B;**[!UICONTROL Components > Create Metric]**&#x200B;選項。
-1. 為您的量度指定&#x200B;**[!UICONTROL Title]**。 例如，「活動XXX的造訪修正轉換率」。
-1. 選取&#x200B;**[!UICONTROL Format]** =百分比和&#x200B;**[!UICONTROL Decimal Places]** = 2。
-1. 將活動的相關目標量度（例如[!UICONTROL Activity Conversions]）拖曳至定義，然後使用此目標量度上的齒輪圖示，將歸因模型調整為（參與率|造訪），如先前所述。
-1. 從&#x200B;**[!UICONTROL Definition]**&#x200B;區段的右上角選取&#x200B;**[!UICONTROL Add > Container]**。
+1. 選取[!DNL Analysis Workspace]工具列中的&#x200B;**[!UICONTROL 元件>建立量度]**&#x200B;選項。
+1. 為您的量度指定&#x200B;**[!UICONTROL 標題]**。 例如，「活動XXX的造訪修正轉換率」。
+1. 選取&#x200B;**[!UICONTROL 格式]** =百分比和&#x200B;**[!UICONTROL 小數位數]** = 2。
+1. 將活動的相關目標量度（例如，[!UICONTROL 活動轉換]）拖曳至定義，然後使用此目標量度上的齒輪圖示，將歸因模型調整為（參與率|造訪），如先前所述。
+1. 從&#x200B;**[!UICONTROL 定義]**&#x200B;區段的右上角選取&#x200B;**[!UICONTROL 新增>容器]**。
 1. 選取兩個容器之間的除(÷)運運算元。
-1. 拖曳您先前針對此特定[!DNL Auto-Target]活動在本教學課程中建立的區段（名為「具有特定[!UICONTROL Auto-Target]活動的點選」）。
-1. 將&#x200B;**[!UICONTROL Visits]**&#x200B;量度拖曳至區段容器。
-1. 按一下 **[!UICONTROL Save]**。
+1. 拖曳您先前針對此特定[!DNL Auto-Target]活動在本教學課程中建立的區段（名為「具有特定[!UICONTROL 自動鎖定目標]活動的點選」）。
+1. 將&#x200B;**[!UICONTROL 造訪]**&#x200B;量度拖曳至區段容器。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!TIP]
 >
@@ -254,14 +254,14 @@ A4T整合允許[!UICONTROL Auto-Target] ML模型使用與[!DNL Adobe Analytics]�
 
 >[!IMPORTANT]
 >
->來自A4T面板的[!UICONTROL Conversion]比率量度未連結至表格中的轉換事件或標準化量度。 當您進行本教學課程中建議的修改時，[!UICONTROL Conversion]費率不會自動適應這些變更。 因此，如果您修改轉換事件歸因或標準化量度（或兩者），您必須記住的最後一個步驟也是修改[!UICONTROL Conversion]比率，如上所示。
+>來自A4T面板的[!UICONTROL 轉換]比率量度未連結至資料表中的轉換事件或標準化量度。 當您進行本教學課程中建議的修改時，[!UICONTROL 轉換]率不會自動適應這些變更。 因此，如果您修改轉換事件歸因或標準化量度（或兩者），您必須記住最後一步也是修改[!UICONTROL 轉換]率，如上所示。
 
-## 摘要： [!UICONTROL Auto-Target]報告的最後範例[!DNL Analysis Workspace]面板
+## 摘要： [!UICONTROL 自動鎖定目標]報告的最後範例[!DNL Analysis Workspace]面板
 
-將上述所有步驟合併成單一面板，下圖顯示[!UICONTROL Auto-Target]個A4T活動的建議報告完整檢視。 此報表與[!DNL Target] ML模型用來最佳化目標量度的報表相同。 此報表包含本教學課程中討論的所有細微差別和建議。 此報表也最接近傳統[!DNL Target]報表導向[!UICONTROL Auto-Target]活動中使用的計數方法。
+將上述所有步驟合併成單一面板，下圖顯示[!UICONTROL 自動鎖定目標] A4T活動的建議報告完整檢視。 此報表與[!DNL Target] ML模型用來最佳化目標量度的報表相同。 此報表包含本教學課程中討論的所有細微差別和建議。 此報表也最接近傳統[!DNL Target]報告導向的[!UICONTROL 自動鎖定目標]活動中使用的計數方法。
 
 按一下以展開影像。
 
-在Analysis Workspace的[!DNL Analysis Workspace]&rbrack;(assets/Figure10.png "A4T報告中!&lbrack;最終的A4T報告"){width="600" zoomable="yes"}
+在Analysis Workspace的![[!DNL Analysis Workspace&rbrack;]](assets/Figure10.png "A4T報告中&lbrack;最終的A4T報告"){width="600" zoomable="yes"}
 
-*圖10： [!DNL Adobe Analytics] [!DNL Workspace]中的最終A4T [!UICONTROL Auto-Target]報告，此報告結合本教學課程前幾節中說明的所有量度定義調整。*
+*圖10： [!DNL Adobe Analytics] [!DNL Workspace]中的最終A4T [!UICONTROL 自動鎖定目標]報告，此報告結合本教學課程前幾節中說明的所有量度定義調整。*
