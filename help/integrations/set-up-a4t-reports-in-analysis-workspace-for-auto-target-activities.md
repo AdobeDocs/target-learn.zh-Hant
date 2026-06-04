@@ -11,12 +11,22 @@ thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
 TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 2717
@@ -64,7 +74,7 @@ ht-degree: 1%
 
 請注意，此取代會使A4T面板上的預設[!UICONTROL 提升度和信賴度]計算失效。 為避免混淆，您可以從預設面板中移除這些量度，並留下下列報表：
 
-在[!DNL Analysis Workspace]](assets/Figure2.png)中依活動轉換顯示的![[!UICONTROL 體驗]面板
+在[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
 
 *圖2： [!DNL Auto-Target]活動的建議基準線報告。 此報告已設定為比較目標流量（由整體ML模型提供）與您的控制流量。*
 
@@ -76,13 +86,13 @@ ht-degree: 1%
 
 若要進一步瞭解insight如何執行整體ML模型，您可以檢查&#x200B;**[!UICONTROL 控制與目標]**&#x200B;維度的體驗層級劃分。 在[!DNL Analysis Workspace]中，將&#x200B;**[!UICONTROL 目標體驗]**&#x200B;維度拖曳至您的報表，然後分別劃分每個控制項和目標維度。
 
-在[!DNL Analysis Workspace]](assets/Figure3.png)中依活動轉換顯示的![[!UICONTROL 體驗]面板
+在[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
 
 *圖3：依目標體驗劃分目標維度*
 
 產生的報表範例顯示於此處。
 
-在[!DNL Analysis Workspace]](assets/Figure4.png)中依活動轉換顯示的![[!UICONTROL 體驗]面板
+在[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
 
 *圖4：具有體驗層級劃分的標準[!UICONTROL 自動鎖定目標]報告。 請注意，您的目標量度可能不同，而您的控制策略可能有單一體驗。*
 
@@ -127,7 +137,7 @@ ht-degree: 1%
 6. 按一下齒輪圖示，然後選取「**[!UICONTROL 歸因模型>執行個體]**」，如下圖所示。
 7. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-[!DNL Analysis Workspace]](assets/Figure5.png)中的![區段
+[!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)中的區段
 
 *圖5：使用如這裡所示的區段，針對[!UICONTROL 自動鎖定目標]報告*&#x200B;篩選A4T中的[!UICONTROL 造訪]量度
 
@@ -140,7 +150,7 @@ ht-degree: 1%
 
 最終面板顯示如下：
 
-在[!DNL Analysis Workspace]](assets/Figure6.png)中依活動轉換顯示的![[!UICONTROL 體驗]面板
+在[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
 
 *圖6：套用到[!UICONTROL 造訪]量度的「具有特定自動鎖定目標活動的點選」區段的報告面板。 此區段可確保報表中只包含使用者實際與相關[!DNL Target]活動互動的造訪。*
 
@@ -252,6 +262,6 @@ A4T整合允許[!UICONTROL 自動鎖定目標] ML模型使用與[!DNL Adobe Anal
 
 按一下以展開影像。
 
-在Analysis Workspace的[!DNL Analysis Workspace]](assets/Figure10.png "A4T報告中![最終的A4T報告"){width="600" zoomable="yes"}
+在Analysis Workspace的![[!DNL Analysis Workspace&rbrack;]](assets/Figure10.png "A4T報告中&lbrack;最終的A4T報告"){width="600" zoomable="yes"}
 
 *圖10： [!DNL Adobe Analytics] [!DNL Workspace]中的最終A4T [!UICONTROL 自動鎖定目標]報告，此報告結合本教學課程前幾節中說明的所有量度定義調整。*
