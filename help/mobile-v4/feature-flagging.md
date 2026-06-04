@@ -9,20 +9,15 @@ doc-type: tutorial
 kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 TQID: https://experienceleague.adobe.com/eK2T9lkJ4-ieiTGjqAymdgn8lrbfcaBBObbp61-jX0M
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 0%
+source-wordcount: 755
+ht-degree: 1%
 
 ---
 
@@ -139,20 +134,20 @@ public void processFeatureFlags() {
 
    ![功能標幟活動設定](assets/feature_flag_activity.jpg)
 
-1. 按一下&#x200B;**[!UICONTROL Add Experience]**&#x200B;以新增體驗B。
+1. 按一下&#x200B;**[!UICONTROL 新增體驗]**&#x200B;以新增體驗B。
 1. 離開「wetravel_feature_flag_recs」位置
-1. 保留&#x200B;**[!UICONTROL Default Content]**&#x200B;以取得內容
-1. 按一下「**[!UICONTROL Next]**」以前往[!UICONTROL Targeting]畫面
+1. 保留內容的&#x200B;**[!UICONTROL 預設內容]**
+1. 按一下[下一步]****&#x200B;以前進到[!UICONTROL 鎖定目標]畫面
 
    ![功能標幟活動設定](assets/feature_flag_activity_2.jpg)
 
-1. 在[!UICONTROL Targeting]畫面上，確認[!UICONTROL Traffic Allocation]方法已設定為預設設定（手動），而且每個體驗都有預設的50%配置。 選取&#x200B;**[!UICONTROL Next]**&#x200B;以前進到&#x200B;**[!UICONTROL Goals & Settings]**。
+1. 在[!UICONTROL 鎖定目標]畫面上，確認[!UICONTROL 流量分配]方法已設定為預設設定（手動），而且每個體驗都有預設的50%分配。 選取&#x200B;**[!UICONTROL 下一步]**&#x200B;以前進到&#x200B;**[!UICONTROL 目標與設定]**。
 
    ![功能標幟活動設定](assets/feature_flag_activity_3.jpg)
 
-1. 將&#x200B;**[!UICONTROL Primary Goal]**&#x200B;設為&#x200B;**[!UICONTROL Conversion]**。
-1. 將動作設為&#x200B;**[!UICONTROL Viewed an Mbox]**。 我們將使用「wetravel_context_dest」位置（由於此位置位於「確認」畫面上，因此我們可使用它來檢視新功能是否帶來更多轉換）。
-1. 按一下 **[!UICONTROL Save & Close]**。
+1. 將&#x200B;**[!UICONTROL 主要目標]**&#x200B;設定為&#x200B;**[!UICONTROL 轉換]**。
+1. 將動作設為&#x200B;**[!UICONTROL 已檢視Mbox]**。 我們將使用「wetravel_context_dest」位置（由於此位置位於「確認」畫面上，因此我們可使用它來檢視新功能是否帶來更多轉換）。
+1. 按一下&#x200B;**[!UICONTROL 「儲存並關閉」]**。
 
    ![功能標幟活動設定](assets/feature_flag_activity_4.jpg)
 

@@ -7,25 +7,11 @@ feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
 TQID: https://experienceleague.adobe.com/4M13hg8c1kxAmsBaiSfyvV3XEXLxV5lHEy299YGBvII
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
 source-wordcount: 1254
@@ -138,6 +124,6 @@ Personalization也包含體驗鎖定目標測試活動型別，此活動型別�
 
 基於上述瞭解，Adobe建議您先最佳化再進行個人化，並將Personalization從廣義提升為精細。 若要讓Personalization活動從廣義到精細的成熟，您將開始使用一對多（廣義）個人化樣式（使用A/B測試），然後改用一對一（精細）個人化樣式（使用Automated Personalization活動）。
 
-如需詳細資訊，請閱讀[個人化測試和藍圖建立的快速入門](https://experienceleague.adobe.com/zh-hant/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)。
+如需詳細資訊，請閱讀[個人化測試和藍圖建立的快速入門](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)。
 
-在[觀點](https://experienceleague.adobe.com/zh-hant/perspectives)中心瞭解更多策略和思想領導力。
+在[觀點](https://experienceleague.adobe.com/en/perspectives)中心瞭解更多策略和思想領導力。

@@ -1,6 +1,6 @@
 ---
 title: Adobe Target搭配Android適用的Adobe Mobile Services SDK v4
-description: 已使用Adobe Target Mobile Services SDK Adobe Target v4且想要開始使用Adobe提供個人化應用程式體驗的Android開發人員，最佳起點：使用Android的Adobe Mobile Services SDK v4 。
+description: 已使用Adobe Target Mobile Services SDK v4且想要開始使用Adobe提供個人化應用程式體驗的Android開發人員，最佳起點：使用Android的Adobe Mobile Services SDK v4 。
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -10,20 +10,20 @@ kt: 3040
 exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '559'
 ht-degree: 2%
 
 ---
 
 # Adobe Target與Adobe Mobile Services — 適用於Android的SDK v4 — 概觀
 
-Adobe Target _已使用Adobe Mobile Services SDK v4且想要開始使用Android個人化應用程式體驗的Android開發人員，_&#x200B;搭配Adobe Mobile Services SDK v4的Adobe Target是最佳起點。
+_已使用Adobe Mobile Services SDK v4且想要開始使用Android個人化應用程式體驗的Android開發人員，_&#x200B;搭配Adobe Mobile Services SDK v4的Adobe Target是最佳起點。
 
 提供的示範Android應用程式作用是協助您完成課程。 完成本教學課程後，您應該已準備好開始在自己的Android應用程式中實施[!DNL Target]！
 
 完成此教學課程之後，您將能:
 
-* 驗證[Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=zh-Hant)安裝程式
+* 驗證[Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)安裝程式
 * 實作下列[!DNL Target]要求型別：
    * 預先擷取[!DNL Target]內容
    * 在單一請求中批次處理多個[!DNL Target]位置(mbox)
@@ -41,7 +41,7 @@ Adobe Target _已使用Adobe Mobile Services SDK v4且想要開始使用Android�
 在這些課程中，假設您：
 
 * 擁有Adobe ID和核准者層級的Adobe Target介面存取權（請參閱下列驗證步驟）
-* 知道您的Adobe Target使用者端代碼，以便向自己的帳戶提出請求。 使用者端代碼會顯示在的Adobe Target介面中，   「設定>實作>編輯at.js設定」畫面
+* 知道您的Adobe Target使用者端代碼，以便向自己的帳戶提出請求。 使用者端代碼會顯示在「設定>實作>編輯at.js設定」畫面的Adobe Target介面中
 * 可以存取並熟悉[Mobile Services使用者介面](https://mobilemarketing.adobe.com/)
 * 擁有用於Android行動應用程式開發的IDE。 本教學課程在各個步驟和熒幕擷取畫面中提供[Android Studio](https://developer.android.com/studio/install)
 
