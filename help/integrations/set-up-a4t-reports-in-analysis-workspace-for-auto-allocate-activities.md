@@ -1,53 +1,65 @@
 ---
-title: 如何在 [!DNL Analysis Workspace] 中為[!UICONTROL 自動分配]活動設定A4T報告
-description: 執行[!UICONTROL 自動分配]活動時，如何在 [!DNL Adobe] [!DNL Analysis Workspace]中設定[!UICONTROL Analytics for Target] (A4T)報告。
+title: 如何在[!DNL Analysis Workspace]中為[!UICONTROL 自動分配]活動設定A4T報告
+description: 執行[!UICONTROL 自動分配]活動時，如何在[!DNL Adobe] [!DNL Analysis Workspace]中設定[!UICONTROL Analytics for Target] (A4T)報告。
 role: User
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-kt: null
+kt:
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-TQID: https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4
+TQID: 'https://experienceleague.adobe.com/5oQMgqqxw2VN-6cb29j4bwEP6VYmGRLXIp5AMJ3WWM4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1546
+source-wordcount: '1549'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Analysis Workspace]中為[!DNL Auto-Allocate]個活動設定A4T報告
 
-[!DNL Adobe Target]中的[[!UICONTROL 自動分配]活動](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=zh-Hant){target=_blank}會從兩個或多個體驗中識別獲勝者，並在測試持續執行和學習期間，自動重新分配訪客流量給獲勝者。 [!UICONTROL 自動分配]的[!UICONTROL Analytics for Target] (A4T)整合可讓您在[!DNL Adobe Analytics]中檢視報表資料，而且您可以最佳化[!DNL Analytics]中定義的自訂事件或量度。
+[!DNL Adobe Target]中的[[!UICONTROL 自動分配]活動](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank}會從兩個或多個體驗中識別獲勝者，並在測試持續執行和學習期間，自動重新分配訪客流量給獲勝者。 [!UICONTROL 自動分配]的[!UICONTROL Analytics for Target] (A4T)整合可讓您在[!DNL Adobe Analytics]中檢視報表資料，而且您可以最佳化[!DNL Analytics]中定義的自訂事件或量度。
 
-雖然[!DNL Adobe Analytics] [!DNL Analysis Workspace]中提供了豐富的分析功能，但可能需要對預設[!UICONTROL Analytics for Target]面板進行一些修改，才能正確解譯[!UICONTROL 自動分配]活動。 由於[最佳化量度條件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=zh-Hant#supported){target=_blank}中的細微差別，所以需要這些修改。
+雖然[!DNL Adobe Analytics] [!DNL Analysis Workspace]中提供了豐富的分析功能，但可能需要對預設[!UICONTROL Analytics for Target]面板進行一些修改，才能正確解譯[!UICONTROL 自動分配]活動。 由於[最佳化量度條件](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}中的細微差別，所以需要這些修改。
 
 每種最佳化量度型別在A4T中都需要不同的報表設定，如下所示：
 
 * 使用[!DNL Analytics]量度
 
-   * [!UICONTROL 最大化的每位訪客量度值]
-   * [!UICONTROL 最大化的不重複訪客轉換率]
+  * [!UICONTROL 最大化的每位訪客量度值]
+  * [!UICONTROL 最大化的不重複訪客轉換率]
 
 * 使用[!DNL Target]定義的轉換量度
 
 本教學課程涵蓋整體A4T指引，以及條件特定的報表設定步驟。
 
-## 具有「每位訪客的量度值最大化」最佳化條件的Analytics量度
+## 具有「每位訪客]的量度值最大化」最佳化條件的Analytics量度[!UICONTROL 
 
 **定義**： （整體量度值） / （訪客數）
 
@@ -142,16 +154,16 @@ ht-degree: 0%
 以下各節會根據您選擇的這些方法，指定所需的組態。 不過，下列步驟可作為A4T的整體指引：
 
 * 無論面板建立方法為何，都會從A4T面板移除信賴度量度（兩者皆詳見下文）。 請改為在[!DNL Target]報表中參考這些值。 此外，可在[!DNL Target]報告中識別活動獲勝者。 有關活動獲勝者識別的詳細資訊，請參閱下面的[識別活動獲勝者](#winner)區段。
-&#x200B;>>
-* 為避免混淆，請取消核取[!UICONTROL 轉換率]量度的[!UICONTROL 百分比]表示法。 請參閱下面的[隱藏轉換率]資料行(#hide-percentage)中的百分比。
-&#x200B;>>
+>>
+* 為避免混淆，請取消核取[!UICONTROL 轉換率]量度的[!UICONTROL 百分比]表示法。 請參閱下面的[隱藏轉換率]資料行](#hide-percentage)中的百分比。[!UICONTROL 
+>>
 * 如果您正在建立A4T面板，請確定日期和時間範圍符合[!DNL Target]報表的日期和時間範圍。 請參閱下面的[在A4T面板](#aligning-date-and-time)中將日期和時間對齊。
 
 ### 從[!UICONTROL 轉換率]資料行隱藏百分比 {#hide-percentage}
 
 1. 按一下[!UICONTROL 轉換率]資料行標題旁的&#x200B;**齒輪**&#x200B;圖示。
 
-   轉換率資料行![&#128279;](/help/integrations/assets/coversion-rate-gear-icon.png)中的齒輪圖示
+   轉換率資料行](/help/integrations/assets/coversion-rate-gear-icon.png)中的![齒輪圖示
 
    顯示[!UICONTROL 欄]設定對話方塊：
 
@@ -169,15 +181,15 @@ ht-degree: 0%
 
    ![A4T面板中的日期範圍](/help/integrations/assets/date-range.png)
 
-1. 在[!DNL Analytics]中，將時間範圍設定為12:00am - 11:59pm。
+1. 在[!DNL Analytics]中，將時間範圍設定為上午12:00至晚上11:59。
 
 ### 識別活動獲勝者 {#winner}
 
-當有成功轉換率的信賴值大於或等於95%時，就會選取[!DNL Auto-Allocate]個活動獲勝者。 這些值應在[!DNL Target]報表中參考，因為可信度計算反映[!UICONTROL 自動分配]活動中[!DNL Target]建議的較保守方法。 請參閱&#x200B;*[!UICONTROL Adobe Target商業從業者指南]*&#x200B;中的[自動分配的統計保證](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=zh-Hant#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}。
+當有成功轉換率的信賴值大於或等於95%時，就會選取[!DNL Auto-Allocate]個活動獲勝者。 這些值應在[!DNL Target]報表中參考，因為可信度計算反映[!UICONTROL 自動分配]活動中[!DNL Target]建議的較保守方法。 請參閱&#x200B;*[!UICONTROL Adobe Target商業從業者指南]*&#x200B;中的[自動分配的統計保證](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank}。
 
 >[!NOTE]
 >
->[!DNL Analysis Workspace]中的A4T面板無法使用「尚未有贏家」和「贏家」徽章。 此外，應該忽略在[!UICONTROL 自動分配]活動的[!DNL Target]報告中顯示的獲勝者「星星」徽章。 請參閱&#x200B;*[!UICONTROL Adobe Target商業從業者指南]*&#x200B;中的&#x200B;*A4T對自動分配和自動鎖定目標活動的*&#x200B;支援[自動分配](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=zh-Hant#aa){target=_blank}。
+>[!DNL Analysis Workspace]中的A4T面板無法使用「尚未有贏家」和「贏家」徽章。 此外，應該忽略在[!UICONTROL 自動分配]活動的[!DNL Target]報告中顯示的獲勝者「星星」徽章。 請參閱&#x200B;*[!UICONTROL Adobe Target商業從業者指南]*&#x200B;中的&#x200B;*A4T對自動分配和自動鎖定目標活動的*&#x200B;支援[自動分配](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank}。
 
 ### 在[!DNL Analysis Workspace]中為[!UICONTROL 自動分配]面板建立A4T
 

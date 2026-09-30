@@ -8,27 +8,36 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-TQID: https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4
+TQID: 'https://experienceleague.adobe.com/jX5KNFVLueF72JlxIo4OV0NRWRxpSAZ-tOMacI8FXL4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 # 將引數新增至請求
 
 在本課程中，我們會將Adobe生命週期量度和自訂引數新增至上個課程中新增的[!DNL Target]請求。 這些量度和引數將用於在本教學課程稍後建立個人化對象。
@@ -44,7 +53,7 @@ ht-degree: 0%
 
 ## 新增生命週期引數
 
-讓我們啟用[Adobe行動生命週期量度](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=zh-Hant)。 這會將引數新增至位置請求，其中包含使用者裝置和與應用程式互動的豐富資訊。 我們將在下一個課程中，使用生命週期請求提供的資料來建立對象。
+讓我們啟用[Adobe行動生命週期量度](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en)。 這會將引數新增至位置請求，其中包含使用者裝置和與應用程式互動的豐富資訊。 我們將在下一個課程中，使用生命週期請求提供的資料來建立對象。
 
 若要啟用生命週期量度，請再次開啟HomeActivity控制器，並將`Config.collectLifecycleData(this);`新增至onResume()函式：
 
@@ -103,7 +112,7 @@ public void targetPrefetchContent() {
 
 ### 關於引數的注意事項
 
-對於未來的專案，您可能會想要實作其他引數。 `createTargetPrefetchObject()`方法允許三種型別的引數： `locationParams`、`orderParams`和`productParams`。 請參閱[有關將這些引數新增至預先擷取要求](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=zh-Hant)的詳細資訊。
+對於未來的專案，您可能會想要實作其他引數。 `createTargetPrefetchObject()`方法允許三種型別的引數： `locationParams`、`orderParams`和`productParams`。 請參閱[有關將這些引數新增至預先擷取要求](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)的詳細資訊。
 
 另請注意，可以將不同的位置引數新增至預先擷取請求中的每個位置。 例如，您可以建立另一個名為param2的Map，在其中放置新引數，然後在一個位置設定param2，並在另一個位置設定param1。 範例如下：
 
@@ -160,11 +169,11 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 
 >[!NOTE]
 >
->訂單確認請求與引數：雖然未用於此示範專案，但訂單詳細資料通常會在實際實施中擷取，因此[!DNL Target]可將訂單詳細資料用作量度/維度。 請參閱檔案，瞭解如何[實作訂單確認請求和引數](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=zh-Hant)的說明。
+>訂單確認請求與引數：雖然未用於此示範專案，但訂單詳細資料通常會在實際實施中擷取，因此[!DNL Target]可將訂單詳細資料用作量度/維度。 請參閱檔案，瞭解如何[實作訂單確認請求和引數](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en)的說明。
 
 >[!NOTE]
 >
->Analytics for Target (A4T)：可以將Adobe Analytics設定為[!DNL Target]的報告來源。 這可讓您Adobe Analytics中檢視Target SDK收集的所有量度/維度。 如需詳細資訊，請參閱[A4T總覽](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)。
+>Analytics for Target (A4T)：可以將Adobe Analytics設定為[!DNL Target]的報告來源。 這可讓您Adobe Analytics中檢視Target SDK收集的所有量度/維度。 如需詳細資訊，請參閱[A4T總覽](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)。
 
 做得很好！ 引數已就緒後，我們準備使用這些引數在Adobe Target中建立對象和選件。
 

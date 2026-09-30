@@ -8,24 +8,32 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+TQID: 'https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+subfeature_v2:
+  - id: d051910f-2bda-47ea-a969-6ade9fcd71f1
+    internal-label: Implement mobile
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Personalization
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1820
+source-wordcount: '1820'
 ht-degree: 0%
-
 ---
-
 # 新增Adobe Target請求
 
 Adobe Mobile Services SDK (v4)提供Adobe Target方法與功能，可讓您為不同使用者提供不同體驗，以個人化您的應用程式。 通常會從應用程式向Adobe Target提出一或多個請求，以擷取個人化內容並測量該內容的影響。
@@ -63,7 +71,7 @@ Adobe Mobile Services SDK (v4)提供Adobe Target方法與功能，可讓您為�
 
 我們將在We.Travel中實作的第一個要求是批次預先擷取要求，主畫面上具有兩個[!DNL Target]位置。 在稍後的課程中，我們將為這些顯示訊息的位置設定選件，以協助引導新使用者完成預訂流程。
 
-預先擷取要求會快取Adobe Target伺服器回應（選件），以最低擷取[!DNL Target]內容。 批次預先擷取請求會擷取並快取多個選件，每個選件都與不同位置相關聯。 所有預先擷取的位置都會在裝置上快取，以供日後在使用者工作階段中使用。 藉由預先擷取首頁畫面上的多個位置，我們可以擷取選件，以供訪客導覽應用程式時稍後使用。 如需預先擷取方法的詳細資訊，請參閱[預先擷取檔案](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=zh-Hant)。
+預先擷取要求會快取Adobe Target伺服器回應（選件），以最低擷取[!DNL Target]內容。 批次預先擷取請求會擷取並快取多個選件，每個選件都與不同位置相關聯。 所有預先擷取的位置都會在裝置上快取，以供日後在使用者工作階段中使用。 藉由預先擷取首頁畫面上的多個位置，我們可以擷取選件，以供訪客導覽應用程式時稍後使用。 如需預先擷取方法的詳細資訊，請參閱[預先擷取檔案](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en)。
 
 ### 新增批次預先擷取請求
 

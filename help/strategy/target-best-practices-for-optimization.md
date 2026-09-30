@@ -6,33 +6,50 @@ role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-TQID: https://experienceleague.adobe.com/4M13hg8c1kxAmsBaiSfyvV3XEXLxV5lHEy299YGBvII
+TQID: 'https://experienceleague.adobe.com/4M13hg8c1kxAmsBaiSfyvV3XEXLxV5lHEy299YGBvII'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Taxonomy
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 1254
+source-wordcount: '1254'
 ht-degree: 0%
-
 ---
-
 # 使用Adobe Target最佳化的最佳實務
 
 瞭解Adobe在最佳化方面的六大基本知識以及如何加以套用。
@@ -138,6 +155,6 @@ Personalization也包含體驗鎖定目標測試活動型別，此活動型別�
 
 基於上述瞭解，Adobe建議您先最佳化再進行個人化，並將Personalization從廣義提升為精細。 若要讓Personalization活動從廣義到精細的成熟，您將開始使用一對多（廣義）個人化樣式（使用A/B測試），然後改用一對一（精細）個人化樣式（使用Automated Personalization活動）。
 
-如需詳細資訊，請閱讀[個人化測試和藍圖建立的快速入門](https://experienceleague.adobe.com/zh-hant/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)。
+如需詳細資訊，請閱讀[個人化測試和藍圖建立的快速入門](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation)。
 
-在[觀點](https://experienceleague.adobe.com/zh-hant/perspectives)中心瞭解更多策略和思想領導力。
+在[觀點](https://experienceleague.adobe.com/en/perspectives)中心瞭解更多策略和思想領導力。

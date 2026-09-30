@@ -1,39 +1,53 @@
 ---
-title: 如何在 [!DNL Analysis Workspace] 中為 [!DNL Auto-Target] 個活動設定A4T報告
-description: '如何在執行[!UICONTROL 自動鎖定目標]活動時設定A4T報告以取得預期結果？ [!DNL Analysis Workspace] '
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=zh-Hant#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
+title: 如何在[!DNL Analysis Workspace]中為[!DNL Auto-Target]個活動設定A4T報告
+description: 如何在執行[!UICONTROL 自動鎖定目標]活動時設定[!DNL Analysis Workspace]中的A4T報告以取得預期結果？
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="檢視Target Premium包含的內容。"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
-kt: null
+thumbnail:
+kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
+TQID: 'https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Machine learning
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 2717
+source-wordcount: '2720'
 ht-degree: 1%
-
 ---
-
 # 在[!DNL Analysis Workspace]中為[!DNL Auto-Target]個活動設定A4T報告
 
 >[!IMPORTANT]
@@ -47,7 +61,7 @@ ht-degree: 1%
 此教學課程會逐步解說分析[!DNL Analysis Workspace]中[!UICONTROL 自動鎖定目標]活動的建議修改，這些修改是以下列重要概念為基礎：
 
 * **[!UICONTROL 控制項與目標]**&#x200B;維度可用來區分[!UICONTROL 控制項]體驗與[!UICONTROL 自動鎖定目標]整體ML演演算法所提供的體驗。
-* 檢視體驗層級的效能劃分時，瀏覽應作為標準化量度使用。 此外，[Adobe Analytics的預設計數方法可能包含使用者實際上未看到活動內容的造訪](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=zh-Hant#metrics){target=_blank}，但此預設行為可以使用適當範圍的區段來修改（詳細資訊如下）。
+* 檢視體驗層級的效能劃分時，瀏覽應作為標準化量度使用。 此外，[Adobe Analytics的預設計數方法可能包含使用者實際上未看到活動內容的造訪](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}，但此預設行為可以使用適當範圍的區段來修改（詳細資訊如下）。
 * [!DNL Adobe Target] ML模型在其訓練階段會使用造訪回顧範圍歸因（在指定的歸因模型上也稱為「造訪回顧期間」），且在劃分目標量度時應使用相同的（非預設）歸因模型。
 
 ## 在[!DNL Analysis Workspace]中為[!UICONTROL 自動鎖定目標]面板建立A4T
@@ -74,25 +88,25 @@ ht-degree: 1%
 
 請注意，此取代會使A4T面板上的預設[!UICONTROL 提升度和信賴度]計算失效。 為避免混淆，您可以從預設面板中移除這些量度，並留下下列報表：
 
-在[!DNL Analysis Workspace]![&#128279;](assets/Figure2.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
+在[!DNL Analysis Workspace]](assets/Figure2.png)中依活動轉換顯示的![[!UICONTROL 體驗]面板
 
 *圖2： [!DNL Auto-Target]活動的建議基準線報告。 此報告已設定為比較目標流量（由整體ML模型提供）與您的控制流量。*
 
 >[!NOTE]
 >
->目前，[!UICONTROL 自動鎖定目標]的A4T報告的[!UICONTROL 控制與目標]維度無法使用[!UICONTROL 提升度和可信度]數字。 在新增支援之前，可藉由下載[信賴度計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant)來手動計算[!UICONTROL 提升度和信賴度]。
+>目前，[!UICONTROL 自動鎖定目標]的A4T報告的[!UICONTROL 控制與目標]維度無法使用[!UICONTROL 提升度和可信度]數字。 在新增支援之前，可藉由下載[信賴度計算器](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx)來手動計算[!UICONTROL 提升度和信賴度]。
 
 ## 新增量度的體驗層級劃分
 
 若要進一步瞭解insight如何執行整體ML模型，您可以檢查&#x200B;**[!UICONTROL 控制與目標]**&#x200B;維度的體驗層級劃分。 在[!DNL Analysis Workspace]中，將&#x200B;**[!UICONTROL 目標體驗]**&#x200B;維度拖曳至您的報表，然後分別劃分每個控制項和目標維度。
 
-在[!DNL Analysis Workspace]![&#128279;](assets/Figure3.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
+在[!DNL Analysis Workspace]](assets/Figure3.png)中依活動轉換顯示的![[!UICONTROL 體驗]面板
 
 *圖3：依目標體驗劃分目標維度*
 
 產生的報表範例顯示於此處。
 
-在[!DNL Analysis Workspace]![&#128279;](assets/Figure4.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
+在[!DNL Analysis Workspace]](assets/Figure4.png)中依活動轉換顯示的![[!UICONTROL 體驗]面板
 
 *圖4：具有體驗層級劃分的標準[!UICONTROL 自動鎖定目標]報告。 請注意，您的目標量度可能不同，而您的控制策略可能有單一體驗。*
 
@@ -137,7 +151,7 @@ ht-degree: 1%
 6. 按一下齒輪圖示，然後選取「**[!UICONTROL 歸因模型>執行個體]**」，如下圖所示。
 7. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-[!DNL Analysis Workspace]![&#128279;](assets/Figure5.png)中的區段
+[!DNL Analysis Workspace]](assets/Figure5.png)中的![區段
 
 *圖5：使用如這裡所示的區段，針對[!UICONTROL 自動鎖定目標]報告*&#x200B;篩選A4T中的[!UICONTROL 造訪]量度
 
@@ -150,7 +164,7 @@ ht-degree: 1%
 
 最終面板顯示如下：
 
-在[!DNL Analysis Workspace]![&#128279;](assets/Figure6.png)中依活動轉換顯示的[!UICONTROL 體驗]面板
+在[!DNL Analysis Workspace]](assets/Figure6.png)中依活動轉換顯示的![[!UICONTROL 體驗]面板
 
 *圖6：套用到[!UICONTROL 造訪]量度的「具有特定自動鎖定目標活動的點選」區段的報告面板。 此區段可確保報表中只包含使用者實際與相關[!DNL Target]活動互動的造訪。*
 
@@ -166,7 +180,7 @@ A4T整合允許[!UICONTROL 自動鎖定目標] ML模型使用與[!DNL Adobe Anal
 >
 >如果ML模型針對某一量度進行最佳化，而該量度的歸因不同於您在報表中檢視的量度，則模型可能無法如預期般執行。 若要避免此問題，請確保報表上的目標量度使用[!DNL Target] ML模型使用的相同量度定義和歸因。
 
-確切的量度定義和歸因設定取決於您在活動建立期間指定的[最佳化准則](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=zh-Hant#supported){target=_blank}。
+確切的量度定義和歸因設定取決於您在活動建立期間指定的[最佳化准則](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}。
 
 ### 目標定義的轉換，或具有&#x200B;*最大化的每次造訪量度值*&#x200B;的[!DNL Analytics]個量度
 
@@ -244,7 +258,7 @@ A4T整合允許[!UICONTROL 自動鎖定目標] ML模型使用與[!DNL Adobe Anal
 
 >[!TIP]
 >
-> 您也可以使用[快速計算量度功能](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=zh-Hant)來建立此量度。
+> 您也可以使用[快速計算量度功能](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html)來建立此量度。
 
 此處顯示完整的計算量度定義。
 
@@ -262,6 +276,6 @@ A4T整合允許[!UICONTROL 自動鎖定目標] ML模型使用與[!DNL Adobe Anal
 
 按一下以展開影像。
 
-在Analysis Workspace的![[!DNL Analysis Workspace&rbrack;]](assets/Figure10.png "A4T報告中&lbrack;最終的A4T報告"){width="600" zoomable="yes"}
+在Analysis Workspace的[!DNL Analysis Workspace]](assets/Figure10.png "A4T報告中![最終的A4T報告"){width="600" zoomable="yes"}
 
 *圖10： [!DNL Adobe Analytics] [!DNL Workspace]中的最終A4T [!UICONTROL 自動鎖定目標]報告，此報告結合本教學課程前幾節中說明的所有量度定義調整。*
