@@ -71,12 +71,12 @@ ht-degree: 1%
 Adobe Target Audiences用於識別特定的訪客群組。 然後可將選件鎖定為這些特定群組。 對於前兩個位置，我們將使用「新使用者」對象：
 
 1. 按一下頂端導覽列中的&#x200B;**[!UICONTROL 對象]**。
-1. 按一下&#x200B;**[!UICONTROL 建立對象]**按鈕。
+1. 按一下&#x200B;**[!UICONTROL 建立對象]**&#x200B;按鈕。
    ![建立新的使用者對象](assets/audience_new_mobile_app_users_1.jpg)
 
 1. 輸入&#x200B;**[!UICONTROL 新的行動應用程式使用者]**&#x200B;作為對象名稱。
 1. 選取&#x200B;**[!UICONTROL 新增規則]**。
-1. 選取&#x200B;**[!UICONTROL 自訂]**規則。
+1. 選取&#x200B;**[!UICONTROL 自訂]**&#x200B;規則。
    ![建立新的使用者對象](assets/audience_new_mobile_app_users_2.jpg)
 
 1. 選取&#x200B;**[!UICONTROL a.Launches]**。

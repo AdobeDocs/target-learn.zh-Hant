@@ -150,7 +150,7 @@ public void processFeatureFlags() {
 1. 按一下&#x200B;**[!UICONTROL 新增體驗]**&#x200B;以新增體驗B。
 1. 離開「wetravel_feature_flag_recs」位置
 1. 保留內容的&#x200B;**[!UICONTROL 預設內容]**
-1. 按一下[下一步]****&#x200B;以前進到[!UICONTROL 鎖定目標]畫面
+1. 按一下[下一步]&#x200B;**&#x200B;**&#x200B;以前進到[!UICONTROL 鎖定目標]畫面
 
    ![功能標幟活動設定](assets/feature_flag_activity_2.jpg)
 

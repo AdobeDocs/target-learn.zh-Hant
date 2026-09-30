@@ -59,7 +59,7 @@ ht-degree: 0%
 
 本教學課程涵蓋整體A4T指引，以及條件特定的報表設定步驟。
 
-## 具有「每位訪客]的量度值最大化」最佳化條件的Analytics量度[!UICONTROL 
+## 具有「每位訪客的量度值最大化」最佳化條件的Analytics量度
 
 **定義**： （整體量度值） / （訪客數）
 
@@ -154,16 +154,16 @@ ht-degree: 0%
 以下各節會根據您選擇的這些方法，指定所需的組態。 不過，下列步驟可作為A4T的整體指引：
 
 * 無論面板建立方法為何，都會從A4T面板移除信賴度量度（兩者皆詳見下文）。 請改為在[!DNL Target]報表中參考這些值。 此外，可在[!DNL Target]報告中識別活動獲勝者。 有關活動獲勝者識別的詳細資訊，請參閱下面的[識別活動獲勝者](#winner)區段。
->>
-* 為避免混淆，請取消核取[!UICONTROL 轉換率]量度的[!UICONTROL 百分比]表示法。 請參閱下面的[隱藏轉換率]資料行](#hide-percentage)中的百分比。[!UICONTROL 
->>
+&#x200B;>>
+* 為避免混淆，請取消核取[!UICONTROL 轉換率]量度的[!UICONTROL 百分比]表示法。 請參閱下面的[隱藏轉換率]資料行(#hide-percentage)中的百分比。
+&#x200B;>>
 * 如果您正在建立A4T面板，請確定日期和時間範圍符合[!DNL Target]報表的日期和時間範圍。 請參閱下面的[在A4T面板](#aligning-date-and-time)中將日期和時間對齊。
 
 ### 從[!UICONTROL 轉換率]資料行隱藏百分比 {#hide-percentage}
 
 1. 按一下[!UICONTROL 轉換率]資料行標題旁的&#x200B;**齒輪**&#x200B;圖示。
 
-   轉換率資料行](/help/integrations/assets/coversion-rate-gear-icon.png)中的![齒輪圖示
+   轉換率資料行![&#128279;](/help/integrations/assets/coversion-rate-gear-icon.png)中的齒輪圖示
 
    顯示[!UICONTROL 欄]設定對話方塊：
 
