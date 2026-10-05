@@ -27,7 +27,7 @@ ht-degree: 5%
 + 實施{#implementation}
   + [Target實作簡介](../dev101/2-1-intro-to-target-implementation.md)
   + [將Target與Launch整合](../dev101/3-1-target-launch.md)
-  + [透過Launch在網站中實作](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+  + [透過Launch在網站中實作](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=zh-Hant)
   + [使用位置的好處](../dev101/2-2-benefits-of-locations.md)
   + [Target請求簡介](../dev101/2-3-intro-to-target-requests.md)
   + [Target引數簡介](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +35,7 @@ ht-degree: 5%
   + [在單頁應用程式(SPA)中實作at.js 2.0](../implementation/implement-atjs-20-in-a-single-page-application.md)
   + [設計Target實施](../dev101/2-5-design-target-implementation.md)
   + [設計Target實作的後續步驟](../dev101/2-6-next-steps-design-target-implementation.md)
-  + [根據使用者同意使用選擇加入以控制Experience Cloud解決方案](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+  + [根據使用者同意使用選擇加入以控制Experience Cloud解決方案](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=zh-Hant)
   + [瞭解Adobe Target混合部署](../implementation/hybrid-deployment.md)
   + [裝置上決策總覽](../implementation/on-device-decisioning-overview.md)
   + {hide-from-toc}[Adobe Target的實作模式](../implementation/implementation-patterns-for-adobe-target.md)
@@ -99,5 +99,5 @@ ht-degree: 5%
 + Coworker{#coworker}
   + [概述](../coworker/overview.md)
 + 行動{#mobile}
-  + [在行動應用程式教學課程中實作Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/overview){target="_blank"}
+  + [在行動應用程式教學課程中實作Adobe Experience Cloud](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-mobile-sdk/overview){target="_blank"}
 
