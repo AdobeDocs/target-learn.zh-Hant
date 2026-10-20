@@ -17,4 +17,4 @@ ht-degree: 0%
 
 此影片示範如何使用Adobe Target的「依設定檔屬性檢視次數最多」功能，提供當地語系化、區段專屬的建議，而非一刀切的人氣清單。 透過設定簡單的設定檔指令碼並選取設定檔屬性熱門程度演演算法，企業可以根據使用者國家/地區、訂閱層級或人口統計等屬性，動態地量身打造「檢視次數最多」的內容。
 
->[!VIDEO](https://video.tv.adobe.com/v/3503624/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503633/?captions=chi_hant&learn=on&enablevpops)
