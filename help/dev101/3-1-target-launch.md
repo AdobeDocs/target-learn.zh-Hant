@@ -48,7 +48,7 @@ ht-degree: 6%
 
 * 開發人員
 
->[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507706/?captions=chi_hant&quality=12)
 
 如需詳細資訊，請造訪[標籤教學課程](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=zh-Hant)。
 

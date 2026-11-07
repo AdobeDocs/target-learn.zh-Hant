@@ -43,4 +43,4 @@ ht-degree: 2%
 
 * 管理員
 
->[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507634/?captions=chi_hant&quality=12)

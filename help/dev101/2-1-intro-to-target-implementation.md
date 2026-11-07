@@ -50,7 +50,7 @@ ht-degree: 39%
 * 開發人員
 * 架構師
 
->[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507970/?captions=chi_hant&quality=12)
 
 如需詳細資訊，請參閱&#x200B;*[!UICONTROL Adobe Target開發人員指南]*&#x200B;中的[使用者端實作](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=zh-Hant){target=_blank}或[伺服器端實作](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=zh-Hant){target=_blank}。
 

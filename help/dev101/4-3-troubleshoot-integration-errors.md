@@ -43,6 +43,6 @@ ht-degree: 2%
 
 * 開發人員
 
->[!VIDEO](https://video.tv.adobe.com/v/35155/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507869/?captions=chi_hant&quality=12)
 
 如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/troubleshoot-a4t/a4t-troubleshooting.html?lang=zh-Hant)。
