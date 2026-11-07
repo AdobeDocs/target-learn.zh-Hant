@@ -48,6 +48,6 @@ ht-degree: 1%
 
 * 開發人員
 
->[!VIDEO](https://video.tv.adobe.com/v/35147/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507988/?captions=chi_hant&quality=12)
 
 如需詳細資訊，請瀏覽[檔案](https://experienceleague.adobe.com/docs/target/using/experiences/offers/aem-experience-fragments.html?lang=zh-Hant)。
